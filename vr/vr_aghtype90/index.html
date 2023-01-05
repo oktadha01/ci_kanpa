@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>TYPE 90 GREEN HOUSE</title>
+		<!--projectdescription--><meta name="description" content="New 3Sixty Virtual Tour Project"><!--projectdescription-end-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+		
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!-- Insert this line above script imports  -->
+		<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+		
+		<script src="imagedata.js"></script>
+		<script src="jquery.js"></script>
+		<script src="three.min.js"></script>
+		<script src="panolens.min.js"></script>
+		
+		<!-- Insert this line after script imports -->
+		<script>if (window.module) module = window.module;</script>
+		
+		<style>
+		
+			
+						
+			/* SCROLLBAR STYLING */
+			/* width */
+			::-webkit-scrollbar {
+				width: 0.25em;
+				height: 0.25em;
+			}
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: #2c3643; 
+			}
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: #0d9e59; 
+				transition: background .5s;
+			}
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: #00e075; 
+			}
+
+
+			html, body {
+				margin: 0;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				background-color: #000;
+				color; black;
+			}
+
+			a:link, a:visited{
+				color: #bdc3c7;	
+			}
+
+			.fullwrapper{
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: black;
+			}
+			
+			#container {
+                width: 100%;
+                height: 100%;
+            }
+			
+			#tmp{
+				position: fixed;
+				top: 0;
+				left: 0; 
+				right: 0;
+				bottom: 0;
+				padding: 3em;
+				background-color: rgba(0,0,0,.5);
+				backdrop-filter: blur(5px);
+				display: none;
+			}
+		</style>
+	</head>
+	<body id="body">
+	    <div id="container" style="color: black;"></div>
+    	
+		
+		
+		<!--customhtml--><div class='customhotspot' id='ruangtamult1'></div><div class='customhotspot' id='KamarTidurLantai1'></div><div class='customhotspot' id='DapurLantai1'></div><div class='customhotspot' id='TamanBelakang'></div><div class='customhotspot' id='toiletlt1'></div><div class='customhotspot' id='ruangkeluargalt2'></div><div class='customhotspot' id='depantoiletlt2'></div><div class='customhotspot' id='toiletlt2'></div><div class='customhotspot' id='KamarTidurLantai2'></div><div class='customhotspot' id='KamarTidurLantai2'></div><!--customhtml-end-->
+		
+		<div id="tmp">
+			<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
+			<div class="mediaclosebutton" onclick="hideTemp()"><i class="fa fa-times-circle"></i></div>
+		</div>
+
+		<div id="loading" class="fullwrapper" style="display: table; width: 100%; height: 100%;">
+    		<div style="display: table-cell; vertical-align: middle; text-align: center; color: white; font-size: 30px; padding: 50px;">
+    			<!--loadingtext-->Loading...<!--loadingtext-end-->
+    		</div>
+    	</div>
+		
+    	<script>
+			
+            var container = document.querySelector( '#container' );
+			/*panolens*/
+var viewer = new PANOLENS.Viewer( { container: container , controlBar: false,  output: 'console' , autoHideInfospot: false, } );
+/*panolens-end*/
+			
+			viewer.addUpdateCallback(function(){});
+			
+			/*panoramas*/
+var ruangtamult1 = new PANOLENS.ImagePanorama( "panoramas/ruangtamult1.jpg" );
+			ruangtamult1.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			ruangtamult1.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			ruangtamult1.addEventListener('click', function(e){
+			});
+
+var infospotruangtamult10 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotruangtamult10.position.set( -4643.66, -1801.32, -326.11 );
+					ruangtamult1.add(infospotruangtamult10);
+infospotruangtamult10.addEventListener('click', function(){
+ChangePanorama('KamarTidurLantai1');
+});
+var infospotruangtamult11 = new PANOLENS.Infospot( 512, hotspotIcons[9].data, true );
+					infospotruangtamult11.position.set( -2981.29, -1149.21, 3837.86 );
+					ruangtamult1.add(infospotruangtamult11);
+infospotruangtamult11.addEventListener('click', function(){
+ChangePanorama('DapurLantai1');
+});
+var infospotruangtamult12 = new PANOLENS.Infospot( 512, hotspotIcons[6].data, true );
+					infospotruangtamult12.position.set( 4165.22, 432.99, 2716.85 );
+					ruangtamult1.add(infospotruangtamult12);
+infospotruangtamult12.addEventListener('click', function(){
+ChangePanorama('ruangkeluargalt2');
+});
+viewer.add( ruangtamult1 );
+var KamarTidurLantai1 = new PANOLENS.ImagePanorama( "panoramas/KamarTidurLantai1.jpg" );
+			KamarTidurLantai1.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			KamarTidurLantai1.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			KamarTidurLantai1.addEventListener('click', function(e){
+			});
+
+var infospotKamarTidurLantai10 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotKamarTidurLantai10.position.set( -4802.12, -1303.33, -407.23 );
+					KamarTidurLantai1.add(infospotKamarTidurLantai10);
+infospotKamarTidurLantai10.addEventListener('click', function(){
+ChangePanorama('ruangtamult1');
+});
+viewer.add( KamarTidurLantai1 );
+var DapurLantai1 = new PANOLENS.ImagePanorama( "panoramas/DapurLantai1.jpg" );
+			DapurLantai1.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			DapurLantai1.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			DapurLantai1.addEventListener('click', function(e){
+			});
+
+var infospotDapurLantai10 = new PANOLENS.Infospot( 512, hotspotIcons[9].data, true );
+					infospotDapurLantai10.position.set( 949.30, -1194.67, -4757.53 );
+					DapurLantai1.add(infospotDapurLantai10);
+infospotDapurLantai10.addEventListener('click', function(){
+ChangePanorama('ruangtamult1');
+});
+var infospotDapurLantai11 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotDapurLantai11.position.set( 2111.44, -1547.25, -4252.94 );
+					DapurLantai1.add(infospotDapurLantai11);
+infospotDapurLantai11.addEventListener('click', function(){
+ChangePanorama('TamanBelakang');
+});
+var infospotDapurLantai12 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotDapurLantai12.position.set( -4329.05, -1512.46, -1984.06 );
+					DapurLantai1.add(infospotDapurLantai12);
+infospotDapurLantai12.addEventListener('click', function(){
+ChangePanorama('toiletlt1');
+});
+viewer.add( DapurLantai1 );
+var TamanBelakang = new PANOLENS.ImagePanorama( "panoramas/TamanBelakang.jpg" );
+			TamanBelakang.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			TamanBelakang.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			TamanBelakang.addEventListener('click', function(e){
+			});
+
+var infospotTamanBelakang0 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotTamanBelakang0.position.set( 3462.93, -3148.72, 1737.67 );
+					TamanBelakang.add(infospotTamanBelakang0);
+infospotTamanBelakang0.addEventListener('click', function(){
+ChangePanorama('DapurLantai1');
+});
+viewer.add( TamanBelakang );
+var toiletlt1 = new PANOLENS.ImagePanorama( "panoramas/toiletlt1.jpg" );
+			toiletlt1.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			toiletlt1.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			toiletlt1.addEventListener('click', function(e){
+			});
+
+var infospottoiletlt10 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospottoiletlt10.position.set( 997.07, -1975.80, 4478.90 );
+					toiletlt1.add(infospottoiletlt10);
+infospottoiletlt10.addEventListener('click', function(){
+ChangePanorama('DapurLantai1');
+});
+viewer.add( toiletlt1 );
+var ruangkeluargalt2 = new PANOLENS.ImagePanorama( "panoramas/ruangkeluargalt2.jpg" );
+			ruangkeluargalt2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			ruangkeluargalt2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			ruangkeluargalt2.addEventListener('click', function(e){
+			});
+
+var infospotruangkeluargalt20 = new PANOLENS.Infospot( 512, hotspotIcons[6].data, true );
+					infospotruangkeluargalt20.position.set( 373.17, -3083.93, 3911.22 );
+					ruangkeluargalt2.add(infospotruangkeluargalt20);
+infospotruangkeluargalt20.addEventListener('click', function(){
+ChangePanorama('ruangtamult1');
+});
+var infospotruangkeluargalt21 = new PANOLENS.Infospot( 512, hotspotIcons[9].data, true );
+					infospotruangkeluargalt21.position.set( -1437.83, -908.76, 4694.35 );
+					ruangkeluargalt2.add(infospotruangkeluargalt21);
+infospotruangkeluargalt21.addEventListener('click', function(){
+ChangePanorama('depantoiletlt2');
+});
+var infospotruangkeluargalt22 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotruangkeluargalt22.position.set( -4655.39, -1563.57, 919.78 );
+					ruangkeluargalt2.add(infospotruangkeluargalt22);
+infospotruangkeluargalt22.addEventListener('click', function(){
+ChangePanorama('KamarTidurLantai2');
+});
+var infospotruangkeluargalt23 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotruangkeluargalt23.position.set( -3218.60, -1105.70, 3656.82 );
+					ruangkeluargalt2.add(infospotruangkeluargalt23);
+infospotruangkeluargalt23.addEventListener('click', function(){
+ChangePanorama('KamarTidurLantai2');
+});
+viewer.add( ruangkeluargalt2 );
+var depantoiletlt2 = new PANOLENS.ImagePanorama( "panoramas/depantoiletlt2.jpg" );
+			depantoiletlt2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			depantoiletlt2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			depantoiletlt2.addEventListener('click', function(e){
+			});
+
+var infospotdepantoiletlt20 = new PANOLENS.Infospot( 512, hotspotIcons[9].data, true );
+					infospotdepantoiletlt20.position.set( 4800.85, -1132.38, -769.41 );
+					depantoiletlt2.add(infospotdepantoiletlt20);
+infospotdepantoiletlt20.addEventListener('click', function(){
+ChangePanorama('ruangkeluargalt2');
+});
+var infospotdepantoiletlt21 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotdepantoiletlt21.position.set( 94.05, -1226.58, -4840.18 );
+					depantoiletlt2.add(infospotdepantoiletlt21);
+infospotdepantoiletlt21.addEventListener('click', function(){
+ChangePanorama('toiletlt2');
+});
+viewer.add( depantoiletlt2 );
+var toiletlt2 = new PANOLENS.ImagePanorama( "panoramas/toiletlt2.jpg" );
+			toiletlt2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			toiletlt2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			toiletlt2.addEventListener('click', function(e){
+			});
+
+var infospottoiletlt20 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospottoiletlt20.position.set( -129.71, -3473.72, 3585.87 );
+					toiletlt2.add(infospottoiletlt20);
+infospottoiletlt20.addEventListener('click', function(){
+ChangePanorama('depantoiletlt2');
+});
+viewer.add( toiletlt2 );
+var KamarTidurLantai2 = new PANOLENS.ImagePanorama( "panoramas/KamarTidurLantai2.jpg" );
+			KamarTidurLantai2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			KamarTidurLantai2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			KamarTidurLantai2.addEventListener('click', function(e){
+			});
+
+var infospotKamarTidurLantai20 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotKamarTidurLantai20.position.set( 4545.56, -2017.16, -483.97 );
+					KamarTidurLantai2.add(infospotKamarTidurLantai20);
+infospotKamarTidurLantai20.addEventListener('click', function(){
+ChangePanorama('ruangkeluargalt2');
+});
+viewer.add( KamarTidurLantai2 );
+var KamarTidurLantai2 = new PANOLENS.ImagePanorama( "panoramas/KamarTidurLantai2.2.jpg" );
+			KamarTidurLantai2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			KamarTidurLantai2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			KamarTidurLantai2.addEventListener('click', function(e){
+			});
+
+var infospotKamarTidurLantai20 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotKamarTidurLantai20.position.set( -4327.69, -2474.06, -248.71 );
+					KamarTidurLantai2.add(infospotKamarTidurLantai20);
+infospotKamarTidurLantai20.addEventListener('click', function(){
+ChangePanorama('ruangkeluargalt2');
+});
+viewer.add( KamarTidurLantai2 );
+$(document).ready(function(){ ChangePanorama('ruangtamult1 '); });
+
+/*panoramas-end*/
+            
+			
+			function hideTemp(){
+				$("#tmp").fadeOut();
+				setTimeout(function(){
+					$("#tmpcontent").html("");
+				},1000);
+			}
+			
+			function showMedia(type, content){
+				switch(type){
+					case 1 :
+						//Image
+						$("#tmpcontent").html("<img src='"+content+"' style='width: 100%;'>");
+						$("#tmp").fadeIn();
+						break;
+					case 2 :
+						//Video
+						$("#tmpcontent").html("<video id='webvideo' controls autoplay style='width: 100%; height: 100%;'><source src='" +content+ "' type='video/mp4'> Your browser does not support the video tag. </video>");
+						$("#tmp").fadeIn();
+						break;
+					case 3 :
+						//Audio
+						$("#tmpcontent").html("<audio controls style='width: 100%;'><source src='"+content+"' type='audio/ogg'>Your browser does not support the audio tag.</audio>");
+						$("#tmp").fadeIn();
+						break;
+					case 4 :
+						//PDF
+						$("#tmpcontent").html("<iframe src='pdfjs/web/viewer.html?file=../../"+content+"' style='width: 100%; height: 99%;'></iframe>");
+						$("#tmp").fadeIn();
+						break;
+				}
+			}
+			
+			
+			
+			//Update Callback
+			viewer.addUpdateCallback(function(){
+				
+				/*viewerupdatecallback*/
+if(viewer.panorama == ruangtamult1){
+}
+
+if(viewer.panorama == KamarTidurLantai1){
+}
+
+if(viewer.panorama == DapurLantai1){
+}
+
+if(viewer.panorama == TamanBelakang){
+}
+
+if(viewer.panorama == toiletlt1){
+}
+
+if(viewer.panorama == ruangkeluargalt2){
+}
+
+if(viewer.panorama == depantoiletlt2){
+}
+
+if(viewer.panorama == toiletlt2){
+}
+
+if(viewer.panorama == KamarTidurLantai2){
+}
+
+if(viewer.panorama == KamarTidurLantai2){
+}
+/*viewerupdatecallback-end*/
+				
+				
+			});
+			
+			
+			
+			var hotspotsvisible = true;
+			function ShowMyInfospot(hs, elid){
+				var thehs = toScreenPosition(hs);
+				if(thehs.z < 1){
+					$("#" + elid).css({
+						"top" : (thehs.y - ($("#" + elid).height()/2)) + "px",
+						"left" : (thehs.x - ($("#" + elid).width()/2)) + "px",
+					});
+					if(hotspotsvisible)
+						$("#" + elid).show();
+				}else{
+					$("#" + elid).hide();
+				}
+				
+			}
+			
+			function toScreenPosition(obj)
+			{
+				var vector = new THREE.Vector3();
+				var widthHalf = 0.5 * innerWidth;
+				var heightHalf = 0.5 * innerHeight;
+				
+				//obj.updateMatrixWorld();				
+				vector.setFromMatrixPosition(obj.matrixWorld);
+				
+				
+				vector.project(viewer.camera);
+
+				vector.x = ( vector.x * widthHalf ) + widthHalf;
+				vector.y = - ( vector.y * heightHalf ) + heightHalf;
+
+				
+				return { 
+					x: vector.x,
+					y: vector.y,
+					z: vector.z,
+				};
+
+			};
+			
+			var currentPanorama;
+			function ChangePanorama(panorama){
+				currentPanorama = panorama;
+				HideInfospots(); 
+				//$("#loading").fadeIn();
+				//$(".customhotspot").fadeOut();
+				setTimeout(function(){
+					viewer.setPanorama(window[panorama]);
+				}, 500);
+				setTimeout(function(){
+					$("#" + panorama).fadeIn();
+				}, 1500);
+				
+			}
+			
+			function HideInfospots(){
+				$(".customhotspot").fadeOut();
+			}
+
+			/*customjs*//*customjs-end*/
+        </script>
+	</body>
+</html>

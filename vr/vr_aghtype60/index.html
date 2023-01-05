@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Ayam Petok</title>
+		<!--projectdescription--><meta name="description" content="Baruuuuurururuurru"><!--projectdescription-end-->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+		
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+		<!-- Insert this line above script imports  -->
+		<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+		
+		<script src="imagedata.js"></script>
+		<script src="jquery.js"></script>
+		<script src="three.min.js"></script>
+		<script src="panolens.min.js"></script>
+		
+		<!-- Insert this line after script imports -->
+		<script>if (window.module) module = window.module;</script>
+		
+		<style>
+		
+			
+						
+			/* SCROLLBAR STYLING */
+			/* width */
+			::-webkit-scrollbar {
+				width: 0.25em;
+				height: 0.25em;
+			}
+			/* Track */
+			::-webkit-scrollbar-track {
+				background: #2c3643; 
+			}
+			/* Handle */
+			::-webkit-scrollbar-thumb {
+				background: #0d9e59; 
+				transition: background .5s;
+			}
+			/* Handle on hover */
+			::-webkit-scrollbar-thumb:hover {
+				background: #00e075; 
+			}
+
+
+			html, body {
+				margin: 0;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				background-color: #000;
+				color; black;
+			}
+
+			a:link, a:visited{
+				color: #bdc3c7;	
+			}
+
+			.fullwrapper{
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background-color: black;
+			}
+			
+			#container {
+                width: 100%;
+                height: 100%;
+            }
+			
+			#tmp{
+				position: fixed;
+				top: 0;
+				left: 0; 
+				right: 0;
+				bottom: 0;
+				padding: 3em;
+				background-color: rgba(0,0,0,.5);
+				backdrop-filter: blur(5px);
+				display: none;
+			}
+		</style>
+	</head>
+	<body id="body">
+	    <div id="container" style="color: black;"></div>
+    	
+		
+		
+		<!--customhtml--><div class='customhotspot' id='RUANGTAMU'></div><div class='customhotspot' id='DEPANKAMARLT1'></div><div class='customhotspot' id='KAMARTIDURLT1'></div><div class='customhotspot' id='TOILETLT1'></div><div class='customhotspot' id='RUANGKELUARGALT2'></div><div class='customhotspot' id='TAMAN'></div><div class='customhotspot' id='KAMARTIDURLT2'></div><div class='customhotspot' id='DEPANTOILETLT2'></div><div class='customhotspot' id='KAMARTIDURLT2'></div><div class='customhotspot' id='TOILETLT2'></div><!--customhtml-end-->
+		
+		<div id="tmp">
+			<div style="width: 100%; height: 100%; overflow: hidden; overflow-y: auto; box-sizing: border-box; position: relative;" id="tmpcontent"></div>
+			<div class="mediaclosebutton" onclick="hideTemp()"><i class="fa fa-times-circle"></i></div>
+		</div>
+
+		<div id="loading" class="fullwrapper" style="display: table; width: 100%; height: 100%;">
+    		<div style="display: table-cell; vertical-align: middle; text-align: center; color: white; font-size: 30px; padding: 50px;">
+    			<!--loadingtext-->Loading...<!--loadingtext-end-->
+    		</div>
+    	</div>
+		
+    	<script>
+			
+            var container = document.querySelector( '#container' );
+			/*panolens*/
+var viewer = new PANOLENS.Viewer( { container: container , controlBar: false,  output: 'console' , autoHideInfospot: false, } );
+/*panolens-end*/
+			
+			viewer.addUpdateCallback(function(){});
+			
+			/*panoramas*/
+var RUANGTAMU = new PANOLENS.ImagePanorama( "panoramas/RUANGTAMU.jpg" );
+			RUANGTAMU.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			RUANGTAMU.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			RUANGTAMU.addEventListener('click', function(e){
+			});
+
+var infospotRUANGTAMU0 = new PANOLENS.Infospot( 512, hotspotIcons[9].data, true );
+					infospotRUANGTAMU0.position.set( -2939.93, -2209.66, 3379.71 );
+					RUANGTAMU.add(infospotRUANGTAMU0);
+infospotRUANGTAMU0.addEventListener('click', function(){
+ChangePanorama('DEPANKAMARLT1');
+});
+var infospotRUANGTAMU1 = new PANOLENS.Infospot( 512, hotspotIcons[6].data, true );
+					infospotRUANGTAMU1.position.set( 1971.64, -2207.80, -4020.66 );
+					RUANGTAMU.add(infospotRUANGTAMU1);
+infospotRUANGTAMU1.addEventListener('click', function(){
+ChangePanorama('RUANGKELUARGALT2');
+});
+viewer.add( RUANGTAMU );
+var DEPANKAMARLT1 = new PANOLENS.ImagePanorama( "panoramas/DEPANKAMARLT1.jpg" );
+			DEPANKAMARLT1.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			DEPANKAMARLT1.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			DEPANKAMARLT1.addEventListener('click', function(e){
+			});
+
+var infospotDEPANKAMARLT10 = new PANOLENS.Infospot( 512, hotspotIcons[9].data, true );
+					infospotDEPANKAMARLT10.position.set( 3335.16, -2634.57, -2623.02 );
+					DEPANKAMARLT1.add(infospotDEPANKAMARLT10);
+infospotDEPANKAMARLT10.addEventListener('click', function(){
+ChangePanorama('RUANGTAMU');
+});
+var infospotDEPANKAMARLT11 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotDEPANKAMARLT11.position.set( -1001.92, -2539.81, -4181.16 );
+					DEPANKAMARLT1.add(infospotDEPANKAMARLT11);
+infospotDEPANKAMARLT11.addEventListener('click', function(){
+ChangePanorama('KAMARTIDURLT1');
+});
+var infospotDEPANKAMARLT12 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotDEPANKAMARLT12.position.set( -4152.43, -2493.01, -1210.29 );
+					DEPANKAMARLT1.add(infospotDEPANKAMARLT12);
+infospotDEPANKAMARLT12.addEventListener('click', function(){
+ChangePanorama('TOILETLT1');
+});
+var infospotDEPANKAMARLT13 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotDEPANKAMARLT13.position.set( -1784.53, -2059.13, 4184.39 );
+					DEPANKAMARLT1.add(infospotDEPANKAMARLT13);
+infospotDEPANKAMARLT13.addEventListener('click', function(){
+ChangePanorama('TAMAN');
+});
+viewer.add( DEPANKAMARLT1 );
+var KAMARTIDURLT1 = new PANOLENS.ImagePanorama( "panoramas/KAMARTIDURLT1.jpg" );
+			KAMARTIDURLT1.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			KAMARTIDURLT1.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			KAMARTIDURLT1.addEventListener('click', function(e){
+			});
+
+var infospotKAMARTIDURLT10 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotKAMARTIDURLT10.position.set( -312.71, -3439.44, 3607.98 );
+					KAMARTIDURLT1.add(infospotKAMARTIDURLT10);
+infospotKAMARTIDURLT10.addEventListener('click', function(){
+ChangePanorama('DEPANKAMARLT1');
+});
+viewer.add( KAMARTIDURLT1 );
+var TOILETLT1 = new PANOLENS.ImagePanorama( "panoramas/TOILETLT1.jpg" );
+			TOILETLT1.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			TOILETLT1.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			TOILETLT1.addEventListener('click', function(e){
+			});
+
+var infospotTOILETLT10 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotTOILETLT10.position.set( -3397.68, -3272.50, 1643.53 );
+					TOILETLT1.add(infospotTOILETLT10);
+infospotTOILETLT10.addEventListener('click', function(){
+ChangePanorama('DEPANKAMARLT1');
+});
+viewer.add( TOILETLT1 );
+var RUANGKELUARGALT2 = new PANOLENS.ImagePanorama( "panoramas/RUANGKELUARGALT2.jpg" );
+			RUANGKELUARGALT2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			RUANGKELUARGALT2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			RUANGKELUARGALT2.addEventListener('click', function(e){
+			});
+
+var infospotRUANGKELUARGALT20 = new PANOLENS.Infospot( 512, hotspotIcons[6].data, true );
+					infospotRUANGKELUARGALT20.position.set( 1893.61, -3573.76, 2930.90 );
+					RUANGKELUARGALT2.add(infospotRUANGKELUARGALT20);
+infospotRUANGKELUARGALT20.addEventListener('click', function(){
+ChangePanorama('RUANGTAMU');
+});
+var infospotRUANGKELUARGALT21 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotRUANGKELUARGALT21.position.set( -701.10, -1792.72, -4604.55 );
+					RUANGKELUARGALT2.add(infospotRUANGKELUARGALT21);
+infospotRUANGKELUARGALT21.addEventListener('click', function(){
+ChangePanorama('KAMARTIDURLT2');
+});
+var infospotRUANGKELUARGALT22 = new PANOLENS.Infospot( 512, hotspotIcons[9].data, true );
+					infospotRUANGKELUARGALT22.position.set( -3411.88, -2623.48, 2540.05 );
+					RUANGKELUARGALT2.add(infospotRUANGKELUARGALT22);
+infospotRUANGKELUARGALT22.addEventListener('click', function(){
+ChangePanorama('DEPANTOILETLT2');
+});
+viewer.add( RUANGKELUARGALT2 );
+var TAMAN = new PANOLENS.ImagePanorama( "panoramas/TAMAN.jpg" );
+			TAMAN.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			TAMAN.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			TAMAN.addEventListener('click', function(e){
+			});
+
+var infospotTAMAN0 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotTAMAN0.position.set( 3028.67, -2939.04, -2678.66 );
+					TAMAN.add(infospotTAMAN0);
+infospotTAMAN0.addEventListener('click', function(){
+ChangePanorama('DEPANKAMARLT1');
+});
+viewer.add( TAMAN );
+var KAMARTIDURLT2 = new PANOLENS.ImagePanorama( "panoramas/KAMARTIDURLT2.1.jpg" );
+			KAMARTIDURLT2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			KAMARTIDURLT2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			KAMARTIDURLT2.addEventListener('click', function(e){
+			});
+
+var infospotKAMARTIDURLT20 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotKAMARTIDURLT20.position.set( -343.35, -2813.02, -4111.22 );
+					KAMARTIDURLT2.add(infospotKAMARTIDURLT20);
+infospotKAMARTIDURLT20.addEventListener('click', function(){
+ChangePanorama('RUANGKELUARGALT2');
+});
+viewer.add( KAMARTIDURLT2 );
+var DEPANTOILETLT2 = new PANOLENS.ImagePanorama( "panoramas/DEPANTOILETLT2.jpg" );
+			DEPANTOILETLT2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			DEPANTOILETLT2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			DEPANTOILETLT2.addEventListener('click', function(e){
+			});
+
+var infospotDEPANTOILETLT20 = new PANOLENS.Infospot( 512, hotspotIcons[9].data, true );
+					infospotDEPANTOILETLT20.position.set( 2065.68, -3048.47, -3372.31 );
+					DEPANTOILETLT2.add(infospotDEPANTOILETLT20);
+infospotDEPANTOILETLT20.addEventListener('click', function(){
+ChangePanorama('RUANGKELUARGALT2');
+});
+var infospotDEPANTOILETLT21 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotDEPANTOILETLT21.position.set( -2478.53, -2160.64, -3755.16 );
+					DEPANTOILETLT2.add(infospotDEPANTOILETLT21);
+infospotDEPANTOILETLT21.addEventListener('click', function(){
+ChangePanorama('KAMARTIDURLT2');
+});
+var infospotDEPANTOILETLT22 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotDEPANTOILETLT22.position.set( -4288.62, -2550.74, -174.90 );
+					DEPANTOILETLT2.add(infospotDEPANTOILETLT22);
+infospotDEPANTOILETLT22.addEventListener('click', function(){
+ChangePanorama('TOILETLT2');
+});
+viewer.add( DEPANTOILETLT2 );
+var KAMARTIDURLT2 = new PANOLENS.ImagePanorama( "panoramas/KAMARTIDURLT2.2.jpg" );
+			KAMARTIDURLT2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			KAMARTIDURLT2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			KAMARTIDURLT2.addEventListener('click', function(e){
+			});
+
+var infospotKAMARTIDURLT20 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotKAMARTIDURLT20.position.set( 2350.83, -1769.28, 4037.12 );
+					KAMARTIDURLT2.add(infospotKAMARTIDURLT20);
+infospotKAMARTIDURLT20.addEventListener('click', function(){
+ChangePanorama('DEPANTOILETLT2');
+});
+viewer.add( KAMARTIDURLT2 );
+var TOILETLT2 = new PANOLENS.ImagePanorama( "panoramas/TOILETLT2.jpg" );
+			TOILETLT2.addEventListener('progress', function(e){
+				$("#loading").show();
+			});
+			TOILETLT2.addEventListener('load', function(e){
+				$("#loading").fadeOut();
+			});
+			TOILETLT2.addEventListener('click', function(e){
+			});
+
+var infospotTOILETLT20 = new PANOLENS.Infospot( 512, hotspotIcons[0].data, true );
+					infospotTOILETLT20.position.set( -3646.07, -3365.10, -555.14 );
+					TOILETLT2.add(infospotTOILETLT20);
+infospotTOILETLT20.addEventListener('click', function(){
+ChangePanorama('DEPANTOILETLT2');
+});
+viewer.add( TOILETLT2 );
+$(document).ready(function(){ ChangePanorama('RUANGTAMU '); });
+
+/*panoramas-end*/
+            
+			
+			function hideTemp(){
+				$("#tmp").fadeOut();
+				setTimeout(function(){
+					$("#tmpcontent").html("");
+				},1000);
+			}
+			
+			function showMedia(type, content){
+				switch(type){
+					case 1 :
+						//Image
+						$("#tmpcontent").html("<img src='"+content+"' style='width: 100%;'>");
+						$("#tmp").fadeIn();
+						break;
+					case 2 :
+						//Video
+						$("#tmpcontent").html("<video id='webvideo' controls autoplay style='width: 100%; height: 100%;'><source src='" +content+ "' type='video/mp4'> Your browser does not support the video tag. </video>");
+						$("#tmp").fadeIn();
+						break;
+					case 3 :
+						//Audio
+						$("#tmpcontent").html("<audio controls style='width: 100%;'><source src='"+content+"' type='audio/ogg'>Your browser does not support the audio tag.</audio>");
+						$("#tmp").fadeIn();
+						break;
+					case 4 :
+						//PDF
+						$("#tmpcontent").html("<iframe src='pdfjs/web/viewer.html?file=../../"+content+"' style='width: 100%; height: 99%;'></iframe>");
+						$("#tmp").fadeIn();
+						break;
+				}
+			}
+			
+			
+			
+			//Update Callback
+			viewer.addUpdateCallback(function(){
+				
+				/*viewerupdatecallback*/
+if(viewer.panorama == RUANGTAMU){
+}
+
+if(viewer.panorama == DEPANKAMARLT1){
+}
+
+if(viewer.panorama == KAMARTIDURLT1){
+}
+
+if(viewer.panorama == TOILETLT1){
+}
+
+if(viewer.panorama == RUANGKELUARGALT2){
+}
+
+if(viewer.panorama == TAMAN){
+}
+
+if(viewer.panorama == KAMARTIDURLT2){
+}
+
+if(viewer.panorama == DEPANTOILETLT2){
+}
+
+if(viewer.panorama == KAMARTIDURLT2){
+}
+
+if(viewer.panorama == TOILETLT2){
+}
+/*viewerupdatecallback-end*/
+				
+				
+			});
+			
+			
+			
+			var hotspotsvisible = true;
+			function ShowMyInfospot(hs, elid){
+				var thehs = toScreenPosition(hs);
+				if(thehs.z < 1){
+					$("#" + elid).css({
+						"top" : (thehs.y - ($("#" + elid).height()/2)) + "px",
+						"left" : (thehs.x - ($("#" + elid).width()/2)) + "px",
+					});
+					if(hotspotsvisible)
+						$("#" + elid).show();
+				}else{
+					$("#" + elid).hide();
+				}
+				
+			}
+			
+			function toScreenPosition(obj)
+			{
+				var vector = new THREE.Vector3();
+				var widthHalf = 0.5 * innerWidth;
+				var heightHalf = 0.5 * innerHeight;
+				
+				//obj.updateMatrixWorld();				
+				vector.setFromMatrixPosition(obj.matrixWorld);
+				
+				
+				vector.project(viewer.camera);
+
+				vector.x = ( vector.x * widthHalf ) + widthHalf;
+				vector.y = - ( vector.y * heightHalf ) + heightHalf;
+
+				
+				return { 
+					x: vector.x,
+					y: vector.y,
+					z: vector.z,
+				};
+
+			};
+			
+			var currentPanorama;
+			function ChangePanorama(panorama){
+				currentPanorama = panorama;
+				HideInfospots(); 
+				//$("#loading").fadeIn();
+				//$(".customhotspot").fadeOut();
+				setTimeout(function(){
+					viewer.setPanorama(window[panorama]);
+				}, 500);
+				setTimeout(function(){
+					$("#" + panorama).fadeIn();
+				}, 1500);
+				
+			}
+			
+			function HideInfospots(){
+				$(".customhotspot").fadeOut();
+			}
+
+			/*customjs*//*customjs-end*/
+        </script>
+	</body>
+</html>

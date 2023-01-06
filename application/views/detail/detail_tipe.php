@@ -288,7 +288,7 @@
                             </div>
                             <div class="col-6">
                                 <img class="denah" src="<?php echo base_url('upload'); ?>/<?php echo $data->denah_lt2; ?>" data-aos="zoom-in" data-aos-delay="300" style="height: auto;width: 35%;">
-                                <h6>Denah LT 1</h6>
+                                <h6>Denah LT 2</h6>
                             </div>
                         </div>
 

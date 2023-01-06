@@ -101,7 +101,7 @@
 
 <main id="main">
     <section id="home" class="pb-4 pt-5rem d-flex align-items-center">
-        <div class="" data-aos="fade-up">
+        <div class="" >
 
             <div class="testimonials-slider swiper">
                 <div class="swiper-wrapper">

@@ -16,7 +16,7 @@ class M_dashboard extends CI_Model
         $this->db->select('*');
         $this->db->from('perum');
         $this->db->where('status_perum', 'Direkomendasikan');
-        $this->db->ORDER_BY('id_perum', 'desc');
+        $this->db->ORDER_BY('order_perum', 'asc');
         $query = $this->db->get();
         return $query->result();
     }

@@ -9,7 +9,7 @@ class M_produk extends CI_Model
 
         // $this->db->where('label_foto', 'dashboard');
         $this->db->Join('tipe', 'tipe.id_tipe_perum = perum.id_perum');
-        $this->db->ORDER_BY('id_perum', 'desc');
+        $this->db->ORDER_BY('order_perum', 'asc');
         // $this->db->ORDER_BY('id_perum', 'RANDOM');
         $query = $this->db->get();
         return $query->result();

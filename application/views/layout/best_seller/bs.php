@@ -4,7 +4,7 @@
             <div class="swiper-wrapper">
                 <!-- <div class="" src="https://source.unsplash.com/1280x720/?nature" alt="Image Slider"> -->
                 <?php
-                $sql = "SELECT* FROM perum WHERE status_perum='Direkomendasikan' ORDER BY id_perum DESC";
+                $sql = "SELECT* FROM perum WHERE status_perum='Direkomendasikan' ORDER BY order_perum ASC";
                 $query = $this->db->query($sql);
                 if ($query->num_rows() > 0) {
                     foreach ($query->result() as $data) :

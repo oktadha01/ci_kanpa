@@ -27,6 +27,21 @@
     -webkit-user-select: none;
 }
 
+@media (max-width: 1279px) {
+    .mobile-nav-toggle {
+        display: block !important;
+        color: var(--color-secondary);
+        font-size: 35px;
+        cursor: pointer;
+        line-height: 0;
+        transition: 0.5s;
+        position: fixed;
+        top: 15px;
+        z-index: 9999;
+        right: 20px;
+    }
+}
+
 .input-icons i {
     position: absolute;
 }

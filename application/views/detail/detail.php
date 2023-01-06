@@ -430,8 +430,8 @@
                                 }
                                 ?>
                                 <div class="col-12 video-play position-relative img-fluid" style="background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url(<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>) center center no-repeat;     background-size: cover;">
-                                    <!-- <a href="<?php echo base_url('vr'); ?>/<?php echo $data->vr; ?>" class="glightbox play-btn"></a> -->
-                                    <a href="https://vr.kanpa.co.id/<?php echo $data->vr; ?>" class="glightbox play-btn"></a>
+                                    <a href="<?php echo base_url('vr'); ?>/<?php echo $data->vr; ?>/index.html" class="glightbox play-btn"></a>
+                                    <!-- <a href="https://vr.kanpa.co.id/<?php echo $data->vr; ?>" class="glightbox play-btn"></a> -->
                                 </div>
                             </div>
                         </div>

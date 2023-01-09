@@ -40,6 +40,7 @@
         formData.append('tgl-lahir', $('#tgl-lahir').val());
         formData.append('alamat', $('#alamat').val());
         formData.append('ktp', ktp);
+        formData.append('kontak', $('#kontak').val());
         formData.append('perum', $('#perum').find(':selected').text());
         formData.append('promo', $('#promo').val());
         formData.append('nm-marketing', $('#nm-marketing').val());

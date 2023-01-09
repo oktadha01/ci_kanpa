@@ -41,6 +41,7 @@ class Promo extends CI_Controller
                 'tgl_lahir' => $this->input->post('tgl-lahir'),
                 'alamat' => $this->input->post('alamat'),
                 'foto_ktp' => $foto_tipe,
+                'kontak' => $this->input->post('kontak'),
                 'perumahan' => $this->input->post('perum'),
                 'promo' => $this->input->post('promo'),
                 'nm_marketing' => $this->input->post('nm-marketing'),

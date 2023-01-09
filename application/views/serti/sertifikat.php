@@ -85,7 +85,7 @@ foreach ($data_surat as $data) :
                 </center>
                 <hr class="mt-0" style="height: 2px;">
                 <center>
-                    <span style="font-size: x-large;font-family: auto;font-weight: bold;">Selamat anda mendapatkan promo diskon 0% perumahan <?php echo $data->perumahan; ?></span>
+                    <span style="font-size: x-large;font-family: auto;font-weight: bold;">Selamat anda mendapatkan promo <?php echo $data->promo; ?> perumahan <?php echo $data->perumahan; ?></span>
                 </center>
                 <div class="container mt-5">
                     <div class="row " style="margin:auto;">

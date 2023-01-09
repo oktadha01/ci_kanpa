@@ -86,7 +86,7 @@
                     <div class="col-lg-6 col-md-6 col-12 mt-2">
                         <label class="desk" for="nm-promo">PROMO</label>
                         <div class="form-group">
-                            <input type="text" id="nm_promo" class="form-control uppercase" name="nm_perum" placeholder="PROMO ..." autocomplete="off" required="true">
+                            <input type="text" id="promo" class="form-control uppercase" name="nm_perum" placeholder="PROMO ..." autocomplete="off" required="true">
                         </div>
                     </div>
                     <hr class="mt-2">
@@ -142,7 +142,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <label class="desk" for="kontak">KONTAK</label>
+                        <div class="form-group">
+                            <input type="number" id="kontak" class="form-control uppercase" placeholder="KONTAK ..." autocomplete="off" required="true">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
                         <label class="desk" for="nm-marketing">MARKETING</label>
                         <div class="form-group">
                             <input type="text" id="nm-marketing" class="form-control uppercase" placeholder="AN. MARKETING ..." autocomplete="off" required="true">

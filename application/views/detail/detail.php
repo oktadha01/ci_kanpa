@@ -90,8 +90,8 @@
         left: 0;
         height: 110%;
         top: -5%;
-        background-color: #753c94;
-        box-shadow: 0 24px 18px -15px rgba(117, 60, 148, 0.45);
+        background-color: #3c5794;
+        /* box-shadow: 0 24px 18px -15px rgba(117, 60, 148, 0.45); */
         transition: left 0.7s, box-shadow 0.5s;
         z-index: 1;
         border-radius: 8px;

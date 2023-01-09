@@ -13,11 +13,11 @@ class M_surat extends CI_Model
     //     $query = $this->db->get();
     //     return $query->result();
     // }
-    function m_surat_promo()
+    function m_surat_promo($nik)
     {
         $this->db->select('*');
         $this->db->from('user_promo');
-        // $this->db->where('label_foto', 'dashboard');
+        $this->db->where('nik', $nik);
         // $this->db->ORDER_BY('id_foto', 'RANDOM');
         $query = $this->db->get();
         return $query->result();

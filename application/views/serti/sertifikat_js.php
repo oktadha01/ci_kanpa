@@ -66,12 +66,12 @@
     }
 
     function createPDF() {
-
+        var nm_user = $("#nm-user").val()
         var element = document.getElementById('element-to-print');
         html2pdf(element, {
             margin: 1,
             padding: 0,
-            filename: 'myfile.pdf',
+            filename: 'Surat_Promo_AN_' + nm_user + '.pdf',
             image: {
                 type: 'jpeg',
                 quality: 1

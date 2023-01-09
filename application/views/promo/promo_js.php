@@ -26,8 +26,12 @@
             },
         });
     });
+    // var nik = '11111'
+    // location.href = "<?php echo base_url('Surat/promo'); ?>/" + nik
+
     $('#simpan-data-promo').click(function(e) {
-        alert($('#perum').find(':selected').text());
+        // alert($('#perum').find(':selected').text());
+        var nik = $('#nik').val();
         const ktp = $('#file-ktp').prop('files')[0];
         let formData = new FormData();
         formData.append('nama', $('#nama').val());
@@ -47,8 +51,8 @@
             processData: false,
             contentType: false,
             success: function(data) {
-                alert('berhasil')
-                location.href = "<?php echo site_url('sertifikat'); ?>"
+                // alert('berhasil')
+                   location.href = "<?php echo base_url('Surat/promo'); ?>/" + nik
             },
             error: function() {
                 alert("Data Gagal Diupload");
@@ -56,7 +60,7 @@
         });
     });
 </script>
-<script>
+<!-- <script>
     function createPDF() {
 
         var element = document.getElementById('element-to-print');
@@ -246,4 +250,4 @@
         document.execCommand("copy");
         activeToast("Copyed");
     });
-</script>
+</script> -->

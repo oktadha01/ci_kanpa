@@ -55,12 +55,15 @@
         max-width: 135px;
         float: right;
     }
-    .font-family{
+
+    .font-family {
         font-family: auto;
     }
 </style>
 <?php
 foreach ($data_surat as $data) :
+    $perumahan = $data->perumahan;
+
 ?>
     <div id="element-to-print" class="book">
         <div class="page bg-sertifikat">
@@ -68,14 +71,24 @@ foreach ($data_surat as $data) :
                 <center>
                     <span style="font-family: fantasy;font-size: xx-large;">PT. KANZU PERMAIN ABADI.</span>
                     <br>
-                    <span style="font-family: -webkit-body;font-size: small;">NO :/GKK/PROMO/001/2022</span>
+                    <?php
+                    $sql = "SELECT kode_perum FROM perum WHERE nm_perum='$perumahan'";
+                    $query = $this->db->query($sql);
+                    if ($query->num_rows() > 0) {
+                        foreach ($query->result() as $perum) {
+                    ?>
+                            <span style="font-family: -webkit-body;font-size: small;">NO :/<?php echo $perum->kode_perum; ?>/PROMO/00<?php echo $data->id_user_promo; ?>/2023</span>
+                    <?php
+                        }
+                    }
+                    ?>
                 </center>
                 <hr class="mt-0" style="height: 2px;">
                 <center>
                     <span style="font-size: x-large;font-family: auto;font-weight: bold;">Selamat anda mendapatkan promo diskon 0% perumahan <?php echo $data->perumahan; ?></span>
                 </center>
                 <div class="container mt-5">
-                    <div class="row "style="margin:auto;">
+                    <div class="row " style="margin:auto;">
                         <div class="col-3">
                             <span class="font-family">Perumahan</span>
                             <br>
@@ -119,25 +132,28 @@ foreach ($data_surat as $data) :
                 </div>
                 <hr>
 
-                <div class="row">
-                    <div class="col" style="text-align: end;">
-                        <span>MARKETING</span>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <span style="text-decoration: underline wavy;">Nama Marketing</span>
+                <div class="row" style="float: right;">
+                    <div class="col" style="margin-right: 21px;">
+                        <center>
+                            <span>MARKETING</span>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <span style="text-decoration: underline wavy;"><?php echo $data->nm_marketing; ?></span>
+                        </center>
                     </div>
                 </div>
             </div>
             <input type="text" id="url-qr-code" value="<?php echo base_url('surat/promo'); ?>/<?php echo $data->nik; ?>" hidden>
         </div>
     </div>
-<?php
-endforeach
-?>
-<button class="btn btn-primary" class="html2PdfConverter" onclick="createPDF()">html to PDF </button>
-<!-- <div class="toast" id="toast"></div> -->
-<input type="text" name="result-convert" id="result-convert" readonly hidden>
+    <button class="btn btn-primary" class="html2PdfConverter" onclick="createPDF()">html to PDF </button>
+    <!-- <div class="toast" id="toast"></div> -->
+    <input type="text" id="nm-user" value="<?php echo $data->nama; ?>" style="text-transform: uppercase;">
+    <input type="text" name="result-convert" id="result-convert" readonly hidden>
 
-<input type="text" name="url-image" id="url-image" placeholder="URL image" hidden>
+    <input type="text" name="url-image" id="url-image" placeholder="URL image" hidden>
+<?php
+endforeach;
+?>

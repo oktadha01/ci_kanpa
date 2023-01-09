@@ -3,7 +3,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Rumah Murah di Semarang di Bawah Rp 200 Jt Terlengkap | Kanpa.co.id</title>
+    <!-- <title>Rumah Murah di Semarang di Bawah Rp 200 Jt Terlengkap | Kanpa.co.id</title> -->
+    <title>
+
+        <?php
+        if (isset($_title)) {
+            echo $_title;
+        } else {
+            echo 'Rumah Murah di Semarang di Bawah Rp 200 Jt Terlengkap | Kanpa.co.id';
+        }
+        ?>
+    </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,16 +24,6 @@
     <meta name="robots" content="INDEX,FOLLOW">
 
 
-    <title>
-
-        <!-- <?php
-        if (isset($_title)) {
-            echo $_title;
-        } else {
-            echo 'Dashboard';
-        }
-        ?> -->
-    </title>
     <style>
         .opacity-body {
             margin-top: 0;
@@ -108,6 +108,8 @@
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script> -->
     <!-- Daterangepicker -->
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script> -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>

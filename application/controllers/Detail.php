@@ -17,11 +17,11 @@ class Detail extends CI_Controller
     function perum()
     {
         $tittle = $this->uri->segment(3);
-        // $luas_bangunan = $this->uri->segment(5);
-        // $luas_tanah = $this->uri->segment(6);
+        $luas_bangunan = $this->uri->segment(5);
+        $luas_tanah = $this->uri->segment(6);
         $nm_perum = preg_replace("![^a-z0-9]+!i", " ", $tittle);
-
-        $data['_title'] = $nm_perum;
+        $test = $nm_perum;
+        $data['_title'] = $test;
         $data['_script'] = 'detail/detail_js';
         $data['_view'] = 'detail/detail';
         $data['detail_perum'] = $this->m_detail->m_detail_perum($nm_perum);
@@ -41,6 +41,5 @@ class Detail extends CI_Controller
         $data['data_detail_tipe'] = $this->m_detail->m_data_detail_tipe($nm_perum, $luas_bangunan, $luas_tanah);
         $data['data_view'] = $this->m_detail->m_view_tipe($nm_perum, $luas_bangunan, $luas_tanah);
         $this->load->view('detail/detail_tipe', $data);
-       
     }
 }

@@ -547,7 +547,7 @@
                 foreach ($detail_marketing as $data) {
                 ?>
 
-                    <div class="img"><?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
+                    <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
                     <div class="details">
                         <span class="name font-serif">Contac Us Marketing</span>
                         <p class="font-serif"><?php echo $data->nm_perum; ?></p>

@@ -15,7 +15,7 @@ class Dashboard extends CI_Controller
 	function index()
 	{
 
-		$data['_title'] = 'Kanzu Group Indonesia';
+		$data['_title'] = 'Rumah Murah di Semarang di Bawah Rp 200 Jt Terlengkap | Kanpa.co.id';
 		$data['_script'] = 'dashboard/index_js';
 		$data['_view'] = 'dashboard/index';
 		$data['data_foto_slide'] = $this->m_dashboard->m_data_fotoslide();

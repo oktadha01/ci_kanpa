@@ -150,7 +150,7 @@ foreach ($data_surat as $data) :
     </div>
     <button class="btn btn-primary" class="html2PdfConverter" onclick="createPDF()">html to PDF </button>
     <!-- <div class="toast" id="toast"></div> -->
-    <input type="text" id="nm-user" value="<?php echo $data->nama; ?>" style="text-transform: uppercase;">
+    <input type="text" id="nm-user" value="<?php echo $data->nama; ?>" style="text-transform: uppercase;" hidden>
     <input type="text" name="result-convert" id="result-convert" readonly hidden>
 
     <input type="text" name="url-image" id="url-image" placeholder="URL image" hidden>

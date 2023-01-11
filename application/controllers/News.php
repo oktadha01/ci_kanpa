@@ -19,6 +19,8 @@ class News extends CI_Controller
 		$data['_script'] = 'news/news_js';
 		$data['_view'] = 'news/news';
 		$data['data_berita'] = $this->m_news->m_data_berita();
+		$data['data_perum'] = $this->m_news->m_data_perum();
+		$data['data_tipe'] = $this->m_news->m_data_tipe();
 		$this->load->view('layout/index', $data);
 	}
 

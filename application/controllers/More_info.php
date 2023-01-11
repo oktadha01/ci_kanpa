@@ -20,6 +20,7 @@ class More_info extends CI_Controller
         $data['_script'] = 'more_info/more_info_js';
         $data['_view'] = 'more_info/more_info';
         $data['data_marketing'] = $this->m_more_info->m_data_more_info();
+        $data['data_cs'] = $this->m_more_info->m_cs();
         $this->load->view('layout/index', $data);
     }
     function klik_wa_marketing()

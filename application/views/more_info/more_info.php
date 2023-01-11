@@ -124,6 +124,25 @@
         </center>
         <!-- <div class="outer" style="width: max-content;margin: auto;"> -->
         <?php
+        foreach ($data_cs as $data) :
+        ?>
+            <div class="card-user">
+                <div class="content">
+                    <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
+                    <div class="details">
+                        <span class="name font-serif">Customer Service</span>
+                        <p class="font-serif">Admin</p>
+                    </div>
+                </div>
+                <a href="<?php echo $data->bitly; ?>" class="wa">
+                    <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
+                </a>
+            </div>
+            <br>
+        <?php
+        endforeach;
+        ?>
+        <?php
         foreach ($data_marketing as $data) :
         ?>
             <div class="card-user">

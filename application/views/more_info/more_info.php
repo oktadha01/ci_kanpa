@@ -86,7 +86,7 @@
 
     .details span {
         font-weight: bold;
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .card-user a {

@@ -7,7 +7,7 @@
     }
 
     body {
-        height: 100vh;
+        /* height: 100vh; */
         min-width: 100%;
         /* display: flex;
         align-items: center;
@@ -17,7 +17,7 @@
 
     #more-info {
 
-        height: 100vh;
+        /* height: 100vh; */
         min-width: 100%;
         display: flex;
         align-items: center;
@@ -112,7 +112,7 @@
         font-family: serif
     }
 </style>
-<section id="more-info" class="p-0" style="margin-top: 3rem;">
+<section id="more-info" class="p-0" style="margin-top: 6rem;">
     <div class="cards">
         <center>
             <a href="">

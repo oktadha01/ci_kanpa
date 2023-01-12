@@ -12,7 +12,8 @@
         /* display: flex;
         align-items: center;
         justify-content: center; */
-        background: linear-gradient(0deg, #84e3c5, #6991fe);
+        /* background: linear-gradient(0deg, #84e3c5, #6991fe); */
+        background: #033b6c2b;
     }
 
     #more-info {

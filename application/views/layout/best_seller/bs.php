@@ -40,8 +40,8 @@
                                         }
                                         ?>
                                         <div class="m-2">
-                                            <span class="mb-0 font-text-port">Mulai</span>
-                                            <span class="mb-0 font-text-port float-right"><?php echo $total_view; ?> views</span>
+                                            <span class="mb-0 font-text-port" style="font-size: x-small;">Mulai</span>
+                                            <span class="mb-0 font-text-port float-right" style="font-size: x-small;"><?php echo $total_view; ?> views</span>
                                             <br>
                                             <?php
                                             $sql = "SELECT hrg, satuan_hrg, id_tipe, luas_bangunan, luas_tanah  FROM tipe WHERE id_tipe_perum = $id_perum ORDER BY hrg ASC limit 1";

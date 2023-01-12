@@ -485,7 +485,7 @@
 
 .font-text-port {
     font-size: smaller;
-    font-family: monospace;
+    font-family: 'Poppins';
 }
 
 .min-height-video {
@@ -1472,9 +1472,10 @@ footer .footer-cat,
 }
 
 .text-nm-perum {
-    font-weight: bold;
-    font-family: 'Chathura';
-    font-size: -webkit-xxx-large;
+    /* font-weight: bold; */
+    font-family: 'Poppins';
+    font-size: 22px;
+    padding: 9px 0px;
 }
 
 .size-ikon-dash {
@@ -1527,9 +1528,9 @@ footer .footer-cat,
 } */
 
 .text-nm-perum-bs {
-    font-weight: bold;
-    font-family: 'Chathura';
-    font-size: -webkit-xxx-large;
+    /* font-weight: bold; */
+    font-family: 'Poppins';
+    font-size: 22px;
 }
 
 .btn-hrg-dash-bs {
@@ -1558,7 +1559,7 @@ footer .footer-cat,
     } */
 
     .text-nm-perum-bs {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .icon-fasilitas {

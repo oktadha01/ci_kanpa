@@ -101,7 +101,7 @@
 
 <main id="main">
     <section id="home" class="pb-4 pt-5rem d-flex align-items-center">
-        <div class="" >
+        <div class="">
 
             <div class="testimonials-slider swiper">
                 <div class="swiper-wrapper">
@@ -277,38 +277,37 @@
 
             <span><span class="font-auto size-50px">N</span><span class="font-auto size-30px">ews</span></span>
         </div>
-        <div class="row">
-            <?php
-            foreach ($data_berita as $data) {
-            ?>
-                <div class="col-lg-6 col-12">
-                    <!-- <section class="content"> -->
-                    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <?php
+                foreach ($data_berita as $data) {
+                    $judul_berita = $data->judul_berita;
+                    $tittle_news = preg_replace("![^a-z0-9]+!i", "-", $judul_berita);
+                ?>
+                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>00">
                         <div class="border-radius">
                             <div class="row">
-                                <div class="col-lg-3 col-md-3 col-12">
+                                <div class="col-lg-4 col-md-4 col-4">
                                     <div class="form-group">
-                                        <!-- <div class="card"> -->
-                                        <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?>" class="img-fluid p-1 border-radius img-berita" data-id-berita="<?php echo $data->id_berita; ?>" alt="red sample">
-                                        <!-- </div> -->
+                                        <a class="text-dark add-view-news" href="<?php echo base_url('News'); ?>/page/<?php echo $tittle_news; ?>" data-id-berita="<?php echo $data->id_berita; ?>">
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?>" class="img-fluid p-1 border-radius img-berita" data-id-berita="<?php echo $data->id_berita; ?>" alt="red sample">
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="col-lg-9 col-md-9 col-12 p-3">
-                                    <h6 class="text-publishing"><?php echo $data->tgl_berita; ?></h6>
-                                    <h3 id="tittle-berita<?php echo $data->id_berita; ?>" data-id-berita="<?php echo $data->id_berita; ?>" class="tittle-news tittle<?php echo $data->id_berita; ?>"><?php echo $data->judul_berita; ?></h3>
-                                    <div id="konten-berita<?php echo $data->id_berita; ?>" class="mt-1 p-1 konten<?php echo $data->id_berita; ?> konten" hidden>
-                                        <p class="text-konten-news"><?php echo $data->desk_berita; ?></p>
-                                    </div>
-                                    <h6 class="font-text-port"><?php echo $data->view_berita; ?> views</h6>
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <a class="text-dark add-view-news" href="<?php echo base_url('News'); ?>/page/<?php echo $tittle_news; ?>" data-id-berita="<?php echo $data->id_berita; ?>">
+                                        <h6 class="text-publishing"><?php echo $data->tgl_berita; ?></h6>
+                                        <h6 class="tittle-news"><?php echo $data->judul_berita; ?></h6>
+                                        <h6 class="font-text-port"><?php echo $data->view_berita; ?> views</h6>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- </section> -->
-                </div>
-            <?php
-            }
-            ?>
+                <?php
+                }
+                ?>
+            </div>
         </div>
         <div class="row mt-3">
             <div class="col">

@@ -1,6 +1,6 @@
 <script>
     $('.konten').removeAttr('hidden', true).hide();
-    $('.tittle-news, .img-berita, .close-berita').on('click', function(e) {
+    $('.add-view-news').on('click', function(e) {
         var id_berita = $(this).data('id-berita');
         let formData = new FormData();
         formData.append('id-berita', id_berita);
@@ -12,7 +12,7 @@
             processData: false,
             contentType: false,
             success: function(data) {
-                $('.konten' + id_berita).toggle(300);
+                // $('.konten' + id_berita).toggle(300);
             },
             error: function() {
                 alert("Data Gagal Diupload");

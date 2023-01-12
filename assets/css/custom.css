@@ -1654,6 +1654,17 @@ footer .footer-cat,
     transition: background-color 0.3s ease-in 0s, color 0.3s ease-in 0s;
 }
 
+@media (max-width: 992px) {
+
+    .resp-tittle {
+        font-size: revert;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}
+
 /* .overlay {
     height: 0%;
     width: 100%;

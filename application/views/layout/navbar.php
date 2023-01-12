@@ -8,7 +8,7 @@
       <a href="<?php echo base_url(); ?>#home" class="logo d-flex align-items-center scrollto me-auto mr-0">
          <!-- Uncomment the line below if you also wish to use an image logo -->
          <!-- <img src="assets/img/logo.png" alt=""> -->
-         <h1 class="mb-0 font-size-nav-baro"> Kanzu Permai Abadi</h1>
+         <h1 class="mb-0 font-size-nav-baro text-kanzu-header">KANZU PERMAI ABADI</h1>
       </a>
 
       <nav id="navbar" class="navbar">

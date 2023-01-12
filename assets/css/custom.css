@@ -50,6 +50,11 @@
     }
 }
 
+.text-kanzu-header {
+    font-weight: bold;
+    font-family: 'Source Sans Pro';
+}
+
 .input-icons i {
     position: absolute;
 }

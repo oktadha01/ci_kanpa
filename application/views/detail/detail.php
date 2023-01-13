@@ -261,18 +261,21 @@
                         foreach ($query->result() as $foto) {
                     ?>
                             <div class="swiper-slide" style="position: relative;">
-                                <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" alt="">
-                                <?php
-                                if ($foto->label_foto == 'display') { ?>
-                                    <div class="label-foto-slide">Eksterior <?php echo $data->nm_perum; ?> Tipe <?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?></div>
+                                <center>
 
-                                <?php
-                                } else {
-                                ?>
-                                    <div class="label-foto-slide">Interior <?php echo $data->nm_perum; ?> Tipe <?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?></div>
-                                <?php
-                                }
-                                ?>
+                                    <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" alt="">
+                                    <?php
+                                    if ($foto->label_foto == 'display') { ?>
+                                        <div class="label-foto-slide">Eksterior <?php echo $data->nm_perum; ?> Tipe <?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?></div>
+
+                                    <?php
+                                    } else {
+                                    ?>
+                                        <div class="label-foto-slide">Interior <?php echo $data->nm_perum; ?> Tipe <?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?></div>
+                                    <?php
+                                    }
+                                    ?>
+                                </center>
                             </div>
                     <?php
                         }
@@ -425,14 +428,14 @@
                                 if ($query->num_rows() > 0) {
                                     foreach ($query->result() as $foto) {
                                 ?>
-                                <?php
+                                        <div class="col-12 video-play position-relative img-fluid" style="background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url(<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>) center center no-repeat;     background-size: cover;">
+                                    <?php
                                     }
                                 }
-                                ?>
-                                <div class="col-12 video-play position-relative img-fluid" style="background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url(<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>) center center no-repeat;     background-size: cover;">
+                                    ?>
                                     <a href="<?php echo base_url('vr'); ?>/<?php echo $data->vr; ?>/index.html" class="glightbox play-btn"></a>
-                                    <!-- <a href="https://vr.kanpa.co.id/<?php echo $data->vr; ?>" class="glightbox play-btn"></a> -->
-                                </div>
+                                        </div>
+                                        <!-- <a href="https://vr.kanpa.co.id/<?php echo $data->vr; ?>" class="glightbox play-btn"></a> -->
                             </div>
                         </div>
                     </section>

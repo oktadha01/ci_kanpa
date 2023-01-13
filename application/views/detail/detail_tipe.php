@@ -16,7 +16,7 @@
 
     #thumbnails img {
         width: 100px;
-        height: 100px;
+        height: auto;
         margin: 10px;
         cursor: pointer;
     }
@@ -171,7 +171,9 @@
             if ($query->num_rows() > 0) {
                 foreach ($query->result() as $foto) {
             ?>
-                    <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" id="foto-main">
+                    <center>
+                        <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" id="foto-main">
+                    </center>
             <?php
                 }
             }

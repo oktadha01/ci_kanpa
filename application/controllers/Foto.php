@@ -106,8 +106,8 @@ class Foto extends CI_Controller
             'source_image' => $source_path,
             'new_image' => $target_path,
             'maintain_ratio' => TRUE,
-            'quality' => '100%',
-            'width' => '2560',
+            'quality' => '50%',
+            'width' => '1440',
             'height' => 'auto',
         ];
         $this->load->library('image_lib', $config);

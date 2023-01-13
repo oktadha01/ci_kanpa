@@ -110,7 +110,9 @@
                     ?>
 
                         <div class="swiper-slide">
-                            <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_tipe; ?>" class="img-fluid" alt="">
+                            <center>
+                                <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_tipe; ?>" class="img-fluid" alt="">
+                            </center>
                         </div>
                     <?php
                     }

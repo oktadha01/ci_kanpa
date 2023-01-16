@@ -29,6 +29,7 @@ class Detail extends CI_Controller
         $data['detail_lokasi_terdekat'] = $this->m_detail->m_detail_lokasi_terdekat($nm_perum);
         $data['detail_tipe'] = $this->m_detail->m_detail_tipe($nm_perum);
         $data['detail_marketing'] = $this->m_detail->m_detail_marketing($nm_perum);
+        $data['detail_cs'] = $this->m_detail->m_detail_cs();
         // $data['data_view'] = $this->m_detail->m_view_tipe($nm_perum, $luas_bangunan, $luas_tanah);
         $this->load->view('layout/index', $data);
     }

@@ -15,6 +15,11 @@
         $('#id-' + id).removeAttr('hidden', true);
         // $('.grid-' + id).removeAttr('hidden', true);
         // alert(id);
+        if ($('#id-marketing').val() >= '1') {
+
+            $('#cs').attr('hidden', true);
+        } else {
+        }
     });
     $('.item').magnificPopup({
         delegate: 'a',
@@ -42,7 +47,7 @@
 
     tabsLists.click(function(e) {
         // if ($(this).hasClass('moving-tab')) {
-        //     return;
+        // return;
         // }
         var whatTab = $(this).index();
         var howFar = 25 * whatTab;
@@ -92,5 +97,4 @@
             }
         });
     }
-   
 </script>

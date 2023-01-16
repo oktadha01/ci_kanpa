@@ -543,27 +543,49 @@
         </div>
     </section>
     <!-- <a class="" href="" target="_blank"> -->
-    <div class="wafixed cards">
-        <div class="card-user">
-            <div class="content">
-                <?php
-                foreach ($detail_marketing as $data) {
-                ?>
+    <?php
+    foreach ($detail_marketing as $data) {
+    ?>
+        <div class="wafixed cards">
+            <div class="card-user">
+                <div class="content">
 
                     <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
                     <div class="details">
                         <span class="name font-serif">Contac Us Marketing</span>
                         <p class="font-serif"><?php echo $data->nm_perum; ?></p>
                     </div>
-                <?php
-                }
-                ?>
+                </div>
+                <a href="#" class="wa">
+                    <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
+                </a>
             </div>
-            <a href="#" class="wa">
-                <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
-            </a>
         </div>
-    </div>
+        <input type="text" id="id-marketing" value="<?php echo $data->id_marketing; ?>">
+        
+    <?php
+    }
+    ?>
+    <?php
+    foreach ($detail_cs as $data) {
+    ?>
+        <div id="cs" class="wafixed cards">
+            <div class="card-user">
+                <div class="content">
+                    <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
+                    <div class="details">
+                        <span class="name font-serif">Contac Us Marketing</span>
+                        <p class="font-serif"><?php echo $data->nm_marketing; ?></p>
+                    </div>
+                </div>
+                <a href="#" class="wa">
+                    <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
+                </a>
+            </div>
+        </div>
+    <?php
+    }
+    ?>
     <input type="text" id="nm-perum" value="<?php echo preg_replace("![^a-z0-9]+!i", " ", $this->uri->segment(3)); ?>" hidden>
     <input type="text" id="luas-bangunan" value="<?php echo $this->uri->segment(5); ?>" hidden>
     <input type="text" id="luas-tanah" value="<?php echo $this->uri->segment(6); ?>" hidden>

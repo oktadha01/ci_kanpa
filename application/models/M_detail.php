@@ -60,6 +60,15 @@ class M_detail extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
+    function m_detail_cs()
+    {
+        $this->db->select('*');
+        $this->db->from('marketing');
+        $this->db->Join('marketperum', ' marketperum.idmarketing = marketing.id_marketing ');
+        $this->db->where('marketing.id_marketing', '10');
+        $query = $this->db->get();
+        return $query->result();
+    }
 
     function m_view_tipe($nm_perum, $luas_bangunan, $luas_tanah)
     {

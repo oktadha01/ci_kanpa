@@ -491,6 +491,10 @@
     <!-- </section> -->
     <section id="" class="p-0 m-2">
         <hr>
+        <center>
+            <h1 class="text-center tittle-detail">PROMO KHUSUS ANGGOTA KPRI MADIUN</h1>
+        </center>
+        <hr>
         <div class="" data-aos="fade-up  ">
             <div class="row">
                 <?php

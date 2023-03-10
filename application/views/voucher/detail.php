@@ -356,8 +356,9 @@
     <section id="" class="pb-4 pt-5rem d-flex align-items-center">
         <div class="" data-aos="fade-up">
             <?php
-            foreach ($detail_perum as $data) {
+            foreach ($data_detail_tipe as $data) {
                 $id_perum = $data->id_perum;
+                $id_tipe = $data->id_tipe;
             ?>
                 <div class="row mt-3 mb-3">
                     <center>
@@ -371,7 +372,7 @@
                 <div class="swiper-wrapper">
 
                     <?php
-                    $sql = "SELECT * FROM foto, tipe WHERE foto.id_foto_tipe=tipe.id_tipe AND tipe.id_tipe_perum = $id_perum AND foto.label_foto in ('display', 'interior') ORDER BY  RAND()";
+                    $sql = "SELECT * FROM foto, tipe WHERE foto.id_foto_tipe=tipe.id_tipe AND tipe.id_tipe = $id_tipe AND foto.label_foto in ('display', 'interior') ORDER BY  RAND()";
                     $query = $this->db->query($sql);
                     if ($query->num_rows() > 0) {
                         foreach ($query->result() as $foto) {

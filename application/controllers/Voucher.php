@@ -175,7 +175,7 @@ class Voucher extends CI_Controller
             $data['detail_perum'] = $this->m_voucher->m_detail_perum($nm_perum);
             $data['detail_fasilitas'] = $this->m_voucher->m_detail_fasilitas($nm_perum);
             $data['detail_lokasi_terdekat'] = $this->m_voucher->m_detail_lokasi_terdekat($nm_perum);
-            $data['detail_tipe'] = $this->m_voucher->m_detail_tipe($nm_perum);
+            $data['detail_tipe'] = $this->m_voucher->m_detail_tipe($nm_perum, $id_tipe);
             $data['data_detail_tipe'] = $this->m_voucher->m_data_detail_tipe($nm_perum, $luas_bangunan, $luas_tanah);
             $data['data_detail_voucher'] = $this->m_voucher->m_data_detail_voucher($id_perum, $id_tipe);
             $this->load->view('layout/index', $data);

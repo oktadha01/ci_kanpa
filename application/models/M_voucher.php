@@ -84,12 +84,13 @@ class M_voucher extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
-    function m_detail_tipe($nm_perum)
+    function m_detail_tipe($nm_perum, $id_tipe)
     {
         $this->db->select('*');
         $this->db->from('perum');
-        $this->db->where('nm_perum', $nm_perum);
         $this->db->Join('tipe', 'tipe.id_tipe_perum = perum.id_perum');
+        $this->db->where('nm_perum', $nm_perum);
+        $this->db->where('id_tipe', $id_tipe);
         $query = $this->db->get();
         return $query->result();
     }

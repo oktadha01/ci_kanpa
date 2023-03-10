@@ -489,6 +489,41 @@
     <!-- <section class="p-0 pt-2"> -->
     <div id="detail-tipe"></div>
     <!-- </section> -->
+    <section id="" class="p-0 m-2">
+        <hr>
+        <div class="" data-aos="fade-up  ">
+            <div class="row">
+                <?php
+                foreach ($data_detail_voucher as $data) { ?>
+
+                    <div class="col-lg-4 col-12">
+                        <h4 style="font-family: 'Poppins';"><?php echo $data->nm_voucher; ?></h4>
+                        <img data-gallery-img src='<?php echo base_url('upload'); ?>/voucher/<?php echo $data->foto_voucher; ?>' class=" img-fluid">
+                        <a href="<?php echo $data->wa_voucher; ?>">
+                            <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-brands fa-whatsapp"></i> Hubungi kami</button>
+                        </a>
+                    </div>
+                <?php
+                }
+                ?>
+            </div>
+        </div>
+    </section>
+    <section id="" class="contact p-0 mt-5">
+        <div class="" data-aos="fade-up">
+            <div class="map">
+                <?php
+                foreach ($detail_perum as $data) {
+                    echo $data->map;
+                }
+                ?>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                <a href="<?php echo $data->url_map; ?>">
+                    <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-solid fa-location-dot"></i> Kunjungi kami</button>
+                </a>
+            </div>
+        </div>
+    </section>
     <section class="row p-2 mr-0" data-aos="fade-up">
         <?php
         foreach ($detail_tipe as $data) {
@@ -499,7 +534,7 @@
         ?>
                 <div class="col-12 mb-4 pr-0">
 
-                    <section id="id-<?php echo $data->luas_bangunan; ?>" class="onfocus vr-perum" hidden>
+                    <section id="id-<?php echo $data->luas_bangunan; ?>" class="onfocus vr-perum">
                         <div class="container">
 
                             <div class="section-header pb-0">
@@ -558,101 +593,6 @@
         }
         ?>
     </section>
-    <section class="portfolio pb-0" data-aos="fade-up">
-        <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
-            <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
-
-                <ul class="portfolio-flters">
-                    <li data-filter="*" class="filter-active" hidden>All</li>
-                    <?php
-                    foreach ($detail_tipe as $data) {
-                        $id_tipe = $data->id_tipe;
-                    ?>
-                        <li id="tipe-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".grid-<?php echo $data->luas_bangunan; ?>">All</li>
-                        <li id="display-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".filter-display-<?php echo $data->luas_bangunan; ?>">Eksterior</li>
-                        <li id="interior-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".filter-interior-<?php echo $data->luas_bangunan; ?>">Interior</li>
-
-                    <?php
-                    }
-                    ?>
-                </ul><!-- End Portfolio Filters -->
-                <div class="row g-0 portfolio-container">
-                    <?php
-                    foreach ($data_detail_tipe as $data) {
-                        $id_tipe = $data->id_tipe;
-                    ?>
-                        <?php
-                        $sql = "SELECT * FROM foto WHERE foto.id_foto_tipe = '$id_tipe' AND label_foto in('display','interior') ORDER BY  RAND()";
-                        $query = $this->db->query($sql);
-                        if ($query->num_rows() > 0) {
-                            foreach ($query->result() as $foto) {
-                        ?>
-                                <div class="col-xxl-2 col-lg-3 col-md-4 col-4 portfolio-item filter-app grid-<?php echo $data->luas_bangunan; ?> filter-<?php echo $foto->label_foto; ?>-<?php echo $data->luas_bangunan; ?>">
-                                    <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <?php
-                                        if ($foto->label_foto == 'display') { ?>
-                                            <h4>Eksterior</h4>
-                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Eksterior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <?php
-                                        } else { ?>
-                                            <h4>Interior</h4>
-
-                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Interior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-
-                                        <?php
-                                        }
-                                        ?>
-                                        <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                                    </div>
-                                </div>
-                        <?php
-                            }
-                        }
-                        ?>
-                    <?php
-                    }
-                    ?>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="" class="p-0 m-2">
-        <hr>
-        <div class="" data-aos="fade-up  ">
-            <div class="row">
-                <?php
-                foreach ($data_detail_voucher as $data) { ?>
-
-                    <div class="col-lg-4 col-12">
-                        <h4 style="font-family: 'Poppins';"><?php echo $data->nm_voucher; ?></h4>
-                        <img data-gallery-img src='<?php echo base_url('upload'); ?>/voucher/<?php echo $data->foto_voucher; ?>' class=" img-fluid">
-                        <a href="<?php echo $data->wa_voucher; ?>">
-                            <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-brands fa-whatsapp"></i> Hubungi kami</button>
-                        </a>
-                    </div>
-                <?php
-                }
-                ?>
-            </div>
-        </div>
-    </section>
-    <section id="" class="contact p-0 mt-5">
-        <div class="" data-aos="fade-up">
-            <div class="map">
-                <?php
-                foreach ($detail_perum as $data) {
-                    echo $data->map;
-                }
-                ?>
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                <a href="<?php echo $data->url_map; ?>">
-                    <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-solid fa-location-dot"></i> Kunjungi kami</button>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- <a class="" href="" target="_blank"> -->
 
     <input type="text" id="nm-perum" value="<?php echo preg_replace("![^a-z0-9]+!i", " ", $this->uri->segment(3)); ?>" hidden>
     <input type="text" id="luas-bangunan" value="<?php echo $this->uri->segment(5); ?>" hidden>

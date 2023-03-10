@@ -159,52 +159,7 @@
     }
 </style>
 
-<section class="p-0 pt-2">
-    <div class="" data-aos="fade-up">
-        <?php
-        foreach ($data_detail_tipe as $data) {
-            $id_tipe = $data->id_tipe;
-        ?>
-            <?php
-            $sql = "SELECT foto_tipe FROM foto WHERE foto.id_foto_tipe=$id_tipe AND foto.label_foto in ('display','interior') limit 1";
-            $query = $this->db->query($sql);
-            if ($query->num_rows() > 0) {
-                foreach ($query->result() as $foto) {
-            ?>
-                    <center>
-                        <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" id="foto-main">
-                    </center>
-            <?php
-                }
-            }
-            ?>
-            <div id="thumbnails">
-                <?php
-                $sql = "SELECT foto_tipe, label_foto FROM foto WHERE foto.id_foto_tipe=$id_tipe AND foto.label_foto in ('display','interior')";
-                $query = $this->db->query($sql);
-                if ($query->num_rows() > 1) {
-                    foreach ($query->result() as $foto) {
-                        $no = 1;
-                ?>
-                        <?php
-                        if ($foto->label_foto == 'display') { ?>
-                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>00">
-                        <?php
-                        } else if ($foto->label_foto == 'interior') {
-                        ?>
-                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>00">
 
-                <?php
-                        }
-                    }
-                }
-                ?>
-            </div>
-        <?php
-        }
-        ?>
-    </div>
-</section>
 <section class="p-0 pt-2">
     <div class="bg-detail-hrg container" data-aos="fade-left">
         <!-- <hr> -->

@@ -504,15 +504,13 @@
                                     <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" alt="">
                                     <div class="portfolio-info">
                                         <?php
-                                        if ($foto->label_foto == 'interior') { ?>
-                                            <h4>Interior</h4>
-
-                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Interior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <?php
-                                        } else { ?>
-
+                                        if ($foto->label_foto == 'display') { ?>
                                             <h4>Eksterior</h4>
                                             <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Eksterior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                        <?php
+                                        } else { ?>
+                                            <h4>Interior</h4>
+                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Interior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                         <?php
                                         }
                                         ?>
@@ -562,7 +560,7 @@
             </div>
         </div>
         <input type="text" id="id-marketing" value="<?php echo $data->id_marketing; ?>" hidden>
-        
+
     <?php
     }
     ?>

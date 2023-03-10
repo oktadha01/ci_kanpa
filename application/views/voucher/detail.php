@@ -235,6 +235,122 @@
         font-size: 1rem;
         margin-bottom: 0;
     }
+
+    @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+    * {
+        font-family: "Quicksand", sans-serif;
+    }
+
+    .fade {
+        animation: fade 0.3s ease;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0;
+        }
+    }
+
+    .gallery {
+        position: relative;
+        display: none;
+        padding: 2rem 0;
+        background: #0c0b0c;
+        backdrop-filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+    }
+
+    .gallery img {
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin: auto;
+        transition: 0.3s ease;
+        object-fit: contain;
+    }
+
+    .gallery .gallery__controls {
+        width: fit-content;
+        margin: auto;
+        display: flex;
+        margin-top: 15px;
+        gap: 1.3rem;
+    }
+
+    .gallery .gallery__controls .controls__btn__close {
+        position: absolute;
+        top: 15px;
+        transition: 0.3s linear;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        border-radius: 50%;
+        padding: 0.3rem 0.954rem;
+        border-color: transparent;
+        right: 15px;
+    }
+
+    .gallery .gallery__controls .controls__btn__close:hover {
+        border-color: #ffff;
+    }
+
+    .gallery .gallery__controls .controls__btn__close svg {
+        width: 24px;
+    }
+
+    .gallery .gallery__controls .control__btn {
+        transition: 0.3s linear;
+        border: solid 1px transparent;
+        border-radius: 50%;
+        padding: 0.5rem 1rem 0.5rem 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+    }
+
+    .gallery .gallery__controls .control__btn:hover {
+        border-color: #ffff;
+    }
+
+    .gallery .gallery__controls .control__btn svg {
+        pointer-events: none;
+        width: 30px;
+    }
+
+    .gallery__container {
+        width: 80%;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    .gallery__container h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .gallery__container .gallery__container__imgs {
+        gap: 15px;
+        padding: 2.2rem 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .gallery__container .gallery__container__imgs img {
+        width: 180px;
+        height: 210px;
+        object-fit: cover;
+        flex: 1;
+        transition: 0.3s ease;
+        border-radius: 15px;
+        cursor: pointer;
+    }
 </style>
 <main id="main">
     <section id="" class="pb-4 pt-5rem d-flex align-items-center">
@@ -369,36 +485,7 @@
             </div>
         </div>
     </section>
-    <section class="p-0 pt-2">
-        <div class="" data-aos="fade-up">
-            <div class="row p-2">
-                <div class="tabs">
-                    <ul class="tabs--list mb-3">
-                        <?php
-                        foreach ($detail_tipe as $data) {
-                            $id_perum = $data->id_perum;
-                            $nm_perum = $data->nm_perum;
-                            $tittle = preg_replace("![^a-z0-9]+!i", "-", $nm_perum);
-                            // echo $tittle;
-                            $nm = preg_replace("![^a-z0-9]+!i", " ", $tittle);
-                        ?>
-                            <li>
-                                <a href="javascript:;" id="type-<?php echo $data->luas_bangunan; ?>" class="type" data-nm-perum="<?php echo $data->nm_perum; ?>" data-luas-bangunan="<?php echo $data->luas_bangunan; ?>" data-luas-tanah="<?php echo $data->luas_tanah; ?>" data-url="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">Type <?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?></a>
-                                <!-- <a href="javascript:;" title="TABS 1" data-content="tabs1" class="actived">TABS 1</a> -->
-                            </li>
-                        <?php
-                        }
-                        ?>
-                        <li class="moving-tab moving-tab--interaction"></li>
-                    </ul>
-                    <!-- <ul class="tabs--content"> -->
-                    <!-- <li class="actived"> -->
-                    <!-- </li> -->
-                    <!-- </ul> -->
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- <section class="p-0 pt-2"> -->
     <div id="detail-tipe"></div>
     <!-- </section> -->
@@ -491,7 +578,7 @@
                 </ul><!-- End Portfolio Filters -->
                 <div class="row g-0 portfolio-container">
                     <?php
-                    foreach ($detail_tipe as $data) {
+                    foreach ($data_detail_tipe as $data) {
                         $id_tipe = $data->id_tipe;
                     ?>
                         <?php
@@ -504,15 +591,15 @@
                                     <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" alt="">
                                     <div class="portfolio-info">
                                         <?php
-                                        if ($foto->label_foto == 'interior') { ?>
+                                        if ($foto->label_foto == 'display') { ?>
+                                            <h4>Eksterior</h4>
+                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Eksterior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                        <?php
+                                        } else { ?>
                                             <h4>Interior</h4>
 
                                             <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Interior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <?php
-                                        } else { ?>
 
-                                            <h4>Eksterior</h4>
-                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Eksterior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                                         <?php
                                         }
                                         ?>
@@ -530,6 +617,26 @@
             </div>
         </div>
     </section>
+    <section id="" class="p-0 m-2">
+        <hr>
+        <div class="" data-aos="fade-up  ">
+            <div class="row">
+                <?php
+                foreach ($data_detail_voucher as $data) { ?>
+
+                    <div class="col-lg-4 col-12">
+                        <h4 style="font-family: 'Poppins';"><?php echo $data->nm_voucher; ?></h4>
+                        <img data-gallery-img src='<?php echo base_url('upload'); ?>/voucher/<?php echo $data->foto_voucher; ?>' class=" img-fluid">
+                        <a href="<?php echo $data->wa_voucher; ?>">
+                            <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-brands fa-whatsapp"></i> Hubungi kami</button>
+                        </a>
+                    </div>
+                <?php
+                }
+                ?>
+            </div>
+        </div>
+    </section>
     <section id="" class="contact p-0 mt-5">
         <div class="" data-aos="fade-up">
             <div class="map">
@@ -539,53 +646,14 @@
                 }
                 ?>
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                <a href="<?php echo $data->url_map; ?>">
+                    <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-solid fa-location-dot"></i> Kunjungi kami</button>
+                </a>
             </div>
         </div>
     </section>
     <!-- <a class="" href="" target="_blank"> -->
-    <?php
-    foreach ($detail_marketing as $data) {
-    ?>
-        <div class="wafixed cards">
-            <div class="card-user">
-                <div class="content">
 
-                    <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
-                    <div class="details">
-                        <span class="name font-serif">Contac Us Marketing</span>
-                        <p class="font-serif"><?php echo $data->nm_perum; ?></p>
-                    </div>
-                </div>
-                <a href="#" class="wa">
-                    <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
-                </a>
-            </div>
-        </div>
-        <input type="text" id="id-marketing" value="<?php echo $data->id_marketing; ?>" hidden>
-        
-    <?php
-    }
-    ?>
-    <?php
-    foreach ($detail_cs as $data) {
-    ?>
-        <div id="cs" class="wafixed cards">
-            <div class="card-user">
-                <div class="content">
-                    <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
-                    <div class="details">
-                        <span class="name font-serif">Contac Us Marketing</span>
-                        <p class="font-serif"><?php echo $data->nm_marketing; ?></p>
-                    </div>
-                </div>
-                <a href="#" class="wa">
-                    <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
-                </a>
-            </div>
-        </div>
-    <?php
-    }
-    ?>
     <input type="text" id="nm-perum" value="<?php echo preg_replace("![^a-z0-9]+!i", " ", $this->uri->segment(3)); ?>" hidden>
     <input type="text" id="luas-bangunan" value="<?php echo $this->uri->segment(5); ?>" hidden>
     <input type="text" id="luas-tanah" value="<?php echo $this->uri->segment(6); ?>" hidden>

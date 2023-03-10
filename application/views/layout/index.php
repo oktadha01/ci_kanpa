@@ -87,7 +87,7 @@
                     include_once 'best_seller/bs.php';
                     include_once 'footer.php';
                 } else if ($_view == 'dashboard/index' or $_view == 'more_info/more_info') {
-
+                } else if ($_view == 'voucher/detail') {
                     include_once 'footer.php';
                 }
             }
@@ -195,6 +195,10 @@
         });
         $(document).on("click", ".pilih-foto-tipe", function() {
             var file = $(this).parents().find(".foto-tipe");
+            file.trigger("click");
+        });
+        $(document).on("click", ".pilih-foto-voucher", function() {
+            var file = $(this).parents().find(".foto-voucher");
             file.trigger("click");
         });
         $(document).on("click", "#upload-ktp", function() {

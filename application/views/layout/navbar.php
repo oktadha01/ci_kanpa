@@ -74,6 +74,12 @@
                      </a>
                   </li>
                   <li>
+                     <a href="<?php echo base_url('Voucher'); ?>" class="sidebar__nav__link">
+                     <i class="side-icon-side fa-solid fa-receipt"></i>
+                        <span class="sidebar__nav__text">Voucher</span>
+                     </a>
+                  </li>
+                  <li>
                      <a href="<?php echo base_url('logout'); ?>" class="sidebar__nav__link">
                         <i class="side-icon-side fa-solid fa-right-from-bracket"></i>
                         <span class="sidebar__nav__text">Logout || <?= $this->session->userdata("privilage"); ?></span>

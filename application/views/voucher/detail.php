@@ -351,6 +351,16 @@
         border-radius: 15px;
         cursor: pointer;
     }
+
+    .size-logo-voucher {
+        width: 20%;
+    }
+    @media (max-width: 768px) {
+        .size-logo-voucher {
+            width: 45%;
+        }
+    }
+
 </style>
 <main id="main">
     <section id="" class="pb-4 pt-5rem d-flex align-items-center">
@@ -490,10 +500,10 @@
     <!-- <section class="p-0 pt-2"> -->
     <div id="detail-tipe"></div>
     <!-- </section> -->
-    <section id="" class="p-0 m-2">
+    <section id="voucher" class="p-0 m-2">
         <hr>
         <center>
-            <h1 class="text-center tittle-detail">PROMO KHUSUS ANGGOTA KPRI MADIUN</h1>
+            <h1 class="text-center tittle-detail">PROMO KHUSUS ANGGOTA KP-RI MADIUN</h1>
         </center>
         <hr>
         <div class="" data-aos="fade-up  ">
@@ -598,6 +608,11 @@
         }
         ?>
     </section>
+    <div id="cs" class="wafixed cards">
+        <a href="#voucher" class="wa">
+            <img src="<?php echo base_url('upload'); ?>/voucher/logovouchermadiun.png" class=" img-fluid size-logo-voucher">
+        </a>
+    </div>
 
     <input type="text" id="nm-perum" value="<?php echo preg_replace("![^a-z0-9]+!i", " ", $this->uri->segment(3)); ?>" hidden>
     <input type="text" id="luas-bangunan" value="<?php echo $this->uri->segment(5); ?>" hidden>

@@ -71,6 +71,7 @@
     });
 
     $('.btn-delete').click(function(e) {
+        // alert($(this).data('foto-voucher'))
         var el = this;
 
         // Delete id

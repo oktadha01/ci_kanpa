@@ -355,12 +355,12 @@
     .size-logo-voucher {
         width: 20%;
     }
+
     @media (max-width: 768px) {
         .size-logo-voucher {
             width: 45%;
         }
     }
-
 </style>
 <main id="main">
     <section id="" class="pb-4 pt-5rem d-flex align-items-center">
@@ -512,10 +512,9 @@
                 foreach ($data_detail_voucher as $data) { ?>
 
                     <div class="col-lg-4 col-12">
-                        <!-- <h4 style="font-family: 'Poppins';"><?php echo $data->nm_voucher; ?></h4> -->
                         <img data-gallery-img src='<?php echo base_url('upload'); ?>/voucher/<?php echo $data->foto_voucher; ?>' class=" img-fluid">
                         <a href="<?php echo $data->wa_voucher; ?><?php echo $data->nm_voucher; ?>">
-                            <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-brands fa-whatsapp"></i> Hubungi kami</button>
+                            <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b; position: relative;bottom: 22px;"><i class="fa-brands fa-whatsapp"></i> Hubungi kami</button>
                         </a>
                     </div>
                 <?php

@@ -529,12 +529,12 @@
                 <?php
                 foreach ($detail_perum as $data) {
                     echo $data->map;
-                }
                 ?>
+                    <a href="<?php echo $data->url_map; ?>">
+                        <button type="button" id="r" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-solid fa-location-dot"></i> Kunjungi kami</button>
+                    </a>
+                <?php } ?>
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                <a href="<?php echo $data->url_map; ?>">
-                    <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b;"><i class="fa-solid fa-location-dot"></i> Kunjungi kami</button>
-                </a>
             </div>
         </div>
     </section>

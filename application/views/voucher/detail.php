@@ -503,7 +503,7 @@
     <section id="voucher" class="p-0 m-2">
         <hr>
         <center>
-            <h1 class="text-center tittle-detail">PROMO KHUSUS ANGGOTA KP-RI MADIUN</h1>
+            <h1 class="text-center tittle-detail">PROMO KHUSUS ANGGOTA KPRI CARUBAN</h1>
         </center>
         <hr>
         <div class="" data-aos="fade-up  ">
@@ -511,7 +511,7 @@
                 <?php
                 foreach ($data_detail_voucher as $data) { ?>
 
-                    <div class="col-lg-4 col-12">
+                    <div class="col-lg-3 col-12">
                         <img data-gallery-img src='<?php echo base_url('upload'); ?>/voucher/<?php echo $data->foto_voucher; ?>' class=" img-fluid">
                         <a href="<?php echo $data->wa_voucher; ?><?php echo $data->nm_voucher; ?>">
                             <button type="button" id="btn-cencel-voucher" class="col-12 btn btn-sm btn-success mt-2" style="background-color: #35c180;border-color: #11d77b; position: relative;bottom: 22px;"><i class="fa-brands fa-whatsapp"></i> Hubungi kami</button>

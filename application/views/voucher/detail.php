@@ -505,6 +505,7 @@
         <center>
             <h1 class="text-center tittle-detail">PROMO KHUSUS ANGGOTA KPRI CARUBAN</h1>
         </center>
+        <img data-gallery-img src='<?php echo base_url('upload'); ?>/voucher/promo_hrg_caruban.png' class=" img-fluid">
         <hr>
         <div class="" data-aos="fade-up  ">
             <div class="row">

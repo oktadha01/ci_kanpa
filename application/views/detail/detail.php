@@ -554,7 +554,7 @@
                         <p class="font-serif"><?php echo $data->nm_perum; ?></p>
                     </div>
                 </div>
-                <a href="#" class="wa">
+                <a href="<?php echo $data->bitly; ?>" class="wa">
                     <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
                 </a>
             </div>
@@ -576,7 +576,7 @@
                         <p class="font-serif"><?php echo $data->nm_marketing; ?></p>
                     </div>
                 </div>
-                <a href="#" class="wa">
+                <a href="<?php echo $data->bitly; ?>" class="wa">
                     <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
                 </a>
             </div>

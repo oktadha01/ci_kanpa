@@ -41,6 +41,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Chathura" rel="stylesheet">
@@ -57,9 +58,10 @@
     <link href="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
     <!-- Variables CSS Files. Uncomment your preferred color scheme -->
     <link href="<?php echo base_url('assets'); ?>/css/variables.css" rel="stylesheet">
-
+    
     <!-- Template Main CSS File -->
     <link href="<?php echo base_url('assets'); ?>/css/main.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.css" rel="stylesheet" />
     <link href="<?php echo base_url('assets'); ?>/css/custom.css" rel="stylesheet">
 
 </head>
@@ -102,10 +104,12 @@
     ?>
 
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    
     <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -121,7 +125,7 @@
     <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
-
+    
     <script src="<?php echo base_url('assets'); ?>/vendor/aos/aos.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
@@ -212,6 +216,12 @@
             file.trigger("click");
             // alert('ya')
         });
+        $(document).on("click", ".pilih-berita-other", function() {
+            $('#id-data-berita').val($(this).data('id-data-berita'));
+            var file = $(this).parents().find(".file-berita-other");
+            file.trigger("click");
+            // alert('ya')
+        });
 
         function footerToggle(footerBtn) {
             $(footerBtn).toggleClass("btnActive");
@@ -240,6 +250,18 @@
                 // checks if its the same on the address bar
                 if (url == (this.href)) {
                     $(this).closest(".sidebar__nav__link").addClass("sidebar-active");
+                }
+            });
+            // this will get the full URL at the address bar
+        });
+        $(function() {
+            var url = window.location.href;
+
+            // passes on every "a" tag
+            $("#tag a").each(function() {
+                // checks if its the same on the address bar
+                if (url == (this.href)) {
+                    $(this).closest(".btn-tag").addClass("tag-active");
                 }
             });
             // this will get the full URL at the address bar

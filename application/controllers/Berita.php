@@ -8,7 +8,7 @@ class Berita extends CI_Controller
     public $upload;
     public $image_lib;
     public $input;
-	public $db;
+    public $db;
 
     function __construct()
     {
@@ -24,11 +24,64 @@ class Berita extends CI_Controller
         $data['_view'] = 'berita/berita';
         $this->load->view('layout/index', $data);
     }
+    function data_artikel_berita()
+    {
+        $id_berita = $this->input->post('id-berita');
+
+        $data['data_artikel_berita'] = $this->m_berita->m_data_artikel_berita($id_berita);
+        $data['data_foto_berita'] = $this->m_berita->m_data_foto_berita($id_berita);
+        $data['_view'] = 'berita/data_artikel_berita';
+        $this->load->view('berita/data_artikel_berita', $data);
+    }
     function data_berita()
     {
         $data['data_berita'] = $this->m_berita->m_data_berita();
         $data['_view'] = 'berita/data_berita';
         $this->load->view('berita/data_berita', $data);
+    }
+    function add_content()
+    {
+        $data = array(
+
+            'berita_id' => $this->input->post('id-berita'),
+            'text_berita' => $this->input->post('text-berita'),
+        );
+        $insert = $this->m_berita->m_add_content($data);
+        echo json_encode($insert);
+    }
+    function edit_content()
+    {
+        $id_data_berita = $this->input->post('id-data-berita');
+        $text_berita = $this->input->post('text-berita');
+        $updeta = $this->m_berita->m_edit_content($id_data_berita, $text_berita);
+        echo json_encode($updeta);
+    }
+    function simpan_foto_berita()
+    {
+        $config['upload_path'] = "./upload/";
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['encrypt_name'] = TRUE;
+
+        $this->load->library('upload', $config);
+
+        if ($this->upload->do_upload("foto-berita-other")) {
+            $data = array('upload_data' => $this->upload->data());
+            $data_berita_id = $this->input->post('id-berita');
+            $file_foto_berita = $data['upload_data']['file_name'];
+            $uploadedImage = $this->upload->data();
+            $this->resizeImage($uploadedImage['file_name']);
+            $insert = $this->m_berita->m_simpan_foto_berita($data_berita_id, $file_foto_berita);
+            echo json_encode($insert);
+        }
+        exit;
+    }
+    function delete_foto_berita()
+    {
+        $file_foto_berita = $this->input->post('file-foto-berita');
+        unlink('./upload/' . $file_foto_berita);
+        $id_foto_berita = $this->input->post('id-foto-berita');
+        $delete = $this->m_berita->m_delete_foto_berita($id_foto_berita);
+        echo json_encode($delete);
     }
     function simpan_data_berita()
     {
@@ -42,12 +95,12 @@ class Berita extends CI_Controller
             $data = array('upload_data' => $this->upload->data());
             $judul_berita = $this->input->post('judul-berita');
             $tgl_berita = $this->input->post('tgl-berita');
-            $desk_berita = $this->input->post('desk-berita');
+            $tag_berita = $this->input->post('tag-berita');
             $foto_berita = $data['upload_data']['file_name'];
             $uploadedImage = $this->upload->data();
 
             $this->resizeImage($uploadedImage['file_name']);
-            $insert = $this->m_berita->m_simpan_data_berita($judul_berita, $tgl_berita, $desk_berita, $foto_berita);
+            $insert = $this->m_berita->m_simpan_data_berita($judul_berita, $tgl_berita, $tag_berita, $foto_berita);
             echo json_encode($insert);
         }
         exit;
@@ -70,12 +123,12 @@ class Berita extends CI_Controller
                 $id_berita = $this->input->post('id-berita');
                 $judul_berita = $this->input->post('judul-berita');
                 $tgl_berita = $this->input->post('tgl-berita');
-                $desk_berita = $this->input->post('desk-berita');
+                $tag_berita = $this->input->post('tag-berita');
                 $foto_berita = $data['upload_data']['file_name'];
                 $uploadedImage = $this->upload->data();
 
                 $this->resizeImage($uploadedImage['file_name']);
-                $update = $this->m_berita->m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $desk_berita, $foto_berita);
+                $update = $this->m_berita->m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $tag_berita, $foto_berita);
                 echo json_encode($update);
             }
             exit;
@@ -83,8 +136,8 @@ class Berita extends CI_Controller
             $id_berita = $this->input->post('id-berita');
             $judul_berita = $this->input->post('judul-berita');
             $tgl_berita = $this->input->post('tgl-berita');
-            $desk_berita = $this->input->post('desk-berita');
-            $update = $this->m_berita->m_edit_berita($id_berita, $judul_berita, $tgl_berita, $desk_berita);
+            $tag_berita = $this->input->post('tag-berita');
+            $update = $this->m_berita->m_edit_berita($id_berita, $judul_berita, $tgl_berita, $tag_berita);
             echo json_encode($update);
         }
     }
@@ -136,5 +189,17 @@ class Berita extends CI_Controller
         }
         $this->image_lib->clear();
         return 1;
+    }
+    function select_data_tag()
+    {
+        echo '<option value=""></option>';
+        $sql = "SELECT * FROM berita Group BY tag_berita ORDER BY tag_berita ASC";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $data) {
+                echo '<option value="' . $data->tag_berita . '">' . $data->tag_berita . '</option>';
+            }
+        }
+        echo '<option value="add tag">Add Tag</option>';
     }
 }

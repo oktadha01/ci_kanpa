@@ -16,8 +16,8 @@
             <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>#home">Home</a></li>
             <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>#about">About</a></li>
             <li><a class="nav-link scrollto" href="<?php echo base_url('Produk'); ?>#produk">Product</a></li>
-            <li><a id="btn-menu-news" class="nav-link scrollto" href="<?php echo base_url('News'); ?>#berita">News</a></li>
-            <li><a class="nav-link scrollto" href="<?php echo base_url('Estimasi_harga'); ?>#estimasi-hrg">Estimasi Harga</a></li>
+            <li><a id="btn-menu-news" class="nav-link scrollto" href="<?php echo base_url('Artikel'); ?>#berita">Article</a></li>
+            <li><a class="nav-link scrollto" href="<?php echo base_url('Estimasi_harga'); ?>#estimasi-hrg">Price Estimation</a></li>
             <li><a class="nav-link scrollto" href="<?php echo base_url('More_info'); ?>#more-info">Contact</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>

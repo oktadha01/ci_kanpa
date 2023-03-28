@@ -291,13 +291,13 @@
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <div class="form-group">
-                                        <a class="text-dark add-view-news" href="<?php echo base_url('News'); ?>/page/<?php echo $tittle_news; ?>" data-id-berita="<?php echo $data->id_berita; ?>">
+                                        <a class="text-dark add-view-news" href="<?php echo base_url('Artikel'); ?>/page/<?php echo $tittle_news; ?>" data-id-berita="<?php echo $data->id_berita; ?>">
                                             <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?>" class="img-fluid p-1 border-radius img-berita" data-id-berita="<?php echo $data->id_berita; ?>" alt="red sample">
                                         </a>
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-8 col-8">
-                                    <a class="text-dark add-view-news" href="<?php echo base_url('News'); ?>/page/<?php echo $tittle_news; ?>" data-id-berita="<?php echo $data->id_berita; ?>">
+                                    <a class="text-dark add-view-news" href="<?php echo base_url('Artikel'); ?>/page/<?php echo $tittle_news; ?>" data-id-berita="<?php echo $data->id_berita; ?>">
                                         <h6 class="text-publishing"><?php echo $data->tgl_berita; ?></h6>
                                         <h6 class="tittle-news"><?php echo $data->judul_berita; ?></h6>
                                         <h6 class="font-text-port"><?php echo $data->view_berita; ?> views</h6>
@@ -314,7 +314,7 @@
         <div class="row mt-3">
             <div class="col">
                 <center>
-                    <a href="<?php echo base_url('News'); ?>#news">
+                    <a href="<?php echo base_url('Artikel'); ?>#news">
                         <button type="button" id="" class="btn btn-sm btn-outline-info" style="font-size: 18px;">
                             <i class="fa-regular fa-newspaper"></i> Lihat Berita Lainnya >>
                         </button>

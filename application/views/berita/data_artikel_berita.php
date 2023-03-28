@@ -177,8 +177,12 @@ foreach ($data_artikel_berita as $data) {
         </div>
         <hr>
         <span class="text-berita<?php echo $data->id_data_berita; ?>"><?php echo $data->text_berita; ?></span>
+        <hr>
         <div class="row">
-            <div class="col">
+            <div class="col-6">
+                <button type="button" class="btn-hapus-catatan btn btn-sm btn-outline-danger" data-id-data-berita="<?php echo $data->id_data_berita; ?>"><i class="fa-regular fa-pen-to-square"></i> Hapus Catatan</button>
+            </div>
+            <div class="col-6">
                 <button type="button" class="btn-edit-catatan float-right btn btn-sm btn-outline-warning" data-id-data-berita="<?php echo $data->id_data_berita; ?>"><i class="fa-regular fa-pen-to-square"></i> Edit Catatan</button>
             </div>
         </div>
@@ -192,6 +196,31 @@ foreach ($data_artikel_berita as $data) {
     </div>
 </div>
 <script>
+    $('.btn-hapus-catatan').click(function(e) {
+        $('#id-data-berita').val($(this).data('id-data-berita'));
+        var confirmalert = confirm("Are you sure?");
+        if (confirmalert == true) {
+            // alert($(this).data('id-foto-berita') + $(this).data('file-foto-berita'));
+            let formData = new FormData();
+            formData.append('id-data-berita', $(this).data('id-data-berita'));
+            $.ajax({
+                type: 'POST',
+                url: "<?php echo site_url('berita/delete_content') ?>",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(msg) {
+                    alert('Catatan berhasil di hapus');
+                    load_data_content_berita();
+
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+        }
+    });
     $('.btn-simpan-foto').click(function(e) {
         var id_data_berita = $('#id-data-berita').val();
         const foto_berita = $('#file-foto-berita-other').prop('files')[0];
@@ -240,7 +269,7 @@ foreach ($data_artikel_berita as $data) {
         var el = this;
         var confirmalert = confirm("Are you sure?");
         if (confirmalert == true) {
-            alert($(this).data('id-foto-berita') + $(this).data('file-foto-berita'));
+            // alert($(this).data('id-foto-berita') + $(this).data('file-foto-berita'));
             let formData = new FormData();
             formData.append('id-foto-berita', $(this).data('id-foto-berita'));
             formData.append('file-foto-berita', $(this).data('file-foto-berita'));

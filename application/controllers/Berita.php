@@ -56,6 +56,21 @@ class Berita extends CI_Controller
         $updeta = $this->m_berita->m_edit_content($id_data_berita, $text_berita);
         echo json_encode($updeta);
     }
+    function delete_content()
+    {
+        $id_data_berita = $this->input->post('id-data-berita');
+        $sql = "SELECT * FROM foto_berita WHERE data_berita_id=$id_data_berita";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $data_foto) {
+                $file_foto_berita = $data_foto->file_foto_berita;
+                unlink('./upload/' . $file_foto_berita);
+            }
+        }
+        $updeta = $this->m_berita->m_delete_content($id_data_berita);
+        echo json_encode($updeta);
+    }
+
     function simpan_foto_berita()
     {
         $config['upload_path'] = "./upload/";

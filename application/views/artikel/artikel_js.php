@@ -1,3 +1,15 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YN9QR6KJ0J"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YN9QR6KJ0J');
+</script>
 <script>
     $('.konten').removeAttr('hidden', true).hide();
     $('.add-view-news').on('click', function(e) {

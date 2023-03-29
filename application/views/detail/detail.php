@@ -588,3 +588,4 @@
     <input type="text" id="luas-bangunan" value="<?php echo $this->uri->segment(5); ?>" hidden>
     <input type="text" id="luas-tanah" value="<?php echo $this->uri->segment(6); ?>" hidden>
 </main>
+<!-- Google tag (gtag.js) -->

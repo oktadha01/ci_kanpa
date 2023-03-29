@@ -1,3 +1,14 @@
+<script script async src="https://www.googletagmanager.com/gtag/js?id=G-YN9QR6KJ0J"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YN9QR6KJ0J');
+</script>
 <script>
     // Asep Irman
     // UI / UX Designer & Front End Developer
@@ -18,8 +29,7 @@
         if ($('#id-marketing').val() >= '1') {
 
             $('#cs').attr('hidden', true);
-        } else {
-        }
+        } else {}
     });
     $('.item').magnificPopup({
         delegate: 'a',

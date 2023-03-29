@@ -58,14 +58,13 @@
     <link href="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
     <!-- Variables CSS Files. Uncomment your preferred color scheme -->
     <link href="<?php echo base_url('assets'); ?>/css/variables.css" rel="stylesheet">
-    
+
     <!-- Template Main CSS File -->
     <link href="<?php echo base_url('assets'); ?>/css/main.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.css" rel="stylesheet" />
     <link href="<?php echo base_url('assets'); ?>/css/custom.css" rel="stylesheet">
 
 </head>
-
 
 <body>
     <?php $this->load->view('layout/alert/_alert') ?>
@@ -109,7 +108,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -125,7 +124,7 @@
     <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
-    
+
     <script src="<?php echo base_url('assets'); ?>/vendor/aos/aos.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>

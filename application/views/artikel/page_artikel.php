@@ -159,8 +159,7 @@
 </style>
 <section class="pt-5 mt-3" id="">
     <div class="section-header">
-
-        <span><span class="font-auto size-50px">N</span><span class="font-auto size-30px">ews</span></span>
+        <span><span class="font-auto size-50px">A</span><span class="font-auto size-30px">rticle</span></span>
     </div>
     <div class="container">
         <div class=" row">
@@ -363,15 +362,3 @@
         </div>
     </div>
 </section>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YN9QR6KJ0J"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-YN9QR6KJ0J');
-</script>

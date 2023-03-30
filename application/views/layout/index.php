@@ -16,12 +16,12 @@
     </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" />
-    <meta name="msvalidate.01" content="B36B1215CB3BC26AA0E6851087FF5E2F"   />
+    <meta name="msvalidate.01" content="B36B1215CB3BC26AA0E6851087FF5E2F"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <!-- Meta untuk SEO -->
-    <meta name="description" content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat">
-    <meta name="keywords" content="PT Kanpa, rumah murah di semarang, jual rumah semarang, jual rumah ungaran, jual rumah, jual rumah gunung pati, perumahan ungaran, rumah murah ungaran,perumahan murah semarang, perumahan bukit permai ungaran, perumahan murah subsidi, kpr, griya kautsar ungaran, bukit permai 2 ungaran ">
+    <meta name="description" content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat, perumahan subsidi griya kanzu kleco kaliabu, perumahan subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan subsidi madiun, rumah subsidi klecorejo kaliabu">
+    <meta name="keywords" content="PT Kanpa, rumah murah di semarang, jual rumah semarang, jual rumah ungaran, jual rumah, jual rumah gunung pati, perumahan ungaran, rumah murah ungaran,perumahan murah semarang, perumahan bukit permai ungaran, perumahan murah subsidi, kpr, griya kautsar ungaran, bukit permai 2 ungaran, Perumahan subsidi griya kanzu kleco kaliabu, rumah subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan klecorejo kaliabu">
     <meta name="robots" content="INDEX,FOLLOW">
 
 

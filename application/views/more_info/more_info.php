@@ -89,7 +89,7 @@
         font-size: 15px;
     }
 
-    .card-user a {
+    .card-user .wa {
         text-decoration: none;
         padding: 2px 5px;
         border-radius: 9px;
@@ -98,7 +98,7 @@
         /* transition: all 0.3s ease; */
     }
 
-    .card-user a:hover {
+    .card-user .wa:hover {
         transform: scale(0.94);
     }
 
@@ -148,15 +148,21 @@
 
         <?php
         foreach ($data_marketing as $data) :
+            $marketing_nm = $data->nm_marketing;
+            $nm_marketing = preg_replace("![^a-z0-9]+!i", "-", $marketing_nm);
+            $perum_nm = $data->nm_perum;
+            $nm_perum = preg_replace("![^a-z0-9]+!i", "-", $perum_nm);
         ?>
             <div class="card-user">
-                <div class="content">
-                    <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
-                    <div class="details">
-                        <span class="name font-serif"><?php echo $data->nm_perum; ?></span>
-                        <p class="font-serif"><?php echo $data->nm_marketing; ?></p>
+                <a href="<?php echo base_url('more_info/marketing'); ?>/<?php echo $nm_perum; ?>/<?php echo $nm_marketing; ?>" class="text-dark">
+                    <div class="content">
+                        <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
+                        <div class="details">
+                            <span class="name font-serif"><?php echo $data->nm_perum; ?></span>
+                            <p class="font-serif"><?php echo $data->nm_marketing; ?></p>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <a href="<?php echo $data->bitly; ?>" class="wa">
                     <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
                 </a>

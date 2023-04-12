@@ -20,6 +20,7 @@ class Marketing extends CI_Controller
         $data['_title'] = 'Marketing';
         $data['_script'] = 'marketing/marketing_js';
         $data['_view'] = 'marketing/marketing';
+        $data['data_marketing'] = $this->m_marketing->m_data_marketing();
         $data['data_perum'] = $this->m_marketing->m_data_perum();
         $this->load->view('layout/index', $data);
     }
@@ -30,8 +31,15 @@ class Marketing extends CI_Controller
         $data['_view'] = 'marketing/data_marketing';
         $this->load->view('marketing/data_marketing', $data);
     }
+    function data_foto_st()
+    {
+        $data['data_foto_st'] = $this->m_marketing->m_data_foto_st();
+        $data['_view'] = 'marketing/data_foto_st';
+        $this->load->view('marketing/data_foto_st', $data);
+    }
     function simpan_data_marketing()
     {
+        $nm_marketing = $this->input->post('nm-marketing');
         $config['upload_path'] = "./upload/";
         $config['allowed_types'] = 'gif|jpg|png';
         $config['encrypt_name'] = TRUE;
@@ -40,16 +48,22 @@ class Marketing extends CI_Controller
 
         if ($this->upload->do_upload("foto-marketing")) {
             $data = array('upload_data' => $this->upload->data());
-            $nm_marketing = $this->input->post('nm-marketing');
             $foto_marketing = $data['upload_data']['file_name'];
             $uploadedImage = $this->upload->data();
+            // $this->resizeImage($uploadedImage['file_name']);
 
-            $this->resizeImage($uploadedImage['file_name']);
-            $insert = $this->m_marketing->m_simpan_data_marketing($nm_marketing, $foto_marketing);
-            echo json_encode($insert);
         }
+        if ($this->upload->do_upload("foto-header")) {
+            $data = array('upload_data' => $this->upload->data());
+            $foto_header = $data['upload_data']['file_name'];
+            // $uploadedImage = $this->upload->data();
+
+        }
+        $insert = $this->m_marketing->m_simpan_data_marketing($nm_marketing, $foto_marketing, $foto_header);
+        echo json_encode($insert);
         exit;
     }
+
     function simpan_data_marketperum()
     {
         $id_marketing = $this->input->post('id-marketing');
@@ -74,9 +88,19 @@ class Marketing extends CI_Controller
     }
     function edit_data_marketing()
     {
-        $action_change_marketing = $this->input->post('ceklis-ubah-foto-marketing');
-        if ($action_change_marketing == 'change-foto-marketing') {
-            $foto_lama = $this->input->post('foto-lama');
+        // $action_change_marketing = $this->input->post('ceklis-ubah-foto-marketing');
+        $foto_lama_marketing = $this->input->post('foto-lama-marketing');
+        $nm_foto_marketing = $this->input->post('nm-foto-marketing');
+        $foto_lama_marketing_header = $this->input->post('foto-lama-marketing-header');
+        $nm_foto_marketing_header = $this->input->post('nm-foto-marketing-header');
+        if ($foto_lama_marketing == $nm_foto_marketing) {
+            echo 'foto marketing';
+            $id_marketing = $this->input->post('id-marketing');
+            $nm_marketing = $this->input->post('nm-marketing');
+            $update = $this->m_marketing->m_edit_data_marketing($id_marketing, $nm_marketing);
+            echo json_encode($update);
+        } else {
+            $foto_lama = $this->input->post('foto-lama-marketing');
             unlink('./upload/' . $foto_lama);
 
             $config['upload_path'] = "./upload/";
@@ -97,11 +121,36 @@ class Marketing extends CI_Controller
                 echo json_encode($update);
             }
             exit;
-        } else {
+        }
+
+        if ($foto_lama_marketing_header == $nm_foto_marketing_header) {
+            echo 'foto marketing';
             $id_marketing = $this->input->post('id-marketing');
             $nm_marketing = $this->input->post('nm-marketing');
             $update = $this->m_marketing->m_edit_data_marketing($id_marketing, $nm_marketing);
             echo json_encode($update);
+        } else {
+            $foto_lama_header = $this->input->post('foto-lama-header');
+            unlink('./upload/' . $foto_lama_header);
+
+            $config['upload_path'] = "./upload/";
+            $config['allowed_types'] = 'gif|jpg|png';
+            $config['encrypt_name'] = TRUE;
+
+            $this->load->library('upload', $config);
+
+            if ($this->upload->do_upload("foto-header")) {
+                $data = array('upload_data' => $this->upload->data());
+                $id_marketing = $this->input->post('id-marketing');
+                $nm_marketing = $this->input->post('nm-marketing');
+                $foto_marketing_header = $data['upload_data']['file_name'];
+                $uploadedImage = $this->upload->data();
+
+                // $this->resizeImage($uploadedImage['file_name']);
+                $update = $this->m_marketing->m_edit_data_foto_marketing_header($id_marketing, $nm_marketing, $foto_marketing_header);
+                echo json_encode($update);
+            }
+            // exit;
         }
     }
     function delete_data_marketing()
@@ -112,6 +161,48 @@ class Marketing extends CI_Controller
         $delete = $this->m_marketing->m_delete_data_marketing($id_marketing);
         echo json_encode($delete);
     }
+    function simpan_data_foto_st()
+    {
+        $config['upload_path'] = "./upload/";
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['encrypt_name'] = TRUE;
+
+        $this->load->library('upload', $config);
+
+        if ($this->upload->do_upload("foto-st")) {
+            $data = array('upload_data' => $this->upload->data());
+            $foto_st = $data['upload_data']['file_name'];
+            $uploadedImage = $this->upload->data();
+
+            $this->resizeImage($uploadedImage['file_name']);
+            $data = array(
+                'id_marketing_st' => $this->input->post('id-marketing-st'),
+                'foto_st' => $foto_st,
+            );
+            $insert = $this->m_marketing->m_simpan_data_foto_st($data);
+            echo json_encode($insert);
+        }
+    }
+    function delete_data_st()
+    {
+        // $foto_st = $this->input->post('foto-st');
+        // unlink('./upload/' . $foto_st);
+        $id_st = $this->input->post('id-st');
+        $delete = $this->m_marketing->m_delete_data_st($id_st);
+        echo json_encode($delete);
+    }
+    // function select_data_supplier()
+    // {
+    //     $supplier_id =  $this->input->post('supplier-id');
+    //     echo '<option value=""></option>';
+    //     $sql = "SELECT * FROM supplier, item_supplier WHERE item_supplier.supplier_id = supplier.id_supplier AND supplier.nm_supplier = '$supplier_id'";
+    //     $query = $this->db->query($sql);
+    //     if ($query->num_rows() > 0) {
+    //         foreach ($query->result() as $data) {
+    //             echo '<option value="' . $data->nm_brg . '" data-id-item-supplier="' . $data->id_item_supplier . '" data-hrg-brg="' . $data->hrg_brg . '" data-satuan-brg="' . $data->satuan_brg . '">' . $data->nm_brg . '</option>';
+    //         }
+    //     }
+    // }
     function resizeImage($filename)
     {
         $source_path = 'upload/' . $filename;
@@ -124,6 +215,29 @@ class Marketing extends CI_Controller
             'quality' => '50%',
             'width' => 'auto',
             'height' => '2560',
+        ];
+        $this->load->library('image_lib', $config);
+        if (!$this->image_lib->resize()) {
+            return [
+                'status' => 'error compress',
+                'message' => $this->image_lib->display_errors()
+            ];
+        }
+        $this->image_lib->clear();
+        return 1;
+    }
+    function resizeImage_st($filename)
+    {
+        $source_path = 'upload/' . $filename;
+        $target_path = 'upload/';
+        $config = [
+            'image_library' => 'gd2',
+            'source_image' => $source_path,
+            'new_image' => $target_path,
+            'maintain_ratio' => TRUE,
+            'quality' => '50%',
+            'width' => '4501',
+            'height' => '4051',
         ];
         $this->load->library('image_lib', $config);
         if (!$this->image_lib->resize()) {

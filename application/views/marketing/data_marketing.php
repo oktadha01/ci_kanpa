@@ -57,10 +57,10 @@
                                     <a href="#" class="btn-add-marketperum" data-id-marketing="<?php echo $data->id_marketing; ?>">
                                         <i class="fa-regular fa-square-plus"></i>
                                     </a>
-                                    <a href="#" class="btn-edit" data-id-marketing="<?php echo $data->id_marketing; ?>" data-nm-marketing="<?php echo $data->nm_marketing; ?>" data-foto-marketing="<?php echo $data->foto_marketing; ?>">
+                                    <a href="#" class="btn-edit" data-id-marketing="<?php echo $data->id_marketing; ?>" data-nm-marketing="<?php echo $data->nm_marketing; ?>" data-foto-marketing="<?php echo $data->foto_marketing; ?>" data-foto-header="<?php echo $data->foto_header; ?>">
                                         <i class="fa-solid fa-pen"></i>
                                     </a>
-                                    <a href="#" class="btn-delete" data-id-marketing="<?php echo $data->id_marketing; ?>" data-foto-marketing="<?php echo $data->foto_marketing; ?>">
+                                    <a href="#" class="btn-delete" data-id-marketing="<?php echo $data->id_marketing; ?>" data-foto-marketing="<?php echo $data->foto_marketing; ?>" data-foto-header="<?php echo $data->foto_header; ?>">
                                         <i class="fa-regular fa-trash-can"></i>
                                     </a>
                                 </td>
@@ -117,11 +117,14 @@
         $('.btn-simpan-perum').val('edit');
         $('#nm-marketing').val($(this).data('nm-marketing'));
         $('#id-marketing').val($(this).data('id-marketing'));
-        $('#foto-lama').val($(this).data('foto-marketing'));
+        $('#foto-lama, #nm-foto-marketing').val($(this).data('foto-marketing'));
+        $('#foto-lama-header, #nm-foto-marketing-header').val($(this).data('foto-header'));
         $('#preview-foto-marketing').attr({
             src: '<?php echo base_url('upload'); ?>/' + $(this).data('foto-marketing')
         });
-
+        $('#preview-foto-marketing-header').attr({
+            src: '<?php echo base_url('upload'); ?>/' + $(this).data('foto-header')
+        });
     });
 
     $('.btn-delete-markerperum').click(function() {

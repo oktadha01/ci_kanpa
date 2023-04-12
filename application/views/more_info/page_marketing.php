@@ -1,4 +1,7 @@
 <style>
+    body{
+        background: #111e48;
+    }
     .poster {
         position: relative;
         /* text-align: center; */
@@ -355,25 +358,25 @@ foreach ($data_detail_cs as $data) :
             <div class="container">
                 <div class="row overflow-grid" style="margin: 0px 2px;">
                     <?php
-                    foreach ($data_foto_st as $data) :
+                    foreach ($data_foto_st as $foto) {
                     ?>
                         <?php
-                        if ($data->id_marketing_st == $id_marketing) {
+                        if ($foto->id_marketing_st == $id_marketing) {
                         ?>
                             <div class="col-6 p-3">
-                                <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_st; ?>" class="img-grid-news img-fluid">
+                                <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_st; ?>" class="img-grid-news img-fluid">
                             </div>
                         <?php
                         } else {
                         ?>
                             <div class="col-6 p-3">
-                                <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_st; ?>" class="img-grid-news img-fluid">
+                                <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_st; ?>" class="img-grid-news img-fluid">
                             </div>
                         <?php
                         }
                         ?>
                     <?php
-                    endforeach;
+                    }
                     ?>
                 </div>
                 <div class="row text-light mt-3">

@@ -60,7 +60,7 @@ class M_berita extends CI_Model
             ->delete('foto_berita');
         return $delete;
     }
-    function m_simpan_data_berita($judul_berita, $tgl_berita, $foto_berita, $tag_berita)
+    function m_simpan_data_berita($judul_berita, $tgl_berita, $tag_berita, $foto_berita)
     {
         $data = array(
             'judul_berita' => $judul_berita,
@@ -79,7 +79,7 @@ class M_berita extends CI_Model
             ->update('data_berita');
         return $update;
     }
-    function m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $foto_berita, $tag_berita)
+    function m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $tag_berita, $foto_berita)
     {
         $update = $this->db->set('judul_berita', $judul_berita)
             ->set('tgl_berita', $tgl_berita)

@@ -331,7 +331,7 @@ foreach ($data_detail_cs as $data) :
                     </div>
                     <h5 class="font-monospace">Saya sebagai</h5>
                     <!-- <br> -->
-                    <h5 class="font-monospace">Sales Mareketing yang siap membantu </h5>
+                    <h5 class="font-monospace">Sales Marketing yang siap membantu </h5>
                     <!-- <br> -->
                     <h5 class="font-monospace"> untuk memberikan informasi perumahan </h5>
                     <!-- <br> -->
@@ -405,10 +405,10 @@ foreach ($data_detail_cs as $data) :
                         <li>Memberikan pelayanan maksimal kepada pelanggan&nbsp;</li>
                         <li>Memberikan Kawasan yang ramah lingkungan</li>
                         <li>Performa kualitas bangunan yang baik</li>
-                        <li>Dengan harga cicilan rumah yang tergangkau</li>
+                        <li>Dengan harga cicilan rumah yang terjangkau</li>
                         <li>Bangunan modern dan berkualitas tinggi</li>
                         <li>Legalitas dan perizinan aman dan sesuai peraturan</li>
-                        <li>Fasilitan lengkap untuk menunjang kebutuhan hidup</li>
+                        <li>Fasilitas lengkap untuk menunjang kebutuhan hidup</li>
                         <li>Dukungan KPR dan banyak perbankan</li>
                         <li>Pengembangan di lingkungan asri dan
                             hijau, dengan udara yang mendukung kesehatan dan kenyamanan hidup</li>

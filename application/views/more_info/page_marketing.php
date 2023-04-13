@@ -1,7 +1,8 @@
 <style>
-    body{
+    body {
         background: #111e48;
     }
+
     .poster {
         position: relative;
         /* text-align: center; */
@@ -369,6 +370,21 @@ foreach ($data_detail_cs as $data) :
                         <?php
                         } else {
                         ?>
+                        <?php
+                        }
+                        ?>
+                    <?php
+                    }
+                    ?>
+                    <?php
+                    foreach ($data_foto_st as $foto) {
+                    ?>
+                        <?php
+                        if ($foto->id_marketing_st == $id_marketing) {
+                        ?>
+                        <?php
+                        } else {
+                        ?>
                             <div class="col-6 p-3">
                                 <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_st; ?>" class="img-grid-news img-fluid">
                             </div>
@@ -433,3 +449,15 @@ foreach ($data_detail_cs as $data) :
 <?php
 endforeach;
 ?>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YN9QR6KJ0J"></script>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-YN9QR6KJ0J');
+</script>

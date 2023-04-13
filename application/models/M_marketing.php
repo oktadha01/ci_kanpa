@@ -21,7 +21,7 @@ class M_marketing extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('serah_terima');
-        $this->db->order_by('id_st', 'desc');
+        // $this->db->order_by('id_st', 'desc');
         $query = $this->db->get();
         return $query->result();
     }

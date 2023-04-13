@@ -66,8 +66,8 @@
                 }
             });
         } else if (action == 'edit') {
-            alert('edit');
-            alert($('#nm-foto-marketing').val() + $('#foto-lama').val())
+            // alert('edit');
+            // alert($('#nm-foto-marketing').val() + $('#foto-lama').val())
             const marketing = $('#file-foto-marketing').prop('files')[0];
             const foto_header = $('#file-foto-marketing-header').prop('files')[0];
             let formData = new FormData();

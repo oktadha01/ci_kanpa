@@ -88,7 +88,7 @@
         <hr>
         <div class="row">
             <div class="col">
-                <label>Pilih Perumahan</label>
+                <label>Pilih Marketing</label>
                 <select id="select-marketing" class="js-states form-control">
                     <?php
                     foreach ($data_marketing as $data) :
@@ -101,6 +101,7 @@
                         }
                     endforeach;
                     ?>
+                    <option value="0">Others</option>
                 </select>
                 <div class="form-group">
                     <label for="pilih-foto-st">Foto Serah Terima</label>

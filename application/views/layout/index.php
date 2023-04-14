@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- <title>Rumah Murah di Semarang di Bawah Rp 200 Jt Terlengkap | Kanpa.co.id</title> -->
     <title>
-
         <?php
         if (isset($_title)) {
             echo $_title;

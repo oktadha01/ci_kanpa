@@ -13,6 +13,12 @@
     background: white;
 }
 
+#main {
+    background: #cecdcd1a;
+    height: 100vh;
+    padding: 70px 10px 1px;
+}
+
 .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 37px;
     position: absolute;
@@ -791,12 +797,12 @@
         bottom: 0;
         width: 100%;
         overflow-y: scroll;
-        padding-left: 7rem;
+        /* padding-left: 7rem; */
 
     }
 
     .sidebar .sidebar__nav {
-        justify-content: space-around;
+        justify-content: flex-start;
     }
 
     .sidebar .sidebar__nav .sidebar__nav__link {

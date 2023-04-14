@@ -16,7 +16,7 @@
                             <!-- <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?>" alt="" class="img-fluid"> -->
                             <div class="row mb-2 mt-3">
                                 <div class="col">
-                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="<?php echo $data->id_berita; ?>" data-judul-berita="<?php echo $data->judul_berita; ?>" data-tgl-berita="<?php echo $data->tgl_berita; ?>" data-tag-berita="<?php echo $data->tag_berita; ?>" data-foto-berita="<?php echo $data->foto_berita; ?>"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
+                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="<?php echo $data->id_berita; ?>" data-judul-berita="<?php echo $data->judul_berita; ?>" data-tgl-berita="<?php echo $data->tgl_berita; ?>" data-meta-desk="<?php echo $data->meta_desk; ?>" data-tag-berita="<?php echo $data->tag_berita; ?>" data-foto-berita="<?php echo $data->foto_berita; ?>"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
                                 </div>
                             </div>
                             <div id="berita-data<?php echo $data->id_berita; ?>" class="berita"></div>
@@ -111,6 +111,7 @@
         $('#id-berita').val($(this).data('id-berita'));
         $('#judul-berita').val($(this).data('judul-berita'));
         $('#tgl-berita').val($(this).data('tgl-berita'));
+        $('#meta-desk').val($(this).data('meta-desk'));
         $('#foto-berita').val($(this).data('foto-berita'));
         $('#foto-lama').val($(this).data('foto-berita'));
         $('#select-tag').val($(this).data('tag-berita'));
@@ -118,6 +119,8 @@
         $('#preview-foto-berita').attr({
             src: '<?php echo base_url('upload'); ?>/' + $(this).data('foto-berita')
         });
+        const element = document.getElementById("page");
+        element.scrollIntoView();
     });
 
     // $('.btn-delete').click(function(e) {

@@ -152,9 +152,14 @@
             <div class="col-lg-6 col-md-6 col-12 mt-2">
                 <label for="nm-perum">Judul Berita</label>
                 <div class="form-group">
-
                     <input type="text" id="judul-berita" class="form-control" placeholder="Judul Berita ..." autocomplete="off" required="true">
                 </div>
+
+                <label for="nm-perum">Meta deskripsi</label>
+                <div class="form-group">
+                    <input type="text" id="meta-desk" class="form-control" placeholder="Deskripsi ..." autocomplete="off" required="true">
+                </div>
+
                 <label>Tgl terbit Berita</label>
                 <div class="form-group">
                     <div class="input-group">

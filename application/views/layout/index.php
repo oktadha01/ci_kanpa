@@ -20,10 +20,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <!-- Meta untuk SEO -->
-    <!-- <meta name="keywords" content="<?php echo $keywords; ?>">
-    <meta name="description" content="<?php echo $description; ?>"> -->
-    <meta name="description" content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat, perumahan subsidi griya kanzu kleco kaliabu, perumahan subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan subsidi madiun, rumah subsidi klecorejo kaliabu">
-    <meta name="keywords" content="PT Kanpa, rumah murah di semarang, jual rumah semarang, jual rumah ungaran, jual rumah, jual rumah gunung pati, perumahan ungaran, rumah murah ungaran,perumahan murah semarang, perumahan bukit permai ungaran, perumahan murah subsidi, kpr, griya kautsar ungaran, bukit permai 2 ungaran, Perumahan subsidi griya kanzu kleco kaliabu, rumah subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan klecorejo kaliabu">
+    <?php
+    if (isset($_description)) {
+    ?>
+        <meta name="description" content="<?php echo $_description; ?>">
+    <?php
+    } else {
+    ?>
+        <meta name="description" content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat, perumahan subsidi griya kanzu kleco kaliabu, perumahan subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan subsidi madiun, rumah subsidi klecorejo kaliabu">
+        <meta name="keywords" content="PT Kanpa, rumah murah di semarang, jual rumah semarang, jual rumah ungaran, jual rumah, jual rumah gunung pati, perumahan ungaran, rumah murah ungaran,perumahan murah semarang, perumahan bukit permai ungaran, perumahan murah subsidi, kpr, griya kautsar ungaran, bukit permai 2 ungaran, Perumahan subsidi griya kanzu kleco kaliabu, rumah subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan klecorejo kaliabu">
+    <?php
+    }
+    ?>
+
     <meta name="robots" content="INDEX,FOLLOW">
 
 

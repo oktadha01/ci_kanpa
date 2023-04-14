@@ -7,6 +7,7 @@ class Artikel extends CI_Controller
 	public $m_artikel;
 	public $input;
 	public $uri;
+	public $db;
 	function __construct()
 	{
 		parent::__construct();
@@ -32,7 +33,17 @@ class Artikel extends CI_Controller
 		$tittle = $this->uri->segment(3);
 		$judul_berita = preg_replace("![^a-z0-9]+!i", " ", $tittle);
 
+		$sql = "SELECT * FROM berita WHERE judul_berita='$judul_berita'";
+		$query = $this->db->query($sql);
+		if ($query->num_rows() > 0) {
+			foreach ($query->result() as $meta) {
+				$meta_desk = $meta->meta_desk;
+			}
+		}
+
 		$data['_title'] =  $judul_berita;
+		$data['_description'] = 'PT Kanpa ' . $judul_berita . ' - ' . $meta_desk;
+
 		$data['_script'] = 'artikel/artikel_js';
 		$data['_view'] = 'artikel/page_artikel';
 		$data['data_tag'] = $this->m_artikel->m_data_tag();

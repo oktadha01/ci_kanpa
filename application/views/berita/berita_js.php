@@ -81,6 +81,8 @@
     });
     $('.btn-simpan-berita').click(function(e) {
         var action = $('.btn-simpan-berita').val();
+        // var meta_desk = 'PT Kanpa ' + $('#judul-berita').val() + ' - ' + $('#meta-desk').val()
+        // alert(meta_desk)
         const foto_berita = $('#file-foto-berita').prop('files')[0];
         let formData = new FormData();
         formData.append('id-berita', $('#id-berita').val());
@@ -88,12 +90,11 @@
         formData.append('text-berita', $("#code_preview0").code());
         formData.append('ceklis-ubah-foto-berita', $('#ceklis-ubah-foto-berita').val());
         formData.append('judul-berita', $('#judul-berita').val());
+        formData.append('meta-desk', $('#meta-desk').val());
         formData.append('tgl-berita', $('#tgl-berita').val());
         formData.append('tag-berita', $('#tag-berita').val());
-        // formData.append('desk-berita', $('#desk-berita').val());
         formData.append('foto-berita', foto_berita);
         if (action == 'simpan') {
-            alert('ya');
             $.ajax({
                 type: 'POST',
                 url: "<?php echo site_url('berita/simpan_data_berita'); ?>",
@@ -103,9 +104,9 @@
                 contentType: false,
                 success: function(data) {
                     alert('berhasil')
-                    // form_default();
                     load_data_berita();
                     select_tag();
+                    form_default();
                 },
                 error: function() {
                     alert("Data Gagal Diupload");
@@ -155,9 +156,9 @@
                 contentType: false,
                 success: function(data) {
                     // alert('berhasil')
-                    form_default();
                     load_data_berita();
                     select_tag();
+                    form_default();
                 },
                 error: function() {
                     alert("Data Gagal Diupload");

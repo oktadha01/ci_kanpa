@@ -110,12 +110,13 @@ class Berita extends CI_Controller
             $data = array('upload_data' => $this->upload->data());
             $judul_berita = $this->input->post('judul-berita');
             $tgl_berita = $this->input->post('tgl-berita');
+            $meta_desk = $this->input->post('meta-desk');
             $tag_berita = $this->input->post('tag-berita');
             $foto_berita = $data['upload_data']['file_name'];
             $uploadedImage = $this->upload->data();
 
             $this->resizeImage($uploadedImage['file_name']);
-            $insert = $this->m_berita->m_simpan_data_berita($judul_berita, $tgl_berita, $tag_berita, $foto_berita);
+            $insert = $this->m_berita->m_simpan_data_berita($judul_berita, $tgl_berita, $meta_desk, $tag_berita,  $foto_berita);
             echo json_encode($insert);
         }
         exit;
@@ -138,12 +139,13 @@ class Berita extends CI_Controller
                 $id_berita = $this->input->post('id-berita');
                 $judul_berita = $this->input->post('judul-berita');
                 $tgl_berita = $this->input->post('tgl-berita');
+                $meta_desk = $this->input->post('meta-desk');
                 $tag_berita = $this->input->post('tag-berita');
                 $foto_berita = $data['upload_data']['file_name'];
                 $uploadedImage = $this->upload->data();
 
                 $this->resizeImage($uploadedImage['file_name']);
-                $update = $this->m_berita->m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $tag_berita, $foto_berita);
+                $update = $this->m_berita->m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $meta_desk, $tag_berita, $foto_berita);
                 echo json_encode($update);
             }
             exit;
@@ -151,8 +153,9 @@ class Berita extends CI_Controller
             $id_berita = $this->input->post('id-berita');
             $judul_berita = $this->input->post('judul-berita');
             $tgl_berita = $this->input->post('tgl-berita');
+            $meta_desk = $this->input->post('meta-desk');
             $tag_berita = $this->input->post('tag-berita');
-            $update = $this->m_berita->m_edit_berita($id_berita, $judul_berita, $tgl_berita, $tag_berita);
+            $update = $this->m_berita->m_edit_berita($id_berita, $judul_berita, $tgl_berita, $meta_desk, $tag_berita);
             echo json_encode($update);
         }
     }

@@ -141,32 +141,41 @@ foreach ($data_artikel_berita as $data) {
 ?>
     <div class="border-content">
         <div id="galeri<?php echo $id_data_berita; ?>" class=" gallery__content--flow">
-            <?php
-            foreach ($data_foto_berita as $foto) :
-                if ($id_data_berita == $foto->data_berita_id) {
+            <div class="row">
 
-            ?>
-                    <figure>
-                        <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->file_foto_berita; ?>" class="img-grid-news" alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. " title="Photo by Giacomo Lucarini for Unsplash">
+                <?php
+                foreach ($data_foto_berita as $foto) :
+                    if ($id_data_berita == $foto->data_berita_id) {
+
+                ?>
+                        <div class="col-3">
+
+                            <figure>
+                                <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->file_foto_berita; ?>" class="img-grid-news" alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. " title="Photo by Giacomo Lucarini for Unsplash">
+                                <figcaption class="header__caption" role="presentation">
+                                    <h2 class="title title--secondary">
+                                        <button type="button" id="" data-id-foto-berita="<?php echo $foto->id_foto_berita; ?>" data-file-foto-berita="<?php echo $foto->file_foto_berita; ?>" class="btn-hapus-foto-berita-other browse btn btn-danger">Hapus Foto</button>
+                                    </h2>
+                                </figcaption>
+                            </figure>
+                        </div>
+                <?php
+                    } else {
+                    }
+                endforeach;
+                ?>
+                <div class="col-3">
+
+                    <figure class="pilih-berita-other" data-id-data-berita="<?php echo $data->id_data_berita; ?>">
+                        <img id="preview-foto-berita-other<?php echo $data->id_data_berita; ?>" src="https://media.istockphoto.com/id/1365197728/id/vektor/tambahkan-plus-tombol-cross-round-medis-ikon-vektor-3d-gaya-kartun-minimal.jpg?s=612x612&w=0&k=20&c=NKmTHM4TqtP5AuSrB779A6iMvktncz9t33fspLQWxlQ=" class="img-grid-news">
                         <figcaption class="header__caption" role="presentation">
                             <h2 class="title title--secondary">
-                                <button type="button" id="" data-id-foto-berita="<?php echo $foto->id_foto_berita; ?>" data-file-foto-berita="<?php echo $foto->file_foto_berita; ?>" class="btn-hapus-foto-berita-other browse btn btn-danger">Hapus Foto</button>
+                                <button type="button" id="" class="pilih-berita-other browse btn btn-info">Pilih Foto</button>
                             </h2>
                         </figcaption>
                     </figure>
-            <?php
-                } else {
-                }
-            endforeach;
-            ?>
-            <figure class="pilih-berita-other" data-id-data-berita="<?php echo $data->id_data_berita; ?>">
-                <img id="preview-foto-berita-other<?php echo $data->id_data_berita; ?>" src="https://media.istockphoto.com/id/1365197728/id/vektor/tambahkan-plus-tombol-cross-round-medis-ikon-vektor-3d-gaya-kartun-minimal.jpg?s=612x612&w=0&k=20&c=NKmTHM4TqtP5AuSrB779A6iMvktncz9t33fspLQWxlQ=" class="img-grid-news">
-                <figcaption class="header__caption" role="presentation">
-                    <h2 class="title title--secondary">
-                        <button type="button" id="" class="pilih-berita-other browse btn btn-info">Pilih Foto</button>
-                    </h2>
-                </figcaption>
-            </figure>
+                </div>
+            </div>
         </div>
         <!-- <img src="<?php echo base_url('upload'); ?>/0e1f5745c0dd17b35cbdff57a2a397e3.jpg" class="img-fluid" alt=""> -->
         <div class="row">
@@ -192,7 +201,9 @@ foreach ($data_artikel_berita as $data) {
 ?>
 <div class="row mt-2">
     <div class="col">
+        <!-- <a href="#page"> -->
         <button type="button" class="btn-tambah-catatan col-12 btn btn-sm btn-outline-info"><i class="fa-regular fa-pen-to-square"></i> Tambah Catatan</button>
+        <!-- </a> -->
     </div>
 </div>
 <script>
@@ -248,6 +259,8 @@ foreach ($data_artikel_berita as $data) {
     $('.btn-tambah-catatan').click(function(e) {
         form_default();
         text_editor();
+        const element = document.getElementById("page");
+        element.scrollIntoView();
     });
 
     function text_editor() {
@@ -262,7 +275,7 @@ foreach ($data_artikel_berita as $data) {
         $('.btn-simpan-berita').val('edit-content');
         $('#id-data-berita').val($(this).data('id-data-berita'));
         $("#code_preview0").code($('.text-berita' + $(this).data('id-data-berita')).code());
-        const element = document.getElementById("content-berita");
+        const element = document.getElementById("page");
         element.scrollIntoView();
     });
     $('.btn-hapus-foto-berita-other').click(function() {

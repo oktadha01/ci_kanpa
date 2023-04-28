@@ -138,7 +138,29 @@
 <?php
 foreach ($data_artikel_berita as $data) {
     $id_data_berita = $data->id_data_berita;
+    $berita_id = $data->berita_id
 ?>
+
+    <div class="row">
+        <div class="col-2">
+            <figure id="data-meta-foto" class="pilih-foto-meta-berita">
+                <figcaption class="header__caption" role="presentation">
+                    <h2 class="title title--secondary">
+                        <button type="button" id="" class="pilih-foto-meta-berita browse btn btn-info">Pilih Foto</button>
+                    </h2>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="form-group" hidden>
+        <div class="input-group">
+            <input type="file" id="file-foto-meta-berita" name="berita" class="file-berita-meta" value="" hidden>
+            <input type="text" class="form-control" placeholder="Upload Foto" id="nm-foto-meta-berita">
+            <div class="input-group-append">
+                <button type="button" id="" class="pilih-berita-meta browse btn btn-dark">Pilih Foto</button>
+            </div>
+        </div>
+    </div>
     <div class="border-content">
         <div id="galeri<?php echo $id_data_berita; ?>" class=" gallery__content--flow">
             <div class="row">
@@ -206,6 +228,7 @@ foreach ($data_artikel_berita as $data) {
         <!-- </a> -->
     </div>
 </div>
+<input type="text" id="meta-foto" value="">
 <script>
     $('.btn-hapus-catatan').click(function(e) {
         $('#id-data-berita').val($(this).data('id-data-berita'));
@@ -318,5 +341,40 @@ foreach ($data_artikel_berita as $data) {
         };
         // read the image file as a data URL.
         reader.readAsDataURL(this.files[0]);
+    });
+
+    $('#file-foto-meta-berita').change(function(e) {
+        // var id_data_berita = $('#id-data-berita').val();
+        // alert(id_data_berita)
+        var fileName = e.target.files[0].name;
+        $("#nm-foto-meta-berita").val(fileName);
+
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            // get loaded data and render thumbnail.
+            document.getElementById("preview-foto-meta-berita").src = e.target.result;
+        };
+        // read the image file as a data URL.
+        reader.readAsDataURL(this.files[0]);
+        const foto_meta_berita = $('#file-foto-meta-berita').prop('files')[0];
+        let formData = new FormData();
+        formData.append('id-berita', $('#id-berita').val());
+        formData.append('meta-foto', foto_meta_berita);
+        $.ajax({
+            type: 'POST',
+            url: "<?php echo site_url('berita/add_meta_foto') ?>",
+            data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(msg) {
+                alert('Foto berhasil di hapus');
+                // load_data_content_berita();
+
+            },
+            error: function() {
+                alert("Data Gagal Diupload");
+            }
+        });
     });
 </script>

@@ -13,11 +13,11 @@
     background: white;
 }
 
-#main {
+/* #main {
     background: #cecdcd1a;
     height: 100vh;
     padding: 70px 10px 1px;
-}
+} */
 
 .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 37px;

@@ -28,6 +28,7 @@ class Berita extends CI_Controller
     {
         $id_berita = $this->input->post('id-berita');
 
+        $data['data_berita'] = $this->m_berita->m_data_berita();
         $data['data_artikel_berita'] = $this->m_berita->m_data_artikel_berita($id_berita);
         $data['data_foto_berita'] = $this->m_berita->m_data_foto_berita($id_berita);
         $data['_view'] = 'berita/data_artikel_berita';
@@ -100,6 +101,10 @@ class Berita extends CI_Controller
     }
     function simpan_data_berita()
     {
+        $judul_berita = $this->input->post('judul-berita');
+        $tgl_berita = $this->input->post('tgl-berita');
+        $meta_desk = $this->input->post('meta-desk');
+        $tag_berita = $this->input->post('tag-berita');
         $config['upload_path'] = "./upload/";
         $config['allowed_types'] = 'gif|jpg|png';
         $config['encrypt_name'] = TRUE;
@@ -108,18 +113,13 @@ class Berita extends CI_Controller
 
         if ($this->upload->do_upload("foto-berita")) {
             $data = array('upload_data' => $this->upload->data());
-            $judul_berita = $this->input->post('judul-berita');
-            $tgl_berita = $this->input->post('tgl-berita');
-            $meta_desk = $this->input->post('meta-desk');
-            $tag_berita = $this->input->post('tag-berita');
             $foto_berita = $data['upload_data']['file_name'];
             $uploadedImage = $this->upload->data();
-
             $this->resizeImage($uploadedImage['file_name']);
-            $insert = $this->m_berita->m_simpan_data_berita($judul_berita, $tgl_berita, $meta_desk, $tag_berita,  $foto_berita);
-            echo json_encode($insert);
         }
-        exit;
+
+        $insert = $this->m_berita->m_simpan_data_berita($judul_berita, $tgl_berita, $meta_desk, $tag_berita,  $foto_berita);
+        echo json_encode($insert);
     }
     function edit_data_berita()
     {
@@ -128,6 +128,11 @@ class Berita extends CI_Controller
             $foto_lama = $this->input->post('foto-lama');
             unlink('./upload/' . $foto_lama);
 
+            $id_berita = $this->input->post('id-berita');
+            $judul_berita = $this->input->post('judul-berita');
+            $tgl_berita = $this->input->post('tgl-berita');
+            $meta_desk = $this->input->post('meta-desk');
+            $tag_berita = $this->input->post('tag-berita');
             $config['upload_path'] = "./upload/";
             $config['allowed_types'] = 'gif|jpg|png';
             $config['encrypt_name'] = TRUE;
@@ -136,18 +141,14 @@ class Berita extends CI_Controller
 
             if ($this->upload->do_upload("foto-berita")) {
                 $data = array('upload_data' => $this->upload->data());
-                $id_berita = $this->input->post('id-berita');
-                $judul_berita = $this->input->post('judul-berita');
-                $tgl_berita = $this->input->post('tgl-berita');
-                $meta_desk = $this->input->post('meta-desk');
-                $tag_berita = $this->input->post('tag-berita');
                 $foto_berita = $data['upload_data']['file_name'];
                 $uploadedImage = $this->upload->data();
-
-                $this->resizeImage($uploadedImage['file_name']);
-                $update = $this->m_berita->m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $meta_desk, $tag_berita, $foto_berita);
-                echo json_encode($update);
             }
+
+            $this->resizeImage($uploadedImage['file_name']);
+
+            $update = $this->m_berita->m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $meta_desk, $tag_berita, $foto_berita);
+            echo json_encode($update);
             exit;
         } else {
             $id_berita = $this->input->post('id-berita');
@@ -158,6 +159,37 @@ class Berita extends CI_Controller
             $update = $this->m_berita->m_edit_berita($id_berita, $judul_berita, $tgl_berita, $meta_desk, $tag_berita);
             echo json_encode($update);
         }
+    }
+    function add_meta_foto()
+    {
+
+        $id_berita = $this->input->post('id-berita');
+        $sql = "SELECT meta_foto, id_berita FROM berita WHERE id_berita = '$id_berita'";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $meta) {
+                if($meta->meta_foto == ''){
+
+                }else{
+                    unlink('./upload/' . $meta->meta_foto);
+                }
+            }
+        }
+        $config['upload_path'] = "./upload/";
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['encrypt_name'] = TRUE;
+
+        $this->load->library('upload', $config);
+
+        if ($this->upload->do_upload("meta-foto")) {
+            $data = array('upload_data' => $this->upload->data());
+            $meta_foto = $data['upload_data']['file_name'];
+            $uploadedImage = $this->upload->data();
+        }
+
+        $this->resizeImage_meta($uploadedImage['file_name']);
+        $update = $this->m_berita->m_add_meta_foto($id_berita, $meta_foto);
+        echo json_encode($update);
     }
     function delete_data_berita()
     {
@@ -195,8 +227,8 @@ class Berita extends CI_Controller
             'new_image' => $target_path,
             'maintain_ratio' => TRUE,
             'quality' => '50%',
-            'width' => 'auto',
-            'height' => '2560',
+            'width' => '1440',
+            'height' => 'auto',
         ];
         $this->load->library('image_lib', $config);
         if (!$this->image_lib->resize()) {
@@ -206,8 +238,33 @@ class Berita extends CI_Controller
             ];
         }
         $this->image_lib->clear();
-        return 1;
+        // return 1;
     }
+
+    function resizeImage_meta($filename)
+    {
+        $source_path = 'upload/' . $filename;
+        $target_path = 'upload/';
+        $config = [
+            'image_library' => 'gd2',
+            'source_image' => $source_path,
+            'new_image' => $target_path,
+            'maintain_ratio' => TRUE,
+            'quality' => '70%',
+            'width' => '140',
+            'height' => '140',
+        ];
+        $this->load->library('image_lib', $config);
+        if (!$this->image_lib->resize()) {
+            return [
+                'status' => 'error compress',
+                'message' => $this->image_lib->display_errors()
+            ];
+        }
+        $this->image_lib->clear();
+        // return 1;
+    }
+
     function select_data_tag()
     {
         echo '<option value=""></option>';
@@ -219,5 +276,20 @@ class Berita extends CI_Controller
             }
         }
         echo '<option value="add tag">Add Tag</option>';
+    }
+    function data_meta_foto()
+    {
+        $id_berita = $this->input->post('id-berita');
+        $sql = "SELECT meta_foto, id_berita FROM berita WHERE id_berita = '$id_berita'";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $data) {
+                if ($data->meta_foto == '') {
+                    echo '<img id="preview-foto-meta-berita" src="https://media.istockphoto.com/id/1365197728/id/vektor/tambahkan-plus-tombol-cross-round-medis-ikon-vektor-3d-gaya-kartun-minimal.jpg?s=612x612&w=0&k=20&c=NKmTHM4TqtP5AuSrB779A6iMvktncz9t33fspLQWxlQ=" class="img-grid-news">';
+                } else {
+                    echo '<img id="preview-foto-meta-berita" src="' . base_url("upload") . "/" . $data->meta_foto . '" class="img-grid-news">';
+                }
+            }
+        }
     }
 }

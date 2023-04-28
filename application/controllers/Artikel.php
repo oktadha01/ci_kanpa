@@ -38,10 +38,13 @@ class Artikel extends CI_Controller
 		if ($query->num_rows() > 0) {
 			foreach ($query->result() as $meta) {
 				$meta_desk = $meta->meta_desk;
+				$meta_foto = $meta->meta_foto;
 			}
 		}
 
 		$data['_title'] =  $judul_berita;
+		$data['_metafoto'] =  $meta_foto;
+
 		$data['_description'] = 'PT Kanpa ' . $judul_berita . ' - ' . $meta_desk;
 
 		$data['_script'] = 'artikel/artikel_js';

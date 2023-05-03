@@ -13,7 +13,8 @@
         ?>
     </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" />
+    <!-- <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" /> -->
+    <meta name="google-site-verification" content="7i4MFwx9o5niYM8_5w-uzOuKetBLUFMogGH7c0YpjHY" />
     <meta name="msvalidate.01" content="B36B1215CB3BC26AA0E6851087FF5E2F" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-dns-prefetch-control" content="on">

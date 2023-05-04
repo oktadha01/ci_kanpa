@@ -151,7 +151,7 @@
                     // echo $tittle;
                     $nm = preg_replace("![^a-z0-9]+!i", " ", $tittle);
                 ?>
-                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                             <?php
                             $sql = "SELECT foto_tipe, id_tipe, promo, luas_bangunan, luas_tanah FROM foto, tipe WHERE foto.id_foto_tipe=tipe.id_tipe AND tipe.id_tipe_perum = $id_perum AND foto.label_foto='display' ORDER BY  RAND() limit 1";
@@ -286,7 +286,7 @@
                     $judul_berita = $data->judul_berita;
                     $tittle_news = preg_replace("![^a-z0-9]+!i", "-", $judul_berita);
                 ?>
-                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>00">
+                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>">
                         <div class="border-radius">
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-4">

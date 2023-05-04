@@ -81,10 +81,7 @@
     });
     $('.btn-simpan-berita').click(function(e) {
         var action = $('.btn-simpan-berita').val();
-        // var meta_desk = 'PT Kanpa ' + $('#judul-berita').val() + ' - ' + $('#meta-desk').val()
-        // alert(meta_desk)
         const foto_berita = $('#file-foto-berita').prop('files')[0];
-        const meta_foto = $('#file-foto-berita').prop('files')[0];
         let formData = new FormData();
         formData.append('id-berita', $('#id-berita').val());
         formData.append('id-data-berita', $('#id-data-berita').val());
@@ -95,8 +92,6 @@
         formData.append('tgl-berita', $('#tgl-berita').val());
         formData.append('tag-berita', $('#tag-berita').val());
         formData.append('foto-berita', foto_berita);
-        formData.append('meta-foto', meta_foto);
-        formData.append('meta-foto-lama', $('#meta-foto').val());
         formData.append('foto-lama', $('#foto-lama').val());
         if (action == 'simpan') {
             $.ajax({

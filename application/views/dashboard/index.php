@@ -161,7 +161,7 @@
                             ?>
                                     <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?>">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class=" size-img-dash img-fluid" alt="">
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" alt="">
 
                                             <div class="bottom-right promo"><?php echo $foto->promo; ?></div>
                                         </div>
@@ -292,7 +292,7 @@
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <div class="form-group">
                                         <a class="text-dark add-view-news" href="<?php echo base_url('Artikel'); ?>/page/<?php echo $tittle_news; ?>" data-id-berita="<?php echo $data->id_berita; ?>">
-                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?>" class="img-fluid p-1 border-radius img-berita" data-id-berita="<?php echo $data->id_berita; ?>" alt="red sample">
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?> 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="<?php echo $data->id_berita; ?>" alt="red sample">
                                         </a>
                                     </div>
                                 </div>
@@ -331,27 +331,6 @@
             </div><!-- End Google Maps -->
         </div>
     </section><!-- End About Section -->
-    <!-- <div class="wafixed cards">
-        <div class="card-user">
-            <div class="content">
-                <?php
-                foreach ($detail_marketing as $data) {
-                ?>
-
-                    <div class="img"><img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_marketing; ?>"></div>
-                    <div class="details">
-                        <span class="name font-serif">Contac Us</span>
-                        <p class="font-serif"><?php echo $data->nm_marketing; ?></p>
-                    </div>
-                <?php
-                }
-                ?>
-            </div>
-            <a href="#" class="wa">
-                <i class="fa-brands fa-whatsapp" style="font-size: 33px;"></i>
-            </a>
-        </div>
-    </div> -->
 </main>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YN9QR6KJ0J"></script>

@@ -16,6 +16,7 @@ class Dashboard extends CI_Controller
 	{
 
 		$data['_title'] = 'Rumah Murah di Semarang di Bawah Rp 200 Jt Terlengkap | Kanpa.co.id';
+		$data['$_description'] = 'PT Kanpa bergerak di bidang properti sejak tahun 2002. saat ini tersedia di ungaran, semarang. sukoharjo, klaten, kabupaten madiun. Kualitas bagus harga terjangkau. Buktikan !';
 		$data['_script'] = 'dashboard/index_js';
 		$data['_view'] = 'dashboard/index';
 		$data['data_foto_slide'] = $this->m_dashboard->m_data_fotoslide();

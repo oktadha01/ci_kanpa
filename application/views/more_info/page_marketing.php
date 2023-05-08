@@ -318,7 +318,7 @@ foreach ($data_detail_cs as $data) :
             <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_header; ?>" alt="" class="img-fluid">
             <!-- <img src="<?php echo base_url('upload'); ?>/restuuu.jpg " alt="" class="img-fluid"> -->
             <div class="top-left">
-                <span class="font-cursive">Mimpi Rumah Menjadi Kenyataan</span>
+                <span class="font-cursive">Wujudkan Rumah Impian Anda Menjadi kenyataan</span>
                 <br>
                 <span class="text-bold">Selamat Datang</span>
                 <br>

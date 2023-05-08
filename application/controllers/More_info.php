@@ -36,9 +36,12 @@ class More_info extends CI_Controller
         if ($query->num_rows() > 0) {
             foreach ($query->result() as $perum) {
                 $id_perum = $perum->id_perum;
+                $foto_marketing = $perum->foto_marketing;
             }
         }
         $data['_title'] = 'Marketing || ' . $nm_perum . ' || ' . $nm_marketing;
+        $data['_metafoto'] = $foto_marketing;
+		$data['_description'] = 'PT Kanpa Saya sebagai Sales Marketing yang siap membantu untuk memberikan informasi perumahan yang sedang anda butuhkan.';
         $data['_script'] = 'more_info/more_info_js';
         $data['_view'] = 'more_info/page_marketing';
         $data['data_foto_st'] = $this->m_more_info->m_data_foto_st();

@@ -36,7 +36,13 @@ class More_info extends CI_Controller
         if ($query->num_rows() > 0) {
             foreach ($query->result() as $perum) {
                 $id_perum = $perum->id_perum;
-                $foto_marketing = $perum->foto_marketing;
+            }
+        }
+        $sql = "SELECT * FROM marketing WHERE nm_marketing = '$nm_marketing' ";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $marketing) {
+                $foto_marketing = $marketing->foto_marketing;
             }
         }
         $data['_title'] = 'Marketing || ' . $nm_perum . ' || ' . $nm_marketing;

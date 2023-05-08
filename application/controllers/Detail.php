@@ -25,10 +25,12 @@ class Detail extends CI_Controller
         if ($query->num_rows() > 0) {
             foreach ($query->result() as $perum) {
                 $logo = $perum->logo;
+                $meta_deskripsi = $perum->meta_deskripsi;
             }
         }
-        $data['_title'] = $nm_perum;
+        $data['_title'] = $nm_perum . ' || Type ' . $luas_bangunan . '/' . $luas_tanah;
         $data['_metafoto'] = $logo;
+		$data['_description'] = 'PT Kanpa - ' . $meta_deskripsi;
         $data['_script'] = 'detail/detail_js';
         $data['_view'] = 'detail/detail';
         $data['detail_perum'] = $this->m_detail->m_detail_perum($nm_perum);

@@ -40,7 +40,7 @@
                                 </div>
                             </td>
                             <td class="row-td-action">
-                                <a href="#" class="btn-edit" data-id-perum="<?php echo $data->id_perum; ?>" data-nm-perum="<?php echo $data->nm_perum; ?>" data-kode-perum="<?php echo $data->kode_perum; ?>" data-alamat="<?php echo $data->alamat; ?>" data-url-map="<?php echo $data->url_map; ?>" data-map="" data-deskripsi="<?php echo $data->deskripsi; ?>" data-logo="<?php echo $data->logo; ?>" data-video="<?php echo $data->video; ?>">
+                                <a href="#" class="btn-edit" data-id-perum="<?php echo $data->id_perum; ?>" data-nm-perum="<?php echo $data->nm_perum; ?>" data-kode-perum="<?php echo $data->kode_perum; ?>" data-alamat="<?php echo $data->alamat; ?>" data-url-map="<?php echo $data->url_map; ?>" data-map="" data-deskripsi="<?php echo $data->deskripsi; ?>" data-meta-deskripsi="<?php echo $data->meta_deskripsi; ?>" data-logo="<?php echo $data->logo; ?>" data-video="<?php echo $data->video; ?>">
                                     <i class="fa-solid fa-pen"></i>
                                 </a>
                                 <a href="#" class="btn-delete">
@@ -114,6 +114,7 @@
         $('#url-map').val($(this).data('url-map'));
         $('#map').val($('#map-' + $(this).data('id-perum')).val());
         $('#deskripsi').val($(this).data('deskripsi'));
+        $('#meta-deskripsi').val($(this).data('meta-deskripsi'));
         $('#logo').val($(this).data('logo'));
         $('#video').val($(this).data('video'));
         $('#logo-lama').val($(this).data('logo'));

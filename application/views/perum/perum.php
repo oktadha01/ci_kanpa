@@ -54,6 +54,14 @@
                     </div>
                 </div>
                 <div class="row">
+                    <div class="col-12">
+                        <label for="meta-deskripsi">Meta Deskripsi</label>
+                        <div class="form-group">
+                            <textarea type="text" id="meta-deskripsi" class="form-control" name="deskripsi" rows="2" placeholder="Meta Deskripsi ..." autocomplete="off" required value=""></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <div class="col-12 mt-2">
                         <div class="form-group">
                             <label for="pilih-foto-logo">Gambar logo</label>

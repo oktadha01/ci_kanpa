@@ -76,7 +76,35 @@
         $('.vr-perum').attr('hidden', true);
         var id = $(this).data('luas-bangunan');
         $('#id-' + id).removeAttr('hidden', true);
+        // $('.grid-' + id).removeAttr('hidden', true);
+        load_detail_tipe();
     });
 
-    
+    function load_detail_tipe() {
+        let formData = new FormData();
+        formData.append('nm-perum', $('#nm-perum').val());
+        formData.append('luas-bangunan', $('#luas-bangunan').val());
+        formData.append('luas-tanah', $('#luas-tanah').val());
+
+        $.ajax({
+            type: 'POST',
+            url: "<?php echo site_url('Detail/detail_tipe'); ?>",
+            data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                $('#detail-tipe').html(data);
+                // $('.filter').attr('hidden', true);
+                // $("#tipe-" + $('#luas-bangunan').val()).trigger("click").removeAttr('hidden', true);
+                // $("#display-" + $('#luas-bangunan').val()).removeAttr('hidden', true);
+                // $("#interior-" + $('#luas-bangunan').val()).removeAttr('hidden', true);
+
+
+            },
+            error: function() {
+                alert("Data Gagal Diupload");
+            }
+        });
+    }
 </script>

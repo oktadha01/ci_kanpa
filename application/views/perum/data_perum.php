@@ -5,10 +5,12 @@
             <table class="table">
                 <thead class="table__thead">
                     <tr>
+                        <th class="table__th">NO</th>
                         <th class="table__th">PERUMAHAN</th>
                         <th class="table__th">KODE</th>
                         <th class="table__th">ALAMAT</th>
                         <th class="table__th">LOGO</th>
+                        <th class="table__th">ACTION</th>
                     </tr>
                 </thead>
                 <tbody class="table__tbody">
@@ -16,6 +18,9 @@
                     foreach ($data_perum as $data) :
                     ?>
                         <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-<?php echo $data->id_perum; ?>" class="form-control order-perum" data-id-perum="<?php echo $data->id_perum; ?>" autocomplete="off" required value="<?php echo $data->order_perum; ?>">
+                            </td>
                             <td class="table-row__td">
                                 <div class="table-row__img">
                                     <img src="<?php echo base_url('upload'); ?>/<?php echo $data->logo; ?>" class="img-fluid" alt="">
@@ -29,7 +34,7 @@
                             </td>
                             <td class="table-row__td">
                                 <?php echo $data->alamat; ?>
-                                <textarea  id="map-<?php echo $data->id_perum; ?>" hidden><?php echo $data->map; ?></textarea>
+                                <textarea id="map-<?php echo $data->id_perum; ?>" hidden><?php echo $data->map; ?></textarea>
                             </td>
                             <td class="table-row__td">
                                 <div class="form-group">
@@ -121,5 +126,30 @@
         $('#preview-foto-logo').attr({
             src: '<?php echo base_url('upload'); ?>/' + $(this).data('logo')
         });
+    });
+    $('.order-perum').on('input', function() {
+        if ($('#order-perum-' + $(this).data('id-perum')).val() == ''){
+
+        }else{
+            // alert($(this).data('id-perum'));
+            let formData = new FormData();
+            formData.append('id-perum', $(this).data('id-perum'));
+            formData.append('order-perum', $('#order-perum-' + $(this).data('id-perum')).val());
+            $.ajax({
+                type: 'POST',
+                url: "<?php echo site_url('perum/move_columns'); ?>",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    load_data_perum();
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+    
+            });
+        }
     });
 </script>

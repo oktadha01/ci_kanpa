@@ -10,7 +10,7 @@ class M_perum extends CI_Model
         $this->db->select('*');
         $this->db->from('perum');
         // $this->db->where('id_perum');
-        $this->db->order_by('id_perum', 'desc');
+        $this->db->order_by('order_perum', 'asc');
         $query = $this->db->get();
         return $query->result();
     }
@@ -66,4 +66,11 @@ class M_perum extends CI_Model
             ->update('perum');
         return $update;
     }
+    
+    function m_move_columns($id_perum, $order_perum){
+        $update = $this->db->set('order_perum', $order_perum)
+            ->where('id_perum', $id_perum)
+            ->update('perum');
+        return $update;    
+     }
 }

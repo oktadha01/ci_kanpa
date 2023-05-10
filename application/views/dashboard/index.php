@@ -100,11 +100,16 @@
 </style>
 
 <main id="main">
-    <section id="home" class="pb-4 pt-5rem d-flex align-items-center">
+    <section id="home" class="pb-0 pt-5rem d-flex align-items-center">
         <div class="">
 
             <div class="testimonials-slider swiper">
                 <div class="swiper-wrapper">
+                    <!-- <div class="swiper-slide">
+                        <center>
+                            <img src="<?php echo base_url('upload'); ?>/header 1.jpg" class="img-fluid" alt="">
+                        </center>
+                    </div> -->
                     <?php
                     foreach ($data_foto_slide as $data) {
                     ?>
@@ -124,7 +129,7 @@
     </section>
     <section id="about" class=" p-0">
         <div class="container" data-aos="fade-up">
-            <div class="section-header">
+            <div class="section-header pb-0">
                 <span><span class="font-auto size-50px">A</span><span class="font-auto size-30px">bout us</span></span>
                 <p class="font-desk-service font-initial text-dark">PT Kanzu Permai Abadi merupakan perushaan yang bergerak di bidang perumahan.
                     Bermula pada tahun 2002 kami membuat kavling yang siap bangun dengan nama Bukit Asri 1 seluas 2 hektar yang terletak di Kec.

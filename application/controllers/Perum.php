@@ -109,6 +109,13 @@ class Perum extends CI_Controller
         $update = $this->m_perum->m_status_perum($id_perum, $status_perum);
         echo json_encode($update);
     }
+    function move_columns(){
+        $id_perum = $this->input->post('id-perum');
+        $order_perum = $this->input->post('order-perum');
+        $update = $this->m_perum->m_move_columns($id_perum, $order_perum);
+        echo json_encode($update);
+
+    }
     function resizeImage($filename)
     {
         $source_path = 'upload/' . $filename;

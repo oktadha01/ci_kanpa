@@ -410,9 +410,8 @@
 }
 
 .font-desk-service {
-
-    font-size: 2rem;
-    line-height: normal;
+    font-size: 1rem;
+    line-height: normal !important;
 }
 
 .font-size-title {
@@ -538,7 +537,7 @@
 
 .font-initial {
 
-    font-family: Chathura;
+    font-family: 'Poppins';
     line-height: 0.9;
     color: black;
 }
@@ -549,6 +548,21 @@
 
 .size-30px {
     font-size: 30px;
+}
+
+@media (max-width: 992px) {
+    .size-50px {
+        font-size: 30px;
+    }
+
+    .size-30px {
+        font-size: 23px;
+    }
+
+    .font-desk-service {
+        font-size: 10px !important;
+        line-height: normal !important;
+    }
 }
 
 .font-auto {

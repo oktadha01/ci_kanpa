@@ -471,63 +471,7 @@
         }
         ?>
     </section>
-    <section class="portfolio pb-0" data-aos="fade-up">
-        <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
-            <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
-
-                <ul class="portfolio-flters">
-                    <li data-filter="*" class="filter-active" hidden>All</li>
-                    <?php
-                    foreach ($detail_tipe as $data) {
-                        $id_tipe = $data->id_tipe;
-                    ?>
-                        <li id="tipe-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".grid-<?php echo $data->luas_bangunan; ?>">All</li>
-                        <li id="display-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".filter-display-<?php echo $data->luas_bangunan; ?>">Eksterior</li>
-                        <li id="interior-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".filter-interior-<?php echo $data->luas_bangunan; ?>">Interior</li>
-
-                    <?php
-                    }
-                    ?>
-                </ul><!-- End Portfolio Filters -->
-                <div class="row g-0 portfolio-container">
-                    <?php
-                    foreach ($detail_tipe as $data) {
-                        $id_tipe = $data->id_tipe;
-                    ?>
-                        <?php
-                        $sql = "SELECT * FROM foto WHERE foto.id_foto_tipe = '$id_tipe' AND label_foto in('display','interior') ORDER BY  RAND()";
-                        $query = $this->db->query($sql);
-                        if ($query->num_rows() > 0) {
-                            foreach ($query->result() as $foto) {
-                        ?>
-                                <div class="col-xxl-2 col-lg-3 col-md-4 col-4 portfolio-item filter-app grid-<?php echo $data->luas_bangunan; ?> filter-<?php echo $foto->label_foto; ?>-<?php echo $data->luas_bangunan; ?>">
-                                    <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <?php
-                                        if ($foto->label_foto == 'display') { ?>
-                                            <h4>Eksterior</h4>
-                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Eksterior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <?php
-                                        } else { ?>
-                                            <h4>Interior</h4>
-                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Interior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <?php
-                                        }
-                                        ?>
-                                        <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                                    </div>
-                                </div>
-                        <?php
-                            }
-                        }
-                        ?>
-                    <?php
-                    }
-                    ?>
-                </div>
-            </div>
-        </div>
-    </section>
+   
     <section id="" class="contact p-0 mt-5">
         <div class="" data-aos="fade-up">
             <div class="map">

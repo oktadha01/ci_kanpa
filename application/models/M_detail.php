@@ -57,6 +57,8 @@ class M_detail extends CI_Model
         $this->db->where('nm_perum', $nm_perum);
         $this->db->Join('marketperum', 'marketperum.id_marketperum = perum.id_perum');
         $this->db->Join('marketing', 'marketing.id_marketing = marketperum.idmarketing');
+        $this->db->ORDER_BY('marketing.id_marketing', 'RANDOM');
+        $this->db->LIMIT(1);
         $query = $this->db->get();
         return $query->result();
     }

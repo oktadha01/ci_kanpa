@@ -8,6 +8,7 @@ class Foto extends CI_Controller
     public $input;
     public $upload;
     public $image_lib;
+    public $db;
     function __construct()
     {
         parent::__construct();
@@ -96,6 +97,85 @@ class Foto extends CI_Controller
         $id_foto = $this->input->post('id-foto');
         $delete = $this->m_foto->m_delete_foto($id_foto);
         echo json_encode($delete);
+    }
+    function add_foto_header()
+    {
+        $config['upload_path'] = "./upload/";
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['encrypt_name'] = TRUE;
+
+        $this->load->library('upload', $config);
+
+        if ($this->upload->do_upload("header-foto")) {
+            $data = array('upload_data' => $this->upload->data());
+            $id_foto_perum = $this->input->post('id-foto-perum');
+            $kategori_foto = $this->input->post('kategori-foto');
+            $text_wa = $this->input->post('text-wa');
+            $url_siteplan = $this->input->post('url-siteplan');
+            $header_foto = $data['upload_data']['file_name'];
+            $uploadedImage = $this->upload->data();
+            $data = array(
+                'id_foto_perum' => $id_foto_perum,
+                'header_foto' => $header_foto,
+                'kategori_foto' => $kategori_foto,
+                'text_wa' => $text_wa,
+                'url_siteplan' => $url_siteplan,
+            );
+            $this->resizeImage($uploadedImage['file_name']);
+            $insert = $this->m_foto->m_add_foto_header($data);
+            echo json_encode($insert);
+        }
+        exit;
+    }
+    function show_foto_dashboard()
+    {
+
+        $id_foto_header = $this->input->post('id-foto-header');
+        $status_foto_header = $this->input->post('status-foto-header');
+        $update = $this->m_foto->m_show_foto_dashboard($id_foto_header, $status_foto_header);
+        echo json_encode($update);
+    }
+    function edit_foto_header()
+    {
+        $id_foto_header = $this->input->post('id-foto-header');
+        $kategori_foto = $this->input->post('kategori-foto');
+        $text_wa = $this->input->post('text-wa');
+        $url_siteplan = $this->input->post('url-siteplan');
+
+        $update = $this->m_foto->m_edit_foto_header($id_foto_header, $kategori_foto, $text_wa, $url_siteplan);
+        echo json_encode($update);
+    }
+    function delete_foto_header()
+    {
+        $header_foto = $this->input->post('header-foto');
+        unlink('./upload/' . $header_foto);
+
+        $id_foto_header = $this->input->post('id-foto-header');
+        $delete = $this->m_foto->m_delete_foto_header($id_foto_header);
+        echo json_encode($delete);
+    }
+    function load_foto_header()
+    {
+        $id_foto_perum = $this->input->post('id-perum');
+        $sql = "SELECT * FROM foto_header WHERE id_foto_perum='$id_foto_perum'";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $foto) {
+                echo '<li class="nav-item col">
+                <div class="action-foto" data-id-action="1">
+                    <div style="position: relative;">
+                        <img src="' . base_url('upload') . '/' . $foto->header_foto . '" class="img-fluid" style="border-radius: 15px;">';
+                if ($foto->kategori_foto == 'perumahan') {
+                    echo '<div class="btn-delete-foto-header" data-id-foto-header="' . $foto->id_foto_header . '" data-foto-header="' . $foto->header_foto . '"><i class="fa-regular fa-trash-can"></i></div>';
+                } else {
+                    echo '<div class="btn-edit-foto-header" data-id-foto-header="' . $foto->id_foto_header . '" data-header-foto="' . $foto->header_foto . '" data-kategori-foto="' . $foto->kategori_foto . '" data-text-wa="' . $foto->text_wa . '" data-url-siteplan="' . $foto->url_siteplan . '" data-toggle="modal" data-target="#exampleModal"><i class="fa-regular fa-pen-to-square"></i></div>';
+                }
+                echo '<div class="btn-ceklis-foto-h ' . $foto->status_foto_header . '" data-id-foto-header="' . $foto->id_foto_header . '"></div>
+                    </div>
+                </div>
+            </li>';
+            }
+        }
     }
     function resizeImage($filename)
     {

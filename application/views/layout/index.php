@@ -124,186 +124,196 @@
     }
     ?>
 
-    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://unpkg.com/popper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src=' https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'>
-        </script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script> -->
-        <!-- Daterangepicker -->
-        <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script> -->
-        <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
-        <!-- Select2 -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
-        <!-- <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script> -->
-        <!-- canva -->
-        <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/moment.min.js"></script>
-        <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.min.js"></script>
-        <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
-        <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
+    <!-- Daterangepicker -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <!-- Select2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script>
+    <!-- canva -->
+    <!-- <script src="<?php echo base_url('assets'); ?>/vendor/jquery-autonumeric/autoNumeric.min.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/jquery-autonumeric/autonumeric-4.1.0.js"></script> -->
 
-        <script src="<?php echo base_url('assets'); ?>/vendor/aos/aos.js"></script>
-        <script src="<?php echo base_url('assets'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="<?php echo base_url('assets'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-        <script src="<?php echo base_url('assets'); ?>/vendor/swiper/swiper-bundle.min.js"></script>
-        <!-- <script src="<?php echo base_url('assets'); ?>/vendor/php-email-form/validate.js"></script> -->
-        <!-- Template Main JS File -->
-        <script src="<?php echo base_url('assets'); ?>/js/main.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/moment.min.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.min.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
+
+    <script src="<?php echo base_url('assets'); ?>/vendor/aos/aos.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- <script src="<?php echo base_url('assets'); ?>/vendor/php-email-form/validate.js"></script> -->
+    <!-- Template Main JS File -->
+    <script src="<?php echo base_url('assets'); ?>/js/main.js"></script>
+    <script src="<?php echo base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Template Main JS File -->
+    <script src="<?php echo base_url('assets'); ?>/js/main.js"></script>
+    <script>
+        // Swiper Configuration
+        var swiper = new Swiper(".swiper-container-bs", {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+            centeredSlides: true,
+            freeMode: true,
+            grabCursor: true,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination-bullet-bs",
+                clickable: true
+            },
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false
+            },
+            navigation: {
+                nextEl: ".swiper-button-next-bs",
+                prevEl: ".swiper-button-prev-bs"
+            },
+            breakpoints: {
+                500: {
+                    slidesPerView: 2
+                },
+                700: {
+                    slidesPerView: 2.3
+                }
+            }
+        });
+    </script>
+    <?php
+    if (isset($_script) && !empty($_script)) {
+        $this->load->view($_script);
+    } ?>
+    <?php if (!$this->session->userdata('is_login')) : ?>
         <script>
-            // Swiper Configuration
-            var swiper = new Swiper(".swiper-container-bs", {
-                slidesPerView: 1.5,
-                spaceBetween: 10,
-                centeredSlides: true,
-                freeMode: true,
-                grabCursor: true,
-                loop: true,
-                pagination: {
-                    el: ".swiper-pagination-bullet-bs",
-                    clickable: true
-                },
-                autoplay: {
-                    delay: 4000,
-                    disableOnInteraction: false
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next-bs",
-                    prevEl: ".swiper-button-prev-bs"
-                },
-                breakpoints: {
-                    500: {
-                        slidesPerView: 2
-                    },
-                    700: {
-                        slidesPerView: 2.3
-                    }
+            // alert('ya');
+            $('#page').removeClass('ml-page');
+        </script>
+    <?php endif ?>
+
+    <script>
+        $(document).ready(function() {
+            var newURL = location.href.split("#")[0];
+            window.history.pushState('object', document.title, newURL);
+            $('.play-btn').click(function(e) {
+                $('.ginner-container').addClass('ginner-container-cus')
+            });
+        });
+
+        $(document).on("click", ".pilih-logo", function() {
+            var file = $(this).parents().find(".file-logo");
+            file.trigger("click");
+            // alert('ya')
+        });
+        $(document).on("click", ".pilih-denah-lt2", function() {
+            var file = $(this).parents().find(".denah-lt2");
+            file.trigger("click");
+        });
+        $(document).on("click", ".pilih-denah-lt1", function() {
+            var file = $(this).parents().find(".denah-lt1");
+            file.trigger("click");
+        });
+        $(document).on("click", ".pilih-foto-tipe", function() {
+            var file = $(this).parents().find(".foto-tipe");
+            file.trigger("click");
+        });
+        $(document).on("click", ".pilih-foto-voucher", function() {
+            var file = $(this).parents().find(".foto-voucher");
+            file.trigger("click");
+        });
+        $(document).on("click", "#upload-ktp", function() {
+            // alert('ya');
+            var file = $(this).parents().find(".data-file-ktp");
+            file.trigger("click");
+        });
+        $(document).on("click", ".pilih-berita", function() {
+            var file = $(this).parents().find(".file-berita");
+            file.trigger("click");
+            // alert('ya')
+        });
+        $(document).on("click", ".pilih-berita-other", function() {
+            $('#id-data-berita').val($(this).data('id-data-berita'));
+            var file = $(this).parents().find(".file-berita-other");
+            file.trigger("click");
+            // alert('ya')
+        });
+        $(document).on("click", ".pilih-foto-meta-berita", function() {
+            $('#meta-foto').val($(this).data('meta-foto'));
+            var file = $(this).parents().find(".file-berita-meta");
+            file.trigger("click");
+            // alert('ya')
+        });
+        $(document).on("click", "#btn-add-foto", function() {
+            var file = $(this).parents().find(".file-header-perum");
+            file.trigger("click");
+            // alert('ya')
+        });
+
+        function footerToggle(footerBtn) {
+            $(footerBtn).toggleClass("btnActive");
+            $(footerBtn).next().toggleClass("active");
+        }
+
+        $(".sidebar").hover(function() {
+            // alert('ya'); 
+            openNav();
+        }, function() {
+            closeNav();
+        });
+
+        function openNav() {
+            document.getElementById("page").style.marginLeft = "226px";
+        }
+
+        function closeNav() {
+            document.getElementById("page").style.marginLeft = "74px";
+        }
+        $(function() {
+            var url = window.location.href;
+
+            // passes on every "a" tag
+            $("#navbar a").each(function() {
+                // checks if its the same on the address bar
+                if (url == (this.href)) {
+                    $(this).closest(".sidebar__nav__link").addClass("sidebar-active");
                 }
             });
-        </script>
-        <?php
-        if (isset($_script) && !empty($_script)) {
-            $this->load->view($_script);
-        } ?>
-        <?php if (!$this->session->userdata('is_login')) : ?>
-            <script>
-                // alert('ya');
-                $('#page').removeClass('ml-page');
-            </script>
-        <?php endif ?>
+            // this will get the full URL at the address bar
+        });
+        $(function() {
+            var url = window.location.href;
 
-        <script>
-            $(document).ready(function() {
-                var newURL = location.href.split("#")[0];
-                window.history.pushState('object', document.title, newURL);
-                $('.play-btn').click(function(e) {
-                    $('.ginner-container').addClass('ginner-container-cus')
-                });
+            // passes on every "a" tag
+            $("#tag a").each(function() {
+                // checks if its the same on the address bar
+                if (url == (this.href)) {
+                    $(this).closest(".btn-tag").addClass("tag-active");
+                }
             });
-
-            $(document).on("click", ".pilih-logo", function() {
-                var file = $(this).parents().find(".file-logo");
-                file.trigger("click");
-                // alert('ya')
-            });
-            $(document).on("click", ".pilih-denah-lt2", function() {
-                var file = $(this).parents().find(".denah-lt2");
-                file.trigger("click");
-            });
-            $(document).on("click", ".pilih-denah-lt1", function() {
-                var file = $(this).parents().find(".denah-lt1");
-                file.trigger("click");
-            });
-            $(document).on("click", ".pilih-foto-tipe", function() {
-                var file = $(this).parents().find(".foto-tipe");
-                file.trigger("click");
-            });
-            $(document).on("click", ".pilih-foto-voucher", function() {
-                var file = $(this).parents().find(".foto-voucher");
-                file.trigger("click");
-            });
-            $(document).on("click", "#upload-ktp", function() {
-                // alert('ya');
-                var file = $(this).parents().find(".data-file-ktp");
-                file.trigger("click");
-            });
-            $(document).on("click", ".pilih-berita", function() {
-                var file = $(this).parents().find(".file-berita");
-                file.trigger("click");
-                // alert('ya')
-            });
-            $(document).on("click", ".pilih-berita-other", function() {
-                $('#id-data-berita').val($(this).data('id-data-berita'));
-                var file = $(this).parents().find(".file-berita-other");
-                file.trigger("click");
-                // alert('ya')
-            });
-            $(document).on("click", ".pilih-foto-meta-berita", function() {
-                $('#meta-foto').val($(this).data('meta-foto'));
-                var file = $(this).parents().find(".file-berita-meta");
-                file.trigger("click");
-                // alert('ya')
-            });
-
-            function footerToggle(footerBtn) {
-                $(footerBtn).toggleClass("btnActive");
-                $(footerBtn).next().toggleClass("active");
-            }
-
-            $(".sidebar").hover(function() {
-                // alert('ya'); 
-                openNav();
-            }, function() {
-                closeNav();
-            });
-
-            function openNav() {
-                document.getElementById("page").style.marginLeft = "226px";
-            }
-
-            function closeNav() {
-                document.getElementById("page").style.marginLeft = "74px";
-            }
-            $(function() {
-                var url = window.location.href;
-
-                // passes on every "a" tag
-                $("#navbar a").each(function() {
-                    // checks if its the same on the address bar
-                    if (url == (this.href)) {
-                        $(this).closest(".sidebar__nav__link").addClass("sidebar-active");
-                    }
-                });
-                // this will get the full URL at the address bar
-            });
-            $(function() {
-                var url = window.location.href;
-
-                // passes on every "a" tag
-                $("#tag a").each(function() {
-                    // checks if its the same on the address bar
-                    if (url == (this.href)) {
-                        $(this).closest(".btn-tag").addClass("tag-active");
-                    }
-                });
-                // this will get the full URL at the address bar
-            });
-            // var prevScrollpos = window.pageYOffset;
-            // window.onscroll = function() {
-            //     var currentScrollPos = window.pageYOffset;
-            //     if (prevScrollpos > currentScrollPos) {
-            //         document.getElementById("header").style.top = "0";
-            //     } else {
-            //         document.getElementById("header").style.top = "-50px";
-            //     }
-            //     prevScrollpos = currentScrollPos;
-            // }
-        </script>
+            // this will get the full URL at the address bar
+        });
+        // var prevScrollpos = window.pageYOffset;
+        // window.onscroll = function() {
+        //     var currentScrollPos = window.pageYOffset;
+        //     if (prevScrollpos > currentScrollPos) {
+        //         document.getElementById("header").style.top = "0";
+        //     } else {
+        //         document.getElementById("header").style.top = "-50px";
+        //     }
+        //     prevScrollpos = currentScrollPos;
+        // }
+    </script>
 
 </body>
 

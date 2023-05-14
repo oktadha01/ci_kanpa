@@ -1,3 +1,58 @@
+<style>
+    .border-add-foto {
+        border: black double;
+        padding: 6px;
+        cursor: pointer;
+    }
+
+    .action {
+        border: 4px solid #19e809;
+        border-radius: 19px;
+    }
+
+    .btn-ceklis-foto-h {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 12px;
+        background: #fdfdfdd4;
+        padding: 0px 0px 0px 5px;
+        border-radius: 50px;
+        height: 36px;
+        width: 36px;
+        color: #0ee127;
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    .btn-delete-foto-header {
+        position: absolute;
+        top: 8px;
+        left: 11px;
+        font-size: 12px;
+        background: #fdfdfd99;
+        padding: 0px 0px 0px 6px;
+        border-radius: 50px;
+        height: 36px;
+        width: 36px;
+        color: #fc1d1d;
+        font-size: 26px;
+    }
+
+    .btn-edit-foto-header {
+        position: absolute;
+        top: 8px;
+        left: 11px;
+        font-size: 12px;
+        background: #fdfdfd99;
+        padding: 0px 0px 0px 6px;
+        border-radius: 50px;
+        height: 36px;
+        width: 36px;
+        color: #FFEB3B;
+        font-size: 24px;
+    }
+</style>
 <main id="main" class="pt-5rem">
     <div class="faq">
         <div class="" data-aos="fade-up">
@@ -7,7 +62,7 @@
                 ?>
                     <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-<?php echo $data->id_perum; ?>">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-id-perum="<?php echo $data->id_perum; ?>" data-bs-target="#faq-content-<?php echo $data->id_perum; ?>">
                                 <i class="bi bi-question-circle question-icon"></i>
                                 <?php echo $data->nm_perum; ?>
                             </button>
@@ -17,7 +72,27 @@
                                 <div class="accordion-body">
                                     <section id="features" class="features">
                                         <div class="container" data-aos="fade-up">
-
+                                            <div id="form-input-foto-header-<?php echo $data->id_perum; ?>" class="form-input-foto-header"></div>
+                                            <ul id="data-foto-header-<?php echo $data->id_perum; ?>" class="data-foto-header nav nav-tabs row gy-4 d-flex mb-2">
+                                                <!-- <li class="nav-item col">
+                                                    <div class="action-foto" data-id-action="1">
+                                                        <div style="position: relative;">
+                                                            <img src="<?php echo base_url('upload'); ?>/header.png" class="img-fluid" style="border-radius: 15px;">
+                                                            <div class="btn-edit-foto-header" data-toggle="modal" data-target="#exampleModal"><i class="fa-regular fa-pen-to-square"></i></div>
+                                                            <div class="btn-ceklis-foto-h show-dashboard" data-id-foto-header="3"></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item col">
+                                                    <div class="action-foto" data-id-action="2">
+                                                        <div style="position: relative;">
+                                                            <img src="<?php echo base_url('upload'); ?>/header.png" class="img-fluid" style="border-radius: 15px;">
+                                                            <div class="btn-delete-foto-header"><i class="fa-regular fa-trash-can"></i></div>
+                                                            <div class="btn-ceklis-foto-h" data-id-foto-header="3"></div>
+                                                        </div>
+                                                    </div>
+                                                </li> -->
+                                            </ul>
                                             <ul class="nav nav-tabs row gy-4 d-flex">
                                                 <?php
                                                 foreach ($data_tipe as $tipe_data) {
@@ -64,8 +139,51 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-md" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Foto</h5>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="form-group">
+                            <input type="text" id="" class="form-control attr-id-edit" autocomplete="off" required value="">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer"> -->
+                <hr>
+                <div class="row" style="margin: 0px 0px 3px 0px;">
+                    <div class="col-3">
+                        <button type="button" class="btn-sm btn-outline-secondary" data-dismiss="modal" style="background: transparent;">Close</button>
+                    </div>
+                    <div class="col-9">
+                        <div class="float-right">
+                            <button type="button" class="btn btn-sm btn-outline-danger btn-modal-delete-foto" data-dismiss="modal">Delete Foto</button>
+                            <button type="button" id="" class="btn-simpan-edit-foto-header btn btn-sm btn-outline-primary" value="" data-dismiss="modal">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="input-group">
+            <input type="file" id="file-foto-header-perum" class="file-header-perum" value="" hidden>
+            <input type="text" class="form-control" placeholder="Upload Foto" id="nm-foto-header-perum">
+            <div class="input-group-append">
+                <button type="button" id="" class="pilih-header-perum browse btn btn-dark">Pilih Foto</button>
+            </div>
+        </div>
+    </div>
     <input type="text" id="id-foto" hidden>
     <input type="text" id="id-foto-tipe" hidden>
     <input type="text" id="label-foto" hidden>
     <input type="text" id="ubah-foto" hidden>
+    <input type="text" id="id-perum">
 </main>

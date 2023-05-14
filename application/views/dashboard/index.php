@@ -1,4 +1,13 @@
 <style>
+    /* .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        top: 18rem;
+        left: 0;
+        width: 100%;
+    } */
+
     .wafixed {
         position: fixed;
         margin-left: 1rem;
@@ -102,25 +111,49 @@
 <main id="main">
     <section id="home" class="pb-0 pt-5rem d-flex align-items-center">
         <div class="">
-
             <div class="testimonials-slider swiper">
                 <div class="swiper-wrapper">
-                    <!-- <div class="swiper-slide">
-                        <center>
-                            <img src="<?php echo base_url('upload'); ?>/header 1.jpg" class="img-fluid" alt="">
-                        </center>
-                    </div> -->
                     <?php
-                    foreach ($data_foto_slide as $data) {
+                    foreach ($data_foto_slide_perumahan as $data) :
+                        $id_perum = $data->id_foto_perum;
                     ?>
+                        <?php
+                        foreach ($data_tipe_desc as $tipe_perum) :
+                            if ($tipe_perum->id_tipe_perum == $id_perum) {
+                                $nm_perum = $tipe_perum->nm_perum;
+                                $tittle = preg_replace("![^a-z0-9]+!i", "-", $nm_perum);
+                        ?>
+                                <div class="swiper-slide">
+                                    <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $tipe_perum->luas_bangunan; ?>/<?php echo $tipe_perum->luas_tanah; ?>">
+                                        <center>
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $data->header_foto; ?>" class="img-fluid" alt="">
+                                        </center>
+                                    </a>
+                                </div>
+                            <?php
+                            } else {
+                            }
+                            ?>
+                        <?php
+                        endforeach;
+                        ?>
 
-                        <div class="swiper-slide">
-                            <center>
-                                <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_tipe; ?>" class="img-fluid" alt="">
-                            </center>
-                        </div>
                     <?php
-                    }
+                    endforeach;
+                    ?>
+                    <?php
+                    foreach ($data_foto_slide_promo as $data) :
+                    ?>
+                        <div class="swiper-slide">
+                            <a href="<?php echo $data->text_wa; ?>">
+                                <center>
+                                    <img src="<?php echo base_url('upload'); ?>/<?php echo $data->header_foto; ?>" class="img-fluid" alt="">
+                                </center>
+                            </a>
+                        </div>
+
+                    <?php
+                    endforeach;
                     ?>
                 </div>
                 <div class="swiper-pagination"></div>

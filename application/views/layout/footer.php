@@ -40,19 +40,19 @@
 				<h4 class="title-h4">Info Kontak</h4>
 				<h6 class="text-h6"><i class="fa-solid fa-phone"></i> (024) 7590 1139</h6>
 				<h6 class="text-h6"><i class="fa-brands fa-whatsapp"></i> 0823-3350-7931</h6>
-				<h6 class="text-h6"><i class="fa-regular fa-envelope"></i> Kanzugroupindonesia@gamail.com</h6>
+				<h6 class="text-h6"><i class="fa-regular fa-envelope"></i> Kanzugroupindonesia@gmail.com</h6>
 				<hr style="color: white;">
 				<div class="mb-2" style="text-align-last: justify;">
-					<a href="" class="icon-info-kontak"><i class="fa-brands fa-whatsapp"></i></a>
-					<a href="" class="icon-info-kontak"><i class="fa-brands fa-instagram"></i></a>
-					<a href="" class="icon-info-kontak"><i class="fa-brands fa-facebook"></i></a>
-					<a href="" class="icon-info-kontak"><i class="fa-regular fa-envelope"></i></a>
-					<a href="" class="icon-info-kontak"><i class="fa-brands fa-youtube"></i></a>
+					<a href="https://bit.ly/PT-KANPAwhatsapp" class="icon-info-kontak"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+					<a href="https://instagram.com/pt.kanpa?igshid=MzRlODBiNWFlZA==" class="icon-info-kontak"><i class="fa-brands fa-instagram fa-beat"></i></a>
+					<a href="https://www.facebook.com/PT.KANPA?mibextid=ZbWKwL" class="icon-info-kontak"><i class="fa-brands fa-facebook fa-beat"></i></a>
+					<a href="https://www.tiktok.com/@pt.kanpa?_t=8cL7ZOkstVq&_r=1" class="icon-info-kontak"><i class="fa-brands fa-tiktok fa-beat"></i></a>
+					<a href="https://www.youtube.com/@KanzuTV" class="icon-info-kontak"><i class="fa-brands fa-youtube fa-beat"></i></a>
 				</div>
 			</div>
 		</div>
 		<div id="copyright">
-			&copy; 2020 PT KANPA
+			&copy; 2023 PT KANPA
 		</div>
 
 	</footer>

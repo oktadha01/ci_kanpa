@@ -1,4 +1,3 @@
-
 <div class="row p-2 gy-1">
     <?php
     foreach ($data_perum as $data) :
@@ -19,11 +18,12 @@
                 if ($query->num_rows() > 0) {
                     foreach ($query->result() as $foto) :
                 ?>
-                        <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">
+                        <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?>">
                             <div class="img border-r-0px" style="position: relative;">
-                                <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class=" size-img-dash img-fluid" alt="">
+                                <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
-                                <div class="bottom-right promo"><?php echo $data->promo; ?></div>
+                                <div class="label-promo"><?php echo $data->promo; ?></div>
+                                <div class="bottom-right promo">Perumahan <?php echo $data->kategori_tipe; ?></div>
                             </div>
                         </a>
                 <?php

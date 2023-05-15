@@ -74,24 +74,6 @@
                                         <div class="container" data-aos="fade-up">
                                             <div id="form-input-foto-header-<?php echo $data->id_perum; ?>" class="form-input-foto-header"></div>
                                             <ul id="data-foto-header-<?php echo $data->id_perum; ?>" class="data-foto-header nav nav-tabs row gy-4 d-flex mb-2">
-                                                <!-- <li class="nav-item col">
-                                                    <div class="action-foto" data-id-action="1">
-                                                        <div style="position: relative;">
-                                                            <img src="<?php echo base_url('upload'); ?>/header.png" class="img-fluid" style="border-radius: 15px;">
-                                                            <div class="btn-edit-foto-header" data-toggle="modal" data-target="#exampleModal"><i class="fa-regular fa-pen-to-square"></i></div>
-                                                            <div class="btn-ceklis-foto-h show-dashboard" data-id-foto-header="3"></div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="nav-item col">
-                                                    <div class="action-foto" data-id-action="2">
-                                                        <div style="position: relative;">
-                                                            <img src="<?php echo base_url('upload'); ?>/header.png" class="img-fluid" style="border-radius: 15px;">
-                                                            <div class="btn-delete-foto-header"><i class="fa-regular fa-trash-can"></i></div>
-                                                            <div class="btn-ceklis-foto-h" data-id-foto-header="3"></div>
-                                                        </div>
-                                                    </div>
-                                                </li> -->
                                             </ul>
                                             <ul class="nav nav-tabs row gy-4 d-flex">
                                                 <?php

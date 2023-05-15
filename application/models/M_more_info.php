@@ -9,7 +9,7 @@ class M_more_info extends CI_Model
         $this->db->Join('marketperum', 'marketperum.id_marketperum = perum.id_perum');
         $this->db->Join('marketing', 'marketing.id_marketing = marketperum.idmarketing');
         $this->db->where('marketperum.status_marketperum', 'aktif');
-        $this->db->ORDER_BY('order_perum', 'asc');
+        $this->db->ORDER_BY('marketperum.order_marketing', 'asc');
         $query = $this->db->get();
         return $query->result();
     }

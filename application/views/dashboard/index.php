@@ -112,7 +112,14 @@
     <section id="home" class="pb-0 pt-5rem d-flex align-items-center">
         <div class="">
             <div class="testimonials-slider swiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide">
+                        <a href="<?php echo base_url('Kategori'); ?>/perumahan/subsidi">
+                            <center>
+                                <img src="<?php echo base_url('upload'); ?>/header-SUBSIDI.png" class="img-fluid" alt="">
+                            </center>
+                        </a>
+                    </div>
                     <?php
                     foreach ($data_foto_slide_perumahan as $data) :
                         $id_perum = $data->id_foto_perum;
@@ -200,7 +207,7 @@
                                         <div class="img border-r-0px" style="position: relative;">
                                             <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
-                                            <div class="label-promo">Perumahan <?php echo $foto->promo; ?></div>
+                                            <div class="label-promo"><?php echo $foto->promo; ?></div>
                                             <div class="bottom-right promo">Perumahan <?php echo $foto->kategori_tipe; ?></div>
                                         </div>
                                     </a>

@@ -126,6 +126,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
     <script src="https://unpkg.com/popper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -143,7 +144,7 @@
     <!-- canva -->
     <!-- <script src="<?php echo base_url('assets'); ?>/vendor/jquery-autonumeric/autoNumeric.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/jquery-autonumeric/autonumeric-4.1.0.js"></script> -->
-
+    
     <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/moment.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>

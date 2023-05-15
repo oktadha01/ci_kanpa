@@ -1,18 +1,19 @@
-<section id="produk" class="pt-5 mt-3">
+<style>
+    .active-btn-filter {
+        background-color: #ffc107;
+        border-color: #ffc107;
+    }
+</style>
+<section id="" class="pt-5 mt-3">
+    <div class="row mb-2">
+        <a href="https://wa.me/+6282333507931?text=Hallo%20PT%20Kanpa%2C%20Saya%20ingin%20menanyakan%20Rumah%20Subsidi%20lebih%20lanjut...">
+            <img src="<?php echo base_url('upload'); ?>/header-SUBSIDI.png" class=" size-img-dash img-fluid">
+        </a>
+    </div>
     <div class="p-2" data-aos="fade-up">
-        <!-- <div class="section-header pb-0">
-                <span><span class="font-auto size-50px">P</span><span class="font-auto size-30px">ortfolio</span></span>
-            </div> -->
-        <hr>
-        <div class="row">
-            <div class="col">
-                <a href="<?php echo base_url('Estimasi_harga'); ?>#estimasi-hrg">
-                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-warning text-dark"> Estimasi Harga <i class="fa-solid fa-sort"></i></button>
-                </a>
-            </div>
-        </div>
         <div class="row gy-1">
             <?php
+            $no = 0;
             foreach ($data_perum as $data) :
                 $id_perum = $data->id_perum;
                 $id_tipe = $data->id_tipe;
@@ -20,7 +21,7 @@
                 $tittle = preg_replace("![^a-z0-9]+!i", "-", $nm_perum);
                 $nm = preg_replace("![^a-z0-9]+!i", " ", $tittle);
             ?>
-                <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="200">
+                <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>0">
                     <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                         <?php
                         $sql = "SELECT * FROM foto WHERE id_foto_tipe = $id_tipe AND label_foto='display' ORDER BY  RAND() limit 1";
@@ -28,14 +29,14 @@
                         if ($query->num_rows() > 0) {
                             foreach ($query->result() as $foto) :
                         ?>
-                                <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">
-                                        <div class="img border-r-0px" style="position: relative;">
-                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?>">
+                                    <div class="img border-r-0px" style="position: relative;">
+                                        <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
-                                            <div class="label-promo"><?php echo $data->promo; ?></div>
-                                            <div class="bottom-right promo">Perumahan <?php echo $data->kategori_tipe; ?></div>
-                                        </div>
-                                    </a>
+                                        <div class="label-promo"><?php echo $data->promo; ?></div>
+                                        <div class="bottom-right promo">Perumahan <?php echo $data->kategori_tipe; ?></div>
+                                    </div>
+                                </a>
                         <?php
                             endforeach;
                         }
@@ -87,4 +88,5 @@
         </div>
         <hr>
     </div>
+    <!-- <input type="text" id="kategori-tipe" value="<?php echo $this->uri->segment(3); ?>"> -->
 </section><!-- End Services Section -->

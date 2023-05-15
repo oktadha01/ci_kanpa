@@ -1,5 +1,16 @@
 <div id="form-input-tipe" hidden>
     <label class="desk" for="">Add & Edit Lokasi Terdekat</label>
+    <hr>
+    <div class="row" style="--bs-gutter-x: 0.5rem;">
+        <div class="custom-control custom-checkbox">
+            <input class="custom-control-input ceklis-kategori-tipe" type="checkbox" id="ceklis-komersil" value="komersil">
+            <label for="ceklis-komersil" class="custom-control-label">Komersil</label>
+            <input class="custom-control-input ceklis-kategori-tipe" type="checkbox" id="ceklis-subsidi" value="subsidi">
+            <label for="ceklis-subsidi" class="custom-control-label">Subsidi</label>
+            <input type="text" id="kategori-tipe" value="" hidden>
+        </div>
+    </div>
+    <hr>
     <div class="row" style="--bs-gutter-x: 0.5rem;">
         <div class="col-lg-2 col-md-4 col-12">
             <label for="lantai-rumah">Lantai</label>
@@ -153,7 +164,17 @@
         </div>
     </div>
 </div>
+<div class="row mt-2">
+    <!-- <div class="col-lg-6 col-md-6 col-4">
+        <button type="button" id="btn-cencel" class="btn btn-sm btn-outline-danger" hidden><i class="fa-solid fa-xmark"></i> Batal</button>
+    </div> -->
+    <div class="col">
+        <button type="button" id="btn-add" class="btn btn-sm float-right btn-outline-info"><i class="fa-regular fa-pen-to-square"></i> Tambah Tipe Perumahan</button>
+        <button type="button" id="btn-save" class="btn btn-sm float-right btn-outline-success" value="" hidden><i class=" fa-regular fa-pen-to-square"></i> Simpan Tipe Perumahan </button>
+    </div>
+</div>
 <div id="form-upload-denah" hidden>
+    <hr>
     <div class="row">
         <div class="col-lg-6 col-md-6 col-12">
             <div id="denah-lt1" class="form-group">
@@ -193,16 +214,14 @@
     <div class="col-lg-6 col-md-6 col-4">
         <button type="button" id="btn-cencel" class="btn btn-sm btn-outline-danger" hidden><i class="fa-solid fa-xmark"></i> Batal</button>
     </div>
-    <div class="col-lg-6 col-md-6 col-8">
-        <button type="button" id="btn-add" class="btn btn-sm float-right btn-outline-info"><i class="fa-regular fa-pen-to-square"></i> Tambah lokasi terdekat</button>
-        <button type="button" id="btn-save" class="btn btn-sm float-right btn-outline-success" value="" hidden><i class=" fa-regular fa-pen-to-square"></i> Simpan lokasi terdekat </button>
-    </div>
 </div>
+
 <hr>
 <table class="table">
     <thead class="table__thead">
         <tr>
             <th class="table__th">TIPE PERUMAHAN</th>
+            <th class="table__th">KATEGORI</th>
             <th class="table__th">LANTAI</th>
         </tr>
     </thead>
@@ -213,6 +232,9 @@
             <tr class="table-row table-row--chris">
                 <td class="table-row__td">
                     <p class="mb-0">Tipe <?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?></p>
+                </td>
+                <td class="table-row__td">
+                    <p class="mb-0"><?php echo $data->kategori_tipe; ?></p>
                 </td>
                 <td class="table-row__td">
                     <p class="mb-0"><?php echo $data->lantai; ?>. Lantai</p>
@@ -243,7 +265,7 @@
                     ?>
                 </td>
                 <td class="row-td-action">
-                    <a href="#" class="btn-edit" data-id-tipe="<?php echo $data->id_tipe; ?>" data-lantai="<?php echo $data->lantai; ?>" data-luas-tanah="<?php echo $data->luas_tanah; ?>" data-luas-bangunan="<?php echo $data->luas_bangunan; ?>" data-hrg="<?php echo $data->hrg; ?>" data-satuan-hrg="<?php echo $data->satuan_hrg; ?>" data-promo="<?php echo $data->promo; ?>" data-balkon="<?php echo $data->balkon; ?>" data-taman="<?php echo $data->taman; ?>" data-carport="<?php echo $data->carport; ?>" data-r-tamu="<?php echo $data->r_tamu; ?>" data-r-keluarga="<?php echo $data->r_keluarga; ?>" data-k-tidur="<?php echo $data->k_tidur; ?>" data-k-mandi="<?php echo $data->k_mandi; ?>" data-r-makan="<?php echo $data->r_makan; ?>" data-dapur="<?php echo $data->dapur; ?>" data-denah-lt1="<?php echo $data->denah_lt1; ?>" data-denah-lt2="<?php echo $data->denah_lt2; ?>" data-vr="<?php echo $data->vr; ?>">
+                    <a href="#" class="btn-edit" data-id-tipe="<?php echo $data->id_tipe; ?>" data-kategori-tipe="<?php echo $data->kategori_tipe; ?>" data-lantai="<?php echo $data->lantai; ?>" data-luas-tanah="<?php echo $data->luas_tanah; ?>" data-luas-bangunan="<?php echo $data->luas_bangunan; ?>" data-hrg="<?php echo $data->hrg; ?>" data-satuan-hrg="<?php echo $data->satuan_hrg; ?>" data-promo="<?php echo $data->promo; ?>" data-balkon="<?php echo $data->balkon; ?>" data-taman="<?php echo $data->taman; ?>" data-carport="<?php echo $data->carport; ?>" data-r-tamu="<?php echo $data->r_tamu; ?>" data-r-keluarga="<?php echo $data->r_keluarga; ?>" data-k-tidur="<?php echo $data->k_tidur; ?>" data-k-mandi="<?php echo $data->k_mandi; ?>" data-r-makan="<?php echo $data->r_makan; ?>" data-dapur="<?php echo $data->dapur; ?>" data-denah-lt1="<?php echo $data->denah_lt1; ?>" data-denah-lt2="<?php echo $data->denah_lt2; ?>" data-vr="<?php echo $data->vr; ?>">
                         <i class="fa-solid fa-pen"></i>
                     </a>
                     <a href="#" class="btn-delete" data-id-tipe="<?php echo $data->id_tipe; ?>" data-denah-lt1="<?php echo $data->denah_lt1; ?>" data-denah-lt2="<?php echo $data->denah_lt2; ?>">
@@ -275,6 +297,15 @@
 
         } else {
             $('#denah-lt2').show();
+
+        }
+    });
+    $('.ceklis-kategori-tipe').click(function(e) {
+        $('.ceklis-kategori-tipe').not(this).prop('checked', false);
+        if ($(this).is(":checked")) {
+            $('#kategori-tipe').val($(this).val());
+        } else {
+            $('#kategori-tipe').val('');
 
         }
     });
@@ -430,6 +461,7 @@
         let formData = new FormData();
         formData.append('id-tipe', $('#id-tipe').val());
         formData.append('id-tipe-perum', $('#id-tipe-perum').val());
+        formData.append('kategori-tipe', $('#kategori-tipe').val());
         formData.append('lantai', $('#lantai').val());
         formData.append('luas-tanah', $('#luas-tanah').val());
         formData.append('luas-bangunan', $('#luas-bangunan').val());
@@ -493,6 +525,7 @@
         $('#btn-add').attr('hidden', true);
 
         $('#id-tipe').val($(this).data('id-tipe'));
+        $('#kategori-tipe').val($(this).data('kategori-tipe'));
         $('#lantai').val($(this).data('lantai'));
         $('#luas-tanah').val($(this).data('luas-tanah'));
         $('#luas-bangunan').val($(this).data('luas-bangunan'));
@@ -509,6 +542,16 @@
         $('#r-makan').val($(this).data('r-makan'));
         $('#dapur').val($(this).data('dapur'));
         $('#vr').val($(this).data('vr'));
+        if ($('#kategori-tipe').val() == 'komersil') {
+            $('#ceklis-komersil').prop('checked', true);
+        } else {
+            $('#ceklis-komersil').prop('checked', false);
+        }
+        if ($('#kategori-tipe').val() == 'subsidi') {
+            $('#ceklis-subsidi').prop('checked', true);
+        } else {
+            $('#ceklis-subsidi').prop('checked', false);
+        }
         if ($('#satuan-hrg').val() == 'jt') {
             $('#ceklis-satuan-jt').prop('checked', true);
         } else {

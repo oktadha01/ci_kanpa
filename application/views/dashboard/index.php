@@ -137,7 +137,6 @@
                         <?php
                         endforeach;
                         ?>
-
                     <?php
                     endforeach;
                     ?>
@@ -192,16 +191,17 @@
                     <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                             <?php
-                            $sql = "SELECT foto_tipe, id_tipe, promo, luas_bangunan, luas_tanah FROM foto, tipe WHERE foto.id_foto_tipe=tipe.id_tipe AND tipe.id_tipe_perum = $id_perum AND foto.label_foto='display' ORDER BY  RAND() limit 1";
+                            $sql = "SELECT kategori_tipe, foto_tipe, id_tipe, promo, luas_bangunan, luas_tanah FROM foto, tipe WHERE foto.id_foto_tipe=tipe.id_tipe AND tipe.id_tipe_perum = $id_perum AND foto.label_foto='display' ORDER BY  RAND() limit 1";
                             $query = $this->db->query($sql);
                             if ($query->num_rows() > 0) {
                                 foreach ($query->result() as $foto) :
                             ?>
                                     <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?>">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" alt="">
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
-                                            <div class="bottom-right promo"><?php echo $foto->promo; ?></div>
+                                            <div class="label-promo">Perumahan <?php echo $foto->promo; ?></div>
+                                            <div class="bottom-right promo">Perumahan <?php echo $foto->kategori_tipe; ?></div>
                                         </div>
                                     </a>
                             <?php

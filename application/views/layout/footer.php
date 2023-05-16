@@ -25,6 +25,7 @@
 	<footer style="background: #033b6c;">
 		<div>
 			<span class="logo">Kanzu Permai Abadi</span>
+			<hr style="color: white;">
 		</div>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-12">
@@ -52,6 +53,7 @@
 			</div>
 		</div>
 		<div id="copyright">
+			<hr>
 			&copy; 2023 PT KANPA
 		</div>
 

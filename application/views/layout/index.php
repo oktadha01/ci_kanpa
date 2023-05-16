@@ -110,6 +110,7 @@
                     include_once 'best_seller/bs.php';
                     include_once 'footer.php';
                 } else if ($_view == 'dashboard/index' or $_view == 'more_info/more_info') {
+                    include_once 'footer.php';
                 } else if ($_view == 'voucher/detail') {
                     include_once 'footer.php';
                 }
@@ -123,7 +124,9 @@
     <?php
     }
     ?>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+    <div id="preloader"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
@@ -144,7 +147,7 @@
     <!-- canva -->
     <!-- <script src="<?php echo base_url('assets'); ?>/vendor/jquery-autonumeric/autoNumeric.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/jquery-autonumeric/autonumeric-4.1.0.js"></script> -->
-    
+
     <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/moment.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>

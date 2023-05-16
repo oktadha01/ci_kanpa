@@ -167,7 +167,7 @@
         </div>
     </section>
     <section id="about" class=" p-0">
-        <div class="container" data-aos="fade-up">
+        <div class="container" data-aos="fade-up" style="background: #fbfbfb;border-radius: 13px;">
             <div class="section-header pb-0">
                 <span><span class="font-auto size-50px">A</span><span class="font-auto size-30px">bout us</span></span>
                 <p class="font-desk-service font-initial text-dark">PT Kanzu Permai Abadi merupakan perushaan yang bergerak di bidang perumahan.

@@ -125,6 +125,7 @@ class Berita extends CI_Controller
     {
         $action_change_berita = $this->input->post('ceklis-ubah-foto-berita');
         if ($action_change_berita == 'change-foto-berita') {
+            // echo 'ya';
             $foto_lama = $this->input->post('foto-lama');
             unlink('./upload/' . $foto_lama);
 

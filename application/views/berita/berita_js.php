@@ -128,24 +128,8 @@
                     alert("Data Gagal Diupload");
                 }
             });
-        } else if (action == 'edit-content') {
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('berita/edit_content'); ?>",
-                data: formData,
-                cache: false,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    alert('Data berhasil di edit..')
-                    load_data_content_berita();
-                    form_default();
-                },
-                error: function() {
-                    alert("Data Gagal Diupload");
-                }
-            });
-        } else {
+        } else if (action == 'edit'){
+            // alert('ya')
             $.ajax({
                 type: 'POST',
                 url: "<?php echo site_url('berita/edit_data_berita'); ?>",
@@ -154,7 +138,7 @@
                 processData: false,
                 contentType: false,
                 success: function(data) {
-                    // alert('berhasil')
+                    // alert(data)
                     load_data_berita();
                     select_tag();
                     form_default();

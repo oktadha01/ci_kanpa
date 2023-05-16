@@ -110,7 +110,7 @@
                     include_once 'best_seller/bs.php';
                     include_once 'footer.php';
                 } else if ($_view == 'dashboard/index' or $_view == 'more_info/more_info') {
-                    include_once 'footer.php';
+                    // include_once 'footer.php';
                 } else if ($_view == 'voucher/detail') {
                     include_once 'footer.php';
                 }
@@ -124,12 +124,12 @@
     <?php
     }
     ?>
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-    <div id="preloader"></div>
+    <!-- <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
+    <!--  -->
+    <!-- <div id="preloader"></div> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
+
     <script src="https://unpkg.com/popper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -145,8 +145,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script>
     <!-- canva -->
-    <!-- <script src="<?php echo base_url('assets'); ?>/vendor/jquery-autonumeric/autoNumeric.min.js"></script>
-    <script src="<?php echo base_url('assets'); ?>/vendor/jquery-autonumeric/autonumeric-4.1.0.js"></script> -->
 
     <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/moment.min.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.min.js"></script>
@@ -162,8 +160,7 @@
     <!-- Template Main JS File -->
     <script src="<?php echo base_url('assets'); ?>/js/main.js"></script>
     <script src="<?php echo base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- Template Main JS File -->
-    <script src="<?php echo base_url('assets'); ?>/js/main.js"></script>
+
     <script>
         // Swiper Configuration
         var swiper = new Swiper(".swiper-container-bs", {

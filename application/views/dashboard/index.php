@@ -168,7 +168,7 @@
     </section>
     <section id="about" class=" p-0">
         <div class="container" data-aos="fade-up" style="background: #fbfbfb;border-radius: 13px;">
-            <div class="section-header pb-0">
+            <div class="section-header pb-0" style="margin-top: 30px;">
                 <span><span class="font-auto size-50px">A</span><span class="font-auto size-30px">bout us</span></span>
                 <p class="font-desk-service font-initial text-dark">PT Kanzu Permai Abadi merupakan perushaan yang bergerak di bidang perumahan.
                     Bermula pada tahun 2002 kami membuat kavling yang siap bangun dengan nama Bukit Asri 1 seluas 2 hektar yang terletak di Kec.
@@ -183,7 +183,7 @@
     <!-- ======= About Section ======= -->
     <section id="produk" class="pt-0">
         <div class="container" data-aos="fade-up">
-            <div class="section-header pb-0">
+            <div class="section-header pb-0" style="margin-top: 30px;">
                 <span><span class="font-auto size-50px">P</span><span class="font-auto size-30px">roduct</span></span>
             </div>
             <div class="row gy-1">

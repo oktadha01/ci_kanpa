@@ -1,0 +1,117 @@
+a:3:{s:4:"time";i:1684832815;s:3:"ttl";i:604800;s:4:"data";s:6848:"<div class="row p-2 gy-1">
+        <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="200">
+        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                        <a
+                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
+                <div class="img border-r-0px" style="position: relative;">
+                    <img src="http://localhost:8080/kanpa.co.id/upload/0feae9a6e0bb7d35ed996146122c028b.jpg"
+                        srcset="http://localhost:8080/kanpa.co.id/upload/0feae9a6e0bb7d35ed996146122c028b.jpg 1x, http://localhost:8080/kanpa.co.id/upload/0feae9a6e0bb7d35ed996146122c028b.jpg 3x"
+                        class=" size-img-dash img-fluid"
+                        style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                    <div class="label-promo"></div>
+                    <div class="bottom-right promo">Perumahan komersil</div>
+                </div>
+            </a>
+                        <div class="m-2">
+                <span class="mb-0 font-text-port">Mulai</span>
+                <span class="mb-0 font-text-port float-right"> views</span>
+                <br>
+                <a class="btn-hrg-dash"
+                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">Rp
+                    525 <sub>jt</sub></a>
+
+                <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95"
+                    style="color:black;">
+                    <h4 class="text-nm-perum mb-0">Alton Green House - Tipe mulai</h4>
+                </a>
+                <a
+                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
+                    <button type="button" id=""
+                        class="btn btn-sm mb-2 btn-outline-info">90/95</button>
+                </a>
+                <br>
+                <span class="mb-0 font-text-port"> Jl. Villa Siberi - Kerajan</span>
+                <div style="text-align-last: justify;">
+                    <div class="figure">
+                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
+                            class="size-ikon-dash img-fluid" alt="">
+                        <h6>1</h6>
+                    </div>
+                    <div class="figure">
+                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
+                            class="size-ikon-dash img-fluid" alt="">
+                        <h6>3</h6>
+                    </div>
+                    <div class="figure">
+                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
+                            class="size-ikon-dash img-fluid" alt="">
+                        <h6>2</h6>
+                    </div>
+                    <div class="figure">
+                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
+                            class="size-ikon-dash img-fluid" alt="">
+                        <h6>1</h6>
+                    </div>
+                </div>
+                <center class="mt-2">
+                    <a
+                        href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
+                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info >></button>
+                    </a>
+                </center>
+            </div>
+
+        </div>
+    </div>
+    <!-- <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
+                            <div class="img border-r-0px" style="position: relative;">
+                                <img src="http://localhost:8080/kanpa.co.id/upload/92eefd9a018c85f0fc3f056e0b8b0b14.jpg" class=" size-img-dash img-fluid" alt="">
+
+                                <div class="bottom-right promo"></div>
+                            </div>
+                        </a>
+                                <div class="m-2">
+                    <span class="mb-0 font-text-port">Mulai</span>
+                    <span class="mb-0 font-text-port float-right"> views</span>
+                    <br>
+                    <a class="btn-hrg-dash" href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">Rp 525 <sub>jt</sub></a>
+
+                    <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95" style="color:black;">
+                        <h4 class="text-nm-perum mb-0">Alton Green House - Tipe mulai</h4>
+                    </a>
+                    <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
+                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">90/95</button>
+                    </a>
+                    <br>
+                    <span class="mb-0 font-text-port"> Jl. Villa Siberi - Kerajan</span>
+                    <div style="text-align-last: justify;">
+                        <div class="figure">
+                            <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                            <h6>1</h6>
+                        </div>
+                        <div class="figure">
+                            <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                            <h6>3</h6>
+                        </div>
+                        <div class="figure">
+                            <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                            <h6>2</h6>
+                        </div>
+                        <div class="figure">
+                            <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                            <h6>1</h6>
+                        </div>
+                    </div>
+                    <center class="mt-2">
+                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
+                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info >></button>
+                        </a>
+                    </center>
+                </div>
+
+            </div>
+        </div> -->
+    </div>";}

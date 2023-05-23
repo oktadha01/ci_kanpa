@@ -19,8 +19,7 @@ class Estimasi_harga extends CI_Controller
         $data['_script'] = 'estimasi_hrg/estimasi_hrg_js';
         $data['_view'] = 'estimasi_hrg/estimasi_hrg';
         // $data['data_foto_slide'] = $this->m_estimasi_hrg->m_data_fotoslide();
-        // $data['data_perum'] = $this->m_estimasi_hrg->m_data_perum();
-        // $data['data_perum'] = $this->m_estimasi_hrg->m_data_perum();
+        $data['data_perum'] = $this->m_estimasi_hrg->m_data_perum();
         $this->load->view('layout/index', $data);
     }
 

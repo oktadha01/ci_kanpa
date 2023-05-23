@@ -22,7 +22,7 @@
     <?php
     if (isset($_metafoto)) {
     ?>
-        <meta property="og:image" content="<?php echo base_url('upload'); ?>/<?php echo $_metafoto; ?>">
+    <meta property="og:image" content="<?php echo base_url('upload'); ?>/<?php echo $_metafoto; ?>">
     <?php
     } else {
     }
@@ -30,12 +30,14 @@
     <?php
     if (isset($_description)) {
     ?>
-        <meta name="description" content="<?php echo $_description; ?>">
+    <meta name="description" content="<?php echo $_description; ?>">
     <?php
     } else {
     ?>
-        <meta name="description" content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat, perumahan subsidi griya kanzu kleco kaliabu, perumahan subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan subsidi madiun, rumah subsidi klecorejo kaliabu">
-        <meta name="keywords" content="PT Kanpa, rumah murah di semarang, jual rumah semarang, jual rumah ungaran, jual rumah, jual rumah gunung pati, perumahan ungaran, rumah murah ungaran,perumahan murah semarang, perumahan bukit permai ungaran, perumahan murah subsidi, kpr, griya kautsar ungaran, bukit permai 2 ungaran, Perumahan subsidi griya kanzu kleco kaliabu, rumah subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan klecorejo kaliabu">
+    <meta name="description"
+        content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat, perumahan subsidi griya kanzu kleco kaliabu, perumahan subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan subsidi madiun, rumah subsidi klecorejo kaliabu">
+    <meta name="keywords"
+        content="PT Kanpa, rumah murah di semarang, jual rumah semarang, jual rumah ungaran, jual rumah, jual rumah gunung pati, perumahan ungaran, rumah murah ungaran,perumahan murah semarang, perumahan bukit permai ungaran, perumahan murah subsidi, kpr, griya kautsar ungaran, bukit permai 2 ungaran, Perumahan subsidi griya kanzu kleco kaliabu, rumah subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan klecorejo kaliabu">
     <?php
     }
     ?>
@@ -44,14 +46,14 @@
 
 
     <style>
-        .opacity-body {
-            margin-top: 0;
-            width: 100%;
-            height: 100%;
-            position: fixed;
-            z-index: 999;
-            background: #0000008c;
-        }
+    .opacity-body {
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 999;
+        background: #0000008c;
+    }
     </style>
     <!-- Favicons -->
     <link href="<?php echo base_url('assets'); ?>/img/logokanpatitle.jpeg" rel="icon">
@@ -61,7 +63,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Chathura" rel="stylesheet">
     <!-- Select2 CSS -->
@@ -74,7 +78,8 @@
     <link href="<?php echo base_url('assets'); ?>/vendor/aos/aos.css" rel="stylesheet">
     <link href="<?php echo base_url('assets'); ?>/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="<?php echo base_url('assets'); ?>/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url('assets'); ?>/vendor/daterangepicker/daterangepicker.css" rel="stylesheet"
+        type="text/css" />
     <!-- Variables CSS Files. Uncomment your preferred color scheme -->
     <link href="<?php echo base_url('assets'); ?>/css/variables.css" rel="stylesheet">
 
@@ -96,42 +101,45 @@
     } else {
 
     ?>
-        <?php
+    <?php
         include_once 'navbar.php';
         ?>
-        <main id="page" class="ml-page">
+    <main id="page" class="ml-page">
 
-            <?php
+        <?php
             if (isset($_view) && !empty($_view)) {
                 $this->load->view($_view);
                 // echo $_view;
                 if ($_view == 'produk/produk' or $_view == 'detail/detail' or $_view == 'estimasi_hrg/estimasi_hrg') {
 
                     include_once 'best_seller/bs.php';
-                    include_once 'footer.php';
+                    // include_once 'footer.php';
                 } else if ($_view == 'dashboard/index' or $_view == 'more_info/more_info') {
                     // include_once 'footer.php';
                 } else if ($_view == 'voucher/detail') {
-                    include_once 'footer.php';
                 }
             }
             ?>
 
-            <?php
+        <?php
+include_once 'footer.php';
             ?>
 
-        </main>
+    </main>
     <?php
     }
     ?>
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
     <div id="preloader"></div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
 
     <script src="https://unpkg.com/popper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
@@ -161,158 +169,158 @@
     <script src="<?php echo base_url('assets'); ?>/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        // Swiper Configuration
-        var swiper = new Swiper(".swiper-container-bs", {
-            slidesPerView: 1.5,
-            spaceBetween: 10,
-            centeredSlides: true,
-            freeMode: true,
-            grabCursor: true,
-            loop: true,
-            pagination: {
-                el: ".swiper-pagination-bullet-bs",
-                clickable: true
+    // Swiper Configuration
+    var swiper = new Swiper(".swiper-container-bs", {
+        slidesPerView: 1.5,
+        spaceBetween: 10,
+        centeredSlides: true,
+        freeMode: true,
+        grabCursor: true,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination-bullet-bs",
+            clickable: true
+        },
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false
+        },
+        navigation: {
+            nextEl: ".swiper-button-next-bs",
+            prevEl: ".swiper-button-prev-bs"
+        },
+        breakpoints: {
+            500: {
+                slidesPerView: 2
             },
-            autoplay: {
-                delay: 4000,
-                disableOnInteraction: false
-            },
-            navigation: {
-                nextEl: ".swiper-button-next-bs",
-                prevEl: ".swiper-button-prev-bs"
-            },
-            breakpoints: {
-                500: {
-                    slidesPerView: 2
-                },
-                700: {
-                    slidesPerView: 2.3
-                }
+            700: {
+                slidesPerView: 2.3
             }
-        });
+        }
+    });
     </script>
     <?php
     if (isset($_script) && !empty($_script)) {
         $this->load->view($_script);
     } ?>
     <?php if (!$this->session->userdata('is_login')) : ?>
-        <script>
-            // alert('ya');
-            $('#page').removeClass('ml-page');
-        </script>
+    <script>
+    // alert('ya');
+    $('#page').removeClass('ml-page');
+    </script>
     <?php endif ?>
 
     <script>
-        $(document).ready(function() {
-            var newURL = location.href.split("#")[0];
-            window.history.pushState('object', document.title, newURL);
-            $('.play-btn').click(function(e) {
-                $('.ginner-container').addClass('ginner-container-cus')
-            });
+    $(document).ready(function() {
+        var newURL = location.href.split("#")[0];
+        window.history.pushState('object', document.title, newURL);
+        $('.play-btn').click(function(e) {
+            $('.ginner-container').addClass('ginner-container-cus')
         });
+    });
 
-        $(document).on("click", ".pilih-logo", function() {
-            var file = $(this).parents().find(".file-logo");
-            file.trigger("click");
-            // alert('ya')
-        });
-        $(document).on("click", ".pilih-denah-lt2", function() {
-            var file = $(this).parents().find(".denah-lt2");
-            file.trigger("click");
-        });
-        $(document).on("click", ".pilih-denah-lt1", function() {
-            var file = $(this).parents().find(".denah-lt1");
-            file.trigger("click");
-        });
-        $(document).on("click", ".pilih-foto-tipe", function() {
-            var file = $(this).parents().find(".foto-tipe");
-            file.trigger("click");
-        });
-        $(document).on("click", ".pilih-foto-voucher", function() {
-            var file = $(this).parents().find(".foto-voucher");
-            file.trigger("click");
-        });
-        $(document).on("click", "#upload-ktp", function() {
-            // alert('ya');
-            var file = $(this).parents().find(".data-file-ktp");
-            file.trigger("click");
-        });
-        $(document).on("click", ".pilih-berita", function() {
-            var file = $(this).parents().find(".file-berita");
-            file.trigger("click");
-            // alert('ya')
-        });
-        $(document).on("click", ".pilih-berita-other", function() {
-            $('#id-data-berita').val($(this).data('id-data-berita'));
-            var file = $(this).parents().find(".file-berita-other");
-            file.trigger("click");
-            // alert('ya')
-        });
-        $(document).on("click", ".pilih-foto-meta-berita", function() {
-            $('#meta-foto').val($(this).data('meta-foto'));
-            var file = $(this).parents().find(".file-berita-meta");
-            file.trigger("click");
-            // alert('ya')
-        });
-        $(document).on("click", "#btn-add-foto", function() {
-            var file = $(this).parents().find(".file-header-perum");
-            file.trigger("click");
-            // alert('ya')
-        });
+    $(document).on("click", ".pilih-logo", function() {
+        var file = $(this).parents().find(".file-logo");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-denah-lt2", function() {
+        var file = $(this).parents().find(".denah-lt2");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-denah-lt1", function() {
+        var file = $(this).parents().find(".denah-lt1");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-foto-tipe", function() {
+        var file = $(this).parents().find(".foto-tipe");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-foto-voucher", function() {
+        var file = $(this).parents().find(".foto-voucher");
+        file.trigger("click");
+    });
+    $(document).on("click", "#upload-ktp", function() {
+        // alert('ya');
+        var file = $(this).parents().find(".data-file-ktp");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-berita", function() {
+        var file = $(this).parents().find(".file-berita");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-berita-other", function() {
+        $('#id-data-berita').val($(this).data('id-data-berita'));
+        var file = $(this).parents().find(".file-berita-other");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-foto-meta-berita", function() {
+        $('#meta-foto').val($(this).data('meta-foto'));
+        var file = $(this).parents().find(".file-berita-meta");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", "#btn-add-foto", function() {
+        var file = $(this).parents().find(".file-header-perum");
+        file.trigger("click");
+        // alert('ya')
+    });
 
-        function footerToggle(footerBtn) {
-            $(footerBtn).toggleClass("btnActive");
-            $(footerBtn).next().toggleClass("active");
-        }
+    function footerToggle(footerBtn) {
+        $(footerBtn).toggleClass("btnActive");
+        $(footerBtn).next().toggleClass("active");
+    }
 
-        $(".sidebar").hover(function() {
-            // alert('ya'); 
-            openNav();
-        }, function() {
-            closeNav();
+    $(".sidebar").hover(function() {
+        // alert('ya');
+        openNav();
+    }, function() {
+        closeNav();
+    });
+
+    function openNav() {
+        document.getElementById("page").style.marginLeft = "226px";
+    }
+
+    function closeNav() {
+        document.getElementById("page").style.marginLeft = "74px";
+    }
+    $(function() {
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $("#navbar a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest(".sidebar__nav__link").addClass("sidebar-active");
+            }
         });
+        // this will get the full URL at the address bar
+    });
+    $(function() {
+        var url = window.location.href;
 
-        function openNav() {
-            document.getElementById("page").style.marginLeft = "226px";
-        }
-
-        function closeNav() {
-            document.getElementById("page").style.marginLeft = "74px";
-        }
-        $(function() {
-            var url = window.location.href;
-
-            // passes on every "a" tag
-            $("#navbar a").each(function() {
-                // checks if its the same on the address bar
-                if (url == (this.href)) {
-                    $(this).closest(".sidebar__nav__link").addClass("sidebar-active");
-                }
-            });
-            // this will get the full URL at the address bar
+        // passes on every "a" tag
+        $("#tag a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest(".btn-tag").addClass("tag-active");
+            }
         });
-        $(function() {
-            var url = window.location.href;
-
-            // passes on every "a" tag
-            $("#tag a").each(function() {
-                // checks if its the same on the address bar
-                if (url == (this.href)) {
-                    $(this).closest(".btn-tag").addClass("tag-active");
-                }
-            });
-            // this will get the full URL at the address bar
-        });
-        // var prevScrollpos = window.pageYOffset;
-        // window.onscroll = function() {
-        //     var currentScrollPos = window.pageYOffset;
-        //     if (prevScrollpos > currentScrollPos) {
-        //         document.getElementById("header").style.top = "0";
-        //     } else {
-        //         document.getElementById("header").style.top = "-50px";
-        //     }
-        //     prevScrollpos = currentScrollPos;
-        // }
+        // this will get the full URL at the address bar
+    });
+    // var prevScrollpos = window.pageYOffset;
+    // window.onscroll = function() {
+    //     var currentScrollPos = window.pageYOffset;
+    //     if (prevScrollpos > currentScrollPos) {
+    //         document.getElementById("header").style.top = "0";
+    //     } else {
+    //         document.getElementById("header").style.top = "-50px";
+    //     }
+    //     prevScrollpos = currentScrollPos;
+    // }
     </script>
 
 </body>

@@ -79,12 +79,12 @@ $db['default'] = array(
 	// LOCAL
 	// 'username' => 'root',
 	// 'password' => '',
-	// 'database' => 'kanpa_ci',
+	// 'database' => 'kina3126_kanpa',
 
 	// ONLINE
 	'username' => 'kina3126_kanpa',
 	'password' => 'kanpa2020',
-	'database' => 'kina3126_kanpa', 
+	'database' => 'kina3126_kanpa',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

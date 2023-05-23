@@ -50,9 +50,7 @@ class M_artikel extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('berita');
-        // $this->db->ORDER_BY('id_berita', 'asc');
         $this->db->ORDER_BY('id_berita', 'RANDOM');
-        // $this->db->LIMIT(2);
         $query = $this->db->get();
         return $query->result();
     }

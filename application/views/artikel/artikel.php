@@ -145,20 +145,26 @@
                 </div>
                 <!-- end berita -->
                 <hr>
+                <!-- tampil tag -->
                 <span id="tag">
                     <span style="font-weight: bold;font-family: 'Poppins';"> TAG :</span>
-                    <?php
-               foreach ($data_tag as $data) :
-                  $tag_berita = $data->tag_berita;
-                  $tag = preg_replace("![^a-z0-9]+!i", "-", $tag_berita);
-               ?>
-                    <a href="<?php echo base_url('Artikel'); ?>/tag/<?php echo $tag; ?>" class="btn-tag tag">
-                        <?php echo $data->tag_berita; ?>
-                    </a>
-                    <?php
-               endforeach;
-               ?>
+                    <ul>
+                        <?php
+                        foreach ($data_tag as $data) :
+                            $tag_berita = $data->tag_berita;
+                            $tag = preg_replace("![^a-z0-9]+!i", "-", $tag_berita);
+                        ?>
+                        <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="<?php echo base_url('Artikel'); ?>/tag/<?php echo $tag; ?>">
+                                <?php echo $data->tag_berita; ?>
+                            </a>
+                        </li>
+                        <?php
+                        endforeach;
+                        ?>
+                    </ul>
                 </span>
+                <!-- akhir tag -->
             </div>
             <div class="col-lg-3 col-12">
                 <div class="row gy-1">

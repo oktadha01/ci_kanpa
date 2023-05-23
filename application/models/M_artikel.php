@@ -55,7 +55,7 @@ class M_artikel extends CI_Model
         return $query->result();
     }
 
-    // untuk menampilkan berita menggunakan infinity scroll
+    // untuk menampilkan berita menggunakan infinity scroll mencoba pull request baru
     function m_data_berita_infinity($limit, $start)
     {
         $this->db->select("*");

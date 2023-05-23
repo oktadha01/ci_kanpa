@@ -1,0 +1,1050 @@
+a:3:{s:4:"time";i:1684828872;s:3:"ttl";i:3600;s:4:"data";s:44555:"<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Brem menjadi jajanan khas kabupaten madiun    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" /> -->
+    <meta name="google-site-verification" content="7i4MFwx9o5niYM8_5w-uzOuKetBLUFMogGH7c0YpjHY" />
+    <meta name="msvalidate.01" content="B36B1215CB3BC26AA0E6851087FF5E2F" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <!-- Meta untuk SEO -->
+        <meta property="og:image" content="http://localhost:8080/kanpa.co.id/upload/0">
+            <meta name="description" content="PT Kanpa Brem menjadi jajanan khas kabupaten madiun - ">
+    
+    <meta name="robots" content="INDEX,FOLLOW">
+
+
+    <style>
+    .opacity-body {
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 999;
+        background: #0000008c;
+    }
+    </style>
+    <!-- Favicons -->
+    <link href="http://localhost:8080/kanpa.co.id/assets/img/logokanpatitle.jpeg" rel="icon">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chathura" rel="stylesheet">
+    <!-- Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <!-- Daterangepicker -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+    <!-- Vendor CSS Files -->
+    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/daterangepicker/daterangepicker.css" rel="stylesheet"
+        type="text/css" />
+    <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+    <link href="http://localhost:8080/kanpa.co.id/assets/css/variables.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="http://localhost:8080/kanpa.co.id/assets/css/main.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.css" rel="stylesheet" />
+    <link href="http://localhost:8080/kanpa.co.id/assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- <div itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject">
+        <meta content="url_gambar" itemprop='url"/>
+     </div> -->
+            <header id="header" class="header fixed-top" data-scrollto-offset="0" style="max-height: 67px !important;">
+   <div id="navbar-top" class="container-fluid d-flex align-items-center justify-content-between pr-var">
+
+      <a href="https://www.instagram.com/pt.kanpa/?hl=en" class="logo d-flex align-items-center scrollto me-auto mr-0">
+         <!-- <i class="fa-brands fa-instagram" style="color: #00000085;font-size: 35px;"></i> --> 
+         <img src="http://localhost:8080/kanpa.co.id/assets/img/Logo PT Fix Bingit.png" class="" alt="" style="max-height: 30px;">
+      </a>
+      <a href="http://localhost:8080/kanpa.co.id/#home" class="logo d-flex align-items-center scrollto me-auto mr-0">
+         <!-- Uncomment the line below if you also wish to use an image logo -->
+         <!-- <img src="assets/img/logo.png" alt=""> -->
+         <h1 class="mb-0 font-size-nav-baro text-kanzu-header">KANZU PERMAI ABADI</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+         <ul>
+            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/#home">Home</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/#about">About</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/Produk#produk">Product</a></li>
+            <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/Artikel#berita">Article</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/More_info#more-info">Contac</a></li>
+         </ul>
+         <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
+
+   </div>
+      </header><!-- End Header -->    <main id="page" class="ml-page">
+
+        <style>
+.btn-hrg-dash {
+    font-size: smaller;
+}
+
+.text-nm-perum {
+    font-size: medium;
+}
+
+.text-publishing,
+.font-text-port {
+    font-size: x-small;
+    color: #a7a5a5;
+}
+
+.conten-berita-left {
+    display: block;
+}
+
+.btn-tipe {
+    font-size: 11px;
+}
+
+@media (max-width: 992px) {
+
+    .conten-berita-left {
+        display: none;
+    }
+
+    .text-nm-perum {
+        font-size: 11px;
+    }
+
+    .btn-hrg-dash {
+        font-size: x-small;
+    }
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    --anim-time--hi: 266ms;
+    --anim-time--med: 400ms;
+    --anim-time--lo: 600ms;
+
+    display: flex;
+    place-content: center;
+    max-width: clamp(30rem, 95%, 50rem);
+    width: max(22.5rem, 100%);
+    min-height: 100vh;
+    margin-inline: auto;
+    padding: clamp(0px, (30rem - 100vw) * 9999, 1rem);
+
+}
+
+.gallery__content--flow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery__content--flow>* {
+    flex-grow: 1;
+    flex-basis: calc((30rem - 100%) * 999);
+}
+
+figure {
+    display: flex;
+    min-width: 14rem;
+    /* max-height: 16rem; */
+    position: relative;
+    border-radius: .35rem;
+    box-shadow:
+        rgb(40, 40, 40, 0.1) 0px 2px 3px,
+        rgb(20, 20, 20, 0.2) 0px 5px 8px,
+        rgb(0, 0, 0, 0.25) 0px 10px 12px;
+    overflow: hidden;
+    transition: transform var(--anim-time--med) ease;
+}
+
+figure::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top,
+            hsla(0, 0%, 0%, 0.8) 0%,
+            hsla(0, 0%, 0%, 0.7) 12%,
+            hsla(0, 0%, 0%, 0.2) 41.6%,
+            hsla(0, 0%, 0%, 0.125) 50%,
+            hsla(0, 0%, 0%, 0.01) 59.9%,
+            hsla(0, 0%, 0%, 0) 100%);
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: var(--anim-time--med), var(--anim-time--med);
+    transition-timing-function: ease, ease;
+    z-index: 4;
+}
+
+.header__caption {
+    z-index: 10;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform var(--anim-time--hi) linear,
+        opacity var(--anim-time--hi) linear;
+}
+
+figure:hover::before {
+    opacity: 0.8;
+}
+
+figure:hover .header__caption {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+figure:hover .img-grid-news {
+    transform: scale(1);
+}
+
+.title {
+    color: #fff;
+
+}
+
+.title--primary {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.title--secondary {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.img-grid-news {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    transform: scale(1.15);
+    aspect-ratio: 16 / 13;
+    transition: 400ms ease-in-out;
+}
+
+/* pagination stile */
+@-webkit-keyframes placeHolderShimmer {
+    0% {
+        background-position: -468px 0;
+    }
+
+    100% {
+        background-position: 468px 0;
+    }
+}
+
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -468px 0;
+    }
+
+    100% {
+        background-position: 468px 0;
+    }
+}
+
+.content-placeholder {
+    display: inline-block;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: #f6f7f8;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+    background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    -webkit-background-size: 800px 104px;
+    background-size: 800px 104px;
+    height: inherit;
+    position: relative;
+}
+</style>
+<section class="pt-5 mt-3" id="">
+    <div class="section-header">
+        <span><span class="font-auto size-50px">A</span><span class="font-auto size-30px">rticle</span></span>
+    </div>
+    <div class="container">
+        <div class=" row">
+            <div class="col-lg-9 col-12">
+                <div class="row">
+                    <div class="col-12">
+                                                <img src="http://localhost:8080/kanpa.co.id/upload/70e81dd2f6f9a5ba3ce222d67ec7d8ff.jpg"
+                            class="img-fluid border-radius img-berita" data-id-berita="26"
+                            alt="red sample">
+                        <span class="float-right">10 April 2023</span>
+                        <hr>
+                        <h3 style="font-family: auto;">Brem menjadi jajanan khas kabupaten madiun</h3>
+                                                <div class="gallery__content--flow">
+                                                    </div>
+                        <p class="MsoNormal" style="text-align:justify"><span lang="EN-US" style="font-size: 12pt; line-height: 107%; font-family: Helvetica;">Madiun
+- Brem menjadi oleh-oleh khas Kabupaten Madiun yang sayang untuk dilewatkan.
+Jika mampir ke <a href="https://goo.gl/maps/BWqBbDaKBgSeJQF36" target="_blank">pusat oleh-oleh</a>, jajanan yang rasanya legit dan asam ini pasti
+berjajar di etalase.<br>
+Brem memiliki rasa yang enak dan unik. Hal ini menjadikannya salah satu ikon
+kuliner Madiun yang cukup populer. Brem terbuat dari sari ketan yang
+difermentasi, rasanya manis asam dan mengeluarkan sensasi dingin saat disantap. <br>
+<br>
+Brem Madiun memiliki berbagai bentuk, ada yang bentuknya kotak pipih hingga
+lingkaran. Jika hendak membeli brem asli Madiun, cirinya adalah bentuk kotak
+pipih dengan warna putih sedikit kekuningan.<br>
+<br>
+Di Madiun, sentra penjualan brem berada di <a href="https://goo.gl/maps/dkb9ZhoYafaXpjZQA" target="_blank">Desa Kaliabu</a>, Kecamatan Mejayan. Di
+desa dengan luas sekitar 510 hektar ini memiliki jumlah penduduk 4.882 jiwa
+dari 1.810 KK. <o:p></o:p></span></p>
+
+<span lang="EN-US" style="font-size: 12pt; line-height: 107%;"><span style="font-family: Helvetica;">Jika ke pusat
+penjualan brem di desa kaliabu, bisa mengunjungi juga perumahan bersubsidi yang
+baru proses pembangunan, <a href="https://goo.gl/maps/X3BQS4zd7QXMc9it8" target="_blank">tanah subsidi kpr</a> di kabuapten madiun ini dibangun
+seluas 6.6 ha yang menargetkan pembangunan sebanyak 552 unit. Perumahan yang
+diberi nama <a href="http://kanpa.co.id/detail/perum/Griya-Kanzu-Madiun/tipe/30/66" target="_blank">Griya kanzu caruban</a> atau banyak warga lebih mengenal griya kanzu
+klecorejo kaliabu ini karena terletak di antara desa kaliabu dan desa
+klecorejo. Rumah subsidi klecorejo kaliabu ini di di jual dengan harga yang
+sangat terjangkau berkisar 160 jutaan. Bagi anda yang dating kesana bisa cek di
+google maps : girya kanzu caruban. <br>
+<br>
+Desa ini berjarak sekitar 4 Km dari selatan pusat pemerintahan Kabupaten
+Madiun. Jika dari Alun-alun Caruban Madiun, sentra penjualan brem bisa ditempuh
+sekitar 30 menit, dengan rute melalui traffic light Masjid Jami Al Arifiah
+Jalan Panglima Sudirman menuju ke selatan sekitar 2 Km<br>
+<br>
+Memasuki Desa Kaliabu, pengunjung akan disambut sebuah tanda gapura selamat
+datang. Setelah berjalan sekitar 200 meter, baru pengunjung akan melihat
+rumah-rumah warga yang disulap menjadi toko brem. Benar saja, di sini ada
+puluhan rumah warga yang memproduksi jajanan dari sari tape beras ketan putih
+ini.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br></span>
+<!--[if !supportLineBreakNewLine]--><br>
+<!--[endif]--></span>                        <!-- <p class="text-konten-news">
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$desk_berita</p>
+<p>Filename: artikel/page_artikel.php</p>
+<p>Line Number: 254</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\views\artikel\page_artikel.php<br />
+			Line: 254<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\controllers\Artikel.php<br />
+			Line: 100<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div></p> -->
+                                                <div class="gallery__content--flow">
+                                                        <figure>
+                                <img src="http://localhost:8080/kanpa.co.id/upload/72f5dbb3dab2e33982fd21d61cbc5da0.jpg"
+                                    class="img-grid-news"
+                                    alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. "
+                                    title="Photo by Giacomo Lucarini for Unsplash">
+                                <figcaption class="header__caption" role="presentation">
+                                    <h2 class="title title--secondary">
+                                        <!-- <button type="button" id="" data-id-foto-berita="21" data-file-foto-berita="72f5dbb3dab2e33982fd21d61cbc5da0.jpg" class="btn-hapus-foto-berita-other browse btn btn-danger">Hapus Foto</button> -->
+                                    </h2>
+                                </figcaption>
+                            </figure>
+                                                    </div>
+                        <span lang="EN-US" style="font-size: 12pt; line-height: 107%;"><span style="font-family: Helvetica;">"Jumlah UMKM di sini ada puluhan pembuat
+jajanan khas Madiun brem. Sekitar 55 home industry," ujar Kepala Desa
+Kaliabu Suwondo saat dikonfirmasi detikJatim, Jumat (21/10/2022).<br>
+<br>
+Para pembuat brem, kata Suwondo, mayoritas sudah temurun dari nenek moyangnya
+yang dilestarikan keturunannya. Mereka juga mendapat pembinaan dari Dinas
+Perdagangan Kabupaten Madiun.<br>
+<br>
+"Mereka juga mendapat pembinaan dari Pemkab Madiun melalui Dinas
+Perdagangan," kata Suwondo.<br>
+<br>
+"Jumlah UMKM di sini ada puluhan pembuat jajanan khas Madiun brem. Sekitar
+55 home industry," ujar Kepala Desa Kaliabu Suwondo saat dikonfirmasi
+detikJatim, Jumat (21/10/2022).<br>
+<br>
+Para pembuat brem, kata Suwondo, mayoritas sudah temurun dari nenek moyangnya
+yang dilestarikan keturunannya. Mereka juga mendapat pembinaan dari Dinas
+Perdagangan Kabupaten Madiun.<br>
+<br>
+"Mereka juga mendapat pembinaan dari Pemkab Madiun melalui Dinas
+Perdagangan," kata Suwondo.<br></span>
+<!--[if !supportLineBreakNewLine]--><br>
+<!--[endif]--></span>                        <!-- <p class="text-konten-news">
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$desk_berita</p>
+<p>Filename: artikel/page_artikel.php</p>
+<p>Line Number: 254</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\views\artikel\page_artikel.php<br />
+			Line: 254<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\controllers\Artikel.php<br />
+			Line: 100<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div></p> -->
+                                                                    </div>
+                </div>
+                <hr>
+                <!--Berita artikel infinity scrool-->
+                <div id="load_data" class="row">
+                    <!-- data pagination -->
+                    <br />
+                    <br />
+                </div>
+                <!-- akhir data pagination -->
+                <div id="load_data_message"></div>
+                <div class="text-center mt-3">
+                    <button id="read-more" class="btn btn-xs btn-outline-info"> <i class="bi bi-box-arrow-in-down"></i>
+                        Read More</button>
+                </div>
+                <!-- end berita -->
+                <hr>
+                <span id="tag">
+                    <span style="font-weight: bold;font-family: 'Poppins';"> TAG :</span>
+                    <ul>
+
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Interior" style="color: black;">
+                                Interior                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Jajanan-Khas-Madiun" style="color: black;">
+                                Jajanan Khas Madiun                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Jasa-Kontraktor" style="color: black;">
+                                Jasa Kontraktor                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Kegiatan-Warga" style="color: black;">
+                                Kegiatan Warga                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pembagian-Sembako" style="color: black;">
+                                Pembagian Sembako                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pembangunan-Masjid" style="color: black;">
+                                Pembangunan Masjid                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pengeboran-Sumur" style="color: black;">
+                                Pengeboran Sumur                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Penghargaan" style="color: black;">
+                                Penghargaan                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Perbaikan-Jalan" style="color: black;">
+                                Perbaikan Jalan                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Perumahan" style="color: black;">
+                                Perumahan                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Rumah-Subsidi" style="color: black;">
+                                Rumah Subsidi                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Tips-dan-Trik" style="color: black;">
+                                Tips dan Trik                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wawancara" style="color: black;">
+                                Wawancara                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wisata" style="color: black;">
+                                Wisata                            </a>
+                        </li>
+                                                <li class="btn-tag tag" style="display: inline-block;">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wisata-Caruban" style="color: black;">
+                                Wisata Caruban                            </a>
+                        </li>
+                                            </ul>
+                </span>
+                <hr>
+            </div>
+            <div class="col-lg-3 col-12">
+                <div class="row gy-1">
+                                        <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                        <a
+                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">
+                                <div class="img border-r-0px" style="position: relative;">
+                                    <img src="http://localhost:8080/kanpa.co.id/upload/e9572a2c9a19494b0d85d74717546014.jpg"
+                                        class=" size-img-dash img-fluid" alt="">
+
+                                    <div class="bottom-right promo"></div>
+                                </div>
+                            </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">113 views</span>
+                                <br>
+                                                                <a class="btn-hrg-dash"
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">Rp
+                                    150 <sub>jt</sub></a>
+                                                                <a href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60"
+                                    style="color:black;">
+                                    <h6 class="text-nm-perum mb-0">Griya Kautsar - Tipe mulai</h6>
+                                </a>
+                                                                                                <a
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">
+                                    <button type="button" id=""
+                                        class=" btn-tipe btn btn-sm mb-2 btn-outline-info">30/60</button>
+                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                <br>
+                                <span class="mb-0 font-text-port"> Kambangan, Ungaran Timur</span>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                        <a
+                                href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/80/90">
+                                <div class="img border-r-0px" style="position: relative;">
+                                    <img src="http://localhost:8080/kanpa.co.id/upload/a587432cbe339c3d2fe0b8df11473919.jpg"
+                                        class=" size-img-dash img-fluid" alt="">
+
+                                    <div class="bottom-right promo"></div>
+                                </div>
+                            </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                                                                                                                
+                                                                                                                                                                
+                                                                                                                                <span class="mb-0 font-text-port float-right">899 views</span>
+                                <br>
+                                                                <a class="btn-hrg-dash"
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/41/66">Rp
+                                    300 <sub>jt</sub></a>
+                                                                <a href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/80/90"
+                                    style="color:black;">
+                                    <h6 class="text-nm-perum mb-0">Bukit Permai 2 - Tipe mulai</h6>
+                                </a>
+                                                                                                                                                                                                                                                                <a
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/41/66">
+                                    <button type="button" id=""
+                                        class=" btn-tipe btn btn-sm mb-2 btn-outline-info">41/66</button>
+                                </a>
+                                                                                                                                                                                                <a
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/80/90">
+                                    <button type="button" id=""
+                                        class=" btn-tipe btn btn-sm mb-2 btn-outline-info">80/90</button>
+                                </a>
+                                                                                                                                <br>
+                                <span class="mb-0 font-text-port"> Kalisidi, Ungaran Barat</span>
+                            </div>
+                        </div>
+                    </div>
+                                    </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <center>
+                            <a href="http://localhost:8080/kanpa.co.id/Produk#produk">
+                                <button type="button" id="" class="btn btn-sm btn-outline-info"
+                                    style="font-size: 18px;">
+                                    <i class="fa-brands fa-product-hunt"></i> Lihat Produk Lainnya >>
+                                </button>
+                            </a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+        <style>
+	.title-h4 {
+		color: orange;
+		font-family: ui-serif;
+		font-weight: bold;
+	}
+
+	.text-h6 {
+		color: white;
+		font-family: sans-serif;
+	}
+
+	.icon-info-kontak {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 5px;
+		font-size: 28px;
+		color: white;
+		border: 2px solid white;
+		border-radius: 10px;
+	}
+</style>
+<section id="contact" class="contact pb-0 pt-0">
+	<footer style="background: #033b6c;">
+		<div>
+			<span class="logo">Kanzu Permai Abadi</span>
+			<hr style="color: white;">
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-12">
+				<h4 class="title-h4">Jam Kerja</h4>
+				<h6 class="text-h6">Senin - Minggu</h6>
+				<h6 class="text-h6">08AM - 16PM</h6>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<h4 class="title-h4">Kantor Penjualan</h4>
+				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Bar., Kabupaten Semarang, Jawa Tengah 50518</h6>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<h4 class="title-h4">Info Kontak</h4>
+				<h6 class="text-h6"><i class="fa-solid fa-phone"></i> (024) 7590 1139</h6>
+				<h6 class="text-h6"><i class="fa-brands fa-whatsapp"></i> 0823-3350-7931</h6>
+				<h6 class="text-h6"><i class="fa-regular fa-envelope"></i> Kanzugroupindonesia@gmail.com</h6>
+				<hr style="color: white;">
+				<div class="mb-2" style="text-align-last: justify;">
+					<a href="https://bit.ly/PT-KANPAwhatsapp" class="icon-info-kontak"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+					<a href="https://instagram.com/pt.kanpa?igshid=MzRlODBiNWFlZA==" class="icon-info-kontak"><i class="fa-brands fa-instagram fa-beat"></i></a>
+					<a href="https://www.facebook.com/PT.KANPA?mibextid=ZbWKwL" class="icon-info-kontak"><i class="fa-brands fa-facebook fa-beat"></i></a>
+					<a href="https://www.tiktok.com/@pt.kanpa?_t=8cL7ZOkstVq&_r=1" class="icon-info-kontak"><i class="fa-brands fa-tiktok fa-beat"></i></a>
+					<a href="https://www.youtube.com/@KanzuTV" class="icon-info-kontak"><i class="fa-brands fa-youtube fa-beat"></i></a>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			<hr>
+			&copy; 2023 PT KANPA
+		</div>
+
+	</footer>
+</section>
+
+    </main>
+        <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
+
+    <script src="https://unpkg.com/popper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script> -->
+    <!-- Daterangepicker -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <!-- Select2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script>
+    <!-- canva -->
+
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/daterangepicker/moment.min.js"></script>
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/daterangepicker/daterangepicker.min.js"></script>
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
+
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/aos/aos.js"></script>
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- <script src="http://localhost:8080/kanpa.co.id/assets/vendor/php-email-form/validate.js"></script> -->
+    <!-- Template Main JS File -->
+    <script src="http://localhost:8080/kanpa.co.id/assets/js/main.js"></script>
+    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    // Swiper Configuration
+    var swiper = new Swiper(".swiper-container-bs", {
+        slidesPerView: 1.5,
+        spaceBetween: 10,
+        centeredSlides: true,
+        freeMode: true,
+        grabCursor: true,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination-bullet-bs",
+            clickable: true
+        },
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false
+        },
+        navigation: {
+            nextEl: ".swiper-button-next-bs",
+            prevEl: ".swiper-button-prev-bs"
+        },
+        breakpoints: {
+            500: {
+                slidesPerView: 2
+            },
+            700: {
+                slidesPerView: 2.3
+            }
+        }
+    });
+    </script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YN9QR6KJ0J"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-YN9QR6KJ0J');
+</script>
+<script>
+$('.konten').removeAttr('hidden', true).hide();
+$('.add-view-news').on('click', function(e) {
+    var id_berita = $(this).data('id-berita');
+    let formData = new FormData();
+    formData.append('id-berita', id_berita);
+    $.ajax({
+        type: 'POST',
+        url: "http://localhost:8080/kanpa.co.id/index.php/berita/add_view_berita",
+        data: formData,
+        cache: false,
+        processData: false,
+        contentType: false,
+        success: function(data) {
+            // $('.konten' + id_berita).toggle(300);
+        },
+        error: function() {
+            alert("Data Gagal Diupload");
+        }
+    });
+});
+</script>
+
+<!-- paginations berita -->
+<script>
+$(document).ready(function() {
+
+    var limit = 8;
+    var start = 0;
+    var action = 'inactive';
+
+    function lazzy_loader(limit) {
+        var output = '';
+        output += '<div class="post_data">';
+        output += '<p><span class="content-placeholder" style="width:100%; height: 30px;">&nbsp;</span></p>';
+        output += '<p><span class="content-placeholder" style="width:100%; height: 90px;">&nbsp;</span></p>';
+        output += '</div>';
+        $('#load_data_message').html(output);
+    }
+
+    lazzy_loader(limit);
+
+    function load_data(limit, start) {
+        $.ajax({
+            url: "http://localhost:8080/kanpa.co.id/artikel/get_berita",
+            method: "POST",
+            data: {
+                limit: limit,
+                start: start
+            },
+            cache: false,
+            success: function(data) {
+                if (data == '') {
+                    $('#load_data_message').html('');
+                    $('#read-more').hide();
+                    action = 'active';
+                } else {
+                    $('#load_data').append(data);
+                    $('#load_data_message').html('');
+                    action = 'inactive';
+                }
+            }
+        })
+    }
+
+    if (action == 'inactive') {
+        action = 'active';
+        load_data(limit, start);
+    }
+    //  ### fitur infinity scroll jika ingin diaktifkan bisa hilangkan komentar ###
+
+    // $(window).scroll(function() {
+    //     if ($(window).scrollTop() + $(window).height() > $("#load_data").height() && action ==
+    //         'inactive') {
+    //         lazzy_loader(limit);
+    //         action = 'active';
+    //         start = start + limit;
+    //         setTimeout(function() {
+    //             load_data(limit, start);
+    //         }, 1000);
+    //     }
+    // });
+
+    // Tombol Next Page
+    $(document).on('click', '#read-more', function() {
+        if (action == 'inactive') {
+            lazzy_loader(limit);
+            action = 'active';
+            start = start + limit;
+            setTimeout(function() {
+                load_data(limit, start);
+            }, 1000);
+        }
+    });
+
+});
+</script>
+<!-- Akhir pagination berita -->        <script>
+    // alert('ya');
+    $('#page').removeClass('ml-page');
+    </script>
+    
+    <script>
+    $(document).ready(function() {
+        var newURL = location.href.split("#")[0];
+        window.history.pushState('object', document.title, newURL);
+        $('.play-btn').click(function(e) {
+            $('.ginner-container').addClass('ginner-container-cus')
+        });
+    });
+
+    $(document).on("click", ".pilih-logo", function() {
+        var file = $(this).parents().find(".file-logo");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-denah-lt2", function() {
+        var file = $(this).parents().find(".denah-lt2");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-denah-lt1", function() {
+        var file = $(this).parents().find(".denah-lt1");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-foto-tipe", function() {
+        var file = $(this).parents().find(".foto-tipe");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-foto-voucher", function() {
+        var file = $(this).parents().find(".foto-voucher");
+        file.trigger("click");
+    });
+    $(document).on("click", "#upload-ktp", function() {
+        // alert('ya');
+        var file = $(this).parents().find(".data-file-ktp");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-berita", function() {
+        var file = $(this).parents().find(".file-berita");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-berita-other", function() {
+        $('#id-data-berita').val($(this).data('id-data-berita'));
+        var file = $(this).parents().find(".file-berita-other");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-foto-meta-berita", function() {
+        $('#meta-foto').val($(this).data('meta-foto'));
+        var file = $(this).parents().find(".file-berita-meta");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", "#btn-add-foto", function() {
+        var file = $(this).parents().find(".file-header-perum");
+        file.trigger("click");
+        // alert('ya')
+    });
+
+    function footerToggle(footerBtn) {
+        $(footerBtn).toggleClass("btnActive");
+        $(footerBtn).next().toggleClass("active");
+    }
+
+    $(".sidebar").hover(function() {
+        // alert('ya');
+        openNav();
+    }, function() {
+        closeNav();
+    });
+
+    function openNav() {
+        document.getElementById("page").style.marginLeft = "226px";
+    }
+
+    function closeNav() {
+        document.getElementById("page").style.marginLeft = "74px";
+    }
+    $(function() {
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $("#navbar a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest(".sidebar__nav__link").addClass("sidebar-active");
+            }
+        });
+        // this will get the full URL at the address bar
+    });
+    $(function() {
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $("#tag a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest(".btn-tag").addClass("tag-active");
+            }
+        });
+        // this will get the full URL at the address bar
+    });
+    // var prevScrollpos = window.pageYOffset;
+    // window.onscroll = function() {
+    //     var currentScrollPos = window.pageYOffset;
+    //     if (prevScrollpos > currentScrollPos) {
+    //         document.getElementById("header").style.top = "0";
+    //     } else {
+    //         document.getElementById("header").style.top = "-50px";
+    //     }
+    //     prevScrollpos = currentScrollPos;
+    // }
+    </script>
+
+</body>
+
+</html>";}

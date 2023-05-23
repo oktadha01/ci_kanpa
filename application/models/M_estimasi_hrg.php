@@ -19,23 +19,23 @@ class M_estimasi_hrg extends CI_Model
         }
         return $query->result();
     }
-    // function m_data_perum()
-    // {
-    //     $this->db->select('*');
-    //     $this->db->from('perum');
+    function m_data_perum()
+    {
+        $this->db->select('*');
+        $this->db->from('perum');
 
-    //     // $this->db->where('label_foto', 'dashboard');
-    //     $this->db->ORDER_BY('id_perum', 'desc');
-    //     // $this->db->ORDER_BY('id_perum', 'RANDOM');
-    //     $query = $this->db->get();
-    //     return $query->result();
-    // }
-    // function m_data_tipe()
-    // {
-    //     $this->db->select('*');
-    //     $this->db->from('tipe');
-    //     $this->db->ORDER_BY('luas_bangunan', 'asc');
-    //     $query = $this->db->get();
-    //     return $query->result();
-    // }
+        // $this->db->where('label_foto', 'dashboard');
+        $this->db->ORDER_BY('id_perum', 'desc');
+        // $this->db->ORDER_BY('id_perum', 'RANDOM');
+        $query = $this->db->get();
+        return $query->result();
+    }
+    function m_data_tipe()
+    {
+        $this->db->select('*');
+        $this->db->from('tipe');
+        $this->db->ORDER_BY('luas_bangunan', 'asc');
+        $query = $this->db->get();
+        return $query->result();
+    }
 }

@@ -1,3 +1,7 @@
+body {
+    font-family: 'Poppins';
+}
+
 .header .logo h1 {
     font-size: 32px;
     font-weight: 300;
@@ -12,6 +16,12 @@
     z-index: 997;
     background: white;
 }
+
+/* #main {
+    background: #cecdcd1a;
+    height: 100vh;
+    padding: 70px 10px 1px;
+} */
 
 .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 37px;
@@ -404,9 +414,8 @@
 }
 
 .font-desk-service {
-
-    font-size: 2rem;
-    line-height: normal;
+    font-size: 1rem;
+    line-height: normal !important;
 }
 
 .font-size-title {
@@ -532,7 +541,7 @@
 
 .font-initial {
 
-    font-family: Chathura;
+    font-family: 'Poppins';
     line-height: 0.9;
     color: black;
 }
@@ -543,6 +552,21 @@
 
 .size-30px {
     font-size: 30px;
+}
+
+@media (max-width: 992px) {
+    .size-50px {
+        font-size: 30px;
+    }
+
+    .size-30px {
+        font-size: 23px;
+    }
+
+    .font-desk-service {
+        font-size: 10px !important;
+        line-height: normal !important;
+    }
 }
 
 .font-auto {
@@ -755,10 +779,10 @@
     border: 2px solid #0000003d;
     padding: 5px 8px;
     border-radius: 6px;
-    color: black;
-    margin-right: 10px;
+    /* color: black !important; */
+    margin-bottom: 5px;
 }
-
+.tag:hover,
 .tag-active {
     background: #0000ff96;
     color: white !important;
@@ -791,12 +815,12 @@
         bottom: 0;
         width: 100%;
         overflow-y: scroll;
-        padding-left: 7rem;
+        /* padding-left: 7rem; */
 
     }
 
     .sidebar .sidebar__nav {
-        justify-content: space-around;
+        justify-content: flex-start;
     }
 
     .sidebar .sidebar__nav .sidebar__nav__link {
@@ -1522,6 +1546,18 @@ footer .footer-cat,
     align-items: center;
     /* background-color: lightgray;
     border: 1px solid black; */
+}
+
+.label-promo {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 12px;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 7px;
+    background: #fffc07d4;
+    padding: 2px 6px;
 }
 
 .bottom-right {

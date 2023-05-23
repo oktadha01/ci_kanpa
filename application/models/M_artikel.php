@@ -11,6 +11,21 @@ class M_artikel extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
+
+    // test ifinity scrool
+    public function get_data_Berita($last_id, $limit)
+    {
+        $this->db->select('*');
+        $this->db->from('berita');
+        $this->db->where('id_berita <', $last_id);
+        $this->db->order_by('id_berita', 'RANDOM');
+        // $this->db->limit($limit);
+        $query = $this->db->get();
+        return $query->result();
+
+    }
+
+
     function m_data_berita_tag($tag_berita)
     {
 
@@ -20,6 +35,7 @@ class M_artikel extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
+
     function m_data_berita_left()
     {
         $this->db->select('*');
@@ -40,6 +56,17 @@ class M_artikel extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
+
+    // untuk menampilkan berita menggunakan infinity scroll
+    function m_data_berita_infinity($limit, $start)
+    {
+        $this->db->select("*");
+		$this->db->order_by('id_berita', 'RANDOM');
+		$this->db->limit($limit, $start);
+		$query = $this->db->get('berita');
+		return $query;
+    }
+
     function m_data_berita_center()
     {
         $this->db->select('*');

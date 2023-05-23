@@ -88,12 +88,12 @@
         formData.append('text-berita', $("#code_preview0").code());
         formData.append('ceklis-ubah-foto-berita', $('#ceklis-ubah-foto-berita').val());
         formData.append('judul-berita', $('#judul-berita').val());
+        formData.append('meta-desk', $('#meta-desk').val());
         formData.append('tgl-berita', $('#tgl-berita').val());
         formData.append('tag-berita', $('#tag-berita').val());
-        // formData.append('desk-berita', $('#desk-berita').val());
         formData.append('foto-berita', foto_berita);
+        formData.append('foto-lama', $('#foto-lama').val());
         if (action == 'simpan') {
-            alert('ya');
             $.ajax({
                 type: 'POST',
                 url: "<?php echo site_url('berita/simpan_data_berita'); ?>",
@@ -103,9 +103,9 @@
                 contentType: false,
                 success: function(data) {
                     alert('berhasil')
-                    // form_default();
                     load_data_berita();
                     select_tag();
+                    form_default();
                 },
                 error: function() {
                     alert("Data Gagal Diupload");
@@ -128,24 +128,8 @@
                     alert("Data Gagal Diupload");
                 }
             });
-        } else if (action == 'edit-content') {
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('berita/edit_content'); ?>",
-                data: formData,
-                cache: false,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    alert('Data berhasil di edit..')
-                    load_data_content_berita();
-                    form_default();
-                },
-                error: function() {
-                    alert("Data Gagal Diupload");
-                }
-            });
-        } else {
+        } else if (action == 'edit'){
+            // alert('ya')
             $.ajax({
                 type: 'POST',
                 url: "<?php echo site_url('berita/edit_data_berita'); ?>",
@@ -154,10 +138,10 @@
                 processData: false,
                 contentType: false,
                 success: function(data) {
-                    // alert('berhasil')
-                    form_default();
+                    // alert(data)
                     load_data_berita();
                     select_tag();
+                    form_default();
                 },
                 error: function() {
                     alert("Data Gagal Diupload");

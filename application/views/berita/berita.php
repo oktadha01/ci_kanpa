@@ -152,9 +152,14 @@
             <div class="col-lg-6 col-md-6 col-12 mt-2">
                 <label for="nm-perum">Judul Berita</label>
                 <div class="form-group">
-
                     <input type="text" id="judul-berita" class="form-control" placeholder="Judul Berita ..." autocomplete="off" required="true">
                 </div>
+
+                <label for="nm-perum">Meta deskripsi</label>
+                <div class="form-group">
+                    <input type="text" id="meta-desk" class="form-control" placeholder="Deskripsi ..." autocomplete="off" required="true">
+                </div>
+
                 <label>Tgl terbit Berita</label>
                 <div class="form-group">
                     <div class="input-group">
@@ -188,7 +193,8 @@
             <div class="col-lg-6 col-md-6 col-12 mt-2">
                 <div class="form-group">
                     <img src="" id="preview-foto-berita" class=" img-thumbnail img-fluid">
-                    <input type="text" id="foto-lama" hidden>
+                    <input type="text" id="foto-lama" >
+                    <input type="text" id="meta-foto-lama" >
                 </div>
                 <div id="ceklis-ubah-berita" class="form-group" hidden>
                     <div class="custom-control custom-checkbox">
@@ -227,7 +233,7 @@
                 <button type="button" class="btn-simpan-berita btn btn-sm float-right btn-outline-success" value="simpan" hidden><i class="fa-regular fa-pen-to-square"></i> Simpan data berita</button>
             </div>
         </div>
-        <input type="text" id="id-berita" hidden>
+        <input type="text" id="id-berita">
         <input type="text" id="id-data-berita" hidden>
         <input type="text" id="id-foto-berita" hidden>
     </div>

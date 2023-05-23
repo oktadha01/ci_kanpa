@@ -60,11 +60,12 @@ class M_berita extends CI_Model
             ->delete('foto_berita');
         return $delete;
     }
-    function m_simpan_data_berita($judul_berita, $tgl_berita, $tag_berita, $foto_berita)
+    function m_simpan_data_berita($judul_berita, $tgl_berita, $meta_desk, $tag_berita, $foto_berita)
     {
         $data = array(
             'judul_berita' => $judul_berita,
             'tgl_berita' => $tgl_berita,
+            'meta_desk' => $meta_desk,
             'tag_berita' => $tag_berita,
             'foto_berita' => $foto_berita,
         );
@@ -79,26 +80,35 @@ class M_berita extends CI_Model
             ->update('data_berita');
         return $update;
     }
-    function m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $tag_berita, $foto_berita)
+    function m_edit_data_foto_berita($id_berita, $judul_berita, $tgl_berita, $meta_desk, $tag_berita, $foto_berita)
     {
         $update = $this->db->set('judul_berita', $judul_berita)
             ->set('tgl_berita', $tgl_berita)
+            ->set('meta_desk', $meta_desk)
             ->set('tag_berita', $tag_berita)
             ->set('foto_berita', $foto_berita)
+            // ->set('meta_foto', $meta_foto)
             ->where('id_berita', $id_berita)
             ->update('berita');
         return $update;
     }
-    function m_edit_berita($id_berita, $judul_berita, $tgl_berita, $tag_berita)
+    function m_edit_berita($id_berita, $judul_berita, $tgl_berita, $meta_desk, $tag_berita)
     {
         $update = $this->db->set('judul_berita', $judul_berita)
             ->set('tgl_berita', $tgl_berita)
+            ->set('meta_desk', $meta_desk)
             ->set('tag_berita', $tag_berita)
             ->where('id_berita', $id_berita)
             ->update('berita');
         return $update;
     }
-
+    function m_add_meta_foto($id_berita, $meta_foto)
+    {
+        $update = $this->db->set('meta_foto', $meta_foto)
+            ->where('id_berita', $id_berita)
+            ->update('berita');
+        return $update;
+    }
     function m_delete_berita($id_berita)
     {
         $delete = $this->db->where('id_berita', $id_berita)

@@ -44,12 +44,13 @@ class Perum extends CI_Controller
             $url_map = $this->input->post('url-map');
             $map = $this->input->post('map');
             $deskripsi = $this->input->post('deskripsi');
+            $meta_deskripsi = $this->input->post('meta-deskripsi');
             $video = $this->input->post('video');
             $logo = $data['upload_data']['file_name'];
             $uploadedImage = $this->upload->data();
 
             $this->resizeImage($uploadedImage['file_name']);
-            $insert = $this->m_perum->m_simpan_perum($nm_perum, $kode_perum, $alamat, $map,  $url_map, $deskripsi, $logo, $video);
+            $insert = $this->m_perum->m_simpan_perum($nm_perum, $kode_perum, $alamat, $map,  $url_map, $deskripsi, $meta_deskripsi, $logo, $video);
             echo json_encode($insert);
         }
         exit;
@@ -58,8 +59,6 @@ class Perum extends CI_Controller
     {
         $action_change_logo = $this->input->post('ubah-logo');
         if ($action_change_logo == 'change-logo') {
-            $logo_lama = $this->input->post('logo-lama');
-            unlink('./upload/' . $logo_lama);
 
             $config['upload_path'] = "./upload/";
             $config['allowed_types'] = 'gif|jpg|png';
@@ -77,14 +76,17 @@ class Perum extends CI_Controller
                 $url_map = $this->input->post('url-map');
                 $map = $this->input->post('map');
                 $deskripsi = $this->input->post('deskripsi');
+                $meta_deskripsi = $this->input->post('meta-deskripsi');
                 $video = $this->input->post('video');
                 $logo = $data['upload_data']['file_name'];
                 $uploadedImage = $this->upload->data();
 
                 $this->resizeImage($uploadedImage['file_name']);
-                $update = $this->m_perum->m_edit_logo_perum($id_perum, $nm_perum, $kode_perum, $alamat, $map,  $url_map, $deskripsi, $logo, $video);
+                $update = $this->m_perum->m_edit_logo_perum($id_perum, $nm_perum, $kode_perum, $alamat, $map,  $url_map, $deskripsi, $meta_deskripsi, $logo, $video);
                 echo json_encode($update);
             }
+            $logo_lama = $this->input->post('logo-lama');
+            unlink('./upload/' . $logo_lama);
             exit;
         } else {
             $id_perum = $this->input->post('id-perum');
@@ -94,8 +96,9 @@ class Perum extends CI_Controller
             $url_map = $this->input->post('url-map');
             $map = $this->input->post('map');
             $deskripsi = $this->input->post('deskripsi');
+            $meta_deskripsi = $this->input->post('meta-deskripsi');
             $video = $this->input->post('video');
-            $update = $this->m_perum->m_edit_perum($id_perum, $nm_perum, $kode_perum, $alamat, $map,  $url_map, $deskripsi, $video);
+            $update = $this->m_perum->m_edit_perum($id_perum, $nm_perum, $kode_perum, $alamat, $map,  $url_map, $deskripsi, $meta_deskripsi, $video);
             echo json_encode($update);
         }
     }
@@ -105,6 +108,13 @@ class Perum extends CI_Controller
         $status_perum = $this->input->post('status-perum');
         $update = $this->m_perum->m_status_perum($id_perum, $status_perum);
         echo json_encode($update);
+    }
+    function move_columns(){
+        $id_perum = $this->input->post('id-perum');
+        $order_perum = $this->input->post('order-perum');
+        $update = $this->m_perum->m_move_columns($id_perum, $order_perum);
+        echo json_encode($update);
+
     }
     function resizeImage($filename)
     {
@@ -117,7 +127,7 @@ class Perum extends CI_Controller
             'maintain_ratio' => TRUE,
             'quality' => '50%',
             'width' => 'auto',
-            'height' => '2560',
+            'height' => '140',
         ];
         $this->load->library('image_lib', $config);
         if (!$this->image_lib->resize()) {

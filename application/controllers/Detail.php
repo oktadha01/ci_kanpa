@@ -20,8 +20,17 @@ class Detail extends CI_Controller
         $luas_bangunan = $this->uri->segment(5);
         $luas_tanah = $this->uri->segment(6);
         $nm_perum = preg_replace("![^a-z0-9]+!i", " ", $tittle);
-        $test = $nm_perum;
-        $data['_title'] = $test;
+        $sql = "SELECT * FROM perum WHERE nm_perum = '$nm_perum' ";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $perum) {
+                $logo = $perum->logo;
+                $meta_deskripsi = $perum->meta_deskripsi;
+            }
+        }
+        $data['_title'] = $nm_perum . ' || Type ' . $luas_bangunan . '/' . $luas_tanah;
+        $data['_metafoto'] = $logo;
+		$data['_description'] = 'PT Kanpa - ' . $meta_deskripsi;
         $data['_script'] = 'detail/detail_js';
         $data['_view'] = 'detail/detail';
         $data['detail_perum'] = $this->m_detail->m_detail_perum($nm_perum);

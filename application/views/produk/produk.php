@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col">
                 <a href="<?php echo base_url('Estimasi_harga'); ?>#estimasi-hrg">
-                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-warning text-dark"> Esetimasi Harga <i class="fa-solid fa-sort"></i></button>
+                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-warning text-dark"> Estimasi Harga <i class="fa-solid fa-sort"></i></button>
                 </a>
             </div>
         </div>
@@ -29,12 +29,13 @@
                             foreach ($query->result() as $foto) :
                         ?>
                                 <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">
-                                    <div class="img border-r-0px" style="position: relative;">
-                                        <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class=" size-img-dash img-fluid" alt="">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
-                                        <div class="bottom-right promo"><?php echo $data->promo; ?></div>
-                                    </div>
-                                </a>
+                                            <div class="label-promo"><?php echo $data->promo; ?></div>
+                                            <div class="bottom-right promo">Perumahan <?php echo $data->kategori_tipe; ?></div>
+                                        </div>
+                                    </a>
                         <?php
                             endforeach;
                         }

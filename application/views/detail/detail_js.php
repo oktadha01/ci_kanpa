@@ -95,10 +95,10 @@
             contentType: false,
             success: function(data) {
                 $('#detail-tipe').html(data);
-                $('.filter').attr('hidden', true);
-                $("#tipe-" + $('#luas-bangunan').val()).trigger("click").removeAttr('hidden', true);
-                $("#display-" + $('#luas-bangunan').val()).removeAttr('hidden', true);
-                $("#interior-" + $('#luas-bangunan').val()).removeAttr('hidden', true);
+                // $('.filter').attr('hidden', true);
+                // $("#tipe-" + $('#luas-bangunan').val()).trigger("click").removeAttr('hidden', true);
+                // $("#display-" + $('#luas-bangunan').val()).removeAttr('hidden', true);
+                // $("#interior-" + $('#luas-bangunan').val()).removeAttr('hidden', true);
 
 
             },

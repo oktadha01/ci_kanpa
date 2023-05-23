@@ -34,6 +34,7 @@ class Tipe extends CI_Controller
     {
         $data = array(
             'id_tipe_perum' => $this->input->post('id-tipe-perum'),
+            'kategori_tipe' => $this->input->post('kategori-tipe'),
             'lantai' => $this->input->post('lantai'),
             'luas_tanah' => $this->input->post('luas-tanah'),
             'luas_bangunan' => $this->input->post('luas-bangunan'),
@@ -59,6 +60,7 @@ class Tipe extends CI_Controller
     {
 
         $id_tipe = $this->input->post('id-tipe');
+        $kategori_tipe = $this->input->post('kategori-tipe');
         $lantai = $this->input->post('lantai');
         $luas_tanah = $this->input->post('luas-tanah');
         $luas_bangunan = $this->input->post('luas-bangunan');
@@ -77,7 +79,7 @@ class Tipe extends CI_Controller
         $vr = $this->input->post('vr');
 
 
-        $update = $this->m_tipe->m_edit_data_tipe($lantai, $luas_tanah, $luas_bangunan, $hrg, $satuan_hrg, $promo, $balkon, $taman, $carport, $r_tamu, $r_keluarga, $k_tidur, $k_mandi, $r_makan, $dapur, $vr, $id_tipe);
+        $update = $this->m_tipe->m_edit_data_tipe($kategori_tipe, $lantai, $luas_tanah, $luas_bangunan, $hrg, $satuan_hrg, $promo, $balkon, $taman, $carport, $r_tamu, $r_keluarga, $k_tidur, $k_mandi, $r_makan, $dapur, $vr, $id_tipe);
         echo json_encode($update);
     }
     function delete_data_tipe()

@@ -2,12 +2,33 @@
 class M_dashboard extends CI_Model
 {
 
-    function m_data_fotoslide()
+    function m_data_fotoslide_perumahan()
     {
         $this->db->select('*');
-        $this->db->from('foto');
-        $this->db->where('label_foto', 'dashboard');
-        $this->db->ORDER_BY('id_foto', 'RANDOM');
+        $this->db->from('foto_header');
+        $this->db->where('status_foto_header', 'show-dashboard');
+        $this->db->where('kategori_foto', 'perumahan');
+        // $this->db->ORDER_BY('id_foto', 'RANDOM');
+        $query = $this->db->get();
+        return $query->result();
+    }
+    function m_data_fotoslide_promo()
+    {
+        $this->db->select('*');
+        $this->db->from('foto_header');
+        $this->db->where('status_foto_header', 'show-dashboard');
+        $this->db->where('kategori_foto', 'promo');
+        // $this->db->ORDER_BY('id_foto', 'RANDOM');
+        $query = $this->db->get();
+        return $query->result();
+    }
+    function m_data_tipe_desc()
+    {
+        $this->db->select('*');
+        $this->db->from('tipe');
+        $this->db->Join('perum', 'perum.id_perum = tipe.id_tipe_perum');
+        $this->db->GROUP_BY('id_tipe_perum');
+        $this->db->ORDER_BY('hrg', 'asc');
         $query = $this->db->get();
         return $query->result();
     }

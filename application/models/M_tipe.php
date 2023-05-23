@@ -25,10 +25,11 @@ class M_tipe extends CI_Model
         $result = $this->db->insert('tipe', $data);
         return $result;
     }
-    function m_edit_data_tipe($lantai, $luas_tanah, $luas_bangunan, $hrg, $satuan_hrg, $promo, $balkon, $taman, $carport, $r_tamu, $r_keluarga, $k_tidur, $k_mandi, $r_makan, $dapur, $vr, $id_tipe)
+    function m_edit_data_tipe($kategori_tipe, $lantai, $luas_tanah, $luas_bangunan, $hrg, $satuan_hrg, $promo, $balkon, $taman, $carport, $r_tamu, $r_keluarga, $k_tidur, $k_mandi, $r_makan, $dapur, $vr, $id_tipe)
     {
 
-        $update = $this->db->set('lantai', $lantai)
+        $update = $this->db->set('kategori_tipe', $kategori_tipe)
+            ->set('lantai', $lantai)
             ->set('luas_tanah', $luas_tanah)
             ->set('luas_bangunan', $luas_bangunan)
             ->set('hrg', $hrg)

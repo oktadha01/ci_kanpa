@@ -14,6 +14,7 @@
         formData.append('url-map', $('#url-map').val());
         formData.append('map', $('#map').val());
         formData.append('deskripsi', $('#deskripsi').val());
+        formData.append('meta-deskripsi', $('#meta-deskripsi').val());
         formData.append('logo', logo);
         formData.append('video', $('#video').val());
         formData.append('ubah-logo', $('#ceklis-ubah-foto-logo').val());
@@ -37,7 +38,7 @@
             });
         } else if (action == 'edit') {
             var id_perum = $('#id-perum').val();
-            alert(id_perum);
+            // alert(id_perum);
             $.ajax({
                 type: 'POST',
                 url: "<?php echo site_url('perum/edit_perum'); ?>",
@@ -89,6 +90,7 @@
         $('#url-map').val('');
         $('#map').val('');
         $('#deskripsi').val('');
+        $('#meta-deskripsi').val('');
         $('#video').val('');
         $('#preview-foto-logo').attr({
             src: ''

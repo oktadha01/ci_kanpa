@@ -54,9 +54,40 @@ class M_foto extends CI_Model
     {
         $delete = $this->db->where('id_foto', $id_foto)
             ->delete('foto');
-        return $delete;
+            return $delete;
     }
     
-
-
+    function m_add_foto_header($data)
+    {
+        $result = $this->db->insert('foto_header', $data);
+        return $result;
+    }
+    function m_show_foto_dashboard($id_foto_header, $status_foto_header){
+        $update = $this->db->set('status_foto_header', $status_foto_header)
+            ->where('id_foto_header', $id_foto_header)
+            ->update('foto_header');
+        return $update;
+        
+    }
+    function m_edit_foto_header($id_foto_header, $kategori_foto, $text_wa, $url_siteplan){
+        if($kategori_foto=='promo'){
+            $update = $this->db->set('text_wa', $text_wa)
+                ->where('id_foto_header', $id_foto_header)
+                ->update('foto_header');
+            return $update;
+            
+        }else if($kategori_foto=='siteplan'){
+            $update = $this->db->set('url_siteplan', $url_siteplan)
+                ->where('id_foto_header', $id_foto_header)
+                ->update('foto_header');
+            return $update;
+        }
+    }
+    function m_delete_foto_header($id_foto_header)
+    {
+        $delete = $this->db->where('id_foto_header', $id_foto_header)
+            ->delete('foto_header');
+            return $delete;
+    }
+    
 }

@@ -15,8 +15,8 @@
                         <div class="accordion-body">
                             <!-- <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_berita; ?>" alt="" class="img-fluid"> -->
                             <div class="row mb-2 mt-3">
-                                <div class="col">
-                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="<?php echo $data->id_berita; ?>" data-judul-berita="<?php echo $data->judul_berita; ?>" data-tgl-berita="<?php echo $data->tgl_berita; ?>" data-tag-berita="<?php echo $data->tag_berita; ?>" data-foto-berita="<?php echo $data->foto_berita; ?>"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
+                                <div class="col-12">
+                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="<?php echo $data->id_berita; ?>" data-judul-berita="<?php echo $data->judul_berita; ?>" data-tgl-berita="<?php echo $data->tgl_berita; ?>" data-meta-desk="<?php echo $data->meta_desk; ?>" data-tag-berita="<?php echo $data->tag_berita; ?>" data-foto-berita="<?php echo $data->foto_berita; ?>" data-meta-foto="<?php echo $data->meta_foto; ?>"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
                                 </div>
                             </div>
                             <div id="berita-data<?php echo $data->id_berita; ?>" class="berita"></div>
@@ -95,6 +95,7 @@
             success: function(data) {
                 $('#berita-data' + id_berita).html(data).show();
                 $('#id-berita').val(id_berita);
+                load_data_meta_foto();
             },
             error: function() {
                 alert("Data Gagal Diupload");
@@ -111,15 +112,37 @@
         $('#id-berita').val($(this).data('id-berita'));
         $('#judul-berita').val($(this).data('judul-berita'));
         $('#tgl-berita').val($(this).data('tgl-berita'));
+        $('#meta-desk').val($(this).data('meta-desk'));
         $('#foto-berita').val($(this).data('foto-berita'));
         $('#foto-lama').val($(this).data('foto-berita'));
+        $('#meta-foto-lama').val($(this).data('meta-foto'));
         $('#select-tag').val($(this).data('tag-berita'));
         $('#select-tag').select2().trigger('change');
         $('#preview-foto-berita').attr({
             src: '<?php echo base_url('upload'); ?>/' + $(this).data('foto-berita')
         });
+        const element = document.getElementById("page");
+        element.scrollIntoView();
     });
 
+    function load_data_meta_foto() {
+        let formData = new FormData();
+        formData.append('id-berita', $('#id-berita').val());
+        $.ajax({
+            type: 'POST',
+            url: "<?php echo site_url('berita/data_meta_foto'); ?>",
+            data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                $('#data-meta-foto').html(data);
+            },
+            error: function() {
+                alert("Data Gagal Diupload");
+            }
+        });
+    }
     // $('.btn-delete').click(function(e) {
     //     var el = this;
     //     var confirmalert = confirm("Are you sure?");

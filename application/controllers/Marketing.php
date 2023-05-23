@@ -50,7 +50,7 @@ class Marketing extends CI_Controller
             $data = array('upload_data' => $this->upload->data());
             $foto_marketing = $data['upload_data']['file_name'];
             $uploadedImage = $this->upload->data();
-            // $this->resizeImage($uploadedImage['file_name']);
+            $this->resizeImage($uploadedImage['file_name']);
 
         }
         if ($this->upload->do_upload("foto-header")) {
@@ -191,18 +191,7 @@ class Marketing extends CI_Controller
         $delete = $this->m_marketing->m_delete_data_st($id_st);
         echo json_encode($delete);
     }
-    // function select_data_supplier()
-    // {
-    //     $supplier_id =  $this->input->post('supplier-id');
-    //     echo '<option value=""></option>';
-    //     $sql = "SELECT * FROM supplier, item_supplier WHERE item_supplier.supplier_id = supplier.id_supplier AND supplier.nm_supplier = '$supplier_id'";
-    //     $query = $this->db->query($sql);
-    //     if ($query->num_rows() > 0) {
-    //         foreach ($query->result() as $data) {
-    //             echo '<option value="' . $data->nm_brg . '" data-id-item-supplier="' . $data->id_item_supplier . '" data-hrg-brg="' . $data->hrg_brg . '" data-satuan-brg="' . $data->satuan_brg . '">' . $data->nm_brg . '</option>';
-    //         }
-    //     }
-    // }
+
     function resizeImage($filename)
     {
         $source_path = 'upload/' . $filename;
@@ -213,8 +202,8 @@ class Marketing extends CI_Controller
             'new_image' => $target_path,
             'maintain_ratio' => TRUE,
             'quality' => '50%',
-            'width' => 'auto',
-            'height' => '2560',
+            'width' => '140',
+            'height' => '140',
         ];
         $this->load->library('image_lib', $config);
         if (!$this->image_lib->resize()) {

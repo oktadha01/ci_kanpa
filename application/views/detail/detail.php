@@ -248,43 +248,91 @@
                         <img src="<?php echo base_url('upload'); ?>/<?php echo $data->logo; ?>" class="logo_perum" alt="">
                     </center>
                 </div>
+
+                <div class="testimonials-slider swiper">
+                    <div class="swiper-wrapper">
+
+                        <?php
+                        $sql = "SELECT * FROM foto_header WHERE id_foto_perum = $id_perum";
+                        $query = $this->db->query($sql);
+                        if ($query->num_rows() > 0) {
+                            foreach ($query->result() as $foto) {
+                                if ($foto->kategori_foto == 'perumahan') { ?>
+                                    <?php
+                                    ?>
+                                    <div class="swiper-slide">
+                                        <?php
+                                        foreach ($detail_marketing as $data) {
+                                        ?>
+                                            <a href="<?php echo $data->bitly; ?>">
+                                                <center>
+                                                    <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->header_foto; ?>" class="img-fluid" alt="">
+                                                </center>
+                                            </a>
+                                        <?php
+                                        }
+                                        ?>
+                                    </div>
+                                <?php
+                                } else {
+                                }
+                                ?>
+                        <?php
+                            }
+                        }
+                        ?>
+                        <?php
+                        $sql = "SELECT * FROM foto_header WHERE id_foto_perum = $id_perum";
+                        $query = $this->db->query($sql);
+                        if ($query->num_rows() > 0) {
+                            foreach ($query->result() as $foto) {
+                                if ($foto->kategori_foto == 'promo') { ?>
+                                    <?php
+                                    ?>
+                                    <div class="swiper-slide" style="position: relative;">
+                                        <a href="<?php echo $foto->text_wa; ?>">
+                                            <center>
+                                                <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->header_foto; ?>" class="img-fluid" alt="">
+                                            </center>
+                                        </a>
+                                    </div>
+                                <?php
+                                } else {
+                                }
+                                ?>
+                        <?php
+                            }
+                        }
+                        ?>
+                        <?php
+                        $sql = "SELECT * FROM foto_header WHERE id_foto_perum = $id_perum";
+                        $query = $this->db->query($sql);
+                        if ($query->num_rows() > 0) {
+                            foreach ($query->result() as $foto) {
+                                if ($foto->kategori_foto == 'siteplan') { ?>
+                                    <?php
+                                    ?>
+                                    <div class="swiper-slide" style="position: relative;">
+                                        <a href="<?php echo $foto->url_siteplan; ?>">
+                                            <center>
+                                                <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->header_foto; ?>" class="img-fluid" alt="">
+                                            </center>
+                                        </a>
+                                    </div>
+                                <?php
+                                } else {
+                                }
+                                ?>
+                        <?php
+                            }
+                        }
+                        ?>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
             <?php
             }
             ?>
-            <div class="testimonials-slider swiper">
-                <div class="swiper-wrapper">
-
-                    <?php
-                    $sql = "SELECT * FROM foto, tipe WHERE foto.id_foto_tipe=tipe.id_tipe AND tipe.id_tipe_perum = $id_perum AND foto.label_foto in ('display', 'interior') ORDER BY  RAND()";
-                    $query = $this->db->query($sql);
-                    if ($query->num_rows() > 0) {
-                        foreach ($query->result() as $foto) {
-                    ?>
-                            <div class="swiper-slide" style="position: relative;">
-                                <center>
-
-                                    <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" alt="">
-                                    <?php
-                                    if ($foto->label_foto == 'display') { ?>
-                                        <div class="label-foto-slide">Eksterior <?php echo $data->nm_perum; ?> Tipe <?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?></div>
-
-                                    <?php
-                                    } else {
-                                    ?>
-                                        <div class="label-foto-slide">Interior <?php echo $data->nm_perum; ?> Tipe <?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?></div>
-                                    <?php
-                                    }
-                                    ?>
-                                </center>
-                            </div>
-                    <?php
-                        }
-                    }
-                    ?>
-
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
         </div>
     </section>
     <section class="p-0">
@@ -296,7 +344,9 @@
                     <?php
                     foreach ($detail_perum as $data) {
                     ?>
-                        <p class="text-center" style="font-family: serif;"><?php echo $data->deskripsi; ?></p>
+                        <center>
+                            <p class="text-center" style="font-family: serif;"><?php echo $data->deskripsi; ?></p>
+                        </center>
                     <?php
                     }
                     ?>
@@ -391,10 +441,6 @@
                         ?>
                         <li class="moving-tab moving-tab--interaction"></li>
                     </ul>
-                    <!-- <ul class="tabs--content"> -->
-                    <!-- <li class="actived"> -->
-                    <!-- </li> -->
-                    <!-- </ul> -->
                 </div>
             </div>
         </div>
@@ -444,90 +490,8 @@
             }
         }
         ?>
-        <?php
-        foreach ($detail_perum as $data) {
-            if ($data->video == '') {
-            } else {
-
-        ?>
-                <div class="col-12 pr-0">
-                    <section id="" class="onfocus " data-aos="fade-up">
-                        <div class="container">
-                            <div class="section-header pb-0">
-                                <h1 class="tittle-detail">Video Perumahan <?php echo $data->nm_perum; ?></h1>
-                            </div>
-                        </div>
-                        <div class="container-fluid p-0 ">
-                            <div class="row g-0">
-                                <div class="col-12 video-play position-relative img-fluid" style="background: linear-gradient(rgba(var(--color-black-rgb), 0.4), rgba(var(--color-black-rgb), 0.7)), url(<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>) center center no-repeat;     background-size: cover;">
-                                    <a href="<?php echo $data->video; ?>" class="glightbox play-btn"></a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-        <?php
-            }
-        }
-        ?>
     </section>
-    <section class="portfolio pb-0" data-aos="fade-up">
-        <div class="container-fluid" data-aos="fade-up" data-aos-delay="200">
-            <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
 
-                <ul class="portfolio-flters">
-                    <li data-filter="*" class="filter-active" hidden>All</li>
-                    <?php
-                    foreach ($detail_tipe as $data) {
-                        $id_tipe = $data->id_tipe;
-                    ?>
-                        <li id="tipe-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".grid-<?php echo $data->luas_bangunan; ?>">All</li>
-                        <li id="display-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".filter-display-<?php echo $data->luas_bangunan; ?>">Eksterior</li>
-                        <li id="interior-<?php echo $data->luas_bangunan; ?>" class="filter" data-filter=".filter-interior-<?php echo $data->luas_bangunan; ?>">Interior</li>
-
-                    <?php
-                    }
-                    ?>
-                </ul><!-- End Portfolio Filters -->
-                <div class="row g-0 portfolio-container">
-                    <?php
-                    foreach ($detail_tipe as $data) {
-                        $id_tipe = $data->id_tipe;
-                    ?>
-                        <?php
-                        $sql = "SELECT * FROM foto WHERE foto.id_foto_tipe = '$id_tipe' AND label_foto in('display','interior') ORDER BY  RAND()";
-                        $query = $this->db->query($sql);
-                        if ($query->num_rows() > 0) {
-                            foreach ($query->result() as $foto) {
-                        ?>
-                                <div class="col-xxl-2 col-lg-3 col-md-4 col-4 portfolio-item filter-app grid-<?php echo $data->luas_bangunan; ?> filter-<?php echo $foto->label_foto; ?>-<?php echo $data->luas_bangunan; ?>">
-                                    <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" class="img-fluid" alt="">
-                                    <div class="portfolio-info">
-                                        <?php
-                                        if ($foto->label_foto == 'display') { ?>
-                                            <h4>Eksterior</h4>
-                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Eksterior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <?php
-                                        } else { ?>
-                                            <h4>Interior</h4>
-                                            <a href="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" title="Interior" data-gallery="portfolio-gallery" class="details-link glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                                        <?php
-                                        }
-                                        ?>
-                                        <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-                                    </div>
-                                </div>
-                        <?php
-                            }
-                        }
-                        ?>
-                    <?php
-                    }
-                    ?>
-                </div>
-            </div>
-        </div>
-    </section>
     <section id="" class="contact p-0 mt-5">
         <div class="" data-aos="fade-up">
             <div class="map">
@@ -536,11 +500,9 @@
                     echo $data->map;
                 }
                 ?>
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             </div>
         </div>
     </section>
-    <!-- <a class="" href="" target="_blank"> -->
     <?php
     foreach ($detail_marketing as $data) {
     ?>

@@ -64,7 +64,7 @@ $(document).ready(function() {
             success: function(data) {
                 if (data == '') {
                     $('#load_data_message').html('');
-                    $('#read-more').hide();
+                    // $('#read-more').hide();
                     action = 'active';
                 } else {
                     $('#load_data').append(data);
@@ -94,7 +94,7 @@ $(document).ready(function() {
     // });
 
     // Tombol Next Page
-    $(document).on('click', '#read-more', function() {
+    $(document).on('click', '#read-more-art', function() {
         if (action == 'inactive') {
             lazzy_loader(limit);
             action = 'active';
@@ -108,3 +108,70 @@ $(document).ready(function() {
 });
 </script>
 <!-- Akhir pagination berita -->
+
+
+<!-- paginations tag_berita -->
+<script>
+$(document).ready(function() {
+
+    var limit = 8;
+    var start = 0;
+    var action = 'inactive';
+    var tag_berita = $('#tag-berita').val();
+
+
+    function lazzy_loader(limit) {
+        var output = '';
+        output += '<div class="post_data">';
+        output += '<p><span class="content-placeholder" style="width:100%; height: 30px;">&nbsp;</span></p>';
+        output += '<p><span class="content-placeholder" style="width:100%; height: 90px;">&nbsp;</span></p>';
+        output += '</div>';
+        $('#load_data_message').html(output);
+    }
+
+    lazzy_loader(limit);
+
+    function load_data() {
+        $.ajax({
+            url: "<?php echo base_url(); ?>artikel/get_berita_tag",
+            method: "POST",
+            data: {
+                limit: limit,
+                start: start,
+                tag_berita: tag_berita
+            },
+            cache: false,
+            success: function(data) {
+                if (data == '') {
+                    $('#load_data_message').html('');
+                    $('#read-more').hide();
+                    action = 'active';
+                } else {
+                    $('#load_data_tag').append(data);
+                    $('#load_data_message').html('');
+                    action = 'inactive';
+                }
+            }
+        })
+    }
+
+    if (action == 'inactive') {
+        action = 'active';
+        load_data(limit, start);
+    }
+
+    // Tombol Next Page
+    $(document).on('click', '#read-more', function() {
+        if (action == 'inactive') {
+            lazzy_loader(limit);
+            action = 'active';
+            start = start + limit;
+            setTimeout(function() {
+                load_data(limit, start);
+            }, 900);
+        }
+    });
+
+});
+</script>
+<!-- Akhir pagination tag_berita -->

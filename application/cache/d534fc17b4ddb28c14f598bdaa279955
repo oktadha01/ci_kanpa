@@ -1,10 +1,10 @@
-a:3:{s:4:"time";i:1684891429;s:3:"ttl";i:604800;s:4:"data";s:37941:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1684891882;s:3:"ttl";i:604800;s:4:"data";s:42347:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>
-        ARTIKEL PT KANPA    </title>
+        Apakah anda harus membeli rumah atau mobil terlebih dahulu Inilah yang dikatakan para ahli    </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" /> -->
     <meta name="google-site-verification" content="7i4MFwx9o5niYM8_5w-uzOuKetBLUFMogGH7c0YpjHY" />
@@ -12,10 +12,8 @@ a:3:{s:4:"time";i:1684891429;s:3:"ttl";i:604800;s:4:"data";s:37941:"<!DOCTYPE ht
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <!-- Meta untuk SEO -->
-            <meta name="description"
-        content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat, perumahan subsidi griya kanzu kleco kaliabu, perumahan subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan subsidi madiun, rumah subsidi klecorejo kaliabu">
-    <meta name="keywords"
-        content="PT Kanpa, rumah murah di semarang, jual rumah semarang, jual rumah ungaran, jual rumah, jual rumah gunung pati, perumahan ungaran, rumah murah ungaran,perumahan murah semarang, perumahan bukit permai ungaran, perumahan murah subsidi, kpr, griya kautsar ungaran, bukit permai 2 ungaran, Perumahan subsidi griya kanzu kleco kaliabu, rumah subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan klecorejo kaliabu">
+        <meta property="og:image" content="http://localhost:8080/kanpa.co.id/upload/6d3cfcd4677635a744263174e6dc6bcc.jpg">
+            <meta name="description" content="PT Kanpa Apakah anda harus membeli rumah atau mobil terlebih dahulu Inilah yang dikatakan para ahli - Haruskah Anda memprioritaskan membeli rumah atau mobil? Biarkan para ahli mempertimbangkan dan membantu Anda membuat keputusan yang tepat.">
     
     <meta name="robots" content="INDEX,FOLLOW">
 
@@ -135,6 +133,127 @@ a:3:{s:4:"time";i:1684891429;s:3:"ttl";i:604800;s:4:"data";s:37941:"<!DOCTYPE ht
     }
 }
 
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    --anim-time--hi: 266ms;
+    --anim-time--med: 400ms;
+    --anim-time--lo: 600ms;
+
+    display: flex;
+    place-content: center;
+    max-width: clamp(30rem, 95%, 50rem);
+    width: max(22.5rem, 100%);
+    min-height: 100vh;
+    margin-inline: auto;
+    padding: clamp(0px, (30rem - 100vw) * 9999, 1rem);
+
+}
+
+.gallery__content--flow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery__content--flow>* {
+    flex-grow: 1;
+    flex-basis: calc((30rem - 100%) * 999);
+}
+
+figure {
+    display: flex;
+    min-width: 14rem;
+    /* max-height: 16rem; */
+    position: relative;
+    border-radius: .35rem;
+    box-shadow:
+        rgb(40, 40, 40, 0.1) 0px 2px 3px,
+        rgb(20, 20, 20, 0.2) 0px 5px 8px,
+        rgb(0, 0, 0, 0.25) 0px 10px 12px;
+    overflow: hidden;
+    transition: transform var(--anim-time--med) ease;
+}
+
+figure::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top,
+            hsla(0, 0%, 0%, 0.8) 0%,
+            hsla(0, 0%, 0%, 0.7) 12%,
+            hsla(0, 0%, 0%, 0.2) 41.6%,
+            hsla(0, 0%, 0%, 0.125) 50%,
+            hsla(0, 0%, 0%, 0.01) 59.9%,
+            hsla(0, 0%, 0%, 0) 100%);
+    opacity: 0;
+    transition-property: opacity, transform;
+    transition-duration: var(--anim-time--med), var(--anim-time--med);
+    transition-timing-function: ease, ease;
+    z-index: 4;
+}
+
+.header__caption {
+    z-index: 10;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 100%;
+    gap: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform var(--anim-time--hi) linear,
+        opacity var(--anim-time--hi) linear;
+}
+
+figure:hover::before {
+    opacity: 0.8;
+}
+
+figure:hover .header__caption {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+figure:hover .img-grid-news {
+    transform: scale(1);
+}
+
+.title {
+    color: #fff;
+
+}
+
+.title--primary {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.title--secondary {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.img-grid-news {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    transform: scale(1.15);
+    aspect-ratio: 16 / 13;
+    transition: 400ms ease-in-out;
+}
+
 /* pagination stile */
 @-webkit-keyframes placeHolderShimmer {
     0% {
@@ -158,8 +277,8 @@ a:3:{s:4:"time";i:1684891429;s:3:"ttl";i:604800;s:4:"data";s:37941:"<!DOCTYPE ht
 
 .content-placeholder {
     display: inline-block;
-    -webkit-animation-duration: 500ms;
-    animation-duration: 500ms;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     -webkit-animation-iteration-count: infinite;
@@ -178,49 +297,126 @@ a:3:{s:4:"time";i:1684891429;s:3:"ttl";i:604800;s:4:"data";s:37941:"<!DOCTYPE ht
     position: relative;
 }
 </style>
-<section class="pt-5 mt-3" id="berita">
+<section class="pt-5 mt-3" id="">
     <div class="section-header">
-
         <span><span class="font-auto size-50px">A</span><span class="font-auto size-30px">rticle</span></span>
     </div>
     <div class="container">
-
         <div class=" row">
             <div class="col-lg-9 col-12">
                 <div class="row">
-                    <div class="col-lg-3 col-4">
-                                                <a class="text-dark add-view-news"
-                            href="http://localhost:8080/kanpa.co.id/Artikel/page/Perbedaan-rumah-dan-apartemen-Mana-yang-lebih-cocok-untuk-anda"
-                            data-id-berita="51">
-                            <img src="http://localhost:8080/kanpa.co.id/upload/137bec7c9c8e04cab670125f057f26e7.jpg"
-                                class="img-fluid border-radius img-berita" alt="red sample">
-                            <h6 class="text-publishing">08 May 2023</h6>
-                            <h6 class="tittle-news resp-tittle">Perbedaan rumah dan apartemen Mana yang lebih cocok untuk anda</h6>
-                            <h6 class="font-text-port">36 views</h6>
-                        </a>
-                                                <a class="text-dark add-view-news"
-                            href="http://localhost:8080/kanpa.co.id/Artikel/page/PT-KANPA-raih-penghargaan-program-realisasi-kpr-non-subsidi-terbanyak-tahun-2022"
-                            data-id-berita="8">
-                            <img src="http://localhost:8080/kanpa.co.id/upload/53efe7248bef1bd2f4a9ac8146c6681a.jpg"
-                                class="img-fluid border-radius img-berita" alt="red sample">
-                            <h6 class="text-publishing">16 September 2022</h6>
-                            <h6 class="tittle-news resp-tittle">PT KANPA raih penghargaan program realisasi kpr non subsidi terbanyak tahun 2022</h6>
-                            <h6 class="font-text-port">54 views</h6>
-                        </a>
-                                            </div>
-                    <div class="col-lg-9 col-8">
-                                                <a class="text-dark add-view-news"
-                            href="http://localhost:8080/kanpa.co.id/Artikel/page/PT-Kanzu-bagi-bagi-sembako-untuk-masyarakat-jelang-ramadhan-di-desa-kaliabu-dan-desa-klecorejo"
-                            data-id-berita="32">
-                            <img src="http://localhost:8080/kanpa.co.id/upload/ad1349aa086c0e1a031e377e30b5406a.jpg"
-                                class="img-fluid border-radius img-berita"
-                                data-id-berita="32" alt="red sample">
-                            <h3 style="font-family: auto;">PT Kanzu bagi bagi sembako untuk masyarakat jelang ramadhan di desa kaliabu dan desa klecorejo</h3>
-                        </a>
-                                            </div>
+                    <div class="col-12">
+                                                <img src="http://localhost:8080/kanpa.co.id/upload/3103b52db627252a8cffcff9d83b2284.jpg"
+                            class="img-fluid border-radius img-berita" data-id-berita="62"
+                            alt="red sample">
+                        <span class="float-right">11 May 2023</span>
+                        <hr>
+                        <h3 style="font-family: auto;">Apakah anda harus membeli rumah atau mobil terlebih dahulu Inilah yang dikatakan para ahli</h3>
+                                                <div class="gallery__content--flow">
+                                                    </div>
+                        <p><span style="font-family: Helvetica;">Ketika Anda memiliki uang yang cukup untuk membeli rumah atau mobil, keputusan
+yang sulit harus dibuat. Apakah Anda harus memprioritaskan membeli rumah atau mobil
+terlebih dahulu? Para ahli dapat membantu Anda mempertimbangkan faktor-faktor
+seperti kebutuhan, anggaran, dan tujuan jangka panjang untuk membuat keputusan
+yang tepat.</span></p><p><span style="font-weight: bold; font-family: Helvetica;">Pertimbangkan tujuan jangka panjang Anda.</span></p><p><span style="font-family: Helvetica;">
+Saat mempertimbangkan apakah Anda harus membeli rumah atau mobil terlebih
+dahulu, penting untuk memikirkan tujuan jangka panjang Anda. Jika Anda berencana
+untuk menetap di suatu tempat untuk waktu yang lama, membeli rumah mungkin
+menjadi prioritas. Namun, jika Anda sering bepergian atau membutuhkan mobil untuk
+bekerja, membeli mobil mungkin lebih penting. Pertimbangkan juga bagaimana
+keputusan Anda akan memengaruhi tujuan jangka panjang Anda, seperti menabung
+untuk pensiun atau membayar pendidikan anak-anak Anda.</span></p><p><span style="font-weight: bold; font-family: Helvetica;">Perhatikan kondisi keuangan Anda saat ini.</span></p><p><span style="font-family: Helvetica;">Pertimbangkan berapa banyak uang yang Anda miliki untuk membayar uang muka,
+cicilan bulanan, dan biaya-biaya lain yang terkait dengan kepemilikan rumah atau mobil.
+Pastikan Anda memiliki rencana keuangan yang jelas dan realistis sebelum membuat
+keputusan besar seperti ini. Jangan lupa untuk mempertimbangkan juga biaya-biaya lain
+yang mungkin muncul di masa depan, seperti perawatan mobil atau renovasi rumah.</span></p><p><span style="font-weight: bold; font-family: Helvetica;">Pelajari opsi pembiayaan yang tersedia.
+</span></p><p><span style="font-family: Helvetica;">Sebelum memutuskan apakah Anda harus membeli rumah atau mobil terlebih dahulu,
+penting untuk mempelajari opsi pembiayaan yang tersedia. Ada banyak pilihan
+pembiayaan yang dapat membantu Anda membeli rumah atau mobil, seperti kredit
+bank, pinjaman dari lembaga keuangan, atau program pembiayaan dari produsen mobil.
+Pastikan Anda memahami persyaratan dan bunga yang terkait dengan setiap opsi
+pembiayaan sebelum membuat keputusan. Jangan ragu untuk berkonsultasi dengan ahli
+keuangan jika Anda membutuhkan bantuan dalam memilih opsi pembiayaan yang tepat
+untuk Anda.</span></p><p><span style="font-weight: bold; font-family: Helvetica;">Pertimbangkan biaya-biaya tambahan yang terkait dengan
+kepemilikan rumah atau mobil.
+</span></p><p><span style="font-family: Helvetica;">Sebelum memutuskan apakah Anda harus membeli rumah atau mobil terlebih dahulu,
+penting untuk mempertimbangkan biaya-biaya tambahan yang terkait dengan
+kepemilikan keduanya. Misalnya, jika Anda membeli rumah, Anda harus
+mempertimbangkan biaya perawatan dan perbaikan, pajak properti, dan asuransi
+rumah. Di sisi lain, jika Anda membeli mobil, Anda harus mempertimbangkan biaya
+bahan bakar, perawatan, dan asuransi mobil. Pastikan Anda memiliki anggaran yang
+cukup untuk menangani biaya-biaya tambahan ini sebelum membuat keputusan.&nbsp;</span></p><p><span style="font-weight: bold; font-family: Helvetica;">Pikirkan tentang nilai investasi jangka panjang.</span></p><p><span style="font-family: Helvetica;">
+Ketika mempertimbangkan apakah harus membeli rumah atau mobil terlebih dahulu,
+penting untuk memikirkan tentang nilai investasi jangka panjang. Rumah umumnya
+dianggap sebagai investasi yang lebih baik karena nilainya cenderung meningkat seiring
+waktu. Di sisi lain, mobil cenderung mengalami depresiasi nilainya seiring waktu.
+Namun, jika Anda membutuhkan mobil untuk bekerja atau keperluan sehari-hari, itu bisa
+menjadi investasi yang lebih penting bagi Anda. Pertimbangkan tujuan jangka panjang
+Anda dan bagaimana keputusan Anda akan memengaruhi keuangan Anda di masa
+depan.</span><br></p>                        <!-- <p class="text-konten-news">
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$desk_berita</p>
+<p>Filename: artikel/page_artikel.php</p>
+<p>Line Number: 254</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\views\artikel\page_artikel.php<br />
+			Line: 254<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\application\controllers\Artikel.php<br />
+			Line: 100<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: D:\xampp\htdocs\kanpa.co.id\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div></p> -->
+                                                                    </div>
                 </div>
                 <hr>
-
                 <!--Berita artikel infinity scrool-->
                 <div id="load_data" class="row">
                     <!-- data pagination -->
@@ -235,82 +431,82 @@ a:3:{s:4:"time";i:1684891429;s:3:"ttl";i:604800;s:4:"data";s:37941:"<!DOCTYPE ht
                 </div>
                 <!-- end berita -->
                 <hr>
-                <!-- tampil tag -->
                 <span id="tag">
                     <span style="font-weight: bold;font-family: 'Poppins';"> TAG :</span>
                     <ul>
+
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Interior">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Interior" style="color: black;">
                                 Interior                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Jajanan-Khas-Madiun">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Jajanan-Khas-Madiun" style="color: black;">
                                 Jajanan Khas Madiun                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Jasa-Kontraktor">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Jasa-Kontraktor" style="color: black;">
                                 Jasa Kontraktor                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Kegiatan-Warga">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Kegiatan-Warga" style="color: black;">
                                 Kegiatan Warga                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pembagian-Sembako">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pembagian-Sembako" style="color: black;">
                                 Pembagian Sembako                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pembangunan-Masjid">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pembangunan-Masjid" style="color: black;">
                                 Pembangunan Masjid                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pengeboran-Sumur">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Pengeboran-Sumur" style="color: black;">
                                 Pengeboran Sumur                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Penghargaan">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Penghargaan" style="color: black;">
                                 Penghargaan                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Perbaikan-Jalan">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Perbaikan-Jalan" style="color: black;">
                                 Perbaikan Jalan                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Perumahan">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Perumahan" style="color: black;">
                                 Perumahan                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Rumah-Subsidi">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Rumah-Subsidi" style="color: black;">
                                 Rumah Subsidi                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Tips-dan-Trik">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Tips-dan-Trik" style="color: black;">
                                 Tips dan Trik                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wawancara">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wawancara" style="color: black;">
                                 Wawancara                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wisata">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wisata" style="color: black;">
                                 Wisata                            </a>
                         </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wisata-Caruban">
+                            <a href="http://localhost:8080/kanpa.co.id/Artikel/tag/Wisata-Caruban" style="color: black;">
                                 Wisata Caruban                            </a>
                         </li>
                                             </ul>
                 </span>
-                <!-- akhir tag -->
+                <hr>
             </div>
             <div class="col-lg-3 col-12">
                 <div class="row gy-1">
                                         <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                         <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">
+                                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120">
                                 <div class="img border-r-0px" style="position: relative;">
-                                    <img src="http://localhost:8080/kanpa.co.id/upload/e9572a2c9a19494b0d85d74717546014.jpg"
+                                    <img src="http://localhost:8080/kanpa.co.id/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg"
                                         class=" size-img-dash img-fluid" alt="">
 
                                     <div class="bottom-right promo"></div>
@@ -318,32 +514,32 @@ a:3:{s:4:"time";i:1684891429;s:3:"ttl";i:604800;s:4:"data";s:37941:"<!DOCTYPE ht
                             </a>
                                                         <div class="m-2">
                                 <span class="mb-0 font-text-port">Mulai</span>
-                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">113 views</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                <span class="mb-0 font-text-port float-right">153 views</span>
                                 <br>
                                                                 <a class="btn-hrg-dash"
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">Rp
-                                    150 <sub>jt</sub></a>
-                                                                <a href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60"
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120">Rp
+                                    1 <sub>M</sub></a>
+                                                                <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120"
                                     style="color:black;">
-                                    <h6 class="text-nm-perum mb-0">Griya Kautsar - Tipe mulai</h6>
+                                    <h6 class="text-nm-perum mb-0">Alton Town House - Tipe mulai</h6>
                                 </a>
-                                                                                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120">
                                     <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">30/60</button>
+                                        class=" btn-tipe btn btn-sm mb-2 btn-outline-info">140/120</button>
                                 </a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                <br>
-                                <span class="mb-0 font-text-port"> Kambangan, Ungaran Timur</span>
+                                                                <br>
+                                <span class="mb-0 font-text-port"> Sisemut, Ungaran Barat</span>
                             </div>
                         </div>
                     </div>
                                         <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                         <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
+                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
                                 <div class="img border-r-0px" style="position: relative;">
-                                    <img src="http://localhost:8080/kanpa.co.id/upload/92eefd9a018c85f0fc3f056e0b8b0b14.jpg"
+                                    <img src="http://localhost:8080/kanpa.co.id/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg"
                                         class=" size-img-dash img-fluid" alt="">
 
                                     <div class="bottom-right promo"></div>
@@ -351,35 +547,23 @@ a:3:{s:4:"time";i:1684891429;s:3:"ttl";i:604800;s:4:"data";s:37941:"<!DOCTYPE ht
                             </a>
                                                         <div class="m-2">
                                 <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                                                                                                                
-                                                                                                
-                                                                                                
-                                                                                                <span class="mb-0 font-text-port float-right">435 views</span>
+                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">344 views</span>
                                 <br>
                                                                 <a class="btn-hrg-dash"
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/42/80">Rp
-                                    333 <sub>jt</sub></a>
-                                                                <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95"
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60">Rp
+                                    160 <sub>jt</sub></a>
+                                                                <a href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60"
                                     style="color:black;">
-                                    <h6 class="text-nm-perum mb-0">Alton Green House - Tipe mulai</h6>
+                                    <h6 class="text-nm-perum mb-0">Griya kanzu Klaten - Tipe mulai</h6>
                                 </a>
-                                                                                                                                                                                                                                                                                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/42/80">
+                                                                                                                                                                <a
+                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
                                     <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">42/80</button>
+                                        class=" btn-tipe btn btn-sm mb-2 btn-outline-info">30/60</button>
                                 </a>
-                                                                                                                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/60/90">
-                                    <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">60/90</button>
-                                </a>
-                                                                                                                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
-                                    <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">90/95</button>
-                                </a>
-                                                                                                <br>
-                                <span class="mb-0 font-text-port"> Jl. Villa Siberi - Kerajan</span>
+                                                                                                                                                                                                                                                                                                                                                                <br>
+                                <span class="mb-0 font-text-port"> Carikan, Juwiring, Klaten</span>
                             </div>
                         </div>
                     </div>

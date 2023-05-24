@@ -12,28 +12,13 @@ class M_artikel extends CI_Model
         return $query->result();
     }
 
-    // test ifinity scrool
-    public function get_data_Berita($last_id, $limit)
+    function m_data_berita_tag($start, $limit, $tag_berita)
     {
-        $this->db->select('*');
-        $this->db->from('berita');
-        $this->db->where('id_berita <', $last_id);
-        $this->db->order_by('id_berita', 'RANDOM');
-        // $this->db->limit($limit);
-        $query = $this->db->get();
-        return $query->result();
-
-    }
-
-
-    function m_data_berita_tag($tag_berita)
-    {
-
-        $this->db->select('*');
-        $this->db->from('berita');
+        $this->db->select("*");
         $this->db->where('tag_berita', $tag_berita);
-        $query = $this->db->get();
-        return $query->result();
+        $this->db->limit($limit, $start);
+        $query = $this->db->get('berita');
+        return $query;
     }
 
     function m_data_berita_left()

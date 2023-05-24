@@ -59,8 +59,8 @@
 
 .content-placeholder {
     display: inline-block;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    -webkit-animation-duration: 400ms;
+    animation-duration: 900ms;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     -webkit-animation-iteration-count: infinite;
@@ -130,17 +130,17 @@
                     </div>
                 </div>
                 <hr>
-
                 <!--Berita artikel infinity scrool-->
                 <div id="load_data" class="row">
                     <!-- data pagination -->
                     <br />
                     <br />
+                    <!-- akhir data pagination -->
                 </div>
-                <!-- akhir data pagination -->
                 <div id="load_data_message"></div>
                 <div class="text-center mt-3">
-                    <button id="read-more" class="btn btn-xs btn-outline-info"> <i class="bi bi-box-arrow-in-down"></i>
+                    <button id="read-more-art" class="btn btn-xs btn-outline-info"> <i
+                            class="bi bi-box-arrow-in-down"></i>
                         Read More</button>
                 </div>
                 <!-- end berita -->

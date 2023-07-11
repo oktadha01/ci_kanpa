@@ -77,9 +77,9 @@ $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	// LOCAL
-	'username' => 'root',
-	'password' => '',
-	'database' => 'kina3126_kanpa',
+	// 'username' => 'root',
+	// 'password' => '',
+	// 'database' => 'kanpa_ci',
 
 	// ONLINE
 	'username' => 'kina3126_kanpa',

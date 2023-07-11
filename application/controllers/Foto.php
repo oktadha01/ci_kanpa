@@ -98,6 +98,37 @@ class Foto extends CI_Controller
         $delete = $this->m_foto->m_delete_foto($id_foto);
         echo json_encode($delete);
     }
+    function load_set_foto_header()
+    {
+        $sql = "SELECT * FROM foto_header WHERE id_foto_perum = 'header_sub'";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $foto) {
+                echo base_url('upload') . '/' . $foto->header_foto;
+            }
+        }
+    }
+    function set_foto_header()
+    {
+        $config['upload_path'] = "./upload/";
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['encrypt_name'] = TRUE;
+        $id_foto_perum = 'header_sub';
+        $kategori_foto = 'header_sub';
+
+        $this->load->library('upload', $config);
+
+        if ($this->upload->do_upload("header-foto")) {
+            $data = array('upload_data' => $this->upload->data());
+            $header_foto = $data['upload_data']['file_name'];
+            $uploadedImage = $this->upload->data();
+            // $this->resizeImage($uploadedImage['file_name']);
+            $update = $this->m_foto->m_set_foto_header($id_foto_perum, $header_foto, $kategori_foto);
+            echo json_encode($update);
+            // echo $header_foto;
+        }
+        exit;
+    }
     function add_foto_header()
     {
         $config['upload_path'] = "./upload/";

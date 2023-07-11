@@ -1,0 +1,483 @@
+a:3:{s:4:"time";i:1689047365;s:3:"ttl";i:604800;s:4:"data";s:37837:"<div class="faq">
+    <!-- <div class="" data-aos="fade-up"> -->
+    <div class="row">
+        <div class="accordion accordion-flush" id="faqlist">
+            <table class="table">
+                <thead class="table__thead">
+                    <tr>
+                        <th class="table__th">NO</th>
+                        <th class="table__th">PERUMAHAN</th>
+                        <th class="table__th">KODE</th>
+                        <th class="table__th">ALAMAT</th>
+                        <th class="table__th">LOGO</th>
+                        <th class="table__th">ACTION</th>
+                    </tr>
+                </thead>
+                <tbody class="table__tbody">
+                                            <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-2" class="form-control order-perum" data-id-perum="2" autocomplete="off" required value="1">
+                            </td>
+                            <td class="table-row__td">
+                                <div class="table-row__img">
+                                    <img src="http://localhost/kanpa_ci/upload/b0248a9a1e78fb5d7c2d024792cffe9a.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Bukit Permai 2</p>
+                                </div>
+                            </td>
+                            <td class="table-row__td">
+                                BP2                            </td>
+                            <td class="table-row__td">
+                                Kalisidi, Ungaran Barat                                <textarea id="map-2" hidden><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4086.853412209014!2d110.37983466405892!3d-7.119285308012651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708970b1bd3f05%3A0xe46907acd3a8c7a9!2sPerumahan%20Bukit%20Permai%201%20Ungaran!5e0!3m2!1sid!2sid!4v1672817245124!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea>
+                            </td>
+                            <td class="table-row__td">
+                                <div class="form-group">
+                                    <div id="bg-rekomen2" class="custom-control custom-checkbox boder-rekomend">
+                                        <input class="custom-control-input ceklis-rekomen" type="checkbox" id="ceklis-ubah-foto-logo2" data-id-perum="2" value="Direkomendasikan">
+                                        <label for="ceklis-ubah-foto-logo2" class="ceklis-ubah-foto-logo2 custom-control-label"></label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="row-td-action">
+                                <a href="#" class="btn-edit" data-id-perum="2" data-nm-perum="Bukit Permai 2" data-kode-perum="BP2" data-alamat="Kalisidi, Ungaran Barat" data-url-map="https://goo.gl/maps/TizzKCabZsbogsyp8" data-map="" data-deskripsi="BUKIT PERMAI 2 UNGARAN Perumahan modern di pusat kota dengan udara sejuk dan view pegunungan. Menawarkan pengalaman yang berbeda bagi Anda yang ingin tinggal ala pedesaan jauh dari pusat keramaian" data-meta-deskripsi="Perumahan modern di pusat kota dengan udara sejuk dan view pegunungan. Menawarkan pengalaman yang berbeda bagi Anda yang ingin tinggal ala pedesaan jauh dari pusat keramaian" data-logo="b0248a9a1e78fb5d7c2d024792cffe9a.png" data-video="">
+                                    <i class="fa-solid fa-pen"></i>
+                                </a>
+                                <a href="#" class="btn-delete">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <script>
+                            if ($('#ceklis-ubah-foto-logo2').val() == 'Direkomendasikan') {
+                                $('#ceklis-ubah-foto-logo2').prop('checked', true);
+                                $('.ceklis-ubah-foto-logo2').text('Direkomendasikan');
+                                $('#bg-rekomen2').addClass('direkomendasikan');
+                            } else {
+                                $('#ceklis-ubah-foto-logo2').prop('checked', false);
+                                $('.ceklis-ubah-foto-logo2').text('');
+                                $('#bg-rekomen2').removeClass('direkomendasikan');
+                            }
+                        </script>
+                                            <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-5" class="form-control order-perum" data-id-perum="5" autocomplete="off" required value="2">
+                            </td>
+                            <td class="table-row__td">
+                                <div class="table-row__img">
+                                    <img src="http://localhost/kanpa_ci/upload/73b2af7f9c102314c2d7f72e344cfaff.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Griya Kautsar</p>
+                                </div>
+                            </td>
+                            <td class="table-row__td">
+                                GK                            </td>
+                            <td class="table-row__td">
+                                Kambangan, Ungaran Timur                                <textarea id="map-5" hidden><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.8453056924495!2d110.46506975066126!3d-7.143880194816321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7085848613e825%3A0x2f5a03814688a467!2sPerumahan%20Griya%20Kautsar%20II%20Kambangan!5e0!3m2!1sid!2sid!4v1672818692252!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea>
+                            </td>
+                            <td class="table-row__td">
+                                <div class="form-group">
+                                    <div id="bg-rekomen5" class="custom-control custom-checkbox boder-rekomend">
+                                        <input class="custom-control-input ceklis-rekomen" type="checkbox" id="ceklis-ubah-foto-logo5" data-id-perum="5" value="Direkomendasikan">
+                                        <label for="ceklis-ubah-foto-logo5" class="ceklis-ubah-foto-logo5 custom-control-label"></label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="row-td-action">
+                                <a href="#" class="btn-edit" data-id-perum="5" data-nm-perum="Griya Kautsar" data-kode-perum="GK" data-alamat="Kambangan, Ungaran Timur" data-url-map="https://goo.gl/maps/2T2fJQJQgpsSrV698" data-map="" data-deskripsi="PRE-LAUNCHING PERUMAHAN SUBSIDI GRIYA KAUTSAR II KAMBANGAN
+Bosan dengan hirukpikuk suasana kota dan butuh ketenangan? atau bagi para pencari rumah baru kalian bakalan nyesel selalu menunda-nunda, nunggu harga rumah naik tiap tahun makin mahal? mau kapan lagi kalau gak mulai dari sekarang?" data-meta-deskripsi=" Rumah Subsidi Rasa Komersil Bosan dengan hirukpikuk suasana kota dan butuh ketenangan? atau bagi para pencari rumah baru kalian bakalan nyesel selalu menunda-nunda, nunggu harga rumah naik tiap tahun makin mahal? mau kapan lagi kalau gak mulai dari sekarang?" data-logo="73b2af7f9c102314c2d7f72e344cfaff.png" data-video="">
+                                    <i class="fa-solid fa-pen"></i>
+                                </a>
+                                <a href="#" class="btn-delete">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <script>
+                            if ($('#ceklis-ubah-foto-logo5').val() == 'Direkomendasikan') {
+                                $('#ceklis-ubah-foto-logo5').prop('checked', true);
+                                $('.ceklis-ubah-foto-logo5').text('Direkomendasikan');
+                                $('#bg-rekomen5').addClass('direkomendasikan');
+                            } else {
+                                $('#ceklis-ubah-foto-logo5').prop('checked', false);
+                                $('.ceklis-ubah-foto-logo5').text('');
+                                $('#bg-rekomen5').removeClass('direkomendasikan');
+                            }
+                        </script>
+                                            <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-6" class="form-control order-perum" data-id-perum="6" autocomplete="off" required value="3">
+                            </td>
+                            <td class="table-row__td">
+                                <div class="table-row__img">
+                                    <img src="http://localhost/kanpa_ci/upload/5bf0f13f5ae7a53ed67f134fa9c69b4f.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Griya Kanzu Sukoharjo</p>
+                                </div>
+                            </td>
+                            <td class="table-row__td">
+                                GKS                            </td>
+                            <td class="table-row__td">
+                                Nguter, Sukoharjo                                <textarea id="map-6" hidden><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.5529684303333!2d110.88344201509959!3d-7.731015194427574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3b4b78b35fe5%3A0x9a2567095bda8d84!2sGriya%20Kanzu%20Sukoharjo!5e0!3m2!1sid!2sid!4v1673414160745!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea>
+                            </td>
+                            <td class="table-row__td">
+                                <div class="form-group">
+                                    <div id="bg-rekomen6" class="custom-control custom-checkbox boder-rekomend">
+                                        <input class="custom-control-input ceklis-rekomen" type="checkbox" id="ceklis-ubah-foto-logo6" data-id-perum="6" value="Direkomendasikan">
+                                        <label for="ceklis-ubah-foto-logo6" class="ceklis-ubah-foto-logo6 custom-control-label"></label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="row-td-action">
+                                <a href="#" class="btn-edit" data-id-perum="6" data-nm-perum="Griya Kanzu Sukoharjo" data-kode-perum="GKS" data-alamat="Nguter, Sukoharjo" data-url-map="https://goo.gl/maps/m2DwPd9rXCCD8pGn8" data-map="" data-deskripsi="<h6> Rumah Subsidi Rasa Komersil </h6>
+Desain unit di griya kanzu sangat mengedepankan aspek minimalis modern, simpel dan unik. Selain itu di dukung juga dengan bahan material yang baik dan mudah untuk dirawat." data-meta-deskripsi=" Rumah Subsidi Rasa Komersil Desain unit di griya kanzu sangat mengedepankan aspek minimalis modern, simpel dan unik. Selain itu di dukung juga dengan bahan material yang baik dan mudah untuk dirawat." data-logo="5bf0f13f5ae7a53ed67f134fa9c69b4f.png" data-video="https://www.youtube.com/watch?v=xQnJBpQyGjM">
+                                    <i class="fa-solid fa-pen"></i>
+                                </a>
+                                <a href="#" class="btn-delete">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <script>
+                            if ($('#ceklis-ubah-foto-logo6').val() == 'Direkomendasikan') {
+                                $('#ceklis-ubah-foto-logo6').prop('checked', true);
+                                $('.ceklis-ubah-foto-logo6').text('Direkomendasikan');
+                                $('#bg-rekomen6').addClass('direkomendasikan');
+                            } else {
+                                $('#ceklis-ubah-foto-logo6').prop('checked', false);
+                                $('.ceklis-ubah-foto-logo6').text('');
+                                $('#bg-rekomen6').removeClass('direkomendasikan');
+                            }
+                        </script>
+                                            <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-7" class="form-control order-perum" data-id-perum="7" autocomplete="off" required value="4">
+                            </td>
+                            <td class="table-row__td">
+                                <div class="table-row__img">
+                                    <img src="http://localhost/kanpa_ci/upload/2f5768291feb7df60631e15a53b1dffe.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Griya kanzu Klaten</p>
+                                </div>
+                            </td>
+                            <td class="table-row__td">
+                                GKK                            </td>
+                            <td class="table-row__td">
+                                Carikan, Juwiring, Klaten                                <textarea id="map-7" hidden><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.3211341512724!2d110.75080171509914!3d-7.648575394485585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a3f03bc557ac3%3A0x899ae1d2aeff350d!2sGriya%20Kanzu%20Klaten!5e0!3m2!1sid!2sid!4v1672900558003!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea>
+                            </td>
+                            <td class="table-row__td">
+                                <div class="form-group">
+                                    <div id="bg-rekomen7" class="custom-control custom-checkbox boder-rekomend">
+                                        <input class="custom-control-input ceklis-rekomen" type="checkbox" id="ceklis-ubah-foto-logo7" data-id-perum="7" value="Direkomendasikan">
+                                        <label for="ceklis-ubah-foto-logo7" class="ceklis-ubah-foto-logo7 custom-control-label"></label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="row-td-action">
+                                <a href="#" class="btn-edit" data-id-perum="7" data-nm-perum="Griya kanzu Klaten" data-kode-perum="GKK" data-alamat="Carikan, Juwiring, Klaten" data-url-map="https://goo.gl/maps/ib1nNcisgSdtvGVP8" data-map="" data-deskripsi="<h6> Rumah Subsidi Rasa Komersil </h6>
+Desain unit di griya kanzu sangat mengedepankan aspek minimalis modern, simpel dan unik. Selain itu di dukung juga dengan bahan material yang baik dan mudah untuk dirawat." data-meta-deskripsi="Rumah Subsidi Rasa Komersil Desain unit di griya kanzu sangat mengedepankan aspek minimalis modern, simpel dan unik. Selain itu di dukung juga dengan bahan material yang baik dan mudah untuk dirawat." data-logo="2f5768291feb7df60631e15a53b1dffe.png" data-video="">
+                                    <i class="fa-solid fa-pen"></i>
+                                </a>
+                                <a href="#" class="btn-delete">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <script>
+                            if ($('#ceklis-ubah-foto-logo7').val() == 'Direkomendasikan') {
+                                $('#ceklis-ubah-foto-logo7').prop('checked', true);
+                                $('.ceklis-ubah-foto-logo7').text('Direkomendasikan');
+                                $('#bg-rekomen7').addClass('direkomendasikan');
+                            } else {
+                                $('#ceklis-ubah-foto-logo7').prop('checked', false);
+                                $('.ceklis-ubah-foto-logo7').text('');
+                                $('#bg-rekomen7').removeClass('direkomendasikan');
+                            }
+                        </script>
+                                            <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-8" class="form-control order-perum" data-id-perum="8" autocomplete="off" required value="5">
+                            </td>
+                            <td class="table-row__td">
+                                <div class="table-row__img">
+                                    <img src="http://localhost/kanpa_ci/upload/bfaf1bb1ebfccee1cca89aabcc9ed82f.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Griya Kanzu Madiun</p>
+                                </div>
+                            </td>
+                            <td class="table-row__td">
+                                GKM                            </td>
+                            <td class="table-row__td">
+                                Caruban Kota Baru, Madiun                                <textarea id="map-8" hidden><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15820.078533001417!2d111.64587273955081!3d-7.572837899999989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79b9845658bd15%3A0xf378fd9f3ea46729!2sGriya%20Kanzu%20Caruban%20Kota%20Baru!5e0!3m2!1sid!2sid!4v1676015310102!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea>
+                            </td>
+                            <td class="table-row__td">
+                                <div class="form-group">
+                                    <div id="bg-rekomen8" class="custom-control custom-checkbox boder-rekomend">
+                                        <input class="custom-control-input ceklis-rekomen" type="checkbox" id="ceklis-ubah-foto-logo8" data-id-perum="8" value="Direkomendasikan">
+                                        <label for="ceklis-ubah-foto-logo8" class="ceklis-ubah-foto-logo8 custom-control-label"></label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="row-td-action">
+                                <a href="#" class="btn-edit" data-id-perum="8" data-nm-perum="Griya Kanzu Madiun" data-kode-perum="GKM" data-alamat="Caruban Kota Baru, Madiun" data-url-map="https://goo.gl/maps/KRE6bZ3oWfwmjtxUA" data-map="" data-deskripsi="Perumahan Griya Kanzu Caruban berlokasi di Desa 
+Klecorejo dan Desa Kaliabu, Kec. Mejayan, Kab. Madiun. Proyek 
+dengan luas tanah 6,6 hektar ini nantinya akan 
+dibagun sebanyak 550 unit. Dimana akan dibagi 
+menjadi dua blok, yaitu blok A sebanyak 287 unit 
+dan blok B sebanyak 263 unit. Tidak hanya itu, 
+dalam proyek ini nantinya juga akan dibangun 
+beberapa fasilitas umum untuk mendukung 
+kagiatan masyarakat. Kelebihan proyek ini ada di 
+tinggi plafon dan kualitas bangunan yang baik dan 
+mudah dirawat, dinding sendiri-sendiri, serta sudah 
+dilengkapi dengan dapur untuk rumah subsidi." data-meta-deskripsi="Perumahan Griya Kanzu Caruban berlokasi di Desa 
+Klecorejo dan Desa Kaliabu, Kec. Mejayan, Kab. Madiun. Proyek 
+dengan luas tanah 6,6 hektar ini nantinya akan 
+dibagun sebanyak 550 unit." data-logo="bfaf1bb1ebfccee1cca89aabcc9ed82f.png" data-video="">
+                                    <i class="fa-solid fa-pen"></i>
+                                </a>
+                                <a href="#" class="btn-delete">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <script>
+                            if ($('#ceklis-ubah-foto-logo8').val() == 'Direkomendasikan') {
+                                $('#ceklis-ubah-foto-logo8').prop('checked', true);
+                                $('.ceklis-ubah-foto-logo8').text('Direkomendasikan');
+                                $('#bg-rekomen8').addClass('direkomendasikan');
+                            } else {
+                                $('#ceklis-ubah-foto-logo8').prop('checked', false);
+                                $('.ceklis-ubah-foto-logo8').text('');
+                                $('#bg-rekomen8').removeClass('direkomendasikan');
+                            }
+                        </script>
+                                            <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-3" class="form-control order-perum" data-id-perum="3" autocomplete="off" required value="6">
+                            </td>
+                            <td class="table-row__td">
+                                <div class="table-row__img">
+                                    <img src="http://localhost/kanpa_ci/upload/0ce3150dc8ba1b796ac5ef4fcb61e578.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Alton Green House</p>
+                                </div>
+                            </td>
+                            <td class="table-row__td">
+                                AGH                            </td>
+                            <td class="table-row__td">
+                                Jl. Villa Siberi - Kerajan                                <textarea id="map-3" hidden><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.2386072595555!2d110.34596835066093!3d-7.098319594848649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089536b292197%3A0x1518e4320e64dc3d!2sPerumahan%20Alton%20Green%20House%20Siberi!5e0!3m2!1sid!2sid!4v1672818599934!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea>
+                            </td>
+                            <td class="table-row__td">
+                                <div class="form-group">
+                                    <div id="bg-rekomen3" class="custom-control custom-checkbox boder-rekomend">
+                                        <input class="custom-control-input ceklis-rekomen" type="checkbox" id="ceklis-ubah-foto-logo3" data-id-perum="3" value="Direkomendasikan">
+                                        <label for="ceklis-ubah-foto-logo3" class="ceklis-ubah-foto-logo3 custom-control-label"></label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="row-td-action">
+                                <a href="#" class="btn-edit" data-id-perum="3" data-nm-perum="Alton Green House" data-kode-perum="AGH" data-alamat="Jl. Villa Siberi - Kerajan" data-url-map="https://goo.gl/maps/VNBxJmhSRYmbDJjX9" data-map="" data-deskripsi="ALTON GREEN HOUSE 
+Perumahan dengan nuansa baru yang menawarkan keindahan alam, dipadukan dengan desain yang ekslusif dan elegan. Lokasi strategis, bebas macet dan pastinya dekat dengan fasilitas umum." data-meta-deskripsi="Perumahan dengan nuansa baru yang menawarkan keindahan alam, dipadukan dengan desain yang ekslusif dan elegan." data-logo="0ce3150dc8ba1b796ac5ef4fcb61e578.png" data-video="">
+                                    <i class="fa-solid fa-pen"></i>
+                                </a>
+                                <a href="#" class="btn-delete">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <script>
+                            if ($('#ceklis-ubah-foto-logo3').val() == 'Direkomendasikan') {
+                                $('#ceklis-ubah-foto-logo3').prop('checked', true);
+                                $('.ceklis-ubah-foto-logo3').text('Direkomendasikan');
+                                $('#bg-rekomen3').addClass('direkomendasikan');
+                            } else {
+                                $('#ceklis-ubah-foto-logo3').prop('checked', false);
+                                $('.ceklis-ubah-foto-logo3').text('');
+                                $('#bg-rekomen3').removeClass('direkomendasikan');
+                            }
+                        </script>
+                                            <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-4" class="form-control order-perum" data-id-perum="4" autocomplete="off" required value="7">
+                            </td>
+                            <td class="table-row__td">
+                                <div class="table-row__img">
+                                    <img src="http://localhost/kanpa_ci/upload/18b1ca001c806151022ba7c226c118bb.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Alton Town House</p>
+                                </div>
+                            </td>
+                            <td class="table-row__td">
+                                ATH                            </td>
+                            <td class="table-row__td">
+                                Sisemut, Ungaran Barat                                <textarea id="map-4" hidden><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.057305369929!2d110.40214845066113!3d-7.119357894833712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089713f71214b%3A0x76e5a272b10856e8!2sAlton%20Town%20House!5e0!3m2!1sid!2sid!4v1672818634466!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea>
+                            </td>
+                            <td class="table-row__td">
+                                <div class="form-group">
+                                    <div id="bg-rekomen4" class="custom-control custom-checkbox boder-rekomend">
+                                        <input class="custom-control-input ceklis-rekomen" type="checkbox" id="ceklis-ubah-foto-logo4" data-id-perum="4" value="Direkomendasikan">
+                                        <label for="ceklis-ubah-foto-logo4" class="ceklis-ubah-foto-logo4 custom-control-label"></label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="row-td-action">
+                                <a href="#" class="btn-edit" data-id-perum="4" data-nm-perum="Alton Town House" data-kode-perum="ATH" data-alamat="Sisemut, Ungaran Barat" data-url-map="https://goo.gl/maps/PQE9SraEyFEw46At6" data-map="" data-deskripsi="Alton Town House
+Sebuah Cluster Mewah 2 Lantai yang terletak di Pusat Kota Ungaran Dengan total 8 unit.
+Alton Town House menawarkan hunian eksklusif, dengan kenyamanan dan kemegahan di lokasi yang strategis. Sangat dekat dengan berbagai pusat pendidikan, pusat pembelanjaan , layanan kesahatan." data-meta-deskripsi="Sebuah Cluster Mewah 2 Lantai yang terletak di Pusat Kota Ungaran Dengan total 8 unit." data-logo="18b1ca001c806151022ba7c226c118bb.png" data-video="https://youtu.be/g3e4j8HUX64">
+                                    <i class="fa-solid fa-pen"></i>
+                                </a>
+                                <a href="#" class="btn-delete">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <script>
+                            if ($('#ceklis-ubah-foto-logo4').val() == 'Direkomendasikan') {
+                                $('#ceklis-ubah-foto-logo4').prop('checked', true);
+                                $('.ceklis-ubah-foto-logo4').text('Direkomendasikan');
+                                $('#bg-rekomen4').addClass('direkomendasikan');
+                            } else {
+                                $('#ceklis-ubah-foto-logo4').prop('checked', false);
+                                $('.ceklis-ubah-foto-logo4').text('');
+                                $('#bg-rekomen4').removeClass('direkomendasikan');
+                            }
+                        </script>
+                                            <tr class="table-row table-row--chris">
+                            <td class="table-row__td" style=" width: 60px;">
+                                <input type="text" id="order-perum-1" class="form-control order-perum" data-id-perum="1" autocomplete="off" required value="8">
+                            </td>
+                            <td class="table-row__td">
+                                <div class="table-row__img">
+                                    <img src="http://localhost/kanpa_ci/upload/349ddb2b802cb33a3535e8d047dcb77b.png" class="img-fluid" alt="">
+                                </div>
+                                <div class="table-row__info">
+                                    <p class="table-row__name">Bukit Permai 1</p>
+                                </div>
+                            </td>
+                            <td class="table-row__td">
+                                BP1                            </td>
+                            <td class="table-row__td">
+                                Kalisidi, Ungaran Barat                                <textarea id="map-1" hidden><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4086.853412209014!2d110.37983466405892!3d-7.119285308012651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708970b1bd3f05%3A0xe46907acd3a8c7a9!2sPerumahan%20Bukit%20Permai%201%20Ungaran!5e0!3m2!1sid!2sid!4v1672817245124!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></textarea>
+                            </td>
+                            <td class="table-row__td">
+                                <div class="form-group">
+                                    <div id="bg-rekomen1" class="custom-control custom-checkbox boder-rekomend">
+                                        <input class="custom-control-input ceklis-rekomen" type="checkbox" id="ceklis-ubah-foto-logo1" data-id-perum="1" value="Direkomendasikan">
+                                        <label for="ceklis-ubah-foto-logo1" class="ceklis-ubah-foto-logo1 custom-control-label"></label>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="row-td-action">
+                                <a href="#" class="btn-edit" data-id-perum="1" data-nm-perum="Bukit Permai 1" data-kode-perum="BP1" data-alamat="Kalisidi, Ungaran Barat" data-url-map="https://goo.gl/maps/u7WD7nksX1rFxkDb8" data-map="" data-deskripsi="BUKIT PERMAI 1 UNGARAN
+Perumahan siap huni di pusat kota, menawarkan lingkungan yang nyaman untuk tempat tinggal dan investasi masa depan." data-meta-deskripsi="Perumahan siap huni di pusat kota, menawarkan lingkungan yang nyaman untuk tempat tinggal dan investasi masa depan." data-logo="349ddb2b802cb33a3535e8d047dcb77b.png" data-video="https://www.youtube.com/watch?v=uEu7cOJe6f0">
+                                    <i class="fa-solid fa-pen"></i>
+                                </a>
+                                <a href="#" class="btn-delete">
+                                    <i class="fa-regular fa-trash-can"></i>
+                                </a>
+                            </td>
+                        </tr>
+                        <script>
+                            if ($('#ceklis-ubah-foto-logo1').val() == 'Direkomendasikan') {
+                                $('#ceklis-ubah-foto-logo1').prop('checked', true);
+                                $('.ceklis-ubah-foto-logo1').text('Direkomendasikan');
+                                $('#bg-rekomen1').addClass('direkomendasikan');
+                            } else {
+                                $('#ceklis-ubah-foto-logo1').prop('checked', false);
+                                $('.ceklis-ubah-foto-logo1').text('');
+                                $('#bg-rekomen1').removeClass('direkomendasikan');
+                            }
+                        </script>
+                                    </tbody>
+            </table>
+            <input type="text" id="id-perum" value="" hidden>
+        </div>
+    </div>
+    <!-- </div> -->
+</div>
+<script>
+    $('.ceklis-rekomen').click(function(e) {
+        if ($(this).is(":checked")) {
+            // profesi.push($(this).val());
+            // alert($(this).data('id-perum'));
+            var status = 'Direkomendasikan';
+            $('#ceklis-ubah-foto-logo' + $(this).data('id-perum')).prop('checked', true);
+            $('.ceklis-ubah-foto-logo' + $(this).data('id-perum')).text('Direkomendasikan');
+            $('#bg-rekomen' + $(this).data('id-perum')).addClass('direkomendasikan');
+        } else {
+            var status = '';
+            $('#ceklis-ubah-foto-logo' + $(this).data('id-perum')).prop('checked', false);
+            $('.ceklis-ubah-foto-logo' + $(this).data('id-perum')).text('');
+            $('#bg-rekomen' + $(this).data('id-perum')).removeClass('direkomendasikan');
+        }
+        let formData = new FormData();
+        formData.append('id-perum', $(this).data('id-perum'));
+        formData.append('status-perum', status);
+        $.ajax({
+            type: 'POST',
+            url: "http://localhost/kanpa_ci/index.php/perum/status_data_perum",
+            data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                // alert('berhasil')
+                // form_default();
+                // load_data_perum();
+            },
+            error: function() {
+                alert("Data Gagal Diupload");
+            }
+        });
+    });
+    $('.btn-edit').click(function(e) {
+        $('#herf-batal, #ceklis-ubah-logo').removeAttr('hidden', true);
+        $('.btn-simpan-perum').val('edit');
+        $('#id-perum').val($(this).data('id-perum'));
+        $('#nm-perum').val($(this).data('nm-perum'));
+        $('#kode-perum').val($(this).data('kode-perum'));
+        $('#alamat').val($(this).data('alamat'));
+        $('#url-map').val($(this).data('url-map'));
+        $('#map').val($('#map-' + $(this).data('id-perum')).val());
+        $('#deskripsi').val($(this).data('deskripsi'));
+        $('#meta-deskripsi').val($(this).data('meta-deskripsi'));
+        $('#logo').val($(this).data('logo'));
+        $('#video').val($(this).data('video'));
+        $('#logo-lama').val($(this).data('logo'));
+        $('#preview-foto-logo').attr({
+            src: 'http://localhost/kanpa_ci/upload/' + $(this).data('logo')
+        });
+    });
+    $('.order-perum').on('input', function() {
+        if ($('#order-perum-' + $(this).data('id-perum')).val() == ''){
+
+        }else{
+            // alert($(this).data('id-perum'));
+            let formData = new FormData();
+            formData.append('id-perum', $(this).data('id-perum'));
+            formData.append('order-perum', $('#order-perum-' + $(this).data('id-perum')).val());
+            $.ajax({
+                type: 'POST',
+                url: "http://localhost/kanpa_ci/index.php/perum/move_columns",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    load_data_perum();
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+    
+            });
+        }
+    });
+</script>";}

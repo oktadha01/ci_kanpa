@@ -1,4 +1,51 @@
 <script>
+    $('#btn-set-foto-header').click(function() {
+        load_data_set_header();
+    });
+    $('#btn-change-foto-header').click(function() {
+        var confirmalert = confirm("Are you sure?");
+        if (confirmalert == true) {
+            var file = $(this).parents().find(".set-foto-header");
+            file.trigger("click");
+        }
+    });
+    $('#file-set-foto-header').change(function() {
+        const set_foto_header = $('#file-set-foto-header').prop('files')[0];
+        let formData = new FormData();
+        formData.append('header-foto', set_foto_header);
+        $.ajax({
+            type: 'POST',
+            url: "<?php echo site_url('foto/set_foto_header') ?>",
+            data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(msg) {
+                alert('Foto berhasil di simpan');
+                load_data_set_header();
+            },
+            error: function(msg) {
+                alert('Foto gagal di simpan');
+            }
+        });
+    });
+
+    function load_data_set_header() {
+        $.ajax({
+            // type: 'POST',
+            url: "<?php echo site_url('foto/load_set_foto_header') ?>",
+            // data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                $('.load-set-foto-header').attr('src', data)
+            },
+            error: function(msg) {
+                alert('Foto gagal di simpan');
+            }
+        });
+    }
     $('.data-tipe').click(function() {
         $('.data-foto').hide();
         $('.data-foto').hide().html('0');

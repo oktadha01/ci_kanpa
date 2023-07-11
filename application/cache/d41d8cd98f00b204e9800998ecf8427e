@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1689047219;s:3:"ttl";i:604800;s:4:"data";s:85049:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,7 +12,7 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-dns-prefetch-control" content="on">
     <!-- Meta untuk SEO -->
-        <meta property="og:image" content="http://localhost:8080/kanpa.co.id/upload/logo-pt-kanpa-2.png">
+        <meta property="og:image" content="http://localhost/kanpa_ci/upload/logo-pt-kanpa-2.png">
             <meta name="description" content="PT Kanpa bergerak di bidang properti sejak tahun 2002. saat ini tersedia di ungaran, semarang, sukoharjo, klaten, kabupaten madiun. Hub 0823-3350-7931">
     
     <meta name="robots" content="INDEX,FOLLOW">
@@ -29,7 +29,7 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
     }
     </style>
     <!-- Favicons -->
-    <link href="http://localhost:8080/kanpa.co.id/assets/img/logokanpatitle.jpeg" rel="icon">
+    <link href="http://localhost/kanpa_ci/assets/img/logokanpatitle.jpeg" rel="icon">
 
     <!-- Google Fonts -->
 
@@ -46,20 +46,20 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
     <!-- Daterangepicker -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
     <!-- Vendor CSS Files -->
-    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="http://localhost:8080/kanpa.co.id/assets/vendor/daterangepicker/daterangepicker.css" rel="stylesheet"
+    <link href="http://localhost/kanpa_ci/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/daterangepicker/daterangepicker.css" rel="stylesheet"
         type="text/css" />
     <!-- Variables CSS Files. Uncomment your preferred color scheme -->
-    <link href="http://localhost:8080/kanpa.co.id/assets/css/variables.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/css/variables.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="http://localhost:8080/kanpa.co.id/assets/css/main.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/css/main.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.css" rel="stylesheet" />
-    <link href="http://localhost:8080/kanpa.co.id/assets/css/custom.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -72,9 +72,9 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
 
       <a href="https://www.instagram.com/pt.kanpa/?hl=en" class="logo d-flex align-items-center scrollto me-auto mr-0">
          <!-- <i class="fa-brands fa-instagram" style="color: #00000085;font-size: 35px;"></i> --> 
-         <img src="http://localhost:8080/kanpa.co.id/assets/img/Logo PT Fix Bingit.png" class="" alt="" style="max-height: 30px;">
+         <img src="http://localhost/kanpa_ci/assets/img/Logo PT Fix Bingit.png" class="" alt="" style="max-height: 30px;">
       </a>
-      <a href="http://localhost:8080/kanpa.co.id/#home" class="logo d-flex align-items-center scrollto me-auto mr-0">
+      <a href="http://localhost/kanpa_ci/#home" class="logo d-flex align-items-center scrollto me-auto mr-0">
          <!-- Uncomment the line below if you also wish to use an image logo -->
          <!-- <img src="assets/img/logo.png" alt=""> -->
          <h1 class="mb-0 font-size-nav-baro text-kanzu-header">KANZU PERMAI ABADI</h1>
@@ -82,21 +82,82 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
 
       <nav id="navbar" class="navbar">
          <ul>
-            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/#home">Home</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/#about">About</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/Produk#produk">Product</a></li>
-            <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/Artikel#berita">Article</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost:8080/kanpa.co.id/More_info#more-info">Contac</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#home">Home</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#about">About</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
+            <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contac</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
 
    </div>
-      </header><!-- End Header -->    <main id="page" class="ml-page">
+         
+         <aside class="sidebar mt-15px">
+            <nav id="navbar">
+               <ul class="sidebar__nav">
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Perum" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-house"></i>
+                        <span class="sidebar__nav__text">Perumahan</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Fasilitas" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-house-medical"></i>
+                        <span class="sidebar__nav__text">Fasilitas</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Lokasi_terdekat" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-street-view"></i>
+                        <span class="sidebar__nav__text">Lokasi Terdekat</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Tipe" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-sitemap"></i>
+                        <span class="sidebar__nav__text">Tipe Rumah</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Foto" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-regular fa-images"></i>
+                        <span class="sidebar__nav__text">Foto Rumah</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Marketing" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-people-roof"></i>
+                        <span class="sidebar__nav__text">Marketing</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Berita" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-regular fa-newspaper"></i>
+                        <span class="sidebar__nav__text">Berita</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Voucher" class="sidebar__nav__link">
+                     <i class="side-icon-side fa-solid fa-receipt"></i>
+                        <span class="sidebar__nav__text">Voucher</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/logout" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-right-from-bracket"></i>
+                        <span class="sidebar__nav__text">Logout || Admin</span>
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+         </aside>
+         </header><!-- End Header -->    <main id="page" class="ml-page">
 
         <style>
-/* .swiper-horizontal>.swiper-pagination-bullets,
+    /* .swiper-horizontal>.swiper-pagination-bullets,
     .swiper-pagination-bullets.swiper-pagination-horizontal,
     .swiper-pagination-custom,
     .swiper-pagination-fraction {
@@ -105,104 +166,104 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
         width: 100%;
     } */
 
-.wafixed {
-    position: fixed;
-    margin-left: 1rem;
-    bottom: 0px;
-    z-index: 999;
-}
-
-.cards .card-user {
-    background: #ffffff;
-    width: -webkit-fill-available;
-    display: inline-flex;
-    align-items: center;
-    padding: 0px 5px;
-    /* opacity: 0; */
-    /* pointer-events: none; */
-    position: relative;
-    justify-content: space-between;
-    border-radius: 100px 45px 45px 100px;
-    /* animation: animate 15s linear infinite; */
-    /* animation-delay: calc(3s * var(--delay)); */
-    margin: 19px 7px;
-    box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
-
-}
-
-
-
-.card-user .content {
-    display: flex;
-    align-items: center;
-    margin-right: 6px;
-}
-
-.cards .card-user .img {
-    height: 59px;
-    width: 59px;
-    position: absolute;
-    left: -5px;
-    background: #fff;
-    border-radius: 50%;
-    padding: 5px;
-    box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
-}
-
-.card-user .img img {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.card-user .details {
-    margin: 1px 59px;
-}
-
-@media (max-width: 425px) {
-    .card-user .details {
-        margin: 12px 47px 0px 88px !important;
+    .wafixed {
+        position: fixed;
+        margin-left: 1rem;
+        bottom: 0px;
+        z-index: 999;
     }
-}
 
-@media (max-width: 768px) {
-    .card-user .details {
-        margin: 1px 59px !important;
+    .cards .card-user {
+        background: #ffffff;
+        width: -webkit-fill-available;
+        display: inline-flex;
+        align-items: center;
+        padding: 0px 5px;
+        /* opacity: 0; */
+        /* pointer-events: none; */
+        position: relative;
+        justify-content: space-between;
+        border-radius: 100px 45px 45px 100px;
+        /* animation: animate 15s linear infinite; */
+        /* animation-delay: calc(3s * var(--delay)); */
+        margin: 19px 7px;
+        box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
+
     }
-}
 
 
-.details span {
-    font-weight: bold;
-    font-size: 15px;
-}
 
-.card-user a {
-    text-decoration: none;
-    padding: 2px 5px;
-    border-radius: 9px;
-    color: #fff;
-    background: linear-gradient(to bottom, #92ff86 0%, #44edd4 100%);
-    /* transition: all 0.3s ease; */
-}
+    .card-user .content {
+        display: flex;
+        align-items: center;
+        margin-right: 6px;
+    }
 
-.card-user a:hover {
-    transform: scale(0.94);
-}
+    .cards .card-user .img {
+        height: 59px;
+        width: 59px;
+        position: absolute;
+        left: -5px;
+        background: #fff;
+        border-radius: 50%;
+        padding: 5px;
+        box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
+    }
 
-.font-marketing {
-    z-index: 999;
-    position: relative;
-    display: block;
-    top: 15rem;
-}
+    .card-user .img img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
 
-.font-serif {
-    font-family: serif;
-    font-size: 1rem;
-    margin-bottom: 0;
-}
+    .card-user .details {
+        margin: 1px 59px;
+    }
+
+    @media (max-width: 425px) {
+        .card-user .details {
+            margin: 12px 47px 0px 88px !important;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .card-user .details {
+            margin: 1px 59px !important;
+        }
+    }
+
+
+    .details span {
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .card-user a {
+        text-decoration: none;
+        padding: 2px 5px;
+        border-radius: 9px;
+        color: #fff;
+        background: linear-gradient(to bottom, #92ff86 0%, #44edd4 100%);
+        /* transition: all 0.3s ease; */
+    }
+
+    .card-user a:hover {
+        transform: scale(0.94);
+    }
+
+    .font-marketing {
+        z-index: 999;
+        position: relative;
+        display: block;
+        top: 15rem;
+    }
+
+    .font-serif {
+        font-family: serif;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
 </style>
 
 <main id="main">
@@ -210,40 +271,36 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
         <div class="">
             <div class="testimonials-slider swiper">
                 <div class="swiper-wrapper ">
-                    <div class="swiper-slide">
-                        <a href="http://localhost:8080/kanpa.co.id/Kategori/perumahan/subsidi">
-                            <center>
-                                <img src="http://localhost:8080/kanpa.co.id/upload/header-SUBSIDI.png" class="img-fluid"
-                                    alt="">
-                            </center>
-                        </a>
-                    </div>
-                                                                                                                                            <div class="swiper-slide">
-                        <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
-                            <center>
-                                <img src="http://localhost:8080/kanpa.co.id/upload/d63da619ffcea2756c6f4be5c382aa16.png"
-                                    class="img-fluid" alt="">
-                            </center>
-                        </a>
-                    </div>
-                                                                                                                                                                <div class="swiper-slide">
-                        <a href="https://wa.me/+6281280058301?text=Hallo%20PT%20Kanpa%2C%20Saya%20ingin%20tau%20lebih%20lanjut%20tentang%20Promo%20DP%200%25%20Perumahan%20Griya%20Kautsar..">
-                            <center>
-                                <img src="http://localhost:8080/kanpa.co.id/upload/375131c93f6833f310cd670b2dc0fcd9.png"
-                                    class="img-fluid" alt="">
-                            </center>
-                        </a>
-                    </div>
+                    
+                        <div class="swiper-slide">
+                            <a href="http://localhost/kanpa_ci/Kategori/perumahan/subsidi">
+                                <center>
+                                    <img src="http://localhost/kanpa_ci/upload/045e95852563af58cc094e0665a7bf9b.png" class="img-fluid" alt="">
+                                </center>
+                            </a>
+                        </div>
+                                                                                                                                                                                                <div class="swiper-slide">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                        <center>
+                                            <img src="http://localhost/kanpa_ci/upload/d63da619ffcea2756c6f4be5c382aa16.png" class="img-fluid" alt="">
+                                        </center>
+                                    </a>
+                                </div>
+                                                                                                                                                                                            <div class="swiper-slide">
+                            <a href="https://wa.me/+6281280058301?text=Hallo%20PT%20Kanpa%2C%20Saya%20ingin%20tau%20lebih%20lanjut%20tentang%20Promo%20DP%200%25%20Perumahan%20Griya%20Kautsar..">
+                                <center>
+                                    <img src="http://localhost/kanpa_ci/upload/375131c93f6833f310cd670b2dc0fcd9.png" class="img-fluid" alt="">
+                                </center>
+                            </a>
+                        </div>
 
-                                        <div class="swiper-slide">
-                        <a href="https://wa.me/+6281334759497?text=Hallo%20PT%20Kanpa%2C%20Saya%20ingin%20tau%20lebih%20lanjut%20tentang%20Promo%20Free%20All%20Biaya%20Perumahan%20Alton%20Green%20House..">
-                            <center>
-                                <img src="http://localhost:8080/kanpa.co.id/upload/35144e7917773a37fd1f51766df28baf.png"
-                                    class="img-fluid" alt="">
-                            </center>
-                        </a>
-                    </div>
+                                            <div class="swiper-slide">
+                            <a href="https://wa.me/+6281334759497?text=Hallo%20PT%20Kanpa%2C%20Saya%20ingin%20tau%20lebih%20lanjut%20tentang%20Promo%20Free%20All%20Biaya%20Perumahan%20Alton%20Green%20House..">
+                                <center>
+                                    <img src="http://localhost/kanpa_ci/upload/35144e7917773a37fd1f51766df28baf.png" class="img-fluid" alt="">
+                                </center>
+                            </a>
+                        </div>
 
                                     </div>
                 <div class="swiper-pagination"></div>
@@ -275,571 +332,459 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
                 <span><span class="font-auto size-50px">P</span><span class="font-auto size-30px">roduct</span></span>
             </div>
             <div class="row gy-1">
-                                <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
-                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/80/90">
-                            <div class="img border-r-0px" style="position: relative;">
-                                <img src="http://localhost:8080/kanpa.co.id/upload/a587432cbe339c3d2fe0b8df11473919.jpg"
-                                    srcset="http://localhost:8080/kanpa.co.id/upload/a587432cbe339c3d2fe0b8df11473919.jpg 1x, http://localhost:8080/kanpa.co.id/upload/a587432cbe339c3d2fe0b8df11473919.jpg 3x"
-                                    class=" size-img-dash img-fluid"
-                                    style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="http://localhost/kanpa_ci/upload/a587432cbe339c3d2fe0b8df11473919.jpg" srcset="http://localhost/kanpa_ci/upload/a587432cbe339c3d2fe0b8df11473919.jpg 1x, http://localhost/kanpa_ci/upload/a587432cbe339c3d2fe0b8df11473919.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
-                                <div class="label-promo"></div>
-                                <div class="bottom-right promo">Perumahan komersil</div>
-                            </div>
-                        </a>
-                                                <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                                                    
-                                                                                                                                            
-                                                                                                                <span class="mb-0 font-text-port float-right">900 views</span>
-                            <br>
-                                                        <a class="btn-hrg-dash"
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/41/66">Rp
-                                300 <sub>jt</sub></a>
-                                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/80/90"
-                                style="color:black;">
-                                <h4 class="text-nm-perum mb-0">Bukit Permai 2 - Tipe mulai</h4>
-                            </a>
-                                                                                                                                                                                                                                <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/41/66">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">41/66</button>
-                            </a>
-                                                                                                                                                                        <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/80/90">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">80/90</button>
-                            </a>
-                                                                                                                <br>
-                            <span class="mb-0 font-text-port"> Kalisidi, Ungaran Barat</span>
-                            <!-- <br> -->
-                            <div style="text-align-last: justify;">
-                                                                                                                                                                                                                                                                                                                                                                                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>4</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>2</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                                                                                                            </div>
-                            <center class="mt-2">
-                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-2/tipe/80/90">
-                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
-                                        >></button>
+                                            <div class="label-promo"></div>
+                                            <div class="bottom-right promo">Perumahan komersil</div>
+                                        </div>
+                                    </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                                                                                                                                        
+                                                                                                                                                                                
+                                                                                                                                        <span class="mb-0 font-text-port float-right">1194 views</span>
+                                <br>
+                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/41/66">Rp
+                                            300 <sub>jt</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90" style="color:black;">
+                                    <h4 class="text-nm-perum mb-0">Bukit Permai 2 - Tipe mulai</h4>
                                 </a>
-                            </center>
-                        </div>
-
-                    </div>
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
-                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">
-                            <div class="img border-r-0px" style="position: relative;">
-                                <img src="http://localhost:8080/kanpa.co.id/upload/3a282f0c4f9670220342a076844bbec3.jpg"
-                                    srcset="http://localhost:8080/kanpa.co.id/upload/3a282f0c4f9670220342a076844bbec3.jpg 1x, http://localhost:8080/kanpa.co.id/upload/3a282f0c4f9670220342a076844bbec3.jpg 3x"
-                                    class=" size-img-dash img-fluid"
-                                    style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
-
-                                <div class="label-promo"></div>
-                                <div class="bottom-right promo">Perumahan subsidi</div>
+                                                                                                                                                                                                                                                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/41/66">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">41/66</button>
+                                        </a>
+                                                                                                                                                                                                                        <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">80/90</button>
+                                        </a>
+                                                                                                                                        <br>
+                                <span class="mb-0 font-text-port"> Kalisidi, Ungaran Barat</span>
+                                <!-- <br> -->
+                                <div style="text-align-last: justify;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>4</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>2</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                                                                                                                                    </div>
+                                <center class="mt-2">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90">
+                                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
+                                            >></button>
+                                    </a>
+                                </center>
                             </div>
-                        </a>
-                                                <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
-                                                        
-                                                                                                                                                                                                                                                                                                                                                                            <span class="mb-0 font-text-port float-right">113 views</span>
-                            <br>
-                                                        <a class="btn-hrg-dash"
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">Rp
-                                150 <sub>jt</sub></a>
-                                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60"
-                                style="color:black;">
-                                <h4 class="text-nm-perum mb-0">Griya Kautsar - Tipe mulai</h4>
-                            </a>
-                                                                                    <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">30/60</button>
-                            </a>
-                                                                                                                                                                                                                                                                                                                                                                            <br>
-                            <span class="mb-0 font-text-port"> Kambangan, Ungaran Timur</span>
-                            <!-- <br> -->
-                            <div style="text-align-last: justify;">
-                                                                                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>2</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
-                            <center class="mt-2">
-                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kautsar/tipe/30/60">
-                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
-                                        >></button>
+
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="http://localhost/kanpa_ci/upload/d08cdcc2a00134fb7c7a776502fe5598.jpg" srcset="http://localhost/kanpa_ci/upload/d08cdcc2a00134fb7c7a776502fe5598.jpg 1x, http://localhost/kanpa_ci/upload/d08cdcc2a00134fb7c7a776502fe5598.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                            <div class="label-promo"></div>
+                                            <div class="bottom-right promo">Perumahan subsidi</div>
+                                        </div>
+                                    </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <span class="mb-0 font-text-port float-right">113 views</span>
+                                <br>
+                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">Rp
+                                            150 <sub>jt</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60" style="color:black;">
+                                    <h4 class="text-nm-perum mb-0">Griya Kautsar - Tipe mulai</h4>
                                 </a>
-                            </center>
-                        </div>
-
-                    </div>
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
-                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
-                            <div class="img border-r-0px" style="position: relative;">
-                                <img src="http://localhost:8080/kanpa.co.id/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg"
-                                    srcset="http://localhost:8080/kanpa.co.id/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg 1x, http://localhost:8080/kanpa.co.id/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg 3x"
-                                    class=" size-img-dash img-fluid"
-                                    style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
-
-                                <div class="label-promo"></div>
-                                <div class="bottom-right promo">Perumahan subsidi</div>
+                                                                                                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">30/60</button>
+                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <br>
+                                <span class="mb-0 font-text-port"> Kambangan, Ungaran Timur</span>
+                                <!-- <br> -->
+                                <div style="text-align-last: justify;">
+                                                                                                                        <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>2</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                                <center class="mt-2">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
+                                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
+                                            >></button>
+                                    </a>
+                                </center>
                             </div>
-                        </a>
-                                                <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
-                                                                                    
-                                                                                                                                                                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">151 views</span>
-                            <br>
-                                                        <a class="btn-hrg-dash"
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">Rp
-                                160 <sub>jt</sub></a>
-                                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66"
-                                style="color:black;">
-                                <h4 class="text-nm-perum mb-0">Griya Kanzu Sukoharjo - Tipe mulai</h4>
-                            </a>
-                                                                                                                <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">30/66</button>
-                            </a>
-                                                                                                                                                                                                                                                                                                                                                <br>
-                            <span class="mb-0 font-text-port"> Nguter, Sukoharjo</span>
-                            <!-- <br> -->
-                            <div style="text-align-last: justify;">
-                                                                                                                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>2</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                                                                                                                                                                                                                                                                                                                                                                            </div>
-                            <center class="mt-2">
-                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
-                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
-                                        >></button>
+
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg" srcset="http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg 1x, http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                            <div class="label-promo"></div>
+                                            <div class="bottom-right promo">Perumahan subsidi</div>
+                                        </div>
+                                    </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <span class="mb-0 font-text-port float-right">151 views</span>
+                                <br>
+                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">Rp
+                                            160 <sub>jt</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66" style="color:black;">
+                                    <h4 class="text-nm-perum mb-0">Griya Kanzu Sukoharjo - Tipe mulai</h4>
                                 </a>
-                            </center>
-                        </div>
-
-                    </div>
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
-                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
-                            <div class="img border-r-0px" style="position: relative;">
-                                <img src="http://localhost:8080/kanpa.co.id/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg"
-                                    srcset="http://localhost:8080/kanpa.co.id/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 1x, http://localhost:8080/kanpa.co.id/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 3x"
-                                    class=" size-img-dash img-fluid"
-                                    style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
-
-                                <div class="label-promo"></div>
-                                <div class="bottom-right promo">Perumahan subsidi</div>
-                            </div>
-                        </a>
-                                                <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                
-                                                                                                                                                                                                                                                                                                                    <span class="mb-0 font-text-port float-right">344 views</span>
-                            <br>
-                                                        <a class="btn-hrg-dash"
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60">Rp
-                                160 <sub>jt</sub></a>
-                                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60"
-                                style="color:black;">
-                                <h4 class="text-nm-perum mb-0">Griya kanzu Klaten - Tipe mulai</h4>
-                            </a>
-                                                                                                                                            <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">30/60</button>
-                            </a>
-                                                                                                                                                                                                                                                                                                                    <br>
-                            <span class="mb-0 font-text-port"> Carikan, Juwiring, Klaten</span>
-                            <!-- <br> -->
-                            <div style="text-align-last: justify;">
+                                                                                                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">30/66</button>
+                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                        <br>
+                                <span class="mb-0 font-text-port"> Nguter, Sukoharjo</span>
+                                <!-- <br> -->
+                                <div style="text-align-last: justify;">
                                                                                                                                                                 <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>2</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>2</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+                                <center class="mt-2">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
+                                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
+                                            >></button>
+                                    </a>
+                                </center>
+                            </div>
+
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg" srcset="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 1x, http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                            <div class="label-promo"></div>
+                                            <div class="bottom-right promo">Perumahan subsidi</div>
+                                        </div>
+                                    </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                    <span class="mb-0 font-text-port float-right">504 views</span>
+                                <br>
+                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">Rp
+                                            160 <sub>jt</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60" style="color:black;">
+                                    <h4 class="text-nm-perum mb-0">Griya kanzu Klaten - Tipe mulai</h4>
+                                </a>
+                                                                                                                                                                                    <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">30/60</button>
+                                        </a>
+                                                                                                                                                                                                                                                                                                                                                                                                    <br>
+                                <span class="mb-0 font-text-port"> Carikan, Juwiring, Klaten</span>
+                                <!-- <br> -->
+                                <div style="text-align-last: justify;">
+                                                                                                                                                                                                        <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>2</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                                <center class="mt-2">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
+                                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
+                                            >></button>
+                                    </a>
+                                </center>
+                            </div>
+
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg" srcset="http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg 1x, http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                            <div class="label-promo"></div>
+                                            <div class="bottom-right promo">Perumahan subsidi</div>
+                                        </div>
+                                    </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                                                                
+                                                                                                                                                                                
+                                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">1377 views</span>
+                                <br>
+                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp
+                                            160 <sub>jt</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66" style="color:black;">
+                                    <h4 class="text-nm-perum mb-0">Griya Kanzu Madiun - Tipe mulai</h4>
+                                </a>
+                                                                                                                                                                                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">30/66</button>
+                                        </a>
+                                                                                                                                                                                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">42/72</button>
+                                        </a>
+                                                                                                                                                                                                                <br>
+                                <span class="mb-0 font-text-port"> Caruban Kota Baru, Madiun</span>
+                                <!-- <br> -->
+                                <div style="text-align-last: justify;">
+                                                                                                                                                                                                                                                <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>2</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                    </div>
+                                <center class="mt-2">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
+                                            >></button>
+                                    </a>
+                                </center>
+                            </div>
+
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/60/90">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="http://localhost/kanpa_ci/upload/0ec44d6d82d1c428d562c7c04f3f0a33.jpg" srcset="http://localhost/kanpa_ci/upload/0ec44d6d82d1c428d562c7c04f3f0a33.jpg 1x, http://localhost/kanpa_ci/upload/0ec44d6d82d1c428d562c7c04f3f0a33.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                            <div class="label-promo"></div>
+                                            <div class="bottom-right promo">Perumahan komersil</div>
+                                        </div>
+                                    </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                                                                                                                                                                            
+                                                                                                        
+                                                                                                        
+                                                                                                    <span class="mb-0 font-text-port float-right">578 views</span>
+                                <br>
+                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/42/80">Rp
+                                            333 <sub>jt</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/60/90" style="color:black;">
+                                    <h4 class="text-nm-perum mb-0">Alton Green House - Tipe mulai</h4>
+                                </a>
+                                                                                                                                                                                                                                                                                                                                    <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/42/80">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">42/80</button>
+                                        </a>
+                                                                                                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/60/90">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">60/90</button>
+                                        </a>
+                                                                                                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">90/95</button>
+                                        </a>
+                                                                                                    <br>
+                                <span class="mb-0 font-text-port"> Jl. Villa Siberi - Kerajan</span>
+                                <!-- <br> -->
+                                <div style="text-align-last: justify;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                        <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>3</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>2</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                                                                                                                                                                            </div>
+                                <center class="mt-2">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/60/90">
+                                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
+                                            >></button>
+                                    </a>
+                                </center>
+                            </div>
+
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="http://localhost/kanpa_ci/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg" srcset="http://localhost/kanpa_ci/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg 1x, http://localhost/kanpa_ci/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                            <div class="label-promo"></div>
+                                            <div class="bottom-right promo">Perumahan komersil</div>
+                                        </div>
+                                    </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                <span class="mb-0 font-text-port float-right">195 views</span>
+                                <br>
+                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">Rp
+                                            1 <sub>M</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120" style="color:black;">
+                                    <h4 class="text-nm-perum mb-0">Alton Town House - Tipe mulai</h4>
+                                </a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">140/120</button>
+                                        </a>
+                                                                <br>
+                                <span class="mb-0 font-text-port"> Sisemut, Ungaran Barat</span>
+                                <!-- <br> -->
+                                <div style="text-align-last: justify;">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>4</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>3</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                                                    </div>
+                                <center class="mt-2">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">
+                                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
+                                            >></button>
+                                    </a>
+                                </center>
+                            </div>
+
+                        </div>
+                    </div>
+                                    <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
+                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">
+                                        <div class="img border-r-0px" style="position: relative;">
+                                            <img src="http://localhost/kanpa_ci/upload/fb7c8d6b0cc64a2d2ab434e2a9ab6c59.jpg" srcset="http://localhost/kanpa_ci/upload/fb7c8d6b0cc64a2d2ab434e2a9ab6c59.jpg 1x, http://localhost/kanpa_ci/upload/fb7c8d6b0cc64a2d2ab434e2a9ab6c59.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                            <div class="label-promo"></div>
+                                            <div class="bottom-right promo">Perumahan komersil</div>
+                                        </div>
+                                    </a>
+                                                        <div class="m-2">
+                                <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                            <span class="mb-0 font-text-port float-right">240 views</span>
+                                <br>
+                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">Rp
+                                            300 <sub>jt</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66" style="color:black;">
+                                    <h4 class="text-nm-perum mb-0">Bukit Permai 1 - Tipe mulai</h4>
+                                </a>
+                                                                                                                                                                                                                                                            <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">
+                                            <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">36/66</button>
+                                        </a>
+                                                                                                                                                                                                                                                                                                                            <br>
+                                <span class="mb-0 font-text-port"> Kalisidi, Ungaran Barat</span>
+                                <!-- <br> -->
+                                <div style="text-align-last: justify;">
+                                                                                                                                                                                                                                                                                        <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>2</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
+                                            <div class="figure">
+                                                <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                                <h6>1</h6>
+                                            </div>
                                                                                                                                                                                                                                                                                                                                                             </div>
-                            <center class="mt-2">
-                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
-                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
-                                        >></button>
-                                </a>
-                            </center>
-                        </div>
-
-                    </div>
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
-                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
-                            <div class="img border-r-0px" style="position: relative;">
-                                <img src="http://localhost:8080/kanpa.co.id/upload/e43498fff1f3e594f46559e21545d57d.jpg"
-                                    srcset="http://localhost:8080/kanpa.co.id/upload/e43498fff1f3e594f46559e21545d57d.jpg 1x, http://localhost:8080/kanpa.co.id/upload/e43498fff1f3e594f46559e21545d57d.jpg 3x"
-                                    class=" size-img-dash img-fluid"
-                                    style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
-
-                                <div class="label-promo"></div>
-                                <div class="bottom-right promo">Perumahan subsidi</div>
+                                <center class="mt-2">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">
+                                        <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
+                                            >></button>
+                                    </a>
+                                </center>
                             </div>
-                        </a>
-                                                <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                            
-                                                                                                                                            
-                                                                                                                                                                        <span class="mb-0 font-text-port float-right">1182 views</span>
-                            <br>
-                                                        <a class="btn-hrg-dash"
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp
-                                160 <sub>jt</sub></a>
-                                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Madiun/tipe/30/66"
-                                style="color:black;">
-                                <h4 class="text-nm-perum mb-0">Griya Kanzu Madiun - Tipe mulai</h4>
-                            </a>
-                                                                                                                                                                        <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">30/66</button>
-                            </a>
-                                                                                                                                                                        <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">42/72</button>
-                            </a>
-                                                                                                                                                                        <br>
-                            <span class="mb-0 font-text-port"> Caruban Kota Baru, Madiun</span>
-                            <!-- <br> -->
-                            <div style="text-align-last: justify;">
-                                                                                                                                                                                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>2</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                                                                                                                                                                                                                                                                                                            </div>
-                            <center class="mt-2">
-                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
-                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
-                                        >></button>
-                                </a>
-                            </center>
+
                         </div>
-
                     </div>
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
-                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
-                            <div class="img border-r-0px" style="position: relative;">
-                                <img src="http://localhost:8080/kanpa.co.id/upload/0feae9a6e0bb7d35ed996146122c028b.jpg"
-                                    srcset="http://localhost:8080/kanpa.co.id/upload/0feae9a6e0bb7d35ed996146122c028b.jpg 1x, http://localhost:8080/kanpa.co.id/upload/0feae9a6e0bb7d35ed996146122c028b.jpg 3x"
-                                    class=" size-img-dash img-fluid"
-                                    style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
-
-                                <div class="label-promo"></div>
-                                <div class="bottom-right promo">Perumahan komersil</div>
-                            </div>
-                        </a>
-                                                <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                                                                                
-                                                                                    
-                                                                                    
-                                                                                    <span class="mb-0 font-text-port float-right">435 views</span>
-                            <br>
-                                                        <a class="btn-hrg-dash"
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/42/80">Rp
-                                333 <sub>jt</sub></a>
-                                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95"
-                                style="color:black;">
-                                <h4 class="text-nm-perum mb-0">Alton Green House - Tipe mulai</h4>
-                            </a>
-                                                                                                                                                                                                                                                            <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/42/80">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">42/80</button>
-                            </a>
-                                                                                                                <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/60/90">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">60/90</button>
-                            </a>
-                                                                                                                <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">90/95</button>
-                            </a>
-                                                                                    <br>
-                            <span class="mb-0 font-text-port"> Jl. Villa Siberi - Kerajan</span>
-                            <!-- <br> -->
-                            <div style="text-align-last: justify;">
-                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>3</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>2</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                                                                            </div>
-                            <center class="mt-2">
-                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Green-House/tipe/90/95">
-                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
-                                        >></button>
-                                </a>
-                            </center>
-                        </div>
-
-                    </div>
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
-                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120">
-                            <div class="img border-r-0px" style="position: relative;">
-                                <img src="http://localhost:8080/kanpa.co.id/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg"
-                                    srcset="http://localhost:8080/kanpa.co.id/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg 1x, http://localhost:8080/kanpa.co.id/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg 3x"
-                                    class=" size-img-dash img-fluid"
-                                    style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
-
-                                <div class="label-promo"></div>
-                                <div class="bottom-right promo">Perumahan komersil</div>
-                            </div>
-                        </a>
-                                                <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                                                                                                                                                                                                                            
-                                                        <span class="mb-0 font-text-port float-right">153 views</span>
-                            <br>
-                                                        <a class="btn-hrg-dash"
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120">Rp
-                                1 <sub>M</sub></a>
-                                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120"
-                                style="color:black;">
-                                <h4 class="text-nm-perum mb-0">Alton Town House - Tipe mulai</h4>
-                            </a>
-                                                                                                                                                                                                                                                                                                                                                                                                        <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">140/120</button>
-                            </a>
-                                                        <br>
-                            <span class="mb-0 font-text-port"> Sisemut, Ungaran Barat</span>
-                            <!-- <br> -->
-                            <div style="text-align-last: justify;">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>4</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>3</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                                            </div>
-                            <center class="mt-2">
-                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Alton-Town-House/tipe/140/120">
-                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
-                                        >></button>
-                                </a>
-                            </center>
-                        </div>
-
-                    </div>
-                </div>
-                                <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
-                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                <a
-                            href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-1/tipe/36/66">
-                            <div class="img border-r-0px" style="position: relative;">
-                                <img src="http://localhost:8080/kanpa.co.id/upload/3fc0d4fa56846c96deeba4b65064e927.jpg"
-                                    srcset="http://localhost:8080/kanpa.co.id/upload/3fc0d4fa56846c96deeba4b65064e927.jpg 1x, http://localhost:8080/kanpa.co.id/upload/3fc0d4fa56846c96deeba4b65064e927.jpg 3x"
-                                    class=" size-img-dash img-fluid"
-                                    style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
-
-                                <div class="label-promo"></div>
-                                <div class="bottom-right promo">Perumahan komersil</div>
-                            </div>
-                        </a>
-                                                <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                        
-                                                                                                                                                                                                                                                            <span class="mb-0 font-text-port float-right">161 views</span>
-                            <br>
-                                                        <a class="btn-hrg-dash"
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-1/tipe/36/66">Rp
-                                300 <sub>jt</sub></a>
-                                                        <a href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-1/tipe/36/66"
-                                style="color:black;">
-                                <h4 class="text-nm-perum mb-0">Bukit Permai 1 - Tipe mulai</h4>
-                            </a>
-                                                                                                                                                                                                    <a
-                                href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-1/tipe/36/66">
-                                <button type="button" id=""
-                                    class="btn btn-sm mb-2 btn-outline-info">36/66</button>
-                            </a>
-                                                                                                                                                                                                                                                            <br>
-                            <span class="mb-0 font-text-port"> Kalisidi, Ungaran Barat</span>
-                            <!-- <br> -->
-                            <div style="text-align-last: justify;">
-                                                                                                                                                                                                                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ru-tamu.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-tidur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>2</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/ka-mandi.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                <div class="figure">
-                                    <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-display/dapur.png"
-                                        class="size-ikon-dash img-fluid" alt="">
-                                    <h6>1</h6>
-                                </div>
-                                                                                                                                                                                                                                                                                            </div>
-                            <center class="mt-2">
-                                <a
-                                    href="http://localhost:8080/kanpa.co.id/detail/perum/Bukit-Permai-1/tipe/36/66">
-                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
-                                        >></button>
-                                </a>
-                            </center>
-                        </div>
-
-                    </div>
-                </div>
                             </div>
             <div class="row mt-3">
                 <div class="col">
                     <center>
-                        <a href="http://localhost:8080/kanpa.co.id/Produk#produk">
+                        <a href="http://localhost/kanpa_ci/Produk#produk">
                             <button type="button" id="" class="btn btn-sm btn-outline-info" style="font-size: 18px;">
                                 <i class="fa-brands fa-product-hunt"></i> Lihat Produk Lainnya >>
                             </button>
@@ -858,120 +803,92 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
         </div>
         <div class="container">
             <div class="row">
-                                <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="0">
-                    <div class="border-radius">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="form-group">
-                                    <a class="text-dark add-view-news"
-                                        href="http://localhost:8080/kanpa.co.id/Artikel/page/5-Cara-mudah-bersihkan-kaca-jendela"
-                                        data-id-berita="65">
-                                        <img src="http://localhost:8080/kanpa.co.id/upload/c50950c4ea5d56db0b65eccb6eeb6059.jpg"
-                                            srcset="http://localhost:8080/kanpa.co.id/upload/c50950c4ea5d56db0b65eccb6eeb6059.jpg 1x, http://localhost:8080/kanpa.co.id/upload/c50950c4ea5d56db0b65eccb6eeb6059.jpg 10x"
-                                            class="img-fluid p-1 border-radius img-berita"
-                                            data-id-berita="65" alt="red sample">
+                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="0">
+                        <div class="border-radius">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <div class="form-group">
+                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/5-Tips-Jitu-Memilih-Cat-Dinding-yang-Tepat-untuk-Menciptakan-Suasana-yang-Diinginkan" data-id-berita="71">
+                                            <img src="http://localhost/kanpa_ci/upload/42936e9a93e06c60763da3fda66f5031.jpg" srcset="http://localhost/kanpa_ci/upload/42936e9a93e06c60763da3fda66f5031.jpg 1x, http://localhost/kanpa_ci/upload/42936e9a93e06c60763da3fda66f5031.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="71" alt="red sample">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/5-Tips-Jitu-Memilih-Cat-Dinding-yang-Tepat-untuk-Menciptakan-Suasana-yang-Diinginkan" data-id-berita="71">
+                                        <h6 class="text-publishing">12 June 2023</h6>
+                                        <h6 class="tittle-news">5 Tips Jitu Memilih Cat Dinding yang Tepat untuk Menciptakan Suasana yang Diinginkan</h6>
+                                        <h6 class="font-text-port">2 views</h6>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-8 col-md-8 col-8">
-                                <a class="text-dark add-view-news"
-                                    href="http://localhost:8080/kanpa.co.id/Artikel/page/5-Cara-mudah-bersihkan-kaca-jendela"
-                                    data-id-berita="65">
-                                    <h6 class="text-publishing">16 May 2023</h6>
-                                    <h6 class="tittle-news">5 Cara mudah bersihkan kaca jendela</h6>
-                                    <h6 class="font-text-port">36 views</h6>
-                                </a>
-                            </div>
                         </div>
                     </div>
-                </div>
-                                <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="1">
-                    <div class="border-radius">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="form-group">
-                                    <a class="text-dark add-view-news"
-                                        href="http://localhost:8080/kanpa.co.id/Artikel/page/5-Tempat-wisata-terpopuler-di-kabupaten-semarang"
-                                        data-id-berita="64">
-                                        <img src="http://localhost:8080/kanpa.co.id/upload/2000584a612c550355018fc64e7b2285.jpg"
-                                            srcset="http://localhost:8080/kanpa.co.id/upload/2000584a612c550355018fc64e7b2285.jpg 1x, http://localhost:8080/kanpa.co.id/upload/2000584a612c550355018fc64e7b2285.jpg 10x"
-                                            class="img-fluid p-1 border-radius img-berita"
-                                            data-id-berita="64" alt="red sample">
+                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="1">
+                        <div class="border-radius">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <div class="form-group">
+                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Cara-Praktis-Memaksimalkan-Ruang-Sempit-di-Rumah-dengan-Furniture-Multifungsi" data-id-berita="70">
+                                            <img src="http://localhost/kanpa_ci/upload/fc9dc3cdcdd0040aa11a5d03b54f4696.jpg" srcset="http://localhost/kanpa_ci/upload/fc9dc3cdcdd0040aa11a5d03b54f4696.jpg 1x, http://localhost/kanpa_ci/upload/fc9dc3cdcdd0040aa11a5d03b54f4696.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="70" alt="red sample">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Cara-Praktis-Memaksimalkan-Ruang-Sempit-di-Rumah-dengan-Furniture-Multifungsi" data-id-berita="70">
+                                        <h6 class="text-publishing">10 June 2023</h6>
+                                        <h6 class="tittle-news">Cara Praktis Memaksimalkan Ruang Sempit di Rumah dengan Furniture Multifungsi</h6>
+                                        <h6 class="font-text-port">6 views</h6>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-8 col-md-8 col-8">
-                                <a class="text-dark add-view-news"
-                                    href="http://localhost:8080/kanpa.co.id/Artikel/page/5-Tempat-wisata-terpopuler-di-kabupaten-semarang"
-                                    data-id-berita="64">
-                                    <h6 class="text-publishing">16 May 2023</h6>
-                                    <h6 class="tittle-news">5 Tempat wisata terpopuler di kabupaten semarang</h6>
-                                    <h6 class="font-text-port">55 views</h6>
-                                </a>
-                            </div>
                         </div>
                     </div>
-                </div>
-                                <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="2">
-                    <div class="border-radius">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="form-group">
-                                    <a class="text-dark add-view-news"
-                                        href="http://localhost:8080/kanpa.co.id/Artikel/page/7-Tanaman-hias-outdoor-rumah-jadi-indah-minim-perawatan"
-                                        data-id-berita="63">
-                                        <img src="http://localhost:8080/kanpa.co.id/upload/0dd6dae08d622a245743d1db8f47028d.jpg"
-                                            srcset="http://localhost:8080/kanpa.co.id/upload/0dd6dae08d622a245743d1db8f47028d.jpg 1x, http://localhost:8080/kanpa.co.id/upload/0dd6dae08d622a245743d1db8f47028d.jpg 10x"
-                                            class="img-fluid p-1 border-radius img-berita"
-                                            data-id-berita="63" alt="red sample">
+                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="2">
+                        <div class="border-radius">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <div class="form-group">
+                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-Permai-Abadi-Menyelenggarakan-Halal-Bihalal-untuk-Memperkuat-Tali-Silaturahmi" data-id-berita="69">
+                                            <img src="http://localhost/kanpa_ci/upload/ec9c6fd6c7e927354423e5f2462cf27d.jpg" srcset="http://localhost/kanpa_ci/upload/ec9c6fd6c7e927354423e5f2462cf27d.jpg 1x, http://localhost/kanpa_ci/upload/ec9c6fd6c7e927354423e5f2462cf27d.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="69" alt="red sample">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-Permai-Abadi-Menyelenggarakan-Halal-Bihalal-untuk-Memperkuat-Tali-Silaturahmi" data-id-berita="69">
+                                        <h6 class="text-publishing">29 May 2023</h6>
+                                        <h6 class="tittle-news">PT Kanzu Permai Abadi Menyelenggarakan Halal Bihalal untuk Memperkuat Tali Silaturahmi</h6>
+                                        <h6 class="font-text-port">8 views</h6>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-8 col-md-8 col-8">
-                                <a class="text-dark add-view-news"
-                                    href="http://localhost:8080/kanpa.co.id/Artikel/page/7-Tanaman-hias-outdoor-rumah-jadi-indah-minim-perawatan"
-                                    data-id-berita="63">
-                                    <h6 class="text-publishing">16 May 2023</h6>
-                                    <h6 class="tittle-news">7 Tanaman hias outdoor rumah jadi indah minim perawatan</h6>
-                                    <h6 class="font-text-port">43 views</h6>
-                                </a>
-                            </div>
                         </div>
                     </div>
-                </div>
-                                <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="3">
-                    <div class="border-radius">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-4">
-                                <div class="form-group">
-                                    <a class="text-dark add-view-news"
-                                        href="http://localhost:8080/kanpa.co.id/Artikel/page/Apakah-anda-harus-membeli-rumah-atau-mobil-terlebih-dahulu-Inilah-yang-dikatakan-para-ahli"
-                                        data-id-berita="62">
-                                        <img src="http://localhost:8080/kanpa.co.id/upload/3103b52db627252a8cffcff9d83b2284.jpg"
-                                            srcset="http://localhost:8080/kanpa.co.id/upload/3103b52db627252a8cffcff9d83b2284.jpg 1x, http://localhost:8080/kanpa.co.id/upload/3103b52db627252a8cffcff9d83b2284.jpg 10x"
-                                            class="img-fluid p-1 border-radius img-berita"
-                                            data-id-berita="62" alt="red sample">
+                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="3">
+                        <div class="border-radius">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <div class="form-group">
+                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Kualitas-Hidup-Lebih-Baik-dengan-Hunian-Subsidi-yang-Nyaman" data-id-berita="68">
+                                            <img src="http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg" srcset="http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg 1x, http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="68" alt="red sample">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Kualitas-Hidup-Lebih-Baik-dengan-Hunian-Subsidi-yang-Nyaman" data-id-berita="68">
+                                        <h6 class="text-publishing">09 June 2023</h6>
+                                        <h6 class="tittle-news">Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman</h6>
+                                        <h6 class="font-text-port">4 views</h6>
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-8 col-md-8 col-8">
-                                <a class="text-dark add-view-news"
-                                    href="http://localhost:8080/kanpa.co.id/Artikel/page/Apakah-anda-harus-membeli-rumah-atau-mobil-terlebih-dahulu-Inilah-yang-dikatakan-para-ahli"
-                                    data-id-berita="62">
-                                    <h6 class="text-publishing">11 May 2023</h6>
-                                    <h6 class="tittle-news">Apakah anda harus membeli rumah atau mobil terlebih dahulu Inilah yang dikatakan para ahli</h6>
-                                    <h6 class="font-text-port">50 views</h6>
-                                </a>
-                            </div>
                         </div>
                     </div>
-                </div>
                             </div>
         </div>
         <div class="row mt-3">
             <div class="col">
                 <center>
-                    <a href="http://localhost:8080/kanpa.co.id/Artikel#news">
+                    <a href="http://localhost/kanpa_ci/Artikel#news">
                         <button type="button" id="" class="btn btn-sm btn-outline-info" style="font-size: 18px;">
                             <i class="fa-regular fa-newspaper"></i> Lihat Berita Lainnya >>
                         </button>
@@ -983,10 +900,7 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
     <section id="" class="contact p-0">
         <div class="" data-aos="fade-up">
             <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.0907201097357!2d110.39826681509645!3d-7.115485094861684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7089a95628a559%3A0x2f5966fe8e2eb5eb!2sPT%20Kanpa%20(%20Kanzu%20Permai%20Abadi%20)!5e0!3m2!1sid!2sid!4v1672375026580!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe> -->
             </div><!-- End Google Maps -->
         </div>
@@ -995,14 +909,14 @@ a:3:{s:4:"time";i:1684891423;s:3:"ttl";i:604800;s:4:"data";s:81044:"<!DOCTYPE ht
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YN9QR6KJ0J"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-gtag('config', 'G-YN9QR6KJ0J');
+    gtag('config', 'G-YN9QR6KJ0J');
 </script>
         <style>
 	.title-h4 {
@@ -1091,20 +1005,20 @@ gtag('config', 'G-YN9QR6KJ0J');
     <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script>
     <!-- canva -->
 
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/daterangepicker/moment.min.js"></script>
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/daterangepicker/daterangepicker.min.js"></script>
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/daterangepicker/moment.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/daterangepicker/daterangepicker.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
 
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/aos/aos.js"></script>
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/aos/aos.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/swiper/swiper-bundle.min.js"></script>
 
-    <!-- <script src="http://localhost:8080/kanpa.co.id/assets/vendor/php-email-form/validate.js"></script> -->
+    <!-- <script src="http://localhost/kanpa_ci/assets/vendor/php-email-form/validate.js"></script> -->
     <!-- Template Main JS File -->
-    <script src="http://localhost:8080/kanpa.co.id/assets/js/main.js"></script>
-    <script src="http://localhost:8080/kanpa.co.id/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/js/main.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script>
     // Swiper Configuration
@@ -1149,7 +1063,7 @@ gtag('config', 'G-YN9QR6KJ0J');
         formData.append('id-berita', id_berita);
         $.ajax({
             type: 'POST',
-            url: "http://localhost:8080/kanpa.co.id/index.php/berita/add_view_berita",
+            url: "http://localhost/kanpa_ci/index.php/berita/add_view_berita",
             data: formData,
             cache: false,
             processData: false,
@@ -1162,11 +1076,7 @@ gtag('config', 'G-YN9QR6KJ0J');
             }
         });
     });
-</script>        <script>
-    // alert('ya');
-    $('#page').removeClass('ml-page');
-    </script>
-    
+</script>    
     <script>
     $(document).ready(function() {
         var newURL = location.href.split("#")[0];

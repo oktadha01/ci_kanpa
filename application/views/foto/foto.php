@@ -52,18 +52,40 @@
         color: #FFEB3B;
         font-size: 24px;
     }
+
+    .border-size-foto-header {
+        height: auto;
+        width: 24rem;
+        margin-top: 8px;
+        border-radius: 6px;
+    }
 </style>
 <main id="main" class="pt-5rem">
     <div class="faq">
         <div class="" data-aos="fade-up">
             <div class="accordion accordion-flush" id="faqlist">
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" id="btn-set-foto-header" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1" style="background: #566dea;color: aliceblue;">
+                            <i class="fa-solid fa-gears fa-beat  question-icon"></i>
+                            Setting Foto header Subsidi
+                        </button>
+                    </h3>
+                    <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                        <div class="accordion-body">
+                            <img id="btn-change-foto-header" class="img-fluid border-size-foto-header load-set-foto-header">
+                            <input type="file" id="file-set-foto-header" class="set-foto-header" value="" hidden>
+
+                        </div>
+                    </div>
+                </div><!-- # Faq item-->
                 <?php
                 foreach ($data_perum as $data) :
                 ?>
                     <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                         <h3 class="accordion-header">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-id-perum="<?php echo $data->id_perum; ?>" data-bs-target="#faq-content-<?php echo $data->id_perum; ?>">
-                                <i class="bi bi-question-circle question-icon"></i>
+                                <i class="bi bi-question-circle question-icon" style="color: chartreuse;"></i>
                                 <?php echo $data->nm_perum; ?>
                             </button>
                         </h3>

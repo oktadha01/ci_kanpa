@@ -1,11 +1,12 @@
-a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class="faq">
+a:3:{s:4:"time";i:1690165108;s:3:"ttl";i:604800;s:4:"data";s:293776:"<div class="faq">
     <div class="" data-aos="fade-up">
         <div class="accordion accordion-flush" id="faqlist">
                             <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="71" data-bs-toggle="collapse" data-bs-target="#faq-content-71">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 Tips Jitu Memilih Cat Dinding yang Tepat untuk Menciptakan Suasana yang Diinginkan                        </button>
+                            <a href=""> 5 Tips Jitu Memilih Cat Dinding yang Tepat untuk Menciptakan Suasana yang Diinginkan</a>
+                        </button>
                     </h3>
                     <div id="faq-content-71" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -23,7 +24,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="70" data-bs-toggle="collapse" data-bs-target="#faq-content-70">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Cara Praktis Memaksimalkan Ruang Sempit di Rumah dengan Furniture Multifungsi                        </button>
+                            <a href=""> Cara Praktis Memaksimalkan Ruang Sempit di Rumah dengan Furniture Multifungsi</a>
+                        </button>
                     </h3>
                     <div id="faq-content-70" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -41,7 +43,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="69" data-bs-toggle="collapse" data-bs-target="#faq-content-69">
                             <i class="bi bi-question-circle question-icon"></i>
-                            PT Kanzu Permai Abadi Menyelenggarakan Halal Bihalal untuk Memperkuat Tali Silaturahmi                        </button>
+                            <a href=""> PT Kanzu Permai Abadi Menyelenggarakan Halal Bihalal untuk Memperkuat Tali Silaturahmi</a>
+                        </button>
                     </h3>
                     <div id="faq-content-69" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -59,7 +62,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="68" data-bs-toggle="collapse" data-bs-target="#faq-content-68">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman                        </button>
+                            <a href=""> Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman</a>
+                        </button>
                     </h3>
                     <div id="faq-content-68" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -77,7 +81,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="67" data-bs-toggle="collapse" data-bs-target="#faq-content-67">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Desain Rumah Modern Minimalis yang Cocok untuk Keluarga Muda                        </button>
+                            <a href=""> Desain Rumah Modern Minimalis yang Cocok untuk Keluarga Muda</a>
+                        </button>
                     </h3>
                     <div id="faq-content-67" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -95,7 +100,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="66" data-bs-toggle="collapse" data-bs-target="#faq-content-66">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Kenali 5 Alasan Mengapa Membeli Properti adalah Pilihan Bijak untuk Investasi yang Menguntungkan                        </button>
+                            <a href=""> Kenali 5 Alasan Mengapa Membeli Properti adalah Pilihan Bijak untuk Investasi yang Menguntungkan</a>
+                        </button>
                     </h3>
                     <div id="faq-content-66" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -113,7 +119,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="65" data-bs-toggle="collapse" data-bs-target="#faq-content-65">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 Cara mudah bersihkan kaca jendela                        </button>
+                            <a href=""> 5 Cara mudah bersihkan kaca jendela</a>
+                        </button>
                     </h3>
                     <div id="faq-content-65" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -131,7 +138,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="64" data-bs-toggle="collapse" data-bs-target="#faq-content-64">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 Tempat wisata terpopuler di kabupaten semarang                        </button>
+                            <a href=""> 5 Tempat wisata terpopuler di kabupaten semarang</a>
+                        </button>
                     </h3>
                     <div id="faq-content-64" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -149,7 +157,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="63" data-bs-toggle="collapse" data-bs-target="#faq-content-63">
                             <i class="bi bi-question-circle question-icon"></i>
-                            7 Tanaman hias outdoor rumah jadi indah minim perawatan                        </button>
+                            <a href=""> 7 Tanaman hias outdoor rumah jadi indah minim perawatan</a>
+                        </button>
                     </h3>
                     <div id="faq-content-63" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -167,7 +176,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="62" data-bs-toggle="collapse" data-bs-target="#faq-content-62">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Apakah anda harus membeli rumah atau mobil terlebih dahulu Inilah yang dikatakan para ahli                        </button>
+                            <a href=""> Apakah anda harus membeli rumah atau mobil terlebih dahulu Inilah yang dikatakan para ahli</a>
+                        </button>
                     </h3>
                     <div id="faq-content-62" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -185,7 +195,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="61" data-bs-toggle="collapse" data-bs-target="#faq-content-61">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Usia berapa yang cocok untuk membeli rumah pertama                        </button>
+                            <a href=""> Usia berapa yang cocok untuk membeli rumah pertama</a>
+                        </button>
                     </h3>
                     <div id="faq-content-61" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -203,7 +214,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="60" data-bs-toggle="collapse" data-bs-target="#faq-content-60">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Cara mengatasi tantangan suku bunga tinggi saat membeli rumah                        </button>
+                            <a href=""> Cara mengatasi tantangan suku bunga tinggi saat membeli rumah</a>
+                        </button>
                     </h3>
                     <div id="faq-content-60" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -221,7 +233,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="59" data-bs-toggle="collapse" data-bs-target="#faq-content-59">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Pengaruh inflasi pada harga rumah di indonesia                        </button>
+                            <a href=""> Pengaruh inflasi pada harga rumah di indonesia</a>
+                        </button>
                     </h3>
                     <div id="faq-content-59" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -239,7 +252,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="58" data-bs-toggle="collapse" data-bs-target="#faq-content-58">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Rumah baru atau rumah bekas Kelebihan dan kekurangan masing masing                        </button>
+                            <a href=""> Rumah baru atau rumah bekas Kelebihan dan kekurangan masing masing</a>
+                        </button>
                     </h3>
                     <div id="faq-content-58" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -257,7 +271,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="57" data-bs-toggle="collapse" data-bs-target="#faq-content-57">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Menghindari masalah hukum dengan memiliki surat hak milik tanah sah                        </button>
+                            <a href=""> Menghindari masalah hukum dengan memiliki surat hak milik tanah sah</a>
+                        </button>
                     </h3>
                     <div id="faq-content-57" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -275,7 +290,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="56" data-bs-toggle="collapse" data-bs-target="#faq-content-56">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Pertimbangan memilih rumah 1 lantai atau 2 lantai untuk keluarga                        </button>
+                            <a href=""> Pertimbangan memilih rumah 1 lantai atau 2 lantai untuk keluarga</a>
+                        </button>
                     </h3>
                     <div id="faq-content-56" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -293,7 +309,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="55" data-bs-toggle="collapse" data-bs-target="#faq-content-55">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Cara merawat tanaman di rumah dengan mudah dan efektif                        </button>
+                            <a href=""> Cara merawat tanaman di rumah dengan mudah dan efektif</a>
+                        </button>
                     </h3>
                     <div id="faq-content-55" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -311,7 +328,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="54" data-bs-toggle="collapse" data-bs-target="#faq-content-54">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Pentingnya memiliki rumah sendiri untuk kesejahteraan keluarga                        </button>
+                            <a href=""> Pentingnya memiliki rumah sendiri untuk kesejahteraan keluarga</a>
+                        </button>
                     </h3>
                     <div id="faq-content-54" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -329,7 +347,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="53" data-bs-toggle="collapse" data-bs-target="#faq-content-53">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Cara cari rumah bekas dengan mudah dan efektif                        </button>
+                            <a href=""> Cara cari rumah bekas dengan mudah dan efektif</a>
+                        </button>
                     </h3>
                     <div id="faq-content-53" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -347,7 +366,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="52" data-bs-toggle="collapse" data-bs-target="#faq-content-52">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Mengapa pondasi cakar ayam sangat penting dalam membangun rumah                        </button>
+                            <a href=""> Mengapa pondasi cakar ayam sangat penting dalam membangun rumah</a>
+                        </button>
                     </h3>
                     <div id="faq-content-52" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -365,7 +385,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="51" data-bs-toggle="collapse" data-bs-target="#faq-content-51">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Perbedaan rumah dan apartemen Mana yang lebih cocok untuk anda                        </button>
+                            <a href=""> Perbedaan rumah dan apartemen Mana yang lebih cocok untuk anda</a>
+                        </button>
                     </h3>
                     <div id="faq-content-51" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -383,7 +404,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="50" data-bs-toggle="collapse" data-bs-target="#faq-content-50">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 Rekomendasi jual rumah cepat laku yang terbukti efektif                        </button>
+                            <a href=""> 5 Rekomendasi jual rumah cepat laku yang terbukti efektif</a>
+                        </button>
                     </h3>
                     <div id="faq-content-50" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -401,7 +423,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="49" data-bs-toggle="collapse" data-bs-target="#faq-content-49">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Tips memilih arah rumah yang cocok menghadap ke mana untuk mendapatkan sinar matahari yang optimal                        </button>
+                            <a href=""> Tips memilih arah rumah yang cocok menghadap ke mana untuk mendapatkan sinar matahari yang optimal</a>
+                        </button>
                     </h3>
                     <div id="faq-content-49" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -419,7 +442,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="48" data-bs-toggle="collapse" data-bs-target="#faq-content-48">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Cara mendapatkan penghasilan tambahan dengan menjual produk digital                        </button>
+                            <a href=""> Cara mendapatkan penghasilan tambahan dengan menjual produk digital</a>
+                        </button>
                     </h3>
                     <div id="faq-content-48" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -437,7 +461,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="47" data-bs-toggle="collapse" data-bs-target="#faq-content-47">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 Tips menyiapkan dana untuk membeli rumah impian anda                        </button>
+                            <a href=""> 5 Tips menyiapkan dana untuk membeli rumah impian anda</a>
+                        </button>
                     </h3>
                     <div id="faq-content-47" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -455,7 +480,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="46" data-bs-toggle="collapse" data-bs-target="#faq-content-46">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Tips memilih warna cat yang cocok untuk rumah dengan konsep vintage                        </button>
+                            <a href=""> Tips memilih warna cat yang cocok untuk rumah dengan konsep vintage</a>
+                        </button>
                     </h3>
                     <div id="faq-content-46" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -473,7 +499,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="45" data-bs-toggle="collapse" data-bs-target="#faq-content-45">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 Keuntungan memiliki rumah minimalis yang tidak banyak orang tahu                        </button>
+                            <a href=""> 5 Keuntungan memiliki rumah minimalis yang tidak banyak orang tahu</a>
+                        </button>
                     </h3>
                     <div id="faq-content-45" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -491,7 +518,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="44" data-bs-toggle="collapse" data-bs-target="#faq-content-44">
                             <i class="bi bi-question-circle question-icon"></i>
-                            4 Daftar perumahan subsidi dan komersil di ungaran kebupaten semarang                        </button>
+                            <a href=""> 4 Daftar perumahan subsidi dan komersil di ungaran kebupaten semarang</a>
+                        </button>
                     </h3>
                     <div id="faq-content-44" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -509,7 +537,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="43" data-bs-toggle="collapse" data-bs-target="#faq-content-43">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Jasa kontraktor ungaran Memberi layanan konstruksi berkualitas sejak 2002                        </button>
+                            <a href=""> Jasa kontraktor ungaran Memberi layanan konstruksi berkualitas sejak 2002</a>
+                        </button>
                     </h3>
                     <div id="faq-content-43" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -527,7 +556,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="42" data-bs-toggle="collapse" data-bs-target="#faq-content-42">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Cara cek BI cheking Slik OJK sendiri dengan mudah                        </button>
+                            <a href=""> Cara cek BI cheking Slik OJK sendiri dengan mudah</a>
+                        </button>
                     </h3>
                     <div id="faq-content-42" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -545,7 +575,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="41" data-bs-toggle="collapse" data-bs-target="#faq-content-41">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Tips memasang vinly yang benar untuk pemula                        </button>
+                            <a href=""> Tips memasang vinly yang benar untuk pemula</a>
+                        </button>
                     </h3>
                     <div id="faq-content-41" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -563,7 +594,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="40" data-bs-toggle="collapse" data-bs-target="#faq-content-40">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Tips merawat furniture agar tahan lama dan tetap cantik                        </button>
+                            <a href=""> Tips merawat furniture agar tahan lama dan tetap cantik</a>
+                        </button>
                     </h3>
                     <div id="faq-content-40" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -581,7 +613,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="39" data-bs-toggle="collapse" data-bs-target="#faq-content-39">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 Tips cara menata ruangan agar rapih dan nyaman                        </button>
+                            <a href=""> 5 Tips cara menata ruangan agar rapih dan nyaman</a>
+                        </button>
                     </h3>
                     <div id="faq-content-39" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -599,7 +632,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="38" data-bs-toggle="collapse" data-bs-target="#faq-content-38">
                             <i class="bi bi-question-circle question-icon"></i>
-                            10 Tips merawat rumah agar tetap bersih dan nyaman                        </button>
+                            <a href=""> 10 Tips merawat rumah agar tetap bersih dan nyaman</a>
+                        </button>
                     </h3>
                     <div id="faq-content-38" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -617,7 +651,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="37" data-bs-toggle="collapse" data-bs-target="#faq-content-37">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 alasan mengapa investasi properti jangka panjang adalah pilihan tepat dan pintar                        </button>
+                            <a href=""> 5 alasan mengapa investasi properti jangka panjang adalah pilihan tepat dan pintar</a>
+                        </button>
                     </h3>
                     <div id="faq-content-37" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -635,7 +670,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="36" data-bs-toggle="collapse" data-bs-target="#faq-content-36">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Pentingnya memilih developer properti yang terpercaya tips dan trik                        </button>
+                            <a href=""> Pentingnya memilih developer properti yang terpercaya tips dan trik</a>
+                        </button>
                     </h3>
                     <div id="faq-content-36" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -653,7 +689,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="35" data-bs-toggle="collapse" data-bs-target="#faq-content-35">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Berbuka puasa bersama santri tpq al kanzu                        </button>
+                            <a href=""> Berbuka puasa bersama santri tpq al kanzu</a>
+                        </button>
                     </h3>
                     <div id="faq-content-35" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -671,7 +708,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="34" data-bs-toggle="collapse" data-bs-target="#faq-content-34">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Mengapa perumahan bukit permai ungaran adalah tempat yang sangat prioritas untuk anda miliki                        </button>
+                            <a href=""> Mengapa perumahan bukit permai ungaran adalah tempat yang sangat prioritas untuk anda miliki</a>
+                        </button>
                     </h3>
                     <div id="faq-content-34" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -689,7 +727,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="33" data-bs-toggle="collapse" data-bs-target="#faq-content-33">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Rumah subsidi murah di ungaran griya kautsar ungaran pilihannya                        </button>
+                            <a href=""> Rumah subsidi murah di ungaran griya kautsar ungaran pilihannya</a>
+                        </button>
                     </h3>
                     <div id="faq-content-33" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -707,7 +746,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="32" data-bs-toggle="collapse" data-bs-target="#faq-content-32">
                             <i class="bi bi-question-circle question-icon"></i>
-                            PT Kanzu bagi bagi sembako untuk masyarakat jelang ramadhan di desa kaliabu dan desa klecorejo                        </button>
+                            <a href=""> PT Kanzu bagi bagi sembako untuk masyarakat jelang ramadhan di desa kaliabu dan desa klecorejo</a>
+                        </button>
                     </h3>
                     <div id="faq-content-32" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -725,7 +765,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="31" data-bs-toggle="collapse" data-bs-target="#faq-content-31">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Cari rumah subsidi di ungaran simak informasi lengkapnya disini                        </button>
+                            <a href=""> Cari rumah subsidi di ungaran simak informasi lengkapnya disini</a>
+                        </button>
                     </h3>
                     <div id="faq-content-31" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -743,7 +784,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="30" data-bs-toggle="collapse" data-bs-target="#faq-content-30">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Bagusnya panorama hanya di rumah murah ungaran bukit permai                        </button>
+                            <a href=""> Bagusnya panorama hanya di rumah murah ungaran bukit permai</a>
+                        </button>
                     </h3>
                     <div id="faq-content-30" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -761,7 +803,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="29" data-bs-toggle="collapse" data-bs-target="#faq-content-29">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Jasa interior semarang your one step solution for interior design                        </button>
+                            <a href=""> Jasa interior semarang your one step solution for interior design</a>
+                        </button>
                     </h3>
                     <div id="faq-content-29" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -779,7 +822,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="28" data-bs-toggle="collapse" data-bs-target="#faq-content-28">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Rumah subsidi griya kautsar di rawat dengan baik                        </button>
+                            <a href=""> Rumah subsidi griya kautsar di rawat dengan baik</a>
+                        </button>
                     </h3>
                     <div id="faq-content-28" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -797,7 +841,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="27" data-bs-toggle="collapse" data-bs-target="#faq-content-27">
                             <i class="bi bi-question-circle question-icon"></i>
-                            5 Wisata populer yang paling dekat pusat kota caruban                        </button>
+                            <a href=""> 5 Wisata populer yang paling dekat pusat kota caruban</a>
+                        </button>
                     </h3>
                     <div id="faq-content-27" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -815,7 +860,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="26" data-bs-toggle="collapse" data-bs-target="#faq-content-26">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Brem menjadi jajanan khas kabupaten madiun                        </button>
+                            <a href=""> Brem menjadi jajanan khas kabupaten madiun</a>
+                        </button>
                     </h3>
                     <div id="faq-content-26" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -833,7 +879,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="24" data-bs-toggle="collapse" data-bs-target="#faq-content-24">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Rumah murah bersubsidi klecorejo kaliabu solusi hunian terjangkau di kabupaten madiun                        </button>
+                            <a href=""> Rumah murah bersubsidi klecorejo kaliabu solusi hunian terjangkau di kabupaten madiun</a>
+                        </button>
                     </h3>
                     <div id="faq-content-24" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -851,7 +898,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="23" data-bs-toggle="collapse" data-bs-target="#faq-content-23">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Kegiatan khataman al quran dan buka bersama warga bukit permai 1                        </button>
+                            <a href=""> Kegiatan khataman al quran dan buka bersama warga bukit permai 1</a>
+                        </button>
                     </h3>
                     <div id="faq-content-23" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -869,7 +917,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="22" data-bs-toggle="collapse" data-bs-target="#faq-content-22">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Murah rumah subsidi kaliabu klecorejo di kabupaten madiun hanya 160 juta                        </button>
+                            <a href=""> Murah rumah subsidi kaliabu klecorejo di kabupaten madiun hanya 160 juta</a>
+                        </button>
                     </h3>
                     <div id="faq-content-22" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -887,7 +936,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="21" data-bs-toggle="collapse" data-bs-target="#faq-content-21">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Mengenal lebih dekat jasa kontraktor caruban dan interior di madiun                        </button>
+                            <a href=""> Mengenal lebih dekat jasa kontraktor caruban dan interior di madiun</a>
+                        </button>
                     </h3>
                     <div id="faq-content-21" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -905,7 +955,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="20" data-bs-toggle="collapse" data-bs-target="#faq-content-20">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Keuntungan memiliki rumah subsidi caruban di desa kaliabu klecorejo kabupaten madiun                        </button>
+                            <a href=""> Keuntungan memiliki rumah subsidi caruban di desa kaliabu klecorejo kabupaten madiun</a>
+                        </button>
                     </h3>
                     <div id="faq-content-20" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -923,7 +974,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="19" data-bs-toggle="collapse" data-bs-target="#faq-content-19">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Rumah subsidi di madiun pilihan terbaik untuk keluarga muda                        </button>
+                            <a href=""> Rumah subsidi di madiun pilihan terbaik untuk keluarga muda</a>
+                        </button>
                     </h3>
                     <div id="faq-content-19" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -941,7 +993,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="18" data-bs-toggle="collapse" data-bs-target="#faq-content-18">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Cari hunian murah di madiun ini dia perumahan subsidi yang cocok untuk anda                        </button>
+                            <a href=""> Cari hunian murah di madiun ini dia perumahan subsidi yang cocok untuk anda</a>
+                        </button>
                     </h3>
                     <div id="faq-content-18" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -959,7 +1012,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="17" data-bs-toggle="collapse" data-bs-target="#faq-content-17">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Jual rumah di madiun tanpa ribet hanya di griya kanzu caruban                        </button>
+                            <a href=""> Jual rumah di madiun tanpa ribet hanya di griya kanzu caruban</a>
+                        </button>
                     </h3>
                     <div id="faq-content-17" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -977,7 +1031,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="16" data-bs-toggle="collapse" data-bs-target="#faq-content-16">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Penjelasan tanah KPR subsidi di kabupaten madiun desa kecorejo dan desa kaliabu                        </button>
+                            <a href=""> Penjelasan tanah KPR subsidi di kabupaten madiun desa kecorejo dan desa kaliabu</a>
+                        </button>
                     </h3>
                     <div id="faq-content-16" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -995,7 +1050,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="15" data-bs-toggle="collapse" data-bs-target="#faq-content-15">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Rumah impian murah di caruban madiun dijual 160 juta                        </button>
+                            <a href=""> Rumah impian murah di caruban madiun dijual 160 juta</a>
+                        </button>
                     </h3>
                     <div id="faq-content-15" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1013,7 +1069,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="14" data-bs-toggle="collapse" data-bs-target="#faq-content-14">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Peluang anda untuk memiliki rumah subsidi caruban hadir lebih dekat dengan anda di antara desa klecorejo dan desa kaliabu                        </button>
+                            <a href=""> Peluang anda untuk memiliki rumah subsidi caruban hadir lebih dekat dengan anda di antara desa klecorejo dan desa kaliabu</a>
+                        </button>
                     </h3>
                     <div id="faq-content-14" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1031,7 +1088,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="13" data-bs-toggle="collapse" data-bs-target="#faq-content-13">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Rumah subsidi caruban solusi hunian terjangkau di jawa timur                        </button>
+                            <a href=""> Rumah subsidi caruban solusi hunian terjangkau di jawa timur</a>
+                        </button>
                     </h3>
                     <div id="faq-content-13" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1049,7 +1107,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="12" data-bs-toggle="collapse" data-bs-target="#faq-content-12">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Tanah kpr bersubsidi di kabupaten madiun di bangun 550 unit                        </button>
+                            <a href=""> Tanah kpr bersubsidi di kabupaten madiun di bangun 550 unit</a>
+                        </button>
                     </h3>
                     <div id="faq-content-12" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1067,7 +1126,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="10" data-bs-toggle="collapse" data-bs-target="#faq-content-10">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Perumahan subsidi griya kanzu klecorejo kaliabu                        </button>
+                            <a href=""> Perumahan subsidi griya kanzu klecorejo kaliabu</a>
+                        </button>
                     </h3>
                     <div id="faq-content-10" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1085,7 +1145,8 @@ a:3:{s:4:"time";i:1689047355;s:3:"ttl";i:604800;s:4:"data";s:292637:"<div class=
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="9" data-bs-toggle="collapse" data-bs-target="#faq-content-9">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Informasi rumah subsidi terbaru hari ini                        </button>
+                            <a href=""> Informasi rumah subsidi terbaru hari ini</a>
+                        </button>
                     </h3>
                     <div id="faq-content-9" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1111,7 +1172,8 @@ Dari fasilitas diatas, perumahan Griya Kautsar sudah berhasil memenuhi semuanya.
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="8" data-bs-toggle="collapse" data-bs-target="#faq-content-8">
                             <i class="bi bi-question-circle question-icon"></i>
-                            PT KANPA raih penghargaan program realisasi kpr non subsidi terbanyak tahun 2022                        </button>
+                            <a href=""> PT KANPA raih penghargaan program realisasi kpr non subsidi terbanyak tahun 2022</a>
+                        </button>
                     </h3>
                     <div id="faq-content-8" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1130,7 +1192,8 @@ Penghargaan ini menunjukkan adanya kemajuan pembangunan Kabupaten ungaran melalu
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="7" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Apa kata mereka tentang Bukit Asri 4                        </button>
+                            <a href=""> Apa kata mereka tentang Bukit Asri 4</a>
+                        </button>
                     </h3>
                     <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1150,7 +1213,8 @@ Menurut keterangan Bapak Nur Afffandi, beliau sudah tinggal di sini sejak tahun 
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="6" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Pengeboran sumur di Perumahan Griya Kautsar                        </button>
+                            <a href=""> Pengeboran sumur di Perumahan Griya Kautsar</a>
+                        </button>
                     </h3>
                     <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1169,7 +1233,8 @@ Air merupakan sumber kehidupan bagi semua makhluk hidup. Kebutuhan hidup terhada
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="5" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Pelebaran dan Perbaikan jalan sebagai upaya pemaksimalan potensi di Daerah Syeh Jago                        </button>
+                            <a href=""> Pelebaran dan Perbaikan jalan sebagai upaya pemaksimalan potensi di Daerah Syeh Jago</a>
+                        </button>
                     </h3>
                     <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1188,7 +1253,8 @@ Pelebaran jalan sepanjang daerah Syeh Jago ini bertujuan untuk meningkatkan ekon
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="4" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Pembangunan Masjid Bukit Permai 1                        </button>
+                            <a href=""> Pembangunan Masjid Bukit Permai 1</a>
+                        </button>
                     </h3>
                     <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -1206,7 +1272,8 @@ Pelebaran jalan sepanjang daerah Syeh Jago ini bertujuan untuk meningkatkan ekon
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="3" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                             <i class="bi bi-question-circle question-icon"></i>
-                            Bantuan perbaikan jalan PT KANPA                        </button>
+                            <a href=""> Bantuan perbaikan jalan PT KANPA</a>
+                        </button>
                     </h3>
                     <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">

@@ -112,7 +112,14 @@ class M_berita extends CI_Model
     function m_delete_berita($id_berita)
     {
         $delete = $this->db->where('id_berita', $id_berita)
-            ->delete('berita');
+        ->delete('berita');
         return $delete;
+    }
+    function m_validasi_index($id_berita, $status_berita)
+    {
+        $update = $this->db->set('status_berita', $status_berita)
+            ->where('id_berita', $id_berita)
+            ->update('berita');
+        return $update;
     }
 }

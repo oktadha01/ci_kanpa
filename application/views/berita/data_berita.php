@@ -1,15 +1,60 @@
+<style>
+    .view {
+        position: absolute;
+        top: 14px;
+        left: 1px;
+        font-size: 20px;
+        color: var(--color-primary);
+    }
+
+    #Terindex {
+        background: #8bc34a9c;
+    }
+
+    #Permintaan {
+        background: #c2ddf5;
+    }
+
+    #Error {
+        background: #ffbab5;
+    }
+</style>
 <div class="faq">
     <div class="" data-aos="fade-up">
         <div class="accordion accordion-flush" id="faqlist">
             <?php
             foreach ($data_berita as $data) :
+                $judul_berita = $data->judul_berita;
+                $tittle_news = preg_replace("![^a-z0-9]+!i", "-", $judul_berita);
             ?>
                 <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="<?php echo $data->id_berita; ?>" data-bs-toggle="collapse" data-bs-target="#faq-content-<?php echo $data->id_berita; ?>">
-                            <i class="bi bi-question-circle question-icon"></i>
-                            <?php echo $data->judul_berita; ?>
+                            <!-- <i class="bi bi-question-circle question-icon"></i> -->
+                            <a class="view" href="<?= base_url('Artikel'); ?>/page/<?= $tittle_news; ?>" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
+                            <span id="<?= $data->status_berita; ?>" class="tittel<?= $data->id_berita; ?>"><?php echo $data->judul_berita; ?></span>
                         </button>
+                        <h6 style="left: 21px;position: relative;">
+                            <div id="" class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input ceklis-status-artikel ceklis<?= $data->id_berita; ?>" type="checkbox" data-id-berita="<?= $data->id_berita; ?>" id="ceklis-Error<?= $data->id_berita; ?>" value="Error">
+                                    <label for="ceklis-Error<?= $data->id_berita; ?>" class="custom-control-label" style="font-size: xx-small;">Error</label>
+                                </div>
+                            </div>
+                            <div id="" class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input ceklis-status-artikel ceklis<?= $data->id_berita; ?>" type="checkbox" data-id-berita="<?= $data->id_berita; ?>" id="ceklis-Permintaan<?= $data->id_berita; ?>" value="Permintaan">
+                                    <label for="ceklis-Permintaan<?= $data->id_berita; ?>" class="custom-control-label" style="font-size: xx-small;">Permintaan</label>
+                                </div>
+                            </div>
+                            <div id="" class="form-group">
+                                <div class="custom-control custom-checkbox">
+                                    <input class="custom-control-input ceklis-status-artikel ceklis<?= $data->id_berita; ?>" type="checkbox" data-id-berita="<?= $data->id_berita; ?>" id="ceklis-Terindex<?= $data->id_berita; ?>" value="Terindex">
+                                    <label for="ceklis-Terindex<?= $data->id_berita; ?>" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
+                                </div>
+                            </div>
+                            <input type="text" id="status-berita<?= $data->id_berita; ?>" value="<?= $data->status_berita; ?>"  hidden>
+                        </h6>
                     </h3>
                     <div id="faq-content-<?php echo $data->id_berita; ?>" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
@@ -23,6 +68,11 @@
                         </div>
                     </div>
                 </div>
+                <script>
+                    var status = $('#status-berita<?= $data->id_berita; ?>').val();
+                    $('#ceklis-' + status + <?= $data->id_berita; ?>).prop('checked', true);
+                    // $('#ceklis-display').prop('checked', true);
+                </script>
             <?php
             endforeach;
             ?>
@@ -123,6 +173,38 @@
         });
         const element = document.getElementById("page");
         element.scrollIntoView();
+    });
+    $('.ceklis-status-artikel').click(function(e) {
+        var id_berita_ceklis = $(this).data('id-berita');
+        $('.ceklis' + id_berita_ceklis).not(this).prop('checked', false);
+        if ($(this).is(":checked")) {
+            var value_ceklis = $(this).val();
+            // $('.tittel' + id_berita_ceklis).attr('id', value_ceklis)
+        } else {
+            var value_ceklis = '';
+
+        }
+        var confirmalert = confirm("Are you sure?");
+        if (confirmalert == true) {
+            let formData = new FormData();
+            formData.append('id-berita', id_berita_ceklis);
+            formData.append('status-berita', value_ceklis);
+            $.ajax({
+                type: 'POST',
+                url: "<?php echo site_url('berita/validasi_index') ?>",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(msg) {
+                    // alert('berhasil');
+                    $('.tittel' + id_berita_ceklis).attr('id', value_ceklis)
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+        }
     });
 
     function load_data_meta_foto() {

@@ -293,4 +293,12 @@ class Berita extends CI_Controller
             }
         }
     }
+
+    function validasi_index()
+    {
+        $id_berita = $this->input->post('id-berita');
+        $status_berita = $this->input->post('status-berita');
+        $update = $this->m_berita->m_validasi_index($id_berita, $status_berita);
+        echo json_encode($update);
+    }
 }

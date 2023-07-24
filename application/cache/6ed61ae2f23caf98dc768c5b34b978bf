@@ -1,44 +1,21 @@
-a:3:{s:4:"time";i:1684892262;s:3:"ttl";i:604800;s:4:"data";s:10384:"
+a:3:{s:4:"time";i:1690165147;s:3:"ttl";i:604800;s:4:"data";s:10218:"
 				<div class="col-lg-6 col-12 ">
 					<div id="list" class="border-radius">
     					<div class="row">
         					<div class="col-lg-4 col-md-4 col-4">
             					<div class="form-group">
-                					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/Rumah-subsidi-di-madiun-pilihan-terbaik-untuk-keluarga-muda" data-id-berita="19">
-                    					<img src="http://localhost:8080/kanpa.co.id/upload/ae54536bee56a5bb10ee716b4d6e706d.jpg"
-                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="19"
+                					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pengaruh-inflasi-pada-harga-rumah-di-indonesia" data-id-berita="59">
+                    					<img src="http://localhost/kanpa_ci/upload/8a9177f59ccc6214ed0c01a660ea68d2.jpg"
+                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="59"
                         				alt="red sample">
                 					</a>
             					</div>
         					</div>
         					<div class="col-lg-8 col-md-8 col-8">
-            					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/Rumah-subsidi-di-madiun-pilihan-terbaik-untuk-keluarga-muda" data-id-berita="19">
-                					<h6 class="text-publishing">06 April 2023</h6>
-                					<h6 class="tittle-news">Rumah subsidi di madiun pilihan terbaik untuk keluarga muda</h6>
-                					<h6 class="font-text-port">51 Views</h6>
-           						 </a>
-        					</div>
-    					</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-6 col-12 ">
-					<div id="list" class="border-radius">
-    					<div class="row">
-        					<div class="col-lg-4 col-md-4 col-4">
-            					<div class="form-group">
-                					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/Usia-berapa-yang-cocok-untuk-membeli-rumah-pertama" data-id-berita="61">
-                    					<img src="http://localhost:8080/kanpa.co.id/upload/9c519e3e0f948cf89ede1c19505ec9ac.jpg"
-                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="61"
-                        				alt="red sample">
-                					</a>
-            					</div>
-        					</div>
-        					<div class="col-lg-8 col-md-8 col-8">
-            					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/Usia-berapa-yang-cocok-untuk-membeli-rumah-pertama" data-id-berita="61">
+            					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pengaruh-inflasi-pada-harga-rumah-di-indonesia" data-id-berita="59">
                 					<h6 class="text-publishing">11 May 2023</h6>
-                					<h6 class="tittle-news">Usia berapa yang cocok untuk membeli rumah pertama</h6>
-                					<h6 class="font-text-port">39 Views</h6>
+                					<h6 class="tittle-news">Pengaruh inflasi pada harga rumah di indonesia</h6>
+                					<h6 class="font-text-port">57 Views</h6>
            						 </a>
         					</div>
     					</div>
@@ -50,18 +27,18 @@ a:3:{s:4:"time";i:1684892262;s:3:"ttl";i:604800;s:4:"data";s:10384:"
     					<div class="row">
         					<div class="col-lg-4 col-md-4 col-4">
             					<div class="form-group">
-                					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/Apakah-anda-harus-membeli-rumah-atau-mobil-terlebih-dahulu-Inilah-yang-dikatakan-para-ahli" data-id-berita="62">
-                    					<img src="http://localhost:8080/kanpa.co.id/upload/3103b52db627252a8cffcff9d83b2284.jpg"
-                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="62"
+                					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pelebaran-dan-Perbaikan-jalan-sebagai-upaya-pemaksimalan-potensi-di-Daerah-Syeh-Jago" data-id-berita="5">
+                    					<img src="http://localhost/kanpa_ci/upload/87c0b597aff046929bb29c1919e49c6f.jpg"
+                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="5"
                         				alt="red sample">
                 					</a>
             					</div>
         					</div>
         					<div class="col-lg-8 col-md-8 col-8">
-            					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/Apakah-anda-harus-membeli-rumah-atau-mobil-terlebih-dahulu-Inilah-yang-dikatakan-para-ahli" data-id-berita="62">
-                					<h6 class="text-publishing">11 May 2023</h6>
-                					<h6 class="tittle-news">Apakah anda harus membeli rumah atau mobil terlebih dahulu Inilah yang dikatakan para ahli</h6>
-                					<h6 class="font-text-port">51 Views</h6>
+            					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pelebaran-dan-Perbaikan-jalan-sebagai-upaya-pemaksimalan-potensi-di-Daerah-Syeh-Jago" data-id-berita="5">
+                					<h6 class="text-publishing">31 August 2022</h6>
+                					<h6 class="tittle-news">Pelebaran dan Perbaikan jalan sebagai upaya pemaksimalan potensi di Daerah Syeh Jago</h6>
+                					<h6 class="font-text-port">21 Views</h6>
            						 </a>
         					</div>
     					</div>
@@ -73,18 +50,18 @@ a:3:{s:4:"time";i:1684892262;s:3:"ttl";i:604800;s:4:"data";s:10384:"
     					<div class="row">
         					<div class="col-lg-4 col-md-4 col-4">
             					<div class="form-group">
-                					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/7-Tanaman-hias-outdoor-rumah-jadi-indah-minim-perawatan" data-id-berita="63">
-                    					<img src="http://localhost:8080/kanpa.co.id/upload/0dd6dae08d622a245743d1db8f47028d.jpg"
-                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="63"
+                					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Penjelasan-tanah-KPR-subsidi-di-kabupaten-madiun-desa-kecorejo-dan-desa-kaliabu" data-id-berita="16">
+                    					<img src="http://localhost/kanpa_ci/upload/a841516a8de577671b3f06c0e85d7782.jpg"
+                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="16"
                         				alt="red sample">
                 					</a>
             					</div>
         					</div>
         					<div class="col-lg-8 col-md-8 col-8">
-            					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/7-Tanaman-hias-outdoor-rumah-jadi-indah-minim-perawatan" data-id-berita="63">
-                					<h6 class="text-publishing">16 May 2023</h6>
-                					<h6 class="tittle-news">7 Tanaman hias outdoor rumah jadi indah minim perawatan</h6>
-                					<h6 class="font-text-port">44 Views</h6>
+            					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Penjelasan-tanah-KPR-subsidi-di-kabupaten-madiun-desa-kecorejo-dan-desa-kaliabu" data-id-berita="16">
+                					<h6 class="text-publishing">04 April 2023</h6>
+                					<h6 class="tittle-news">Penjelasan tanah KPR subsidi di kabupaten madiun desa kecorejo dan desa kaliabu</h6>
+                					<h6 class="font-text-port">12 Views</h6>
            						 </a>
         					</div>
     					</div>
@@ -96,87 +73,110 @@ a:3:{s:4:"time";i:1684892262;s:3:"ttl";i:604800;s:4:"data";s:10384:"
     					<div class="row">
         					<div class="col-lg-4 col-md-4 col-4">
             					<div class="form-group">
-                					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/5-Keuntungan-memiliki-rumah-minimalis-yang-tidak-banyak-orang-tahu" data-id-berita="45">
-                    					<img src="http://localhost:8080/kanpa.co.id/upload/b717eb40dcdfac18a8c83865a95f1bdd.jpg"
-                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="45"
+                					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pengeboran-sumur-di-Perumahan-Griya-Kautsar" data-id-berita="6">
+                    					<img src="http://localhost/kanpa_ci/upload/ca23e672155ea263b75bc3fd9553bbf8.jpg"
+                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="6"
                         				alt="red sample">
                 					</a>
             					</div>
         					</div>
         					<div class="col-lg-8 col-md-8 col-8">
-            					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/5-Keuntungan-memiliki-rumah-minimalis-yang-tidak-banyak-orang-tahu" data-id-berita="45">
-                					<h6 class="text-publishing">05 May 2023</h6>
-                					<h6 class="tittle-news">5 Keuntungan memiliki rumah minimalis yang tidak banyak orang tahu</h6>
-                					<h6 class="font-text-port">32 Views</h6>
-           						 </a>
-        					</div>
-    					</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-6 col-12 ">
-					<div id="list" class="border-radius">
-    					<div class="row">
-        					<div class="col-lg-4 col-md-4 col-4">
-            					<div class="form-group">
-                					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/PT-Kanzu-bagi-bagi-sembako-untuk-masyarakat-jelang-ramadhan-di-desa-kaliabu-dan-desa-klecorejo" data-id-berita="32">
-                    					<img src="http://localhost:8080/kanpa.co.id/upload/ad1349aa086c0e1a031e377e30b5406a.jpg"
-                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="32"
-                        				alt="red sample">
-                					</a>
-            					</div>
-        					</div>
-        					<div class="col-lg-8 col-md-8 col-8">
-            					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/PT-Kanzu-bagi-bagi-sembako-untuk-masyarakat-jelang-ramadhan-di-desa-kaliabu-dan-desa-klecorejo" data-id-berita="32">
-                					<h6 class="text-publishing">15 April 2023</h6>
-                					<h6 class="tittle-news">PT Kanzu bagi bagi sembako untuk masyarakat jelang ramadhan di desa kaliabu dan desa klecorejo</h6>
-                					<h6 class="font-text-port">27 Views</h6>
-           						 </a>
-        					</div>
-    					</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-6 col-12 ">
-					<div id="list" class="border-radius">
-    					<div class="row">
-        					<div class="col-lg-4 col-md-4 col-4">
-            					<div class="form-group">
-                					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/5-Tempat-wisata-terpopuler-di-kabupaten-semarang" data-id-berita="64">
-                    					<img src="http://localhost:8080/kanpa.co.id/upload/2000584a612c550355018fc64e7b2285.jpg"
-                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="64"
-                        				alt="red sample">
-                					</a>
-            					</div>
-        					</div>
-        					<div class="col-lg-8 col-md-8 col-8">
-            					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/5-Tempat-wisata-terpopuler-di-kabupaten-semarang" data-id-berita="64">
-                					<h6 class="text-publishing">16 May 2023</h6>
-                					<h6 class="tittle-news">5 Tempat wisata terpopuler di kabupaten semarang</h6>
-                					<h6 class="font-text-port">55 Views</h6>
-           						 </a>
-        					</div>
-    					</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-6 col-12 ">
-					<div id="list" class="border-radius">
-    					<div class="row">
-        					<div class="col-lg-4 col-md-4 col-4">
-            					<div class="form-group">
-                					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/Kegiatan-khataman-al-quran-dan-buka-bersama-warga-bukit-permai-1" data-id-berita="23">
-                    					<img src="http://localhost:8080/kanpa.co.id/upload/844e6b1547a56bbaa651b1923d391b78.jpg"
-                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="23"
-                        				alt="red sample">
-                					</a>
-            					</div>
-        					</div>
-        					<div class="col-lg-8 col-md-8 col-8">
-            					<a class="text-dark add-view-news" href="http://localhost:8080/kanpa.co.id/Artikel/page/Kegiatan-khataman-al-quran-dan-buka-bersama-warga-bukit-permai-1" data-id-berita="23">
-                					<h6 class="text-publishing">07 April 2023</h6>
-                					<h6 class="tittle-news">Kegiatan khataman al quran dan buka bersama warga bukit permai 1</h6>
+            					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pengeboran-sumur-di-Perumahan-Griya-Kautsar" data-id-berita="6">
+                					<h6 class="text-publishing">01 September 2022</h6>
+                					<h6 class="tittle-news">Pengeboran sumur di Perumahan Griya Kautsar</h6>
                 					<h6 class="font-text-port">20 Views</h6>
+           						 </a>
+        					</div>
+    					</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6 col-12 ">
+					<div id="list" class="border-radius">
+    					<div class="row">
+        					<div class="col-lg-4 col-md-4 col-4">
+            					<div class="form-group">
+                					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Perbedaan-rumah-dan-apartemen-Mana-yang-lebih-cocok-untuk-anda" data-id-berita="51">
+                    					<img src="http://localhost/kanpa_ci/upload/137bec7c9c8e04cab670125f057f26e7.jpg"
+                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="51"
+                        				alt="red sample">
+                					</a>
+            					</div>
+        					</div>
+        					<div class="col-lg-8 col-md-8 col-8">
+            					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Perbedaan-rumah-dan-apartemen-Mana-yang-lebih-cocok-untuk-anda" data-id-berita="51">
+                					<h6 class="text-publishing">08 May 2023</h6>
+                					<h6 class="tittle-news">Perbedaan rumah dan apartemen Mana yang lebih cocok untuk anda</h6>
+                					<h6 class="font-text-port">36 Views</h6>
+           						 </a>
+        					</div>
+    					</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6 col-12 ">
+					<div id="list" class="border-radius">
+    					<div class="row">
+        					<div class="col-lg-4 col-md-4 col-4">
+            					<div class="form-group">
+                					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pembangunan-Masjid-Bukit-Permai-1" data-id-berita="4">
+                    					<img src="http://localhost/kanpa_ci/upload/d0271144323f99dcd8fcfa2af12c798b.jpg"
+                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="4"
+                        				alt="red sample">
+                					</a>
+            					</div>
+        					</div>
+        					<div class="col-lg-8 col-md-8 col-8">
+            					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pembangunan-Masjid-Bukit-Permai-1" data-id-berita="4">
+                					<h6 class="text-publishing">09 June 2021</h6>
+                					<h6 class="tittle-news">Pembangunan Masjid Bukit Permai 1</h6>
+                					<h6 class="font-text-port">26 Views</h6>
+           						 </a>
+        					</div>
+    					</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6 col-12 ">
+					<div id="list" class="border-radius">
+    					<div class="row">
+        					<div class="col-lg-4 col-md-4 col-4">
+            					<div class="form-group">
+                					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pentingnya-memilih-developer-properti-yang-terpercaya-tips-dan-trik" data-id-berita="36">
+                    					<img src="http://localhost/kanpa_ci/upload/5af39f3276fb294798ec883894c303e9.jpg"
+                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="36"
+                        				alt="red sample">
+                					</a>
+            					</div>
+        					</div>
+        					<div class="col-lg-8 col-md-8 col-8">
+            					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Pentingnya-memilih-developer-properti-yang-terpercaya-tips-dan-trik" data-id-berita="36">
+                					<h6 class="text-publishing">18 April 2023</h6>
+                					<h6 class="tittle-news">Pentingnya memilih developer properti yang terpercaya tips dan trik</h6>
+                					<h6 class="font-text-port">37 Views</h6>
+           						 </a>
+        					</div>
+    					</div>
+					</div>
+				</div>
+				
+				<div class="col-lg-6 col-12 ">
+					<div id="list" class="border-radius">
+    					<div class="row">
+        					<div class="col-lg-4 col-md-4 col-4">
+            					<div class="form-group">
+                					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Bagusnya-panorama-hanya-di-rumah-murah-ungaran-bukit-permai" data-id-berita="30">
+                    					<img src="http://localhost/kanpa_ci/upload/47c70903638097cbbcde7572f37cf56c.jpg"
+                        				class="img-fluid p-1 border-radius img-berita" data-id-berita="30"
+                        				alt="red sample">
+                					</a>
+            					</div>
+        					</div>
+        					<div class="col-lg-8 col-md-8 col-8">
+            					<a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Bagusnya-panorama-hanya-di-rumah-murah-ungaran-bukit-permai" data-id-berita="30">
+                					<h6 class="text-publishing">14 April 2023</h6>
+                					<h6 class="tittle-news">Bagusnya panorama hanya di rumah murah ungaran bukit permai</h6>
+                					<h6 class="font-text-port">55 Views</h6>
            						 </a>
         					</div>
     					</div>

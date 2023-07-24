@@ -25,13 +25,13 @@
             <?php
             foreach ($data_berita as $data) :
                 $judul_berita = $data->judul_berita;
-                $tittle_news = preg_replace("![^a-z0-9]+!i", "-", $judul_berita);
+                $tittle_news = preg_replace("![^a-z0-9]+!i", "+", $judul_berita);
             ?>
                 <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="<?php echo $data->id_berita; ?>" data-bs-toggle="collapse" data-bs-target="#faq-content-<?php echo $data->id_berita; ?>">
                             <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                            <a class="view" href="<?= base_url('Artikel'); ?>/page/<?= $tittle_news; ?>" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
+                            <a class="view" href="http://www.google.com/search?q=<?= $tittle_news; ?>" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
                             <span id="<?= $data->status_berita; ?>" class="tittel<?= $data->id_berita; ?>"><?php echo $data->judul_berita; ?></span>
                         </button>
                         <h6 style="left: 21px;position: relative;">

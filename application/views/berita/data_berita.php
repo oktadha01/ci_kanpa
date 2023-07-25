@@ -28,33 +28,35 @@
             foreach ($data_berita as $data) :
                 $judul_berita = $data->judul_berita;
                 $tittle_news = preg_replace("![^a-z0-9]+!i", "+", $judul_berita);
+                $tittle_ = preg_replace("![^a-z0-9]+!i", "-", $judul_berita);
             ?>
                 <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="<?php echo $data->id_berita; ?>" data-bs-toggle="collapse" data-bs-target="#faq-content-<?php echo $data->id_berita; ?>">
                             <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                            <a class="view" href="http://www.google.com/search?q=<?= $tittle_news; ?>" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
+                            <a class="view" href="http://www.google.com/search?q=<?= $tittle_news; ?>" target="_blank" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
                             <span id="<?= $data->status_berita; ?>" class="tittel<?= $data->id_berita; ?>"><?php echo $data->judul_berita; ?></span>
                         </button>
-                        <h6 style="left: 21px;position: relative;">
-                            <div id="" class="form-group">
+                        <h6 style="left: 59px;position: relative; display: inline-flex;">
+                            <div id="" class="form-group" style="margin-right: 15px;">
                                 <div class="custom-control custom-checkbox">
                                     <input class="custom-control-input ceklis-status-artikel ceklis<?= $data->id_berita; ?>" type="checkbox" data-id-berita="<?= $data->id_berita; ?>" id="ceklis-Error<?= $data->id_berita; ?>" value="Error">
                                     <label for="ceklis-Error<?= $data->id_berita; ?>" class="custom-control-label" style="font-size: xx-small;">Error</label>
                                 </div>
                             </div>
-                            <div id="" class="form-group">
+                            <div id="" class="form-group" style="margin-right: 15px;">
                                 <div class="custom-control custom-checkbox">
                                     <input class="custom-control-input ceklis-status-artikel ceklis<?= $data->id_berita; ?>" type="checkbox" data-id-berita="<?= $data->id_berita; ?>" id="ceklis-Permintaan<?= $data->id_berita; ?>" value="Permintaan">
                                     <label for="ceklis-Permintaan<?= $data->id_berita; ?>" class="custom-control-label" style="font-size: xx-small;">Permintaan</label>
                                 </div>
                             </div>
-                            <div id="" class="form-group">
+                            <div id="" class="form-group" style="margin-right: 15px;">
                                 <div class="custom-control custom-checkbox">
                                     <input class="custom-control-input ceklis-status-artikel ceklis<?= $data->id_berita; ?>" type="checkbox" data-id-berita="<?= $data->id_berita; ?>" id="ceklis-Terindex<?= $data->id_berita; ?>" value="Terindex">
                                     <label for="ceklis-Terindex<?= $data->id_berita; ?>" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
+                            <a href="<?= base_url('Artikel'); ?>/page/<?= $tittle_; ?>"><i class="fa-regular fa-copy fa-shake"></i></a>
                             <input type="text" id="status-berita<?= $data->id_berita; ?>" value="<?= $data->status_berita; ?>" hidden>
                         </h6>
                     </h3>

@@ -27,8 +27,9 @@ class Berita extends CI_Controller
     function data_artikel_berita()
     {
         $id_berita = $this->input->post('id-berita');
-
-        $data['data_berita'] = $this->m_berita->m_data_berita();
+        
+        // $filter = $this->input->post('filter');
+        // $data['data_berita'] = $this->m_berita->m_data_berita($filter);
         $data['data_artikel_berita'] = $this->m_berita->m_data_artikel_berita($id_berita);
         $data['data_foto_berita'] = $this->m_berita->m_data_foto_berita($id_berita);
         $data['_view'] = 'berita/data_artikel_berita';
@@ -36,7 +37,8 @@ class Berita extends CI_Controller
     }
     function data_berita()
     {
-        $data['data_berita'] = $this->m_berita->m_data_berita();
+        $filter = $this->input->post('filter');
+        $data['data_berita'] = $this->m_berita->m_data_berita($filter);
         $data['_view'] = 'berita/data_berita';
         $this->load->view('berita/data_berita', $data);
     }
@@ -169,9 +171,8 @@ class Berita extends CI_Controller
         $query = $this->db->query($sql);
         if ($query->num_rows() > 0) {
             foreach ($query->result() as $meta) {
-                if($meta->meta_foto == ''){
-
-                }else{
+                if ($meta->meta_foto == '') {
+                } else {
                     unlink('./upload/' . $meta->meta_foto);
                 }
             }
@@ -300,5 +301,32 @@ class Berita extends CI_Controller
         $status_berita = $this->input->post('status-berita');
         $update = $this->m_berita->m_validasi_index($id_berita, $status_berita);
         echo json_encode($update);
+    }
+    function load_count_berita()
+    {
+        // $all = 0;
+        $permintaan = 0;
+        $terindex = 0;
+        $error = 0;
+        $sql = "SELECT * FROM berita";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $count) {
+                // $all++;
+                if ($count->status_berita == 'Permintaan') {
+                    $permintaan++;
+                } else if ($count->status_berita == 'Terindex') {
+                    $terindex++;
+                } else if ($count->status_berita == 'Error') {
+                    $error++;
+                }
+            }
+        }
+        echo '<script>';
+        echo '$("#all").text("' . $query->num_rows() . '");';
+        echo '$("#permintaan").text("' . $permintaan . '");';
+        echo '$("#terindex").text("' . $terindex . '");';
+        echo '$("#error").text("' . $error . '");';
+        echo '</script>';
     }
 }

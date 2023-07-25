@@ -128,7 +128,7 @@
                     alert("Data Gagal Diupload");
                 }
             });
-        } else if (action == 'edit'){
+        } else if (action == 'edit') {
             // alert('ya')
             $.ajax({
                 type: 'POST',
@@ -153,6 +153,10 @@
     $('.btn-batal-berita').click(function(e) {
 
         form_default();
+    });
+    $('.filter').click(function() {
+        $('#filter').val($(this).data('filter'))
+        load_data_berita();
     });
     $(function() {
         $('#tgl-berita').daterangepicker({
@@ -182,10 +186,13 @@
     }
 
     function load_data_berita() {
+        let formData = new FormData();
+        formData.append('filter', $('#filter').val());
+
         $.ajax({
-            // type: 'POST',
+            type: 'POST',
             url: "<?php echo site_url('berita/data_berita'); ?>",
-            // data: formData,
+            data: formData,
             cache: false,
             processData: false,
             contentType: false,

@@ -17,13 +17,6 @@
         border-color: #ccc;
     }
 
-    .active {
-        color: #333;
-        background-color: #e6e6e6;
-        border-color: #adadad;
-        box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
-    }
-
     .open>.dropdown-menu {
         display: block;
     }
@@ -145,6 +138,27 @@
     .select2-container {
         width: -webkit-fill-available !important;
     }
+
+    .card-icon {
+        padding: 0px 10px;
+        background-image: linear-gradient(310deg, #7928ca, #ff0080);
+        place-self: center;
+        font-size: 37px;
+        border-radius: 8px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .border-card {
+        border-radius: 14px;
+        padding: 4px 17px;
+        border: solid 3px #0000001f;
+    }
+
+    .active {
+        box-shadow: inset 0 0px 15px #2196f37a;
+        border: none;
+    }
 </style>
 <main id="main" class="pt-5rem">
     <div class="m-3 mt-4">
@@ -193,8 +207,8 @@
             <div class="col-lg-6 col-md-6 col-12 mt-2">
                 <div class="form-group">
                     <img src="" id="preview-foto-berita" class=" img-thumbnail img-fluid">
-                    <input type="text" id="foto-lama" >
-                    <input type="text" id="meta-foto-lama" >
+                    <input type="text" id="foto-lama">
+                    <input type="text" id="meta-foto-lama">
                 </div>
                 <div id="ceklis-ubah-berita" class="form-group" hidden>
                     <div class="custom-control custom-checkbox">
@@ -218,8 +232,8 @@
         </div>
         <div id="foto-berita" class="row" hidden>
             <div class="col-12 mt-2">
-
-            </div>
+                
+                </div>
             <div class="col-lg-3 pt-4">
 
             </div>
@@ -233,7 +247,8 @@
                 <button type="button" class="btn-simpan-berita btn btn-sm float-right btn-outline-success" value="simpan" hidden><i class="fa-regular fa-pen-to-square"></i> Simpan data berita</button>
             </div>
         </div>
-        <input type="text" id="id-berita">
+        <input type="text" id="filter" value="All" hidden>
+        <input type="text" id="id-berita" hidden>
         <input type="text" id="id-data-berita" hidden>
         <input type="text" id="id-foto-berita" hidden>
     </div>
@@ -241,6 +256,55 @@
 
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
     <hr>
+    <ul class="nav row gy-4 d-flex " role="tablist">
+
+        <li class="nav-item col-12 col-md-4 col-lg-3" role="presentation">
+            <a class="filter card border-card nav-link show active" data-filter="All" data-bs-toggle="tab">
+                <div class="row">
+                    <div class="col-xxl-2 col-lg-3 card-icon"><i class="fa-regular fa-newspaper fa-beat" style="font-size: 28px;"></i></div>
+                    <div class="col-xxl-10 col-lg-9" style="text-align-last: end;">
+                        <p class="mb-0" style="letter-spacing: 3px;font-weight: bolder;">Artikel</p>
+                        <span id="all" class=""></span>
+                    </div>
+                </div>
+            </a>
+        </li><!-- End Tab 1 Nav -->
+        <li class="nav-item col-12 col-md-4 col-lg-3" role="presentation">
+            <a class="filter card border-card nav-link" data-bs-toggle="tab" data-filter="Permintaan">
+                <div class="row">
+                    <div class="col-xxl-2 col-lg-3 card-icon"><i class="fa-solid fa-spinner fa-spin-pulse" style="font-size: 28px;"></i></div>
+                    <div class="col-xxl-10 col-lg-9" style="text-align-last: end;">
+                        <p class="mb-0 text-warning" style="letter-spacing: 3px;font-weight: bolder;">Permintaan</p>
+                        <span id="permintaan" class=" text-warning"></span>
+                    </div>
+                </div>
+            </a>
+        </li>
+        <li class="nav-item col-12 col-md-4 col-lg-3" role="presentation">
+            <a class="filter card border-card nav-link" data-bs-toggle="tab" data-filter="Terindex">
+                <div class="row">
+                    <div class="col-xxl-2 col-lg-3 card-icon"><i class="fa-regular fa-circle-check fa-fade" style="font-size: 28px;"></i></div>
+                    <div class="col-xxl-10 col-lg-9" style="text-align-last: end;">
+                        <p class="mb-0 text-success" style="letter-spacing: 3px;font-weight: bolder;">Terindex</p>
+                        <span id="terindex" class="text-success"></span>
+                    </div>
+                </div>
+            </a>
+        </li><!-- End Tab 1 Nav -->
+        <li class="nav-item col-12 col-md-4 col-lg-3" role="presentation">
+            <a class="filter card border-card nav-link" data-bs-toggle="tab" data-filter="Error">
+                <div class="row">
+                    <div class="col-xxl-2 col-lg-3 card-icon"><i class="fa-solid fa-circle-exclamation fa-shake" style="font-size: 28px;"></i></div>
+                    <div class="col-xxl-10 col-lg-9" style="text-align-last: end;">
+                        <p class="mb-0 text-danger" style="letter-spacing: 3px;font-weight: bolder;">Error</p>
+                        <span id="error" class=" text-danger"></span>
+                    </div>
+                </div>
+            </a>
+        </li>
+
+    </ul>
     <div id="data-berita"></div>
+    <div id="script-load-count-berita"></div>
     </div>
 </main>

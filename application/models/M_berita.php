@@ -3,14 +3,22 @@ class M_berita extends CI_Model
 {
 
 
-    function m_data_berita()
+    function m_data_berita($filter)
     {
-
-        $this->db->select('*');
-        $this->db->from('berita');
-        $this->db->order_by('id_berita', 'desc');
-        $query = $this->db->get();
-        return $query->result();
+        if ($filter == 'All') {
+            $this->db->select('*');
+            $this->db->from('berita');
+            $this->db->order_by('id_berita', 'desc');
+            $query = $this->db->get();
+            return $query->result();
+        } else {
+            $this->db->select('*');
+            $this->db->from('berita');
+            $this->db->Where('status_berita', $filter);
+            $this->db->order_by('id_berita', 'desc');
+            $query = $this->db->get();
+            return $query->result();
+        }
     }
     function m_data_artikel_berita($id_berita)
     {
@@ -112,7 +120,7 @@ class M_berita extends CI_Model
     function m_delete_berita($id_berita)
     {
         $delete = $this->db->where('id_berita', $id_berita)
-        ->delete('berita');
+            ->delete('berita');
         return $delete;
     }
     function m_validasi_index($id_berita, $status_berita)

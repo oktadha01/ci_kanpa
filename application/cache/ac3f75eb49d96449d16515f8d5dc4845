@@ -1,0 +1,1064 @@
+a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Kanzu Group Indonesia    </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" /> -->
+    <meta name="google-site-verification" content="7i4MFwx9o5niYM8_5w-uzOuKetBLUFMogGH7c0YpjHY" />
+    <meta name="msvalidate.01" content="B36B1215CB3BC26AA0E6851087FF5E2F" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <!-- Meta untuk SEO -->
+            <meta name="description"
+        content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat, perumahan subsidi griya kanzu kleco kaliabu, perumahan subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan subsidi madiun, rumah subsidi klecorejo kaliabu">
+    <meta name="keywords"
+        content="PT Kanpa, rumah murah di semarang, jual rumah semarang, jual rumah ungaran, jual rumah, jual rumah gunung pati, perumahan ungaran, rumah murah ungaran,perumahan murah semarang, perumahan bukit permai ungaran, perumahan murah subsidi, kpr, griya kautsar ungaran, bukit permai 2 ungaran, Perumahan subsidi griya kanzu kleco kaliabu, rumah subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan klecorejo kaliabu">
+    
+    <meta name="robots" content="INDEX,FOLLOW">
+
+
+    <style>
+    .opacity-body {
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 999;
+        background: #0000008c;
+    }
+    </style>
+    <!-- Favicons -->
+    <link href="http://localhost/kanpa_ci/assets/img/logokanpatitle.jpeg" rel="icon">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Chathura" rel="stylesheet">
+    <!-- Select2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <!-- Daterangepicker -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+    <!-- Vendor CSS Files -->
+    <link href="http://localhost/kanpa_ci/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="http://localhost/kanpa_ci/assets/vendor/daterangepicker/daterangepicker.css" rel="stylesheet"
+        type="text/css" />
+    <!-- Variables CSS Files. Uncomment your preferred color scheme -->
+    <link href="http://localhost/kanpa_ci/assets/css/variables.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="http://localhost/kanpa_ci/assets/css/main.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.css" rel="stylesheet" />
+    <link href="http://localhost/kanpa_ci/assets/css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- <div itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject">
+        <meta content="url_gambar" itemprop='url"/>
+     </div> -->
+            <header id="header" class="header fixed-top" data-scrollto-offset="0" style="max-height: 67px !important;">
+   <div id="navbar-top" class="container-fluid d-flex align-items-center justify-content-between pr-var">
+
+      <a href="https://www.instagram.com/pt.kanpa/?hl=en" class="logo d-flex align-items-center scrollto me-auto mr-0">
+         <!-- <i class="fa-brands fa-instagram" style="color: #00000085;font-size: 35px;"></i> --> 
+         <img src="http://localhost/kanpa_ci/assets/img/Logo PT Fix Bingit.png" class="" alt="" style="max-height: 30px;">
+      </a>
+      <a href="http://localhost/kanpa_ci/#home" class="logo d-flex align-items-center scrollto me-auto mr-0">
+         <!-- Uncomment the line below if you also wish to use an image logo -->
+         <!-- <img src="assets/img/logo.png" alt=""> -->
+         <h1 class="mb-0 font-size-nav-baro text-kanzu-header">KANZU PERMAI ABADI</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+         <ul>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#home">Home</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#about">About</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
+            <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contac</a></li>
+         </ul>
+         <i class="bi bi-list mobile-nav-toggle d-none"></i>
+      </nav><!-- .navbar -->
+
+   </div>
+      </header><!-- End Header -->    <main id="page" class="ml-page">
+
+        <style>
+    .active-btn-filter {
+        background-color: #ffc107;
+        border-color: #ffc107;
+    }
+</style>
+<section id="" class="pt-5 mt-3">
+    <div class="row mb-2">
+        <a href="https://wa.me/+6282333507931?text=Hallo%20PT%20Kanpa%2C%20Saya%20ingin%20menanyakan%20Rumah%20Subsidi%20lebih%20lanjut...">
+            <img src="http://localhost/kanpa_ci/upload/header-SUBSIDI.png" class=" size-img-dash img-fluid">
+        </a>
+    </div>
+    <div class="p-2" data-aos="fade-up">
+        <div class="row gy-1">
+                            <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="00">
+                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$luas_bangunan</p>
+<p>Filename: kategori_perum/kategori_perum.php</p>
+<p>Line Number: 32</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
+			Line: 32<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
+			Line: 25<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>/
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$luas_tanah</p>
+<p>Filename: kategori_perum/kategori_perum.php</p>
+<p>Line Number: 32</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
+			Line: 32<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
+			Line: 25<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>">
+                                    <div class="img border-r-0px" style="position: relative;">
+                                        <img src="http://localhost/kanpa_ci/upload/e9572a2c9a19494b0d85d74717546014.jpg" srcset="http://localhost/kanpa_ci/upload/e9572a2c9a19494b0d85d74717546014.jpg 1x, http://localhost/kanpa_ci/upload/e9572a2c9a19494b0d85d74717546014.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                        <div class="label-promo"></div>
+                                        <div class="bottom-right promo">Perumahan subsidi</div>
+                                    </div>
+                                </a>
+                                                <div class="m-2">
+                            <span class="mb-0 font-text-port">Mulai</span>
+                            <span class="mb-0 font-text-port float-right">113 views</span>
+                            <br>
+                            <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">Rp 150 <sub>jt</sub></a>
+
+                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60" style="color:black;">
+                                <h4 class="text-nm-perum mb-0">Griya Kautsar - Tipe mulai</h4>
+                            </a>
+                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
+                                <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">30/60</button>
+                            </a>
+                            <br>
+                            <span class="mb-0 font-text-port"> Kambangan, Ungaran Timur</span>
+                            <div style="text-align-last: justify;">
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>2</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                            </div>
+                            <center class="mt-2">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
+                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info >></button>
+                                </a>
+                            </center>
+                        </div>
+
+                    </div>
+                </div>
+                            <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="10">
+                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$luas_bangunan</p>
+<p>Filename: kategori_perum/kategori_perum.php</p>
+<p>Line Number: 32</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
+			Line: 32<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
+			Line: 25<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>/
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$luas_tanah</p>
+<p>Filename: kategori_perum/kategori_perum.php</p>
+<p>Line Number: 32</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
+			Line: 32<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
+			Line: 25<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>">
+                                    <div class="img border-r-0px" style="position: relative;">
+                                        <img src="http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg" srcset="http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg 1x, http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                        <div class="label-promo"></div>
+                                        <div class="bottom-right promo">Perumahan subsidi</div>
+                                    </div>
+                                </a>
+                                                <div class="m-2">
+                            <span class="mb-0 font-text-port">Mulai</span>
+                            <span class="mb-0 font-text-port float-right">151 views</span>
+                            <br>
+                            <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">Rp 160 <sub>jt</sub></a>
+
+                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66" style="color:black;">
+                                <h4 class="text-nm-perum mb-0">Griya Kanzu Sukoharjo - Tipe mulai</h4>
+                            </a>
+                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
+                                <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">30/66</button>
+                            </a>
+                            <br>
+                            <span class="mb-0 font-text-port"> Nguter, Sukoharjo</span>
+                            <div style="text-align-last: justify;">
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>2</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                            </div>
+                            <center class="mt-2">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
+                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info >></button>
+                                </a>
+                            </center>
+                        </div>
+
+                    </div>
+                </div>
+                            <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="20">
+                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$luas_bangunan</p>
+<p>Filename: kategori_perum/kategori_perum.php</p>
+<p>Line Number: 32</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
+			Line: 32<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
+			Line: 25<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>/
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$luas_tanah</p>
+<p>Filename: kategori_perum/kategori_perum.php</p>
+<p>Line Number: 32</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
+			Line: 32<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
+			Line: 25<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>">
+                                    <div class="img border-r-0px" style="position: relative;">
+                                        <img src="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg" srcset="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 1x, http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                        <div class="label-promo"></div>
+                                        <div class="bottom-right promo">Perumahan subsidi</div>
+                                    </div>
+                                </a>
+                                                <div class="m-2">
+                            <span class="mb-0 font-text-port">Mulai</span>
+                            <span class="mb-0 font-text-port float-right">504 views</span>
+                            <br>
+                            <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">Rp 160 <sub>jt</sub></a>
+
+                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60" style="color:black;">
+                                <h4 class="text-nm-perum mb-0">Griya kanzu Klaten - Tipe mulai</h4>
+                            </a>
+                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
+                                <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">30/60</button>
+                            </a>
+                            <br>
+                            <span class="mb-0 font-text-port"> Carikan, Juwiring, Klaten</span>
+                            <div style="text-align-last: justify;">
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>2</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                            </div>
+                            <center class="mt-2">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
+                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info >></button>
+                                </a>
+                            </center>
+                        </div>
+
+                    </div>
+                </div>
+                            <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="30">
+                    <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$luas_bangunan</p>
+<p>Filename: kategori_perum/kategori_perum.php</p>
+<p>Line Number: 32</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
+			Line: 32<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
+			Line: 25<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>/
+<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined property: stdClass::$luas_tanah</p>
+<p>Filename: kategori_perum/kategori_perum.php</p>
+<p>Line Number: 32</p>
+
+
+	<p>Backtrace:</p>
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
+			Line: 32<br />
+			Function: _error_handler			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
+			Line: 111<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
+			Line: 25<br />
+			Function: view			</p>
+
+		
+	
+		
+	
+		
+			<p style="margin-left:10px">
+			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
+			Line: 315<br />
+			Function: require_once			</p>
+
+		
+	
+
+</div>">
+                                    <div class="img border-r-0px" style="position: relative;">
+                                        <img src="http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg" srcset="http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg 1x, http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+
+                                        <div class="label-promo"></div>
+                                        <div class="bottom-right promo">Perumahan subsidi</div>
+                                    </div>
+                                </a>
+                                                <div class="m-2">
+                            <span class="mb-0 font-text-port">Mulai</span>
+                            <span class="mb-0 font-text-port float-right">1047 views</span>
+                            <br>
+                            <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp 160 <sub>jt</sub></a>
+
+                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66" style="color:black;">
+                                <h4 class="text-nm-perum mb-0">Griya Kanzu Madiun - Tipe mulai</h4>
+                            </a>
+                            <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">30/66</button>
+                            </a>
+                            <br>
+                            <span class="mb-0 font-text-port"> Caruban Kota Baru, Madiun</span>
+                            <div style="text-align-last: justify;">
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>2</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                                <div class="figure">
+                                    <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
+                                    <h6>1</h6>
+                                </div>
+                            </div>
+                            <center class="mt-2">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                    <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info >></button>
+                                </a>
+                            </center>
+                        </div>
+
+                    </div>
+                </div>
+                    </div>
+        <hr>
+    </div>
+    <!-- <input type="text" id="kategori-tipe" value="subsidi"> -->
+</section><!-- End Services Section -->
+        <style>
+	.title-h4 {
+		color: orange;
+		font-family: ui-serif;
+		font-weight: bold;
+	}
+
+	.text-h6 {
+		color: white;
+		font-family: sans-serif;
+	}
+
+	.icon-info-kontak {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 5px;
+		font-size: 28px;
+		color: white;
+		border: 2px solid white;
+		border-radius: 10px;
+	}
+</style>
+<section id="contact" class="contact pb-0 pt-0">
+	<footer style="background: #033b6c;">
+		<div>
+			<span class="logo">Kanzu Permai Abadi</span>
+			<hr style="color: white;">
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-12">
+				<h4 class="title-h4">Jam Kerja</h4>
+				<h6 class="text-h6">Senin - Minggu</h6>
+				<h6 class="text-h6">08AM - 16PM</h6>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<h4 class="title-h4">Kantor Penjualan</h4>
+				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Bar., Kabupaten Semarang, Jawa Tengah 50518</h6>
+			</div>
+			<div class="col-lg-4 col-md-4 col-12">
+				<h4 class="title-h4">Info Kontak</h4>
+				<h6 class="text-h6"><i class="fa-solid fa-phone"></i> (024) 7590 1139</h6>
+				<h6 class="text-h6"><i class="fa-brands fa-whatsapp"></i> 0823-3350-7931</h6>
+				<h6 class="text-h6"><i class="fa-regular fa-envelope"></i> Kanzugroupindonesia@gmail.com</h6>
+				<hr style="color: white;">
+				<div class="mb-2" style="text-align-last: justify;">
+					<a href="https://bit.ly/PT-KANPAwhatsapp" class="icon-info-kontak"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+					<a href="https://instagram.com/pt.kanpa?igshid=MzRlODBiNWFlZA==" class="icon-info-kontak"><i class="fa-brands fa-instagram fa-beat"></i></a>
+					<a href="https://www.facebook.com/PT.KANPA?mibextid=ZbWKwL" class="icon-info-kontak"><i class="fa-brands fa-facebook fa-beat"></i></a>
+					<a href="https://www.tiktok.com/@pt.kanpa?_t=8cL7ZOkstVq&_r=1" class="icon-info-kontak"><i class="fa-brands fa-tiktok fa-beat"></i></a>
+					<a href="https://www.youtube.com/@KanzuTV" class="icon-info-kontak"><i class="fa-brands fa-youtube fa-beat"></i></a>
+				</div>
+			</div>
+		</div>
+		<div id="copyright">
+			<hr>
+			&copy; 2023 PT KANPA
+		</div>
+
+	</footer>
+</section>
+
+    </main>
+        <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <div id="preloader"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
+
+    <script src="https://unpkg.com/popper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script> -->
+    <!-- Daterangepicker -->
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script> -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <!-- Select2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script>
+    <!-- canva -->
+
+    <script src="http://localhost/kanpa_ci/assets/vendor/daterangepicker/moment.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/daterangepicker/daterangepicker.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
+
+    <script src="http://localhost/kanpa_ci/assets/vendor/aos/aos.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- <script src="http://localhost/kanpa_ci/assets/vendor/php-email-form/validate.js"></script> -->
+    <!-- Template Main JS File -->
+    <script src="http://localhost/kanpa_ci/assets/js/main.js"></script>
+    <script src="http://localhost/kanpa_ci/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    // Swiper Configuration
+    var swiper = new Swiper(".swiper-container-bs", {
+        slidesPerView: 1.5,
+        spaceBetween: 10,
+        centeredSlides: true,
+        freeMode: true,
+        grabCursor: true,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination-bullet-bs",
+            clickable: true
+        },
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false
+        },
+        navigation: {
+            nextEl: ".swiper-button-next-bs",
+            prevEl: ".swiper-button-prev-bs"
+        },
+        breakpoints: {
+            500: {
+                slidesPerView: 2
+            },
+            700: {
+                slidesPerView: 2.3
+            }
+        }
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+        if ($('#kategori-tipe').val() == 'subsidi') {
+            $('#btn-subsidi').addClass('active-btn-filter')
+        } else if ($('#kategori-tipe').val() == 'komersil') {
+            $('#btn-komersil').addClass('active-btn-filter')
+        }
+    })
+</script>        <script>
+    // alert('ya');
+    $('#page').removeClass('ml-page');
+    </script>
+    
+    <script>
+    $(document).ready(function() {
+        var newURL = location.href.split("#")[0];
+        window.history.pushState('object', document.title, newURL);
+        $('.play-btn').click(function(e) {
+            $('.ginner-container').addClass('ginner-container-cus')
+        });
+    });
+
+    $(document).on("click", ".pilih-logo", function() {
+        var file = $(this).parents().find(".file-logo");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-denah-lt2", function() {
+        var file = $(this).parents().find(".denah-lt2");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-denah-lt1", function() {
+        var file = $(this).parents().find(".denah-lt1");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-foto-tipe", function() {
+        var file = $(this).parents().find(".foto-tipe");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-foto-voucher", function() {
+        var file = $(this).parents().find(".foto-voucher");
+        file.trigger("click");
+    });
+    $(document).on("click", "#upload-ktp", function() {
+        // alert('ya');
+        var file = $(this).parents().find(".data-file-ktp");
+        file.trigger("click");
+    });
+    $(document).on("click", ".pilih-berita", function() {
+        var file = $(this).parents().find(".file-berita");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-berita-other", function() {
+        $('#id-data-berita').val($(this).data('id-data-berita'));
+        var file = $(this).parents().find(".file-berita-other");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-foto-meta-berita", function() {
+        $('#meta-foto').val($(this).data('meta-foto'));
+        var file = $(this).parents().find(".file-berita-meta");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", "#btn-add-foto", function() {
+        var file = $(this).parents().find(".file-header-perum");
+        file.trigger("click");
+        // alert('ya')
+    });
+
+    function footerToggle(footerBtn) {
+        $(footerBtn).toggleClass("btnActive");
+        $(footerBtn).next().toggleClass("active");
+    }
+
+    $(".sidebar").hover(function() {
+        // alert('ya');
+        openNav();
+    }, function() {
+        closeNav();
+    });
+
+    function openNav() {
+        document.getElementById("page").style.marginLeft = "226px";
+    }
+
+    function closeNav() {
+        document.getElementById("page").style.marginLeft = "74px";
+    }
+    $(function() {
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $("#navbar a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest(".sidebar__nav__link").addClass("sidebar-active");
+            }
+        });
+        // this will get the full URL at the address bar
+    });
+    $(function() {
+        var url = window.location.href;
+
+        // passes on every "a" tag
+        $("#tag a").each(function() {
+            // checks if its the same on the address bar
+            if (url == (this.href)) {
+                $(this).closest(".btn-tag").addClass("tag-active");
+            }
+        });
+        // this will get the full URL at the address bar
+    });
+    // var prevScrollpos = window.pageYOffset;
+    // window.onscroll = function() {
+    //     var currentScrollPos = window.pageYOffset;
+    //     if (prevScrollpos > currentScrollPos) {
+    //         document.getElementById("header").style.top = "0";
+    //     } else {
+    //         document.getElementById("header").style.top = "-50px";
+    //     }
+    //     prevScrollpos = currentScrollPos;
+    // }
+    </script>
+
+</body>
+
+</html>";}

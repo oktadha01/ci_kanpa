@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1690187310;s:3:"ttl";i:604800;s:4:"data";s:24383:"<style>
+a:3:{s:4:"time";i:1691257149;s:3:"ttl";i:604800;s:4:"data";s:26456:"<style>
     .border-content {
         border: 2px solid;
         border-radius: 3px;
@@ -268,13 +268,13 @@ minor-bidi"><o:p></o:p></span></p></span>
         </div>
     </div>
     <div class="border-content">
-        <div id="galeri110" class=" gallery__content--flow">
+        <div id="galeri112" class=" gallery__content--flow">
             <div class="row">
 
                                 <div class="col-3">
 
-                    <figure class="pilih-berita-other" data-id-data-berita="110">
-                        <img id="preview-foto-berita-other110" src="https://media.istockphoto.com/id/1365197728/id/vektor/tambahkan-plus-tombol-cross-round-medis-ikon-vektor-3d-gaya-kartun-minimal.jpg?s=612x612&w=0&k=20&c=NKmTHM4TqtP5AuSrB779A6iMvktncz9t33fspLQWxlQ=" class="img-grid-news">
+                    <figure class="pilih-berita-other" data-id-data-berita="112">
+                        <img id="preview-foto-berita-other112" src="https://media.istockphoto.com/id/1365197728/id/vektor/tambahkan-plus-tombol-cross-round-medis-ikon-vektor-3d-gaya-kartun-minimal.jpg?s=612x612&w=0&k=20&c=NKmTHM4TqtP5AuSrB779A6iMvktncz9t33fspLQWxlQ=" class="img-grid-news">
                         <figcaption class="header__caption" role="presentation">
                             <h2 class="title title--secondary">
                                 <button type="button" id="" class="pilih-berita-other browse btn btn-info">Pilih Foto</button>
@@ -292,14 +292,22 @@ minor-bidi"><o:p></o:p></span></p></span>
             </div>
         </div>
         <hr>
-        <span class="text-berita110">tsteee</span>
+        <span class="text-berita112"><div style="text-align: justify;"><span style="font-family: Helvetica;">Tahun ini, semangat kemerdekaan Indonesia kembali menggelora di Kabupaten Semarang dengan hadirnya acara jalan sehat K3 (Keji Kalisidi Kanzu) yang diselenggarakan oleh PT. Kanzu Permai Abadi. Perayaan HUT Republik Indonesia yang ke-78 ini, akan menjadi&nbsp; momentum istimewa bagi warga Keji dan Kalisidi untuk berbagi kebersamaan dalam kegiatan santai yang bermanfaat dan menyenangkan.</span></div>
+<div style="text-align: justify;"><span style="font-family: Helvetica;"><br></span></div>
+<div style="text-align: justify;"><span style="font-family: Helvetica;">Rangkaian acara telah dipersiapkan dengan seksama oleh PT. Kanzu Permai Abadi, sehingga warga Keji dan Kalisidi dapat menikmati momen kebersamaan ini dengan penuh sukacita. Selain itu, ada banyak aktivitas menarik yang dapat menyemarakkan acara, seperti hiburan musik dan undian doorprize senilai total 20 Juta-an.</span></div>
+<div style="text-align: justify;"><span style="font-family: Helvetica;"><br></span></div>
+<div style="text-align: justify;"><span style="font-family: Helvetica;">Jalan sehat K3 akan dilaksanakan pada tanggal 13 Agustus 2023 pukul 07.00 - selesai. Seluruh peserta memulai perjalanan dari Halaman Lumbung Pangan Desa Kalisidi (Gebug) dan mengakhirinya di Lapangan Desa Keji.</span></div>
+<div style="text-align: justify;"><span style="font-family: Helvetica;"><br></span></div>
+<div style="text-align: justify;"><span style="font-family: Helvetica;">Bagi Anda yang telah melakukan pendaftaran di perangkat desa setempat, silakan melakukan daftar ulang&nbsp;<a href="https://event.kanpa.co.id/" target="_blank"><button type="button" class="btn btn-danger">Klik disini Daftar Ulang</button></a>&nbsp;&nbsp;</span></div>
+<div style="text-align: justify;"><span style="font-family: Helvetica;"><br></span></div>
+<div style="text-align: justify;"><span style="font-family: Helvetica;">Ayo, semarakkan kemerdekaan dengan jalan sehat K3 dan dapatkan kesempatan raih doorprize senilai jutaan rupiah!&nbsp;</span></div></span>
         <hr>
         <div class="row">
             <div class="col-6">
-                <button type="button" class="btn-hapus-catatan btn btn-sm btn-outline-danger" data-id-data-berita="110"><i class="fa-regular fa-pen-to-square"></i> Hapus Catatan</button>
+                <button type="button" class="btn-hapus-catatan btn btn-sm btn-outline-danger" data-id-data-berita="112"><i class="fa-regular fa-pen-to-square"></i> Hapus Catatan</button>
             </div>
             <div class="col-6">
-                <button type="button" class="btn-edit-catatan float-right btn btn-sm btn-outline-warning" data-id-data-berita="110"><i class="fa-regular fa-pen-to-square"></i> Edit Catatan</button>
+                <button type="button" class="btn-edit-catatan float-right btn btn-sm btn-outline-warning" data-id-data-berita="112"><i class="fa-regular fa-pen-to-square"></i> Edit Catatan</button>
             </div>
         </div>
     </div>

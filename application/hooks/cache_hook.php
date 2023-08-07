@@ -9,7 +9,7 @@ class Cache_hook
     {
         $this->CI =& get_instance();
     }
-
+    
     public function cache_output()
     {
         // Memuat pustaka cache

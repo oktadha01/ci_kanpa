@@ -56,7 +56,7 @@
                                     <label for="ceklis-Terindex<?= $data->id_berita; ?>" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="<?= base_url('Artikel'); ?>/page/<?= $tittle_; ?>"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <a href="<?= base_url('Artikel'); ?>/page/<?= $tittle_; ?>" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
                             <input type="text" id="status-berita<?= $data->id_berita; ?>" value="<?= $data->status_berita; ?>" hidden>
                         </h6>
                     </h3>

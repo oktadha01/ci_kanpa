@@ -56,7 +56,12 @@
                                     <label for="ceklis-Terindex<?= $data->id_berita; ?>" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="<?= base_url('Artikel'); ?>/page/<?= $tittle_; ?>" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="<?= base_url('Artikel'); ?>/page/<?= $tittle_; ?>" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="<?= $data->id_berita; ?>"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita<?= $data->id_berita; ?>" value="<?= $data->status_berita; ?>" hidden>
                         </h6>
                     </h3>
@@ -161,8 +166,6 @@
                 processData: false,
                 contentType: false,
                 success: function(msg) {
-                    // alert('berhasil');
-
                     $('.tittel' + id_berita_ceklis).attr('id', value_ceklis)
                     load_count_berita()
                 },
@@ -172,6 +175,32 @@
             });
         }
     });
+    $('.btn-delete-artikel').click(function(e) {
+        var confirmalert = confirm("Are you sure?");
+
+        if (confirmalert == true) {
+            // alert($(this).data('id-berita'));
+            let formData = new FormData();
+            formData.append('id-berita', $(this).data('id-berita'));
+            $.ajax({
+                type: 'POST',
+                url: "<?php echo site_url('berita/delete_artikel') ?>",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(msg) {
+                    // alert(msg);
+                    load_count_berita()
+                    load_data_berita();
+
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+        };
+    })
 
     function load_data_meta_foto() {
         let formData = new FormData();

@@ -192,7 +192,7 @@ foreach ($data_artikel_berita as $data) {
                         <img id="preview-foto-berita-other<?php echo $data->id_data_berita; ?>" src="https://media.istockphoto.com/id/1365197728/id/vektor/tambahkan-plus-tombol-cross-round-medis-ikon-vektor-3d-gaya-kartun-minimal.jpg?s=612x612&w=0&k=20&c=NKmTHM4TqtP5AuSrB779A6iMvktncz9t33fspLQWxlQ=" class="img-grid-news">
                         <figcaption class="header__caption" role="presentation">
                             <h2 class="title title--secondary">
-                                <button type="button" id="" class="pilih-berita-other browse btn btn-info">Pilih Foto</button>
+                                <button type="button" id="" class="browse btn btn-info">Pilih Foto</button>
                             </h2>
                         </figcaption>
                     </figure>

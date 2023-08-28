@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1691257149;s:3:"ttl";i:604800;s:4:"data";s:26456:"<style>
+a:3:{s:4:"time";i:1692950392;s:3:"ttl";i:604800;s:4:"data";s:28304:"<style>
     .border-content {
         border: 2px solid;
         border-radius: 3px;
@@ -160,6 +160,17 @@ a:3:{s:4:"time";i:1691257149;s:3:"ttl";i:604800;s:4:"data";s:26456:"<style>
         <div id="galeri107" class=" gallery__content--flow">
             <div class="row">
 
+                                        <div class="col-3">
+
+                            <figure>
+                                <img src="http://localhost/kanpa_ci/upload/9c4c690d1f0c6846706d28cd338f59b2.jpg" class="img-grid-news" alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. " title="Photo by Giacomo Lucarini for Unsplash">
+                                <figcaption class="header__caption" role="presentation">
+                                    <h2 class="title title--secondary">
+                                        <button type="button" id="" data-id-foto-berita="48" data-file-foto-berita="9c4c690d1f0c6846706d28cd338f59b2.jpg" class="btn-hapus-foto-berita-other browse btn btn-danger">Hapus Foto</button>
+                                    </h2>
+                                </figcaption>
+                            </figure>
+                        </div>
                                 <div class="col-3">
 
                     <figure class="pilih-berita-other" data-id-data-berita="107">
@@ -271,6 +282,17 @@ minor-bidi"><o:p></o:p></span></p></span>
         <div id="galeri112" class=" gallery__content--flow">
             <div class="row">
 
+                                        <div class="col-3">
+
+                            <figure>
+                                <img src="http://localhost/kanpa_ci/upload/aaf7af7b59ce67baedcddd597a5a0665.jpg" class="img-grid-news" alt="A light brown, long-haired chihuahua sitting next to three rubber duckies. " title="Photo by Giacomo Lucarini for Unsplash">
+                                <figcaption class="header__caption" role="presentation">
+                                    <h2 class="title title--secondary">
+                                        <button type="button" id="" data-id-foto-berita="47" data-file-foto-berita="aaf7af7b59ce67baedcddd597a5a0665.jpg" class="btn-hapus-foto-berita-other browse btn btn-danger">Hapus Foto</button>
+                                    </h2>
+                                </figcaption>
+                            </figure>
+                        </div>
                                 <div class="col-3">
 
                     <figure class="pilih-berita-other" data-id-data-berita="112">

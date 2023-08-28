@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1692930034;s:3:"ttl";i:604800;s:4:"data";s:35713:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -95,7 +95,68 @@ a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE ht
       </nav><!-- .navbar -->
 
    </div>
-      </header><!-- End Header -->    <main id="page" class="ml-page">
+         
+         <aside class="sidebar mt-15px">
+            <nav id="navbar">
+               <ul class="sidebar__nav">
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Perum" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-house"></i>
+                        <span class="sidebar__nav__text">Perumahan</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Fasilitas" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-house-medical"></i>
+                        <span class="sidebar__nav__text">Fasilitas</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Lokasi_terdekat" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-street-view"></i>
+                        <span class="sidebar__nav__text">Lokasi Terdekat</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Tipe" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-sitemap"></i>
+                        <span class="sidebar__nav__text">Tipe Rumah</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Foto" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-regular fa-images"></i>
+                        <span class="sidebar__nav__text">Foto Rumah</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Marketing" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-people-roof"></i>
+                        <span class="sidebar__nav__text">Marketing</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Berita" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-regular fa-newspaper"></i>
+                        <span class="sidebar__nav__text">Berita</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Voucher" class="sidebar__nav__link">
+                     <i class="side-icon-side fa-solid fa-receipt"></i>
+                        <span class="sidebar__nav__text">Voucher</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/logout" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-right-from-bracket"></i>
+                        <span class="sidebar__nav__text">Logout || Admin</span>
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+         </aside>
+         </header><!-- End Header -->    <main id="page" class="ml-page">
 
         <style>
     .active-btn-filter {
@@ -113,129 +174,9 @@ a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE ht
         <div class="row gy-1">
                             <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="00">
                     <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined property: stdClass::$luas_bangunan</p>
-<p>Filename: kategori_perum/kategori_perum.php</p>
-<p>Line Number: 32</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
-			Line: 32<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
-			Line: 111<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
-			Line: 25<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div>/
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined property: stdClass::$luas_tanah</p>
-<p>Filename: kategori_perum/kategori_perum.php</p>
-<p>Line Number: 32</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
-			Line: 32<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
-			Line: 111<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
-			Line: 25<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div>">
+                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
                                     <div class="img border-r-0px" style="position: relative;">
-                                        <img src="http://localhost/kanpa_ci/upload/e9572a2c9a19494b0d85d74717546014.jpg" srcset="http://localhost/kanpa_ci/upload/e9572a2c9a19494b0d85d74717546014.jpg 1x, http://localhost/kanpa_ci/upload/e9572a2c9a19494b0d85d74717546014.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                        <img src="http://localhost/kanpa_ci/upload/3813770d8c2305da5b0db883f44ea88d.jpg" srcset="http://localhost/kanpa_ci/upload/3813770d8c2305da5b0db883f44ea88d.jpg 1x, http://localhost/kanpa_ci/upload/3813770d8c2305da5b0db883f44ea88d.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                         <div class="label-promo"></div>
                                         <div class="bottom-right promo">Perumahan subsidi</div>
@@ -284,127 +225,7 @@ a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE ht
                 </div>
                             <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="10">
                     <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined property: stdClass::$luas_bangunan</p>
-<p>Filename: kategori_perum/kategori_perum.php</p>
-<p>Line Number: 32</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
-			Line: 32<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
-			Line: 111<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
-			Line: 25<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div>/
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined property: stdClass::$luas_tanah</p>
-<p>Filename: kategori_perum/kategori_perum.php</p>
-<p>Line Number: 32</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
-			Line: 32<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
-			Line: 111<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
-			Line: 25<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div>">
+                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
                                     <div class="img border-r-0px" style="position: relative;">
                                         <img src="http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg" srcset="http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg 1x, http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
@@ -455,127 +276,7 @@ a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE ht
                 </div>
                             <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="20">
                     <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined property: stdClass::$luas_bangunan</p>
-<p>Filename: kategori_perum/kategori_perum.php</p>
-<p>Line Number: 32</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
-			Line: 32<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
-			Line: 111<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
-			Line: 25<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div>/
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined property: stdClass::$luas_tanah</p>
-<p>Filename: kategori_perum/kategori_perum.php</p>
-<p>Line Number: 32</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
-			Line: 32<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
-			Line: 111<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
-			Line: 25<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div>">
+                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
                                     <div class="img border-r-0px" style="position: relative;">
                                         <img src="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg" srcset="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 1x, http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
@@ -585,7 +286,7 @@ a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE ht
                                 </a>
                                                 <div class="m-2">
                             <span class="mb-0 font-text-port">Mulai</span>
-                            <span class="mb-0 font-text-port float-right">504 views</span>
+                            <span class="mb-0 font-text-port float-right">505 views</span>
                             <br>
                             <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">Rp 160 <sub>jt</sub></a>
 
@@ -626,127 +327,7 @@ a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE ht
                 </div>
                             <div class="col-xxl-3 col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="30">
                     <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined property: stdClass::$luas_bangunan</p>
-<p>Filename: kategori_perum/kategori_perum.php</p>
-<p>Line Number: 32</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
-			Line: 32<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
-			Line: 111<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
-			Line: 25<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div>/
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: Notice</p>
-<p>Message:  Undefined property: stdClass::$luas_tanah</p>
-<p>Filename: kategori_perum/kategori_perum.php</p>
-<p>Line Number: 32</p>
-
-
-	<p>Backtrace:</p>
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\kategori_perum\kategori_perum.php<br />
-			Line: 32<br />
-			Function: _error_handler			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\views\layout\index.php<br />
-			Line: 111<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\application\controllers\Kategori.php<br />
-			Line: 25<br />
-			Function: view			</p>
-
-		
-	
-		
-	
-		
-			<p style="margin-left:10px">
-			File: C:\xampp\htdocs\kanpa_ci\index.php<br />
-			Line: 315<br />
-			Function: require_once			</p>
-
-		
-	
-
-</div>">
+                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
                                     <div class="img border-r-0px" style="position: relative;">
                                         <img src="http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg" srcset="http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg 1x, http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
@@ -941,11 +522,7 @@ a:3:{s:4:"time";i:1691387696;s:3:"ttl";i:604800;s:4:"data";s:41133:"<!DOCTYPE ht
             $('#btn-komersil').addClass('active-btn-filter')
         }
     })
-</script>        <script>
-    // alert('ya');
-    $('#page').removeClass('ml-page');
-    </script>
-    
+</script>    
     <script>
     $(document).ready(function() {
         var newURL = location.href.split("#")[0];

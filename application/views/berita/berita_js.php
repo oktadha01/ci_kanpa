@@ -147,7 +147,26 @@
                     alert("Data Gagal Diupload");
                 }
             });
-
+            
+        } else if(action == 'edit-content'){
+            // alert('edit');
+            $.ajax({
+                type: 'POST',
+                url: "<?php echo site_url('berita/edit_content'); ?>",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    // alert(data)
+                    load_data_berita();
+                    select_tag();
+                    form_default();
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
         }
     });
     $('.btn-batal-berita').click(function(e) {

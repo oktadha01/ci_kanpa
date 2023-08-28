@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
+a:3:{s:4:"time";i:1692950329;s:3:"ttl";i:604800;s:4:"data";s:330817:"<style>
     .view {
         position: absolute;
         top: 14px;
@@ -49,7 +49,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex71" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-Tips-Jitu-Memilih-Cat-Dinding-yang-Tepat-untuk-Menciptakan-Suasana-yang-Diinginkan" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Tips-Jitu-Memilih-Cat-Dinding-yang-Tepat-untuk-Menciptakan-Suasana-yang-Diinginkan" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="71"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita71" value="Terindex" hidden>
                         </h6>
                     </h3>
@@ -96,7 +101,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex70" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Cara-Praktis-Memaksimalkan-Ruang-Sempit-di-Rumah-dengan-Furniture-Multifungsi" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Cara-Praktis-Memaksimalkan-Ruang-Sempit-di-Rumah-dengan-Furniture-Multifungsi" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="70"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita70" value="Terindex" hidden>
                         </h6>
                     </h3>
@@ -105,7 +115,7 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                             <!-- <img src="http://localhost/kanpa_ci/upload/fc9dc3cdcdd0040aa11a5d03b54f4696.jpg" alt="" class="img-fluid"> -->
                             <div class="row mb-2 mt-3">
                                 <div class="col-12">
-                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="70" data-judul-berita="Cara Praktis Memaksimalkan Ruang Sempit di Rumah dengan Furniture Multifungsi" data-tgl-berita="10 June 2023" data-meta-desk="Memaksimalkan ruang sempit dengan furniture multifungsi" data-tag-berita="Tips dan Trik" data-foto-berita="fc9dc3cdcdd0040aa11a5d03b54f4696.jpg" data-meta-foto="723f86509afe9b9758132416fbd4a16d.jpg"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
+                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="70" data-judul-berita="Cara Praktis Memaksimalkan Ruang Sempit di Rumah dengan Furniture Multifungsi" data-tgl-berita="10 June 2023" data-meta-desk="Memaksimalkan ruang sempit dengan furniture multifungsi" data-tag-berita="Tips dan Trik" data-foto-berita="fc9dc3cdcdd0040aa11a5d03b54f4696.jpg" data-meta-foto="2ecf7b3b5c09a4013215766d31b8a5a6.png"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
                                 </div>
                             </div>
                             <div id="berita-data70" class="berita"></div>
@@ -143,7 +153,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex69" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-Permai-Abadi-Menyelenggarakan-Halal-Bihalal-untuk-Memperkuat-Tali-Silaturahmi" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-Permai-Abadi-Menyelenggarakan-Halal-Bihalal-untuk-Memperkuat-Tali-Silaturahmi" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="69"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita69" value="0" hidden>
                         </h6>
                     </h3>
@@ -190,7 +205,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex68" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Kualitas-Hidup-Lebih-Baik-dengan-Hunian-Subsidi-yang-Nyaman" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Kualitas-Hidup-Lebih-Baik-dengan-Hunian-Subsidi-yang-Nyaman" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="68"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita68" value="0" hidden>
                         </h6>
                     </h3>
@@ -237,7 +257,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex67" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Desain-Rumah-Modern-Minimalis-yang-Cocok-untuk-Keluarga-Muda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Desain-Rumah-Modern-Minimalis-yang-Cocok-untuk-Keluarga-Muda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="67"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita67" value="0" hidden>
                         </h6>
                     </h3>
@@ -284,7 +309,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex66" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Kenali-5-Alasan-Mengapa-Membeli-Properti-adalah-Pilihan-Bijak-untuk-Investasi-yang-Menguntungkan" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Kenali-5-Alasan-Mengapa-Membeli-Properti-adalah-Pilihan-Bijak-untuk-Investasi-yang-Menguntungkan" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="66"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita66" value="0" hidden>
                         </h6>
                     </h3>
@@ -331,7 +361,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex65" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-Cara-mudah-bersihkan-kaca-jendela" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Cara-mudah-bersihkan-kaca-jendela" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="65"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita65" value="0" hidden>
                         </h6>
                     </h3>
@@ -378,7 +413,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex64" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-Tempat-wisata-terpopuler-di-kabupaten-semarang" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Tempat-wisata-terpopuler-di-kabupaten-semarang" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="64"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita64" value="0" hidden>
                         </h6>
                     </h3>
@@ -425,7 +465,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex63" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/7-Tanaman-hias-outdoor-rumah-jadi-indah-minim-perawatan" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/7-Tanaman-hias-outdoor-rumah-jadi-indah-minim-perawatan" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="63"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita63" value="0" hidden>
                         </h6>
                     </h3>
@@ -472,7 +517,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex62" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Apakah-anda-harus-membeli-rumah-atau-mobil-terlebih-dahulu-Inilah-yang-dikatakan-para-ahli" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Apakah-anda-harus-membeli-rumah-atau-mobil-terlebih-dahulu-Inilah-yang-dikatakan-para-ahli" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="62"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita62" value="0" hidden>
                         </h6>
                     </h3>
@@ -519,7 +569,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex61" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Usia-berapa-yang-cocok-untuk-membeli-rumah-pertama" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Usia-berapa-yang-cocok-untuk-membeli-rumah-pertama" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="61"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita61" value="0" hidden>
                         </h6>
                     </h3>
@@ -566,7 +621,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex60" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Cara-mengatasi-tantangan-suku-bunga-tinggi-saat-membeli-rumah" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Cara-mengatasi-tantangan-suku-bunga-tinggi-saat-membeli-rumah" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="60"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita60" value="0" hidden>
                         </h6>
                     </h3>
@@ -613,7 +673,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex59" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Pengaruh-inflasi-pada-harga-rumah-di-indonesia" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Pengaruh-inflasi-pada-harga-rumah-di-indonesia" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="59"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita59" value="0" hidden>
                         </h6>
                     </h3>
@@ -660,7 +725,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex58" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-baru-atau-rumah-bekas-Kelebihan-dan-kekurangan-masing-masing" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-baru-atau-rumah-bekas-Kelebihan-dan-kekurangan-masing-masing" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="58"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita58" value="0" hidden>
                         </h6>
                     </h3>
@@ -707,7 +777,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex57" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Menghindari-masalah-hukum-dengan-memiliki-surat-hak-milik-tanah-sah" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Menghindari-masalah-hukum-dengan-memiliki-surat-hak-milik-tanah-sah" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="57"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita57" value="0" hidden>
                         </h6>
                     </h3>
@@ -754,7 +829,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex56" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Pertimbangan-memilih-rumah-1-lantai-atau-2-lantai-untuk-keluarga" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Pertimbangan-memilih-rumah-1-lantai-atau-2-lantai-untuk-keluarga" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="56"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita56" value="0" hidden>
                         </h6>
                     </h3>
@@ -801,7 +881,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex55" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Cara-merawat-tanaman-di-rumah-dengan-mudah-dan-efektif" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Cara-merawat-tanaman-di-rumah-dengan-mudah-dan-efektif" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="55"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita55" value="0" hidden>
                         </h6>
                     </h3>
@@ -848,7 +933,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex54" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Pentingnya-memiliki-rumah-sendiri-untuk-kesejahteraan-keluarga" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Pentingnya-memiliki-rumah-sendiri-untuk-kesejahteraan-keluarga" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="54"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita54" value="0" hidden>
                         </h6>
                     </h3>
@@ -895,7 +985,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex53" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Cara-cari-rumah-bekas-dengan-mudah-dan-efektif" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Cara-cari-rumah-bekas-dengan-mudah-dan-efektif" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="53"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita53" value="0" hidden>
                         </h6>
                     </h3>
@@ -942,7 +1037,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex52" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Mengapa-pondasi-cakar-ayam-sangat-penting-dalam-membangun-rumah" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Mengapa-pondasi-cakar-ayam-sangat-penting-dalam-membangun-rumah" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="52"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita52" value="0" hidden>
                         </h6>
                     </h3>
@@ -989,7 +1089,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex51" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Perbedaan-rumah-dan-apartemen-Mana-yang-lebih-cocok-untuk-anda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Perbedaan-rumah-dan-apartemen-Mana-yang-lebih-cocok-untuk-anda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="51"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita51" value="0" hidden>
                         </h6>
                     </h3>
@@ -1036,7 +1141,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex50" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-Rekomendasi-jual-rumah-cepat-laku-yang-terbukti-efektif" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Rekomendasi-jual-rumah-cepat-laku-yang-terbukti-efektif" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="50"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita50" value="0" hidden>
                         </h6>
                     </h3>
@@ -1083,7 +1193,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex49" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Tips-memilih-arah-rumah-yang-cocok-menghadap-ke-mana-untuk-mendapatkan-sinar-matahari-yang-optimal" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Tips-memilih-arah-rumah-yang-cocok-menghadap-ke-mana-untuk-mendapatkan-sinar-matahari-yang-optimal" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="49"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita49" value="0" hidden>
                         </h6>
                     </h3>
@@ -1130,7 +1245,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex48" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Cara-mendapatkan-penghasilan-tambahan-dengan-menjual-produk-digital" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Cara-mendapatkan-penghasilan-tambahan-dengan-menjual-produk-digital" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="48"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita48" value="0" hidden>
                         </h6>
                     </h3>
@@ -1177,7 +1297,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex47" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-Tips-menyiapkan-dana-untuk-membeli-rumah-impian-anda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Tips-menyiapkan-dana-untuk-membeli-rumah-impian-anda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="47"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita47" value="0" hidden>
                         </h6>
                     </h3>
@@ -1224,7 +1349,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex46" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Tips-memilih-warna-cat-yang-cocok-untuk-rumah-dengan-konsep-vintage" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Tips-memilih-warna-cat-yang-cocok-untuk-rumah-dengan-konsep-vintage" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="46"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita46" value="0" hidden>
                         </h6>
                     </h3>
@@ -1271,7 +1401,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex45" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-Keuntungan-memiliki-rumah-minimalis-yang-tidak-banyak-orang-tahu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Keuntungan-memiliki-rumah-minimalis-yang-tidak-banyak-orang-tahu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="45"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita45" value="0" hidden>
                         </h6>
                     </h3>
@@ -1318,7 +1453,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex44" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/4-Daftar-perumahan-subsidi-dan-komersil-di-ungaran-kebupaten-semarang" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/4-Daftar-perumahan-subsidi-dan-komersil-di-ungaran-kebupaten-semarang" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="44"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita44" value="0" hidden>
                         </h6>
                     </h3>
@@ -1365,7 +1505,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex43" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Jasa-kontraktor-ungaran-Memberi-layanan-konstruksi-berkualitas-sejak-2002" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Jasa-kontraktor-ungaran-Memberi-layanan-konstruksi-berkualitas-sejak-2002" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="43"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita43" value="0" hidden>
                         </h6>
                     </h3>
@@ -1412,7 +1557,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex42" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Cara-cek-BI-cheking-Slik-OJK-sendiri-dengan-mudah" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Cara-cek-BI-cheking-Slik-OJK-sendiri-dengan-mudah" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="42"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita42" value="0" hidden>
                         </h6>
                     </h3>
@@ -1459,7 +1609,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex41" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Tips-memasang-vinly-yang-benar-untuk-pemula" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Tips-memasang-vinly-yang-benar-untuk-pemula" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="41"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita41" value="0" hidden>
                         </h6>
                     </h3>
@@ -1506,7 +1661,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex40" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Tips-merawat-furniture-agar-tahan-lama-dan-tetap-cantik" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Tips-merawat-furniture-agar-tahan-lama-dan-tetap-cantik" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="40"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita40" value="0" hidden>
                         </h6>
                     </h3>
@@ -1553,7 +1713,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex39" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-Tips-cara-menata-ruangan-agar-rapih-dan-nyaman" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Tips-cara-menata-ruangan-agar-rapih-dan-nyaman" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="39"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita39" value="0" hidden>
                         </h6>
                     </h3>
@@ -1600,7 +1765,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex38" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/10-Tips-merawat-rumah-agar-tetap-bersih-dan-nyaman" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/10-Tips-merawat-rumah-agar-tetap-bersih-dan-nyaman" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="38"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita38" value="0" hidden>
                         </h6>
                     </h3>
@@ -1647,7 +1817,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex37" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-alasan-mengapa-investasi-properti-jangka-panjang-adalah-pilihan-tepat-dan-pintar" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-alasan-mengapa-investasi-properti-jangka-panjang-adalah-pilihan-tepat-dan-pintar" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="37"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita37" value="0" hidden>
                         </h6>
                     </h3>
@@ -1694,7 +1869,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex36" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Pentingnya-memilih-developer-properti-yang-terpercaya-tips-dan-trik" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Pentingnya-memilih-developer-properti-yang-terpercaya-tips-dan-trik" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="36"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita36" value="0" hidden>
                         </h6>
                     </h3>
@@ -1741,7 +1921,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex35" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Berbuka-puasa-bersama-santri-tpq-al-kanzu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Berbuka-puasa-bersama-santri-tpq-al-kanzu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="35"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita35" value="0" hidden>
                         </h6>
                     </h3>
@@ -1788,7 +1973,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex34" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Mengapa-perumahan-bukit-permai-ungaran-adalah-tempat-yang-sangat-prioritas-untuk-anda-miliki" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Mengapa-perumahan-bukit-permai-ungaran-adalah-tempat-yang-sangat-prioritas-untuk-anda-miliki" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="34"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita34" value="0" hidden>
                         </h6>
                     </h3>
@@ -1835,7 +2025,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex33" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-subsidi-murah-di-ungaran-griya-kautsar-ungaran-pilihannya" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-subsidi-murah-di-ungaran-griya-kautsar-ungaran-pilihannya" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="33"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita33" value="0" hidden>
                         </h6>
                     </h3>
@@ -1882,7 +2077,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex32" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-bagi-bagi-sembako-untuk-masyarakat-jelang-ramadhan-di-desa-kaliabu-dan-desa-klecorejo" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-bagi-bagi-sembako-untuk-masyarakat-jelang-ramadhan-di-desa-kaliabu-dan-desa-klecorejo" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="32"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita32" value="0" hidden>
                         </h6>
                     </h3>
@@ -1929,7 +2129,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex31" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Cari-rumah-subsidi-di-ungaran-simak-informasi-lengkapnya-disini" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Cari-rumah-subsidi-di-ungaran-simak-informasi-lengkapnya-disini" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="31"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita31" value="0" hidden>
                         </h6>
                     </h3>
@@ -1976,7 +2181,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex30" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Bagusnya-panorama-hanya-di-rumah-murah-ungaran-bukit-permai" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Bagusnya-panorama-hanya-di-rumah-murah-ungaran-bukit-permai" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="30"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita30" value="0" hidden>
                         </h6>
                     </h3>
@@ -2023,7 +2233,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex29" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Jasa-interior-semarang-your-one-step-solution-for-interior-design" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Jasa-interior-semarang-your-one-step-solution-for-interior-design" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="29"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita29" value="0" hidden>
                         </h6>
                     </h3>
@@ -2070,7 +2285,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex28" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-subsidi-griya-kautsar-di-rawat-dengan-baik" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-subsidi-griya-kautsar-di-rawat-dengan-baik" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="28"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita28" value="0" hidden>
                         </h6>
                     </h3>
@@ -2117,7 +2337,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex27" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/5-Wisata-populer-yang-paling-dekat-pusat-kota-caruban" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Wisata-populer-yang-paling-dekat-pusat-kota-caruban" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="27"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita27" value="0" hidden>
                         </h6>
                     </h3>
@@ -2164,7 +2389,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex26" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Brem-menjadi-jajanan-khas-kabupaten-madiun" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Brem-menjadi-jajanan-khas-kabupaten-madiun" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="26"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita26" value="0" hidden>
                         </h6>
                     </h3>
@@ -2211,7 +2441,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex24" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-murah-bersubsidi-klecorejo-kaliabu-solusi-hunian-terjangkau-di-kabupaten-madiun" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-murah-bersubsidi-klecorejo-kaliabu-solusi-hunian-terjangkau-di-kabupaten-madiun" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="24"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita24" value="0" hidden>
                         </h6>
                     </h3>
@@ -2258,7 +2493,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex23" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Kegiatan-khataman-al-quran-dan-buka-bersama-warga-bukit-permai-1" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Kegiatan-khataman-al-quran-dan-buka-bersama-warga-bukit-permai-1" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="23"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita23" value="0" hidden>
                         </h6>
                     </h3>
@@ -2305,7 +2545,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex22" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Murah-rumah-subsidi-kaliabu-klecorejo-di-kabupaten-madiun-hanya-160-juta" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Murah-rumah-subsidi-kaliabu-klecorejo-di-kabupaten-madiun-hanya-160-juta" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="22"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita22" value="0" hidden>
                         </h6>
                     </h3>
@@ -2352,7 +2597,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex21" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Mengenal-lebih-dekat-jasa-kontraktor-caruban-dan-interior-di-madiun" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Mengenal-lebih-dekat-jasa-kontraktor-caruban-dan-interior-di-madiun" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="21"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita21" value="0" hidden>
                         </h6>
                     </h3>
@@ -2399,7 +2649,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex20" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Keuntungan-memiliki-rumah-subsidi-caruban-di-desa-kaliabu-klecorejo-kabupaten-madiun" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Keuntungan-memiliki-rumah-subsidi-caruban-di-desa-kaliabu-klecorejo-kabupaten-madiun" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="20"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita20" value="0" hidden>
                         </h6>
                     </h3>
@@ -2446,7 +2701,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex19" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-subsidi-di-madiun-pilihan-terbaik-untuk-keluarga-muda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-subsidi-di-madiun-pilihan-terbaik-untuk-keluarga-muda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="19"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita19" value="0" hidden>
                         </h6>
                     </h3>
@@ -2493,7 +2753,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex18" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Cari-hunian-murah-di-madiun-ini-dia-perumahan-subsidi-yang-cocok-untuk-anda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Cari-hunian-murah-di-madiun-ini-dia-perumahan-subsidi-yang-cocok-untuk-anda" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="18"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita18" value="0" hidden>
                         </h6>
                     </h3>
@@ -2540,7 +2805,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex17" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Jual-rumah-di-madiun-tanpa-ribet-hanya-di-griya-kanzu-caruban" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Jual-rumah-di-madiun-tanpa-ribet-hanya-di-griya-kanzu-caruban" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="17"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita17" value="0" hidden>
                         </h6>
                     </h3>
@@ -2587,7 +2857,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex16" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Penjelasan-tanah-KPR-subsidi-di-kabupaten-madiun-desa-kecorejo-dan-desa-kaliabu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Penjelasan-tanah-KPR-subsidi-di-kabupaten-madiun-desa-kecorejo-dan-desa-kaliabu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="16"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita16" value="0" hidden>
                         </h6>
                     </h3>
@@ -2634,7 +2909,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex15" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-impian-murah-di-caruban-madiun-dijual-160-juta" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-impian-murah-di-caruban-madiun-dijual-160-juta" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="15"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita15" value="0" hidden>
                         </h6>
                     </h3>
@@ -2681,7 +2961,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex14" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Peluang-anda-untuk-memiliki-rumah-subsidi-caruban-hadir-lebih-dekat-dengan-anda-di-antara-desa-klecorejo-dan-desa-kaliabu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Peluang-anda-untuk-memiliki-rumah-subsidi-caruban-hadir-lebih-dekat-dengan-anda-di-antara-desa-klecorejo-dan-desa-kaliabu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="14"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita14" value="0" hidden>
                         </h6>
                     </h3>
@@ -2728,7 +3013,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex13" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-subsidi-caruban-solusi-hunian-terjangkau-di-jawa-timur" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Rumah-subsidi-caruban-solusi-hunian-terjangkau-di-jawa-timur" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="13"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita13" value="0" hidden>
                         </h6>
                     </h3>
@@ -2775,7 +3065,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex12" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Tanah-kpr-bersubsidi-di-kabupaten-madiun-di-bangun-550-unit" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Tanah-kpr-bersubsidi-di-kabupaten-madiun-di-bangun-550-unit" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="12"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita12" value="0" hidden>
                         </h6>
                     </h3>
@@ -2822,7 +3117,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex10" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Perumahan-subsidi-griya-kanzu-klecorejo-kaliabu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Perumahan-subsidi-griya-kanzu-klecorejo-kaliabu" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="10"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita10" value="0" hidden>
                         </h6>
                     </h3>
@@ -2869,7 +3169,12 @@ a:3:{s:4:"time";i:1691256761;s:3:"ttl";i:604800;s:4:"data";s:304729:"<style>
                                     <label for="ceklis-Terindex9" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Informasi-rumah-subsidi-terbaru-hari-ini" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Informasi-rumah-subsidi-terbaru-hari-ini" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="9"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita9" value="0" hidden>
                         </h6>
                     </h3>
@@ -2924,7 +3229,12 @@ Dari fasilitas diatas, perumahan Griya Kautsar sudah berhasil memenuhi semuanya.
                                     <label for="ceklis-Terindex8" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/PT-KANPA-raih-penghargaan-program-realisasi-kpr-non-subsidi-terbanyak-tahun-2022" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/PT-KANPA-raih-penghargaan-program-realisasi-kpr-non-subsidi-terbanyak-tahun-2022" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="8"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita8" value="0" hidden>
                         </h6>
                     </h3>
@@ -2972,7 +3282,12 @@ Penghargaan ini menunjukkan adanya kemajuan pembangunan Kabupaten ungaran melalu
                                     <label for="ceklis-Terindex7" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Apa-kata-mereka-tentang-Bukit-Asri-4" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Apa-kata-mereka-tentang-Bukit-Asri-4" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="7"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita7" value="0" hidden>
                         </h6>
                     </h3>
@@ -3021,7 +3336,12 @@ Menurut keterangan Bapak Nur Afffandi, beliau sudah tinggal di sini sejak tahun 
                                     <label for="ceklis-Terindex6" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Pengeboran-sumur-di-Perumahan-Griya-Kautsar" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Pengeboran-sumur-di-Perumahan-Griya-Kautsar" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="6"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita6" value="0" hidden>
                         </h6>
                     </h3>
@@ -3069,7 +3389,12 @@ Air merupakan sumber kehidupan bagi semua makhluk hidup. Kebutuhan hidup terhada
                                     <label for="ceklis-Terindex5" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Pelebaran-dan-Perbaikan-jalan-sebagai-upaya-pemaksimalan-potensi-di-Daerah-Syeh-Jago" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Pelebaran-dan-Perbaikan-jalan-sebagai-upaya-pemaksimalan-potensi-di-Daerah-Syeh-Jago" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="5"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita5" value="0" hidden>
                         </h6>
                     </h3>
@@ -3117,7 +3442,12 @@ Pelebaran jalan sepanjang daerah Syeh Jago ini bertujuan untuk meningkatkan ekon
                                     <label for="ceklis-Terindex4" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Pembangunan-Masjid-Bukit-Permai-1" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Pembangunan-Masjid-Bukit-Permai-1" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="4"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita4" value="0" hidden>
                         </h6>
                     </h3>
@@ -3164,7 +3494,12 @@ Pelebaran jalan sepanjang daerah Syeh Jago ini bertujuan untuk meningkatkan ekon
                                     <label for="ceklis-Terindex3" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
                                 </div>
                             </div>
-                            <a href="http://localhost/kanpa_ci/Artikel/page/Bantuan-perbaikan-jalan-PT-KANPA" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="http://localhost/kanpa_ci/Artikel/page/Bantuan-perbaikan-jalan-PT-KANPA" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
+                            </div>
+                            <div id="" class="form-group" style="margin-right: 15px;">
+                                <a href="#" class="btn-delete-artikel" data-id-berita="3"><i class="fa-solid fa-trash"></i></a>
+                            </div>
                             <input type="text" id="status-berita3" value="0" hidden>
                         </h6>
                     </h3>
@@ -3265,8 +3600,6 @@ Pelebaran jalan sepanjang daerah Syeh Jago ini bertujuan untuk meningkatkan ekon
                 processData: false,
                 contentType: false,
                 success: function(msg) {
-                    // alert('berhasil');
-
                     $('.tittel' + id_berita_ceklis).attr('id', value_ceklis)
                     load_count_berita()
                 },
@@ -3276,6 +3609,30 @@ Pelebaran jalan sepanjang daerah Syeh Jago ini bertujuan untuk meningkatkan ekon
             });
         }
     });
+    $('.btn-delete-artikel').click(function(e) {
+        var confirmalert = confirm("Are you sure?");
+
+        if (confirmalert == true) {
+            alert($(this).data('id-berita'));
+            let formData = new FormData();
+            formData.append('id-berita', $(this).data('id-berita'));
+            $.ajax({
+                type: 'POST',
+                url: "http://localhost/kanpa_ci/index.php/berita/delete_artikel",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(msg) {
+                    $('.tittel' + id_berita_ceklis).attr('id', value_ceklis)
+                    load_count_berita()
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+        };
+    })
 
     function load_data_meta_foto() {
         let formData = new FormData();

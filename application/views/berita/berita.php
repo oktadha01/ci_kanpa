@@ -185,7 +185,7 @@
                         <input type="text" class="form-control" id="tgl-berita" value="">
                     </div>
                 </div>
-                <label for="select-kota">Supplier</label>
+                <label for="select-kota">Tag</label>
                 <div class="form-group">
                     <select id="select-tag" class="js-states form-control col-12">
                     </select>
@@ -207,8 +207,8 @@
             <div class="col-lg-6 col-md-6 col-12 mt-2">
                 <div class="form-group">
                     <img src="" id="preview-foto-berita" class=" img-thumbnail img-fluid">
-                    <input type="text" id="foto-lama">
-                    <input type="text" id="meta-foto-lama">
+                    <input type="text" id="foto-lama" hidden>
+                    <input type="text" id="meta-foto-lama" hidden>
                 </div>
                 <div id="ceklis-ubah-berita" class="form-group" hidden>
                     <div class="custom-control custom-checkbox">
@@ -230,14 +230,7 @@
             </div>
             <!-- </div> -->
         </div>
-        <div id="foto-berita" class="row" hidden>
-            <div class="col-12 mt-2">
-                
-                </div>
-            <div class="col-lg-3 pt-4">
-
-            </div>
-        </div>
+        <div id="foto-berita" class="row" hidden></div>
         <div class="row mt-2">
             <div class="col-6">
                 <button type="button" class="btn-batal-berita btn btn-sm btn-outline-danger" hidden><i class="fa-regular fa-pen-to-square"></i> Batal</button>

@@ -27,7 +27,7 @@ class Berita extends CI_Controller
     function data_artikel_berita()
     {
         $id_berita = $this->input->post('id-berita');
-        
+
         // $filter = $this->input->post('filter');
         // $data['data_berita'] = $this->m_berita->m_data_berita($filter);
         $data['data_artikel_berita'] = $this->m_berita->m_data_artikel_berita($id_berita);
@@ -58,6 +58,32 @@ class Berita extends CI_Controller
         $text_berita = $this->input->post('text-berita');
         $updeta = $this->m_berita->m_edit_content($id_data_berita, $text_berita);
         echo json_encode($updeta);
+    }
+    function delete_artikel()
+    {
+        $id_berita = $this->input->post('id-berita');
+        $sql = "SELECT * FROM berita WHERE berita.id_berita = '$id_berita'";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $berita) {
+                unlink('./upload/' . $berita->foto_berita);
+                echo $id_berita;
+            }
+        }
+        $data_berita_id = '';
+        $sql = "SELECT * FROM data_berita, foto_berita 
+        WHERE data_berita.id_data_berita = foto_berita.data_berita_id 
+        AND data_berita.berita_id = '$id_berita'";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $data) {
+                unlink('./upload/' . $berita->meta_foto);
+                unlink('./upload/' . $data->file_foto_berita);
+                $data_berita_id = $data->data_berita_id;
+                echo $data_berita_id;
+            }
+        }
+        $this->m_berita->m_delete_artikel($id_berita, $data_berita_id);
     }
     function delete_content()
     {

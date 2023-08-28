@@ -130,4 +130,21 @@ class M_berita extends CI_Model
             ->update('berita');
         return $update;
     }
+
+    function m_delete_artikel($id_berita, $data_berita_id)
+    {
+        $delete_data_artikel = $this->db->where('berita_id', $id_berita)
+            ->delete('data_berita');
+        $delete_artikel = $this->db->where('id_berita', $id_berita)
+            ->delete('berita');
+        if ($data_berita_id == '') {
+        } else {
+
+            $delete_foto_artikel = $this->db->where('data_berita_id', $data_berita_id)
+                ->delete('foto_berita');
+            return $delete_foto_artikel;
+        }
+        return $delete_data_artikel;
+        return $delete_artikel;
+    }
 }

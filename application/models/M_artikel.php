@@ -39,27 +39,28 @@ class M_artikel extends CI_Model
         $query = $this->db->get();
         return $query->result();
     }
+    function m_data_berita_center()
+    {
+        $this->db->select('*');
+        $this->db->from('berita');
+        $this->db->ORDER_BY('id_berita', 'desc');
+        // $this->db->ORDER_BY('id_berita', 'RANDOM');
+        $this->db->LIMIT(1);
+        $query = $this->db->get();
+        return $query->result();
+    }
 
     // untuk menampilkan berita menggunakan infinity scroll mencoba pull request baru
     function m_data_berita_infinity($limit, $start)
     {
         $this->db->select("*");
-		$this->db->order_by('id_berita', 'RANDOM');
-		$this->db->limit($limit, $start);
-		$query = $this->db->get('berita');
-		return $query;
+        // $this->db->order_by('id_berita', 'RANDOM');
+        $this->db->ORDER_BY('id_berita', 'desc');
+        $this->db->limit($limit, $start);
+        $query = $this->db->get('berita');
+        return $query;
     }
 
-    function m_data_berita_center()
-    {
-        $this->db->select('*');
-        $this->db->from('berita');
-        // $this->db->ORDER_BY('id_berita', 'asc');
-        $this->db->ORDER_BY('id_berita', 'RANDOM');
-        $this->db->LIMIT(1);
-        $query = $this->db->get();
-        return $query->result();
-    }
     function m_data_berita_detail($judul_berita)
     {
         $this->db->select('*');

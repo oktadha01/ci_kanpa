@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1690165145;s:3:"ttl";i:604800;s:4:"data";s:43333:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -95,68 +95,7 @@ a:3:{s:4:"time";i:1690165145;s:3:"ttl";i:604800;s:4:"data";s:43333:"<!DOCTYPE ht
       </nav><!-- .navbar -->
 
    </div>
-         
-         <aside class="sidebar mt-15px">
-            <nav id="navbar">
-               <ul class="sidebar__nav">
-                  <li>
-                     <a href="http://localhost/kanpa_ci/Perum" class="sidebar__nav__link">
-                        <i class="side-icon-side fa-solid fa-house"></i>
-                        <span class="sidebar__nav__text">Perumahan</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://localhost/kanpa_ci/Fasilitas" class="sidebar__nav__link">
-                        <i class="side-icon-side fa-solid fa-house-medical"></i>
-                        <span class="sidebar__nav__text">Fasilitas</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://localhost/kanpa_ci/Lokasi_terdekat" class="sidebar__nav__link">
-                        <i class="side-icon-side fa-solid fa-street-view"></i>
-                        <span class="sidebar__nav__text">Lokasi Terdekat</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://localhost/kanpa_ci/Tipe" class="sidebar__nav__link">
-                        <i class="side-icon-side fa-solid fa-sitemap"></i>
-                        <span class="sidebar__nav__text">Tipe Rumah</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://localhost/kanpa_ci/Foto" class="sidebar__nav__link">
-                        <i class="side-icon-side fa-regular fa-images"></i>
-                        <span class="sidebar__nav__text">Foto Rumah</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://localhost/kanpa_ci/Marketing" class="sidebar__nav__link">
-                        <i class="side-icon-side fa-solid fa-people-roof"></i>
-                        <span class="sidebar__nav__text">Marketing</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://localhost/kanpa_ci/Berita" class="sidebar__nav__link">
-                        <i class="side-icon-side fa-regular fa-newspaper"></i>
-                        <span class="sidebar__nav__text">Berita</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://localhost/kanpa_ci/Voucher" class="sidebar__nav__link">
-                     <i class="side-icon-side fa-solid fa-receipt"></i>
-                        <span class="sidebar__nav__text">Voucher</span>
-                     </a>
-                  </li>
-                  <li>
-                     <a href="http://localhost/kanpa_ci/logout" class="sidebar__nav__link">
-                        <i class="side-icon-side fa-solid fa-right-from-bracket"></i>
-                        <span class="sidebar__nav__text">Logout || Admin</span>
-                     </a>
-                  </li>
-               </ul>
-            </nav>
-         </aside>
-         </header><!-- End Header -->    <main id="page" class="ml-page">
+      </header><!-- End Header -->    <main id="page" class="ml-page">
 
         <style>
 .btn-hrg-dash {
@@ -251,32 +190,32 @@ a:3:{s:4:"time";i:1690165145;s:3:"ttl";i:604800;s:4:"data";s:43333:"<!DOCTYPE ht
                 <div class="row">
                     <div class="col-lg-3 col-4">
                                                 <a class="text-dark add-view-news"
-                            href="http://localhost/kanpa_ci/Artikel/page/Informasi-rumah-subsidi-terbaru-hari-ini"
-                            data-id-berita="9">
-                            <img src="http://localhost/kanpa_ci/upload/368c678d39770304bcf6f5f7bd9b9782.jpg"
-                                class="img-fluid border-radius img-berita" alt="red sample">
-                            <h6 class="text-publishing">17 January 2023</h6>
-                            <h6 class="tittle-news resp-tittle">Informasi rumah subsidi terbaru hari ini</h6>
-                            <h6 class="font-text-port">55 views</h6>
-                        </a>
-                                                <a class="text-dark add-view-news"
-                            href="http://localhost/kanpa_ci/Artikel/page/Tips-memasang-vinly-yang-benar-untuk-pemula"
-                            data-id-berita="41">
-                            <img src="http://localhost/kanpa_ci/upload/b81925eec658bae30e54b6f2d04aa268.jpg"
+                            href="http://localhost/kanpa_ci/Artikel/page/Tips-merawat-furniture-agar-tahan-lama-dan-tetap-cantik"
+                            data-id-berita="40">
+                            <img src="http://localhost/kanpa_ci/upload/b7ee15db56f4a31adac27e373eed2a41.jpg"
                                 class="img-fluid border-radius img-berita" alt="red sample">
                             <h6 class="text-publishing">02 May 2023</h6>
-                            <h6 class="tittle-news resp-tittle">Tips memasang vinly yang benar untuk pemula</h6>
-                            <h6 class="font-text-port">48 views</h6>
+                            <h6 class="tittle-news resp-tittle">Tips merawat furniture agar tahan lama dan tetap cantik</h6>
+                            <h6 class="font-text-port">36 views</h6>
+                        </a>
+                                                <a class="text-dark add-view-news"
+                            href="http://localhost/kanpa_ci/Artikel/page/Mengapa-perumahan-bukit-permai-ungaran-adalah-tempat-yang-sangat-prioritas-untuk-anda-miliki"
+                            data-id-berita="34">
+                            <img src="http://localhost/kanpa_ci/upload/8b66b40434fc36ef8b381ca1a7dd9a72.jpg"
+                                class="img-fluid border-radius img-berita" alt="red sample">
+                            <h6 class="text-publishing">15 April 2023</h6>
+                            <h6 class="tittle-news resp-tittle">Mengapa perumahan bukit permai ungaran adalah tempat yang sangat prioritas untuk anda miliki</h6>
+                            <h6 class="font-text-port">53 views</h6>
                         </a>
                                             </div>
                     <div class="col-lg-9 col-8">
                                                 <a class="text-dark add-view-news"
-                            href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-Permai-Abadi-Menyelenggarakan-Halal-Bihalal-untuk-Memperkuat-Tali-Silaturahmi"
-                            data-id-berita="69">
-                            <img src="http://localhost/kanpa_ci/upload/ec9c6fd6c7e927354423e5f2462cf27d.jpg"
+                            href="http://localhost/kanpa_ci/Artikel/page/Pengaruh-inflasi-pada-harga-rumah-di-indonesia"
+                            data-id-berita="59">
+                            <img src="http://localhost/kanpa_ci/upload/8a9177f59ccc6214ed0c01a660ea68d2.jpg"
                                 class="img-fluid border-radius img-berita"
-                                data-id-berita="69" alt="red sample">
-                            <h3 style="font-family: auto;">PT Kanzu Permai Abadi Menyelenggarakan Halal Bihalal untuk Memperkuat Tali Silaturahmi</h3>
+                                data-id-berita="59" alt="red sample">
+                            <h3 style="font-family: auto;">Pengaruh inflasi pada harga rumah di indonesia</h3>
                         </a>
                                             </div>
                 </div>
@@ -300,10 +239,6 @@ a:3:{s:4:"time";i:1690165145;s:3:"ttl";i:604800;s:4:"data";s:43333:"<!DOCTYPE ht
                 <span id="tag">
                     <span style="font-weight: bold;font-family: 'Poppins';"> TAG :</span>
                     <ul>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Agenda-Perusahaan">
-                                Agenda Perusahaan                            </a>
-                        </li>
                                                 <li class="btn-tag tag" style="display: inline-block;">
                             <a href="http://localhost/kanpa_ci/Artikel/tag/Interior">
                                 Interior                            </a>
@@ -373,9 +308,9 @@ a:3:{s:4:"time";i:1690165145;s:3:"ttl";i:604800;s:4:"data";s:43333:"<!DOCTYPE ht
                                         <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                         <a
-                                href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95">
+                                href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
                                 <div class="img border-r-0px" style="position: relative;">
-                                    <img src="http://localhost/kanpa_ci/upload/8aea15bbb950364dc763831146081a1e.jpg"
+                                    <img src="http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg"
                                         class=" size-img-dash img-fluid" alt="">
 
                                     <div class="bottom-right promo"></div>
@@ -383,44 +318,32 @@ a:3:{s:4:"time";i:1690165145;s:3:"ttl";i:604800;s:4:"data";s:43333:"<!DOCTYPE ht
                             </a>
                                                         <div class="m-2">
                                 <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                                                                                                                
                                                                                                 
-                                                                                                
-                                                                                                <span class="mb-0 font-text-port float-right">578 views</span>
+                                                                                                                                                                                                                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">151 views</span>
                                 <br>
                                                                 <a class="btn-hrg-dash"
-                                    href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/42/80">Rp
-                                    333 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95"
+                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">Rp
+                                    160 <sub>jt</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66"
                                     style="color:black;">
-                                    <h6 class="text-nm-perum mb-0">Alton Green House - Tipe mulai</h6>
-                                </a>
-                                                                                                                                                                                                                                                                                                <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/42/80">
-                                    <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">42/80</button>
+                                    <h6 class="text-nm-perum mb-0">Griya Kanzu Sukoharjo - Tipe mulai</h6>
                                 </a>
                                                                                                                                 <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/60/90">
+                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
                                     <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">60/90</button>
+                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">30/66</button>
                                 </a>
-                                                                                                                                <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95">
-                                    <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">90/95</button>
-                                </a>
-                                                                                                <br>
-                                <span class="mb-0 font-text-port"> Jl. Villa Siberi - Kerajan</span>
+                                                                                                                                                                                                                                                                                                                                                                                                <br>
+                                <span class="mb-0 font-text-port"> Nguter, Sukoharjo</span>
                             </div>
                         </div>
                     </div>
                                         <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                         <a
-                                href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
                                 <div class="img border-r-0px" style="position: relative;">
-                                    <img src="http://localhost/kanpa_ci/upload/2246a8f412c46d1b6ea815d3f88d2cb3.jpg"
+                                    <img src="http://localhost/kanpa_ci/upload/fb13290f8d8039ffbc86991e9818cfde.jpg"
                                         class=" size-img-dash img-fluid" alt="">
 
                                     <div class="bottom-right promo"></div>
@@ -435,7 +358,7 @@ a:3:{s:4:"time";i:1690165145;s:3:"ttl";i:604800;s:4:"data";s:43333:"<!DOCTYPE ht
                                                                 <a class="btn-hrg-dash"
                                     href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp
                                     160 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66"
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72"
                                     style="color:black;">
                                     <h6 class="text-nm-perum mb-0">Griya Kanzu Madiun - Tipe mulai</h6>
                                 </a>
@@ -781,7 +704,11 @@ $(document).ready(function() {
 
 });
 </script>
-<!-- Akhir pagination tag_berita -->    
+<!-- Akhir pagination tag_berita -->        <script>
+    // alert('ya');
+    $('#page').removeClass('ml-page');
+    </script>
+    
     <script>
     $(document).ready(function() {
         var newURL = location.href.split("#")[0];

@@ -230,20 +230,20 @@ class Berita extends CI_Controller
 
     function add_view_berita()
     {
-        $id_berita =  $this->input->post('id-berita');
+        $id_berita =  preg_replace("![^a-z0-9]+!i", " ", $this->input->post('id-berita'));
 
-        $sql = "SELECT * FROM berita WHERE id_berita=$id_berita";
+        $sql = "SELECT * FROM berita WHERE judul_berita = $id_berita";
         $query = $this->db->query($sql);
         if ($query->num_rows() > 0) {
             foreach ($query->result() as $data_view) {
                 $id_berita = $data_view->id_berita;
                 $add_view = $data_view->view_berita + 1;
+                $update_view = $this->db->set('view_berita', $add_view)
+                    ->where('id_berita', $id_berita)
+                    ->update('berita');
+                return $update_view;
             }
         }
-        $update_view = $this->db->set('view_berita', $add_view)
-            ->where('id_berita', $id_berita)
-            ->update('berita');
-        return $update_view;
     }
     function resizeImage($filename)
     {

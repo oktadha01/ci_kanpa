@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1694165164;s:3:"ttl";i:604800;s:4:"data";s:81975:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -87,7 +87,7 @@ a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE ht
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
             <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contac</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contact</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -495,7 +495,7 @@ a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE ht
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg" srcset="http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg 1x, http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/fb13290f8d8039ffbc86991e9818cfde.jpg" srcset="http://localhost/kanpa_ci/upload/fb13290f8d8039ffbc86991e9818cfde.jpg 1x, http://localhost/kanpa_ci/upload/fb13290f8d8039ffbc86991e9818cfde.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
@@ -553,7 +553,7 @@ a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE ht
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/0feae9a6e0bb7d35ed996146122c028b.jpg" srcset="http://localhost/kanpa_ci/upload/0feae9a6e0bb7d35ed996146122c028b.jpg 1x, http://localhost/kanpa_ci/upload/0feae9a6e0bb7d35ed996146122c028b.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/8aea15bbb950364dc763831146081a1e.jpg" srcset="http://localhost/kanpa_ci/upload/8aea15bbb950364dc763831146081a1e.jpg 1x, http://localhost/kanpa_ci/upload/8aea15bbb950364dc763831146081a1e.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
@@ -669,7 +669,7 @@ a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE ht
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/3fc0d4fa56846c96deeba4b65064e927.jpg" srcset="http://localhost/kanpa_ci/upload/3fc0d4fa56846c96deeba4b65064e927.jpg 1x, http://localhost/kanpa_ci/upload/3fc0d4fa56846c96deeba4b65064e927.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg" srcset="http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg 1x, http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
@@ -747,66 +747,6 @@ a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE ht
                             <div class="row">
                                 <div class="col-lg-4 col-md-4 col-4">
                                     <div class="form-group">
-                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/5-Tips-Jitu-Memilih-Cat-Dinding-yang-Tepat-untuk-Menciptakan-Suasana-yang-Diinginkan" data-id-berita="71">
-                                            <img src="http://localhost/kanpa_ci/upload/42936e9a93e06c60763da3fda66f5031.jpg" srcset="http://localhost/kanpa_ci/upload/42936e9a93e06c60763da3fda66f5031.jpg 1x, http://localhost/kanpa_ci/upload/42936e9a93e06c60763da3fda66f5031.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="71" alt="red sample">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-8">
-                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/5-Tips-Jitu-Memilih-Cat-Dinding-yang-Tepat-untuk-Menciptakan-Suasana-yang-Diinginkan" data-id-berita="71">
-                                        <h6 class="text-publishing">12 June 2023</h6>
-                                        <h6 class="tittle-news">5 Tips Jitu Memilih Cat Dinding yang Tepat untuk Menciptakan Suasana yang Diinginkan</h6>
-                                        <h6 class="font-text-port">2 views</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="1">
-                        <div class="border-radius">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-4">
-                                    <div class="form-group">
-                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Cara-Praktis-Memaksimalkan-Ruang-Sempit-di-Rumah-dengan-Furniture-Multifungsi" data-id-berita="70">
-                                            <img src="http://localhost/kanpa_ci/upload/fc9dc3cdcdd0040aa11a5d03b54f4696.jpg" srcset="http://localhost/kanpa_ci/upload/fc9dc3cdcdd0040aa11a5d03b54f4696.jpg 1x, http://localhost/kanpa_ci/upload/fc9dc3cdcdd0040aa11a5d03b54f4696.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="70" alt="red sample">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-8">
-                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Cara-Praktis-Memaksimalkan-Ruang-Sempit-di-Rumah-dengan-Furniture-Multifungsi" data-id-berita="70">
-                                        <h6 class="text-publishing">10 June 2023</h6>
-                                        <h6 class="tittle-news">Cara Praktis Memaksimalkan Ruang Sempit di Rumah dengan Furniture Multifungsi</h6>
-                                        <h6 class="font-text-port">6 views</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="2">
-                        <div class="border-radius">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-4">
-                                    <div class="form-group">
-                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-Permai-Abadi-Menyelenggarakan-Halal-Bihalal-untuk-Memperkuat-Tali-Silaturahmi" data-id-berita="69">
-                                            <img src="http://localhost/kanpa_ci/upload/ec9c6fd6c7e927354423e5f2462cf27d.jpg" srcset="http://localhost/kanpa_ci/upload/ec9c6fd6c7e927354423e5f2462cf27d.jpg 1x, http://localhost/kanpa_ci/upload/ec9c6fd6c7e927354423e5f2462cf27d.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="69" alt="red sample">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-8 col-8">
-                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-Permai-Abadi-Menyelenggarakan-Halal-Bihalal-untuk-Memperkuat-Tali-Silaturahmi" data-id-berita="69">
-                                        <h6 class="text-publishing">29 May 2023</h6>
-                                        <h6 class="tittle-news">PT Kanzu Permai Abadi Menyelenggarakan Halal Bihalal untuk Memperkuat Tali Silaturahmi</h6>
-                                        <h6 class="font-text-port">8 views</h6>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="3">
-                        <div class="border-radius">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-4 col-4">
-                                    <div class="form-group">
                                         <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Kualitas-Hidup-Lebih-Baik-dengan-Hunian-Subsidi-yang-Nyaman" data-id-berita="68">
                                             <img src="http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg" srcset="http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg 1x, http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="68" alt="red sample">
                                         </a>
@@ -817,6 +757,66 @@ a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE ht
                                         <h6 class="text-publishing">09 June 2023</h6>
                                         <h6 class="tittle-news">Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman</h6>
                                         <h6 class="font-text-port">4 views</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="1">
+                        <div class="border-radius">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <div class="form-group">
+                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Desain-Rumah-Modern-Minimalis-yang-Cocok-untuk-Keluarga-Muda" data-id-berita="67">
+                                            <img src="http://localhost/kanpa_ci/upload/f2a03b18ea431fc227098e0f3fa1c0ae.jpg" srcset="http://localhost/kanpa_ci/upload/f2a03b18ea431fc227098e0f3fa1c0ae.jpg 1x, http://localhost/kanpa_ci/upload/f2a03b18ea431fc227098e0f3fa1c0ae.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="67" alt="red sample">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Desain-Rumah-Modern-Minimalis-yang-Cocok-untuk-Keluarga-Muda" data-id-berita="67">
+                                        <h6 class="text-publishing">08 June 2023</h6>
+                                        <h6 class="tittle-news">Desain Rumah Modern Minimalis yang Cocok untuk Keluarga Muda</h6>
+                                        <h6 class="font-text-port">4 views</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="2">
+                        <div class="border-radius">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <div class="form-group">
+                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Kenali-5-Alasan-Mengapa-Membeli-Properti-adalah-Pilihan-Bijak-untuk-Investasi-yang-Menguntungkan" data-id-berita="66">
+                                            <img src="http://localhost/kanpa_ci/upload/09d0e8be0b2de337ee3aefea77fdcb72.jpg" srcset="http://localhost/kanpa_ci/upload/09d0e8be0b2de337ee3aefea77fdcb72.jpg 1x, http://localhost/kanpa_ci/upload/09d0e8be0b2de337ee3aefea77fdcb72.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="66" alt="red sample">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/Kenali-5-Alasan-Mengapa-Membeli-Properti-adalah-Pilihan-Bijak-untuk-Investasi-yang-Menguntungkan" data-id-berita="66">
+                                        <h6 class="text-publishing">07 June 2023</h6>
+                                        <h6 class="tittle-news">Kenali 5 Alasan Mengapa Membeli Properti adalah Pilihan Bijak untuk Investasi yang Menguntungkan</h6>
+                                        <h6 class="font-text-port">3 views</h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="col-lg-6 col-12 " data-aos="zoom-in" data-aos-delay="3">
+                        <div class="border-radius">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-4">
+                                    <div class="form-group">
+                                        <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/5-Cara-mudah-bersihkan-kaca-jendela" data-id-berita="65">
+                                            <img src="http://localhost/kanpa_ci/upload/c50950c4ea5d56db0b65eccb6eeb6059.jpg" srcset="http://localhost/kanpa_ci/upload/c50950c4ea5d56db0b65eccb6eeb6059.jpg 1x, http://localhost/kanpa_ci/upload/c50950c4ea5d56db0b65eccb6eeb6059.jpg 10x" class="img-fluid p-1 border-radius img-berita" data-id-berita="65" alt="red sample">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-8 col-8">
+                                    <a class="text-dark add-view-news" href="http://localhost/kanpa_ci/Artikel/page/5-Cara-mudah-bersihkan-kaca-jendela" data-id-berita="65">
+                                        <h6 class="text-publishing">16 May 2023</h6>
+                                        <h6 class="tittle-news">5 Cara mudah bersihkan kaca jendela</h6>
+                                        <h6 class="font-text-port">36 views</h6>
                                     </a>
                                 </div>
                             </div>
@@ -894,7 +894,7 @@ a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE ht
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Kantor Penjualan</h4>
-				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Bar., Kabupaten Semarang, Jawa Tengah 50518</h6>
+				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Barat Kabupaten Semarang, Jawa Tengah 50518</h6>
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Info Kontak</h4>
@@ -997,23 +997,23 @@ a:3:{s:4:"time";i:1692929879;s:3:"ttl";i:604800;s:4:"data";s:82090:"<!DOCTYPE ht
     });
     $('.konten').removeAttr('hidden', true).hide();
     $('.add-view-news').on('click', function(e) {
-        var id_berita = $(this).data('id-berita');
-        let formData = new FormData();
-        formData.append('id-berita', id_berita);
-        $.ajax({
-            type: 'POST',
-            url: "http://localhost/kanpa_ci/index.php/berita/add_view_berita",
-            data: formData,
-            cache: false,
-            processData: false,
-            contentType: false,
-            success: function(data) {
-                // $('.konten' + id_berita).toggle(300);
-            },
-            error: function() {
-                alert("Data Gagal Diupload");
-            }
-        });
+        // var id_berita = $(this).data('id-berita');
+        // let formData = new FormData();
+        // formData.append('id-berita', id_berita);
+        // $.ajax({
+        //     type: 'POST',
+        //     url: "http://localhost/kanpa_ci/index.php/berita/add_view_berita",
+        //     data: formData,
+        //     cache: false,
+        //     processData: false,
+        //     contentType: false,
+        //     success: function(data) {
+        //         // $('.konten' + id_berita).toggle(300);
+        //     },
+        //     error: function() {
+        //         alert("Data Gagal Diupload");
+        //     }
+        // });
     });
 </script>        <script>
     // alert('ya');

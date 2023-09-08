@@ -76,12 +76,14 @@ class Artikel extends CI_Controller
 		$query = $this->db->query($sql);
 		if ($query->num_rows() > 0) {
 			foreach ($query->result() as $meta) {
+				$id_berita = $meta->id_berita;
 				$meta_desk = $meta->meta_desk;
 				$meta_foto = $meta->meta_foto;
+
 			}
 		} else {
 		}
-
+		
 		$data['_title'] = $judul_berita;
 		$data['_metafoto'] = $meta_foto;
 		$data['_description'] = 'PT Kanpa ' . $judul_berita . ' - ' . $meta_desk;
@@ -95,6 +97,11 @@ class Artikel extends CI_Controller
 		$data['data_artikel_berita'] = $this->m_artikel->m_data_artikel_berita();
 		$data['data_foto_berita'] = $this->m_artikel->m_data_foto_berita();
 		$this->load->view('layout/index', $data);
+		$add_view = $meta->view_berita + 1;
+		$update_view = $this->db->set('view_berita', $add_view)
+			->where('id_berita', $id_berita)
+			->update('berita');
+		return $update_view;
 	}
 	function tag()
 	{

@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1693380524;s:3:"ttl";i:604800;s:4:"data";s:44405:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1694165326;s:3:"ttl";i:604800;s:4:"data";s:46707:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -87,7 +87,7 @@ a:3:{s:4:"time";i:1693380524;s:3:"ttl";i:604800;s:4:"data";s:44405:"<!DOCTYPE ht
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
             <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contac</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contact</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -96,206 +96,206 @@ a:3:{s:4:"time";i:1693380524;s:3:"ttl";i:604800;s:4:"data";s:44405:"<!DOCTYPE ht
       </header><!-- End Header -->    <main id="page" class="ml-page">
 
         <style>
-.btn-hrg-dash {
-    font-size: smaller;
-}
-
-.text-nm-perum {
-    font-size: medium;
-}
-
-.text-publishing,
-.font-text-port {
-    font-size: x-small;
-    color: #a7a5a5;
-}
-
-.conten-berita-left {
-    display: block;
-}
-
-.btn-tipe {
-    font-size: 11px;
-}
-
-@media (max-width: 992px) {
-
-    .conten-berita-left {
-        display: none;
+    .btn-hrg-dash {
+        font-size: smaller;
     }
 
     .text-nm-perum {
+        font-size: medium;
+    }
+
+    .text-publishing,
+    .font-text-port {
+        font-size: x-small;
+        color: #a7a5a5;
+    }
+
+    .conten-berita-left {
+        display: block;
+    }
+
+    .btn-tipe {
         font-size: 11px;
     }
 
-    .btn-hrg-dash {
-        font-size: x-small;
-    }
-}
+    @media (max-width: 992px) {
 
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+        .conten-berita-left {
+            display: none;
+        }
 
-.gallery {
-    --anim-time--hi: 266ms;
-    --anim-time--med: 400ms;
-    --anim-time--lo: 600ms;
+        .text-nm-perum {
+            font-size: 11px;
+        }
 
-    display: flex;
-    place-content: center;
-    max-width: clamp(30rem, 95%, 50rem);
-    width: max(22.5rem, 100%);
-    min-height: 100vh;
-    margin-inline: auto;
-    padding: clamp(0px, (30rem - 100vw) * 9999, 1rem);
-
-}
-
-.gallery__content--flow {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
-.gallery__content--flow>* {
-    flex-grow: 1;
-    flex-basis: calc((30rem - 100%) * 999);
-}
-
-figure {
-    display: flex;
-    min-width: 14rem;
-    /* max-height: 16rem; */
-    position: relative;
-    border-radius: .35rem;
-    box-shadow:
-        rgb(40, 40, 40, 0.1) 0px 2px 3px,
-        rgb(20, 20, 20, 0.2) 0px 5px 8px,
-        rgb(0, 0, 0, 0.25) 0px 10px 12px;
-    overflow: hidden;
-    transition: transform var(--anim-time--med) ease;
-}
-
-figure::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to top,
-            hsla(0, 0%, 0%, 0.8) 0%,
-            hsla(0, 0%, 0%, 0.7) 12%,
-            hsla(0, 0%, 0%, 0.2) 41.6%,
-            hsla(0, 0%, 0%, 0.125) 50%,
-            hsla(0, 0%, 0%, 0.01) 59.9%,
-            hsla(0, 0%, 0%, 0) 100%);
-    opacity: 0;
-    transition-property: opacity, transform;
-    transition-duration: var(--anim-time--med), var(--anim-time--med);
-    transition-timing-function: ease, ease;
-    z-index: 4;
-}
-
-.header__caption {
-    z-index: 10;
-    position: absolute;
-    display: inline-flex;
-    flex-direction: column;
-    align-self: flex-end;
-    width: 100%;
-    gap: 0.5rem;
-    padding: 1rem;
-    justify-content: center;
-    text-align: center;
-    transform: translateY(100%);
-    transition: transform var(--anim-time--hi) linear,
-        opacity var(--anim-time--hi) linear;
-}
-
-figure:hover::before {
-    opacity: 0.8;
-}
-
-figure:hover .header__caption {
-    transform: translateY(0);
-    opacity: 1;
-}
-
-figure:hover .img-grid-news {
-    transform: scale(1);
-}
-
-.title {
-    color: #fff;
-
-}
-
-.title--primary {
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-
-.title--secondary {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.img-grid-news {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-    height: 100%;
-    transform: scale(1.15);
-    aspect-ratio: 16 / 13;
-    transition: 400ms ease-in-out;
-}
-
-/* pagination stile */
-@-webkit-keyframes placeHolderShimmer {
-    0% {
-        background-position: -468px 0;
+        .btn-hrg-dash {
+            font-size: x-small;
+        }
     }
 
-    100% {
-        background-position: 468px 0;
-    }
-}
-
-@keyframes placeHolderShimmer {
-    0% {
-        background-position: -468px 0;
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 
-    100% {
-        background-position: 468px 0;
-    }
-}
+    .gallery {
+        --anim-time--hi: 266ms;
+        --anim-time--med: 400ms;
+        --anim-time--lo: 600ms;
 
-.content-placeholder {
-    display: inline-block;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-name: placeHolderShimmer;
-    animation-name: placeHolderShimmer;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    background: #f6f7f8;
-    background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
-    background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
-    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
-    -webkit-background-size: 800px 104px;
-    background-size: 800px 104px;
-    height: inherit;
-    position: relative;
-}
+        display: flex;
+        place-content: center;
+        max-width: clamp(30rem, 95%, 50rem);
+        width: max(22.5rem, 100%);
+        min-height: 100vh;
+        margin-inline: auto;
+        padding: clamp(0px, (30rem - 100vw) * 9999, 1rem);
+
+    }
+
+    .gallery__content--flow {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .gallery__content--flow>* {
+        flex-grow: 1;
+        flex-basis: calc((30rem - 100%) * 999);
+    }
+
+    figure {
+        display: flex;
+        min-width: 14rem;
+        /* max-height: 16rem; */
+        position: relative;
+        border-radius: .35rem;
+        box-shadow:
+            rgb(40, 40, 40, 0.1) 0px 2px 3px,
+            rgb(20, 20, 20, 0.2) 0px 5px 8px,
+            rgb(0, 0, 0, 0.25) 0px 10px 12px;
+        overflow: hidden;
+        transition: transform var(--anim-time--med) ease;
+    }
+
+    figure::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top,
+                hsla(0, 0%, 0%, 0.8) 0%,
+                hsla(0, 0%, 0%, 0.7) 12%,
+                hsla(0, 0%, 0%, 0.2) 41.6%,
+                hsla(0, 0%, 0%, 0.125) 50%,
+                hsla(0, 0%, 0%, 0.01) 59.9%,
+                hsla(0, 0%, 0%, 0) 100%);
+        opacity: 0;
+        transition-property: opacity, transform;
+        transition-duration: var(--anim-time--med), var(--anim-time--med);
+        transition-timing-function: ease, ease;
+        z-index: 4;
+    }
+
+    .header__caption {
+        z-index: 10;
+        position: absolute;
+        display: inline-flex;
+        flex-direction: column;
+        align-self: flex-end;
+        width: 100%;
+        gap: 0.5rem;
+        padding: 1rem;
+        justify-content: center;
+        text-align: center;
+        transform: translateY(100%);
+        transition: transform var(--anim-time--hi) linear,
+            opacity var(--anim-time--hi) linear;
+    }
+
+    figure:hover::before {
+        opacity: 0.8;
+    }
+
+    figure:hover .header__caption {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    figure:hover .img-grid-news {
+        transform: scale(1);
+    }
+
+    .title {
+        color: #fff;
+
+    }
+
+    .title--primary {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .title--secondary {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .img-grid-news {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        transform: scale(1.15);
+        aspect-ratio: 16 / 13;
+        transition: 400ms ease-in-out;
+    }
+
+    /* pagination stile */
+    @-webkit-keyframes placeHolderShimmer {
+        0% {
+            background-position: -468px 0;
+        }
+
+        100% {
+            background-position: 468px 0;
+        }
+    }
+
+    @keyframes placeHolderShimmer {
+        0% {
+            background-position: -468px 0;
+        }
+
+        100% {
+            background-position: 468px 0;
+        }
+    }
+
+    .content-placeholder {
+        display: inline-block;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: placeHolderShimmer;
+        animation-name: placeHolderShimmer;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        background: #f6f7f8;
+        background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+        background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+        background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+        -webkit-background-size: 800px 104px;
+        background-size: 800px 104px;
+        height: inherit;
+        position: relative;
+    }
 </style>
 <section class="pt-5 mt-3" id="">
     <div class="section-header">
@@ -306,15 +306,13 @@ figure:hover .img-grid-news {
             <div class="col-lg-9 col-12">
                 <div class="row">
                     <div class="col-12">
-                                                <img src="http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg"
-                            class="img-fluid border-radius img-berita" data-id-berita="68"
-                            alt="red sample">
-                        <span class="float-right">09 June 2023</span>
-                        <hr>
-                        <h3 style="font-family: auto;">Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman</h3>
-                                                <div class="gallery__content--flow">
-                                                    </div>
-                        <p class="MsoNormal" style="text-align:justify"><span style="font-family: Helvetica, &quot;sans-serif&quot;; background-color: var(--bs-body-bg); color: var(--bs-body-color); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight);">Ada
+                                                    <img src="http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg" class="img-fluid border-radius img-berita" data-id-berita="68" alt="red sample">
+                            <span class="float-right">09 June 2023</span>
+                            <hr>
+                            <h3 style="font-family: auto;">Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman</h3>
+                                                                <div class="gallery__content--flow">
+                                                                            </div>
+                                    <p class="MsoNormal" style="text-align:justify"><span style="font-family: Helvetica, &quot;sans-serif&quot;; background-color: var(--bs-body-bg); color: var(--bs-body-color); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight);">Ada
 beragam cara untuk meningkatkan kualitas hidup, salah satunya adalah dengan
 memiliki hunian yang nyaman. Namun, melihat harga properti yang melambung
 tinggi, banyak di antara kita yang dilanda kekhawatiran. </span><i style="background-color: var(--bs-body-bg); color: var(--bs-body-color); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight);">Eits,</i><span style="font-family: Helvetica, &quot;sans-serif&quot;; background-color: var(--bs-body-bg); color: var(--bs-body-color); font-size: var(--bs-body-font-size); font-weight: var(--bs-body-font-weight);"> jangan panik dulu. Kini, ada solusi yang tepat bagi kamu yang
@@ -346,7 +344,7 @@ menarik lainnya. <o:p></o:p></span></p>
 
 <p class="MsoNormal" style="text-align:justify"><span style="font-family:&quot;Helvetica&quot;,&quot;sans-serif&quot;">Catat,
 kesempatan ini terbatas. Segera hubungi kami dan jadikan hidupmu lebih nyaman
-dan berkualitas dengan perumahan subsidi yang menarik ini!</span></p>                        <!-- <p class="text-konten-news">
+dan berkualitas dengan perumahan subsidi yang menarik ini!</span></p>                                    <!-- <p class="text-konten-news">
 <div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
 
 <h4>A PHP Error was encountered</h4>
@@ -354,7 +352,7 @@ dan berkualitas dengan perumahan subsidi yang menarik ini!</span></p>           
 <p>Severity: Notice</p>
 <p>Message:  Undefined property: stdClass::$desk_berita</p>
 <p>Filename: artikel/page_artikel.php</p>
-<p>Line Number: 254</p>
+<p>Line Number: 249</p>
 
 
 	<p>Backtrace:</p>
@@ -366,7 +364,7 @@ dan berkualitas dengan perumahan subsidi yang menarik ini!</span></p>           
 		
 			<p style="margin-left:10px">
 			File: C:\xampp\htdocs\kanpa_ci\application\views\artikel\page_artikel.php<br />
-			Line: 254<br />
+			Line: 249<br />
 			Function: _error_handler			</p>
 
 		
@@ -407,7 +405,7 @@ dan berkualitas dengan perumahan subsidi yang menarik ini!</span></p>           
 	
 
 </div></p> -->
-                                                                    </div>
+                                                                        </div>
                 </div>
                 <hr>
                 <!--Berita artikel infinity scrool-->
@@ -428,151 +426,140 @@ dan berkualitas dengan perumahan subsidi yang menarik ini!</span></p>           
                     <span style="font-weight: bold;font-family: 'Poppins';"> TAG :</span>
                     <ul>
 
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Interior" style="color: black;">
-                                Interior                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Jajanan-Khas-Madiun" style="color: black;">
-                                Jajanan Khas Madiun                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Jasa-Kontraktor" style="color: black;">
-                                Jasa Kontraktor                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Kegiatan-Warga" style="color: black;">
-                                Kegiatan Warga                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Pembagian-Sembako" style="color: black;">
-                                Pembagian Sembako                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Pembangunan-Masjid" style="color: black;">
-                                Pembangunan Masjid                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Pengeboran-Sumur" style="color: black;">
-                                Pengeboran Sumur                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Penghargaan" style="color: black;">
-                                Penghargaan                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Perbaikan-Jalan" style="color: black;">
-                                Perbaikan Jalan                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Perumahan" style="color: black;">
-                                Perumahan                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Rumah-Subsidi" style="color: black;">
-                                Rumah Subsidi                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Tips-dan-Trik" style="color: black;">
-                                Tips dan Trik                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Wawancara" style="color: black;">
-                                Wawancara                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Wisata" style="color: black;">
-                                Wisata                            </a>
-                        </li>
-                                                <li class="btn-tag tag" style="display: inline-block;">
-                            <a href="http://localhost/kanpa_ci/Artikel/tag/Wisata-Caruban" style="color: black;">
-                                Wisata Caruban                            </a>
-                        </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Interior" style="color: black;">
+                                    Interior                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Jajanan-Khas-Madiun" style="color: black;">
+                                    Jajanan Khas Madiun                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Jasa-Kontraktor" style="color: black;">
+                                    Jasa Kontraktor                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Kegiatan-Warga" style="color: black;">
+                                    Kegiatan Warga                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Pembagian-Sembako" style="color: black;">
+                                    Pembagian Sembako                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Pembangunan-Masjid" style="color: black;">
+                                    Pembangunan Masjid                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Pengeboran-Sumur" style="color: black;">
+                                    Pengeboran Sumur                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Penghargaan" style="color: black;">
+                                    Penghargaan                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Perbaikan-Jalan" style="color: black;">
+                                    Perbaikan Jalan                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Perumahan" style="color: black;">
+                                    Perumahan                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Rumah-Subsidi" style="color: black;">
+                                    Rumah Subsidi                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Tips-dan-Trik" style="color: black;">
+                                    Tips dan Trik                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Wawancara" style="color: black;">
+                                    Wawancara                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Wisata" style="color: black;">
+                                    Wisata                                </a>
+                            </li>
+                                                    <li class="btn-tag tag" style="display: inline-block;">
+                                <a href="http://localhost/kanpa_ci/Artikel/tag/Wisata-Caruban" style="color: black;">
+                                    Wisata Caruban                                </a>
+                            </li>
                                             </ul>
                 </span>
                 <hr>
             </div>
             <div class="col-lg-3 col-12">
                 <div class="row gy-1">
-                                        <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                        <a
-                                href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
-                                <div class="img border-r-0px" style="position: relative;">
-                                    <img src="http://localhost/kanpa_ci/upload/e43498fff1f3e594f46559e21545d57d.jpg"
-                                        class=" size-img-dash img-fluid" alt="">
+                                            <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                        <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90">
+                                            <div class="img border-r-0px" style="position: relative;">
+                                                <img src="http://localhost/kanpa_ci/upload/a587432cbe339c3d2fe0b8df11473919.jpg" class=" size-img-dash img-fluid" alt="">
 
-                                    <div class="bottom-right promo"></div>
+                                                <div class="bottom-right promo"></div>
+                                            </div>
+                                        </a>
+                                                                <div class="m-2">
+                                    <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                    
+                                                                                                                                                        <span class="mb-0 font-text-port float-right">1194 views</span>
+                                    <br>
+                                                                                <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/41/66">Rp
+                                                300 <sub>jt</sub></a>
+                                                                        <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90" style="color:black;">
+                                        <h6 class="text-nm-perum mb-0">Bukit Permai 2 - Tipe mulai</h6>
+                                    </a>
+                                                                                                                                                                                                                                                                                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/41/66">
+                                                <button type="button" id="" class=" btn-tipe btn btn-sm mb-2 btn-outline-info">41/66</button>
+                                            </a>
+                                                                                                                                                                                                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90">
+                                                <button type="button" id="" class=" btn-tipe btn btn-sm mb-2 btn-outline-info">80/90</button>
+                                            </a>
+                                                                                                                                                        <br>
+                                    <span class="mb-0 font-text-port"> Kalisidi, Ungaran Barat</span>
                                 </div>
-                            </a>
-                                                        <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">1377 views</span>
-                                <br>
-                                                                <a class="btn-hrg-dash"
-                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp
-                                    160 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66"
-                                    style="color:black;">
-                                    <h6 class="text-nm-perum mb-0">Griya Kanzu Madiun - Tipe mulai</h6>
-                                </a>
-                                                                                                                                                                                                <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
-                                    <button type="button" id=""
-                                        class=" btn-tipe btn btn-sm mb-2 btn-outline-info">30/66</button>
-                                </a>
-                                                                                                                                                                                                <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
-                                    <button type="button" id=""
-                                        class=" btn-tipe btn btn-sm mb-2 btn-outline-info">42/72</button>
-                                </a>
-                                                                                                                                                                                                <br>
-                                <span class="mb-0 font-text-port"> Caruban Kota Baru, Madiun</span>
                             </div>
                         </div>
-                    </div>
-                                        <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                        <a
-                                href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">
-                                <div class="img border-r-0px" style="position: relative;">
-                                    <img src="http://localhost/kanpa_ci/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg"
-                                        class=" size-img-dash img-fluid" alt="">
+                                            <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
+                                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
+                                            <div class="img border-r-0px" style="position: relative;">
+                                                <img src="http://localhost/kanpa_ci/upload/10c8567d34e408057b9c5f9bc001e90c.jpg" class=" size-img-dash img-fluid" alt="">
 
-                                    <div class="bottom-right promo"></div>
+                                                <div class="bottom-right promo"></div>
+                                            </div>
+                                        </a>
+                                                                <div class="m-2">
+                                    <span class="mb-0 font-text-port">Mulai</span>
+                                                                                                                                                                                                    
+                                                                                                                                                                                                    
+                                                                                                                                                                                                                                        <span class="mb-0 font-text-port float-right">1377 views</span>
+                                    <br>
+                                                                                <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp
+                                                160 <sub>jt</sub></a>
+                                                                        <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72" style="color:black;">
+                                        <h6 class="text-nm-perum mb-0">Griya Kanzu Madiun - Tipe mulai</h6>
+                                    </a>
+                                                                                                                                                                                                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                                <button type="button" id="" class=" btn-tipe btn btn-sm mb-2 btn-outline-info">30/66</button>
+                                            </a>
+                                                                                                                                                                                                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
+                                                <button type="button" id="" class=" btn-tipe btn btn-sm mb-2 btn-outline-info">42/72</button>
+                                            </a>
+                                                                                                                                                                                                                                        <br>
+                                    <span class="mb-0 font-text-port"> Caruban Kota Baru, Madiun</span>
                                 </div>
-                            </a>
-                                                        <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                                                                                                                                                                                                                                                                                
-                                                                <span class="mb-0 font-text-port float-right">195 views</span>
-                                <br>
-                                                                <a class="btn-hrg-dash"
-                                    href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">Rp
-                                    1 <sub>M</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120"
-                                    style="color:black;">
-                                    <h6 class="text-nm-perum mb-0">Alton Town House - Tipe mulai</h6>
-                                </a>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">
-                                    <button type="button" id=""
-                                        class=" btn-tipe btn btn-sm mb-2 btn-outline-info">140/120</button>
-                                </a>
-                                                                <br>
-                                <span class="mb-0 font-text-port"> Sisemut, Ungaran Barat</span>
                             </div>
                         </div>
-                    </div>
                                     </div>
                 <div class="row mt-3">
                     <div class="col">
                         <center>
                             <a href="http://localhost/kanpa_ci/Produk#produk">
-                                <button type="button" id="" class="btn btn-sm btn-outline-info"
-                                    style="font-size: 18px;">
+                                <button type="button" id="" class="btn btn-sm btn-outline-info" style="font-size: 18px;">
                                     <i class="fa-brands fa-product-hunt"></i> Lihat Produk Lainnya >>
                                 </button>
                             </a>
@@ -584,6 +571,25 @@ dan berkualitas dengan perumahan subsidi yang menarik ini!</span></p>           
         </div>
     </div>
 </section>
+<script>
+    var id_berita = Kualitas-Hidup-Lebih-Baik-dengan-Hunian-Subsidi-yang-Nyaman    let formData = new FormData();
+    formData.append('id-berita', id_berita);
+    $.ajax({
+        type: 'POST',
+        url: "http://localhost/kanpa_ci/index.php/berita/add_view_berita",
+        data: formData,
+        cache: false,
+        processData: false,
+        contentType: false,
+        success: function(data) {
+            alert('yaa');
+            // $('.konten' + id_berita).toggle(300);
+        },
+        error: function() {
+            alert("Data Gagal Diupload");
+        }
+    });
+</script>
         <style>
 	.title-h4 {
 		color: orange;
@@ -621,7 +627,7 @@ dan berkualitas dengan perumahan subsidi yang menarik ini!</span></p>           
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Kantor Penjualan</h4>
-				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Bar., Kabupaten Semarang, Jawa Tengah 50518</h6>
+				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Barat Kabupaten Semarang, Jawa Tengah 50518</h6>
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Info Kontak</h4>

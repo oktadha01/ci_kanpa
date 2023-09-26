@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1694166630;s:3:"ttl";i:604800;s:4:"data";s:39433:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -89,7 +89,7 @@ a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE ht
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
             <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contac</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contact</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -190,32 +190,32 @@ a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE ht
                 <div class="row">
                     <div class="col-lg-3 col-4">
                                                 <a class="text-dark add-view-news"
-                            href="http://localhost/kanpa_ci/Artikel/page/Tips-merawat-furniture-agar-tahan-lama-dan-tetap-cantik"
-                            data-id-berita="40">
-                            <img src="http://localhost/kanpa_ci/upload/b7ee15db56f4a31adac27e373eed2a41.jpg"
+                            href="http://localhost/kanpa_ci/Artikel/page/Bagusnya-panorama-hanya-di-rumah-murah-ungaran-bukit-permai"
+                            data-id-berita="30">
+                            <img src="http://localhost/kanpa_ci/upload/47c70903638097cbbcde7572f37cf56c.jpg"
                                 class="img-fluid border-radius img-berita" alt="red sample">
-                            <h6 class="text-publishing">02 May 2023</h6>
-                            <h6 class="tittle-news resp-tittle">Tips merawat furniture agar tahan lama dan tetap cantik</h6>
-                            <h6 class="font-text-port">36 views</h6>
+                            <h6 class="text-publishing">14 April 2023</h6>
+                            <h6 class="tittle-news resp-tittle">Bagusnya panorama hanya di rumah murah ungaran bukit permai</h6>
+                            <h6 class="font-text-port">55 views</h6>
                         </a>
                                                 <a class="text-dark add-view-news"
-                            href="http://localhost/kanpa_ci/Artikel/page/Mengapa-perumahan-bukit-permai-ungaran-adalah-tempat-yang-sangat-prioritas-untuk-anda-miliki"
-                            data-id-berita="34">
-                            <img src="http://localhost/kanpa_ci/upload/8b66b40434fc36ef8b381ca1a7dd9a72.jpg"
+                            href="http://localhost/kanpa_ci/Artikel/page/Desain-Rumah-Modern-Minimalis-yang-Cocok-untuk-Keluarga-Muda"
+                            data-id-berita="67">
+                            <img src="http://localhost/kanpa_ci/upload/f2a03b18ea431fc227098e0f3fa1c0ae.jpg"
                                 class="img-fluid border-radius img-berita" alt="red sample">
-                            <h6 class="text-publishing">15 April 2023</h6>
-                            <h6 class="tittle-news resp-tittle">Mengapa perumahan bukit permai ungaran adalah tempat yang sangat prioritas untuk anda miliki</h6>
-                            <h6 class="font-text-port">53 views</h6>
+                            <h6 class="text-publishing">08 June 2023</h6>
+                            <h6 class="tittle-news resp-tittle">Desain Rumah Modern Minimalis yang Cocok untuk Keluarga Muda</h6>
+                            <h6 class="font-text-port">4 views</h6>
                         </a>
                                             </div>
                     <div class="col-lg-9 col-8">
                                                 <a class="text-dark add-view-news"
-                            href="http://localhost/kanpa_ci/Artikel/page/Pengaruh-inflasi-pada-harga-rumah-di-indonesia"
-                            data-id-berita="59">
-                            <img src="http://localhost/kanpa_ci/upload/8a9177f59ccc6214ed0c01a660ea68d2.jpg"
+                            href="http://localhost/kanpa_ci/Artikel/page/Kualitas-Hidup-Lebih-Baik-dengan-Hunian-Subsidi-yang-Nyaman"
+                            data-id-berita="68">
+                            <img src="http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg"
                                 class="img-fluid border-radius img-berita"
-                                data-id-berita="59" alt="red sample">
-                            <h3 style="font-family: auto;">Pengaruh inflasi pada harga rumah di indonesia</h3>
+                                data-id-berita="68" alt="red sample">
+                            <h3 style="font-family: auto;">Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman</h3>
                         </a>
                                             </div>
                 </div>
@@ -308,9 +308,9 @@ a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE ht
                                         <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                         <a
-                                href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
+                                href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">
                                 <div class="img border-r-0px" style="position: relative;">
-                                    <img src="http://localhost/kanpa_ci/upload/1588d67ca932b3a2974dd1c91304f4cf.jpg"
+                                    <img src="http://localhost/kanpa_ci/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg"
                                         class=" size-img-dash img-fluid" alt="">
 
                                     <div class="bottom-right promo"></div>
@@ -318,32 +318,32 @@ a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE ht
                             </a>
                                                         <div class="m-2">
                                 <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                
-                                                                                                                                                                                                                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">151 views</span>
+                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                <span class="mb-0 font-text-port float-right">195 views</span>
                                 <br>
                                                                 <a class="btn-hrg-dash"
-                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">Rp
-                                    160 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66"
+                                    href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">Rp
+                                    1 <sub>M</sub></a>
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120"
                                     style="color:black;">
-                                    <h6 class="text-nm-perum mb-0">Griya Kanzu Sukoharjo - Tipe mulai</h6>
+                                    <h6 class="text-nm-perum mb-0">Alton Town House - Tipe mulai</h6>
                                 </a>
-                                                                                                                                <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                <a
+                                    href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">
                                     <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">30/66</button>
+                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">140/120</button>
                                 </a>
-                                                                                                                                                                                                                                                                                                                                                                                                <br>
-                                <span class="mb-0 font-text-port"> Nguter, Sukoharjo</span>
+                                                                <br>
+                                <span class="mb-0 font-text-port"> Sisemut, Ungaran Barat</span>
                             </div>
                         </div>
                     </div>
                                         <div class="col-lg-12 col-6" data-aos="zoom-in" data-aos-delay="200">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                         <a
-                                href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
+                                href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
                                 <div class="img border-r-0px" style="position: relative;">
-                                    <img src="http://localhost/kanpa_ci/upload/fb13290f8d8039ffbc86991e9818cfde.jpg"
+                                    <img src="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg"
                                         class=" size-img-dash img-fluid" alt="">
 
                                     <div class="bottom-right promo"></div>
@@ -351,29 +351,23 @@ a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE ht
                             </a>
                                                         <div class="m-2">
                                 <span class="mb-0 font-text-port">Mulai</span>
-                                                                                                                                                                
-                                                                                                                                                                
-                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">1377 views</span>
+                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                <span class="mb-0 font-text-port float-right">505 views</span>
                                 <br>
                                                                 <a class="btn-hrg-dash"
-                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp
+                                    href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">Rp
                                     160 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72"
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60"
                                     style="color:black;">
-                                    <h6 class="text-nm-perum mb-0">Griya Kanzu Madiun - Tipe mulai</h6>
+                                    <h6 class="text-nm-perum mb-0">Griya kanzu Klaten - Tipe mulai</h6>
                                 </a>
-                                                                                                                                                                                                <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
+                                                                                                                                                                <a
+                                    href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
                                     <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">30/66</button>
+                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">30/60</button>
                                 </a>
-                                                                                                                                                                                                <a
-                                    href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
-                                    <button type="button" id=""
-                                        class="btn-tipe btn btn-sm mb-2 btn-outline-info">42/72</button>
-                                </a>
-                                                                                                                                                                                                <br>
-                                <span class="mb-0 font-text-port"> Caruban Kota Baru, Madiun</span>
+                                                                                                                                                                                                                                                                                                                                                                <br>
+                                <span class="mb-0 font-text-port"> Carikan, Juwiring, Klaten</span>
                             </div>
                         </div>
                     </div>
@@ -432,7 +426,7 @@ a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE ht
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Kantor Penjualan</h4>
-				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Bar., Kabupaten Semarang, Jawa Tengah 50518</h6>
+				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Barat Kabupaten Semarang, Jawa Tengah 50518</h6>
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Info Kontak</h4>
@@ -531,178 +525,178 @@ a:3:{s:4:"time";i:1693380262;s:3:"ttl";i:604800;s:4:"data";s:39268:"<!DOCTYPE ht
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YN9QR6KJ0J"></script>
 <script>
-window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || [];
 
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-gtag('config', 'G-YN9QR6KJ0J');
+    gtag('config', 'G-YN9QR6KJ0J');
 </script>
 <script>
-$('.konten').removeAttr('hidden', true).hide();
-$('.add-view-news').on('click', function(e) {
-    var id_berita = $(this).data('id-berita');
-    let formData = new FormData();
-    formData.append('id-berita', id_berita);
-    $.ajax({
-        type: 'POST',
-        url: "http://localhost/kanpa_ci/index.php/berita/add_view_berita",
-        data: formData,
-        cache: false,
-        processData: false,
-        contentType: false,
-        success: function(data) {
-            // $('.konten' + id_berita).toggle(300);
-        },
-        error: function() {
-            alert("Data Gagal Diupload");
-        }
-    });
-});
+    $('.konten').removeAttr('hidden', true).hide();
+    // $('.add-view-news').on('click', function(e) {
+    //     var id_berita = $(this).data('id-berita');
+    //     let formData = new FormData();
+    //     formData.append('id-berita', id_berita);
+    //     $.ajax({
+    //         type: 'POST',
+    //         url: "http://localhost/kanpa_ci/index.php/berita/add_view_berita",
+    //         data: formData,
+    //         cache: false,
+    //         processData: false,
+    //         contentType: false,
+    //         success: function(data) {
+    //             // $('.konten' + id_berita).toggle(300);
+    //         },
+    //         error: function() {
+    //             alert("Data Gagal Diupload");
+    //         }
+    //     });
+    // });
 </script>
 
 <!-- paginations berita -->
 <script>
-$(document).ready(function() {
+    $(document).ready(function() {
+        
+        var limit = 8;
+        var start = 0;
+        var action = 'inactive';
 
-    var limit = 8;
-    var start = 0;
-    var action = 'inactive';
-
-    function lazzy_loader(limit) {
-        var output = '';
-        output += '<div class="post_data">';
-        output += '<p><span class="content-placeholder" style="width:100%; height: 30px;">&nbsp;</span></p>';
-        output += '<p><span class="content-placeholder" style="width:100%; height: 90px;">&nbsp;</span></p>';
-        output += '</div>';
-        $('#load_data_message').html(output);
-    }
-
-    lazzy_loader(limit);
-
-    function load_data(limit, start) {
-        $.ajax({
-            url: "http://localhost/kanpa_ci/artikel/get_berita",
-            method: "POST",
-            data: {
-                limit: limit,
-                start: start
-            },
-            cache: false,
-            success: function(data) {
-                if (data == '') {
-                    $('#load_data_message').html('');
-                    // $('#read-more').hide();
-                    action = 'active';
-                } else {
-                    $('#load_data').append(data);
-                    $('#load_data_message').html('');
-                    action = 'inactive';
-                }
-            }
-        })
-    }
-
-    if (action == 'inactive') {
-        action = 'active';
-        load_data(limit, start);
-    }
-    //  ### fitur infinity scroll jika ingin diaktifkan bisa hilangkan komentar ###
-
-    // $(window).scroll(function() {
-    //     if ($(window).scrollTop() + $(window).height() > $("#load_data").height() && action ==
-    //         'inactive') {
-    //         lazzy_loader(limit);
-    //         action = 'active';
-    //         start = start + limit;
-    //         setTimeout(function() {
-    //             load_data(limit, start);
-    //         }, 1000);
-    //     }
-    // });
-
-    // Tombol Next Page
-    $(document).on('click', '#read-more-art', function() {
-        if (action == 'inactive') {
-            lazzy_loader(limit);
-            action = 'active';
-            start = start + limit;
-            setTimeout(function() {
-                load_data(limit, start);
-            }, 1000);
+        function lazzy_loader(limit) {
+            var output = '';
+            output += '<div class="post_data">';
+            output += '<p><span class="content-placeholder" style="width:100%; height: 30px;">&nbsp;</span></p>';
+            output += '<p><span class="content-placeholder" style="width:100%; height: 90px;">&nbsp;</span></p>';
+            output += '</div>';
+            $('#load_data_message').html(output);
         }
-    });
 
-});
+        lazzy_loader(limit);
+
+        function load_data(limit, start) {
+            $.ajax({
+                url: "http://localhost/kanpa_ci/artikel/get_berita",
+                method: "POST",
+                data: {
+                    limit: limit,
+                    start: start
+                },
+                cache: false,
+                success: function(data) {
+                    if (data == '') {
+                        $('#load_data_message').html('');
+                        // $('#read-more').hide();
+                        action = 'active';
+                    } else {
+                        $('#load_data').append(data);
+                        $('#load_data_message').html('');
+                        action = 'inactive';
+                    }
+                }
+            })
+        }
+
+        if (action == 'inactive') {
+            action = 'active';
+            load_data(limit, start);
+        }
+        //  ### fitur infinity scroll jika ingin diaktifkan bisa hilangkan komentar ###
+
+        // $(window).scroll(function() {
+        //     if ($(window).scrollTop() + $(window).height() > $("#load_data").height() && action ==
+        //         'inactive') {
+        //         lazzy_loader(limit);
+        //         action = 'active';
+        //         start = start + limit;
+        //         setTimeout(function() {
+        //             load_data(limit, start);
+        //         }, 1000);
+        //     }
+        // });
+
+        // Tombol Next Page
+        $(document).on('click', '#read-more-art', function() {
+            if (action == 'inactive') {
+                lazzy_loader(limit);
+                action = 'active';
+                start = start + limit;
+                setTimeout(function() {
+                    load_data(limit, start);
+                }, 1000);
+            }
+        });
+
+    });
 </script>
 <!-- Akhir pagination berita -->
 
 
 <!-- paginations tag_berita -->
 <script>
-$(document).ready(function() {
+    $(document).ready(function() {
 
-    var limit = 8;
-    var start = 0;
-    var action = 'inactive';
-    var tag_berita = $('#tag-berita').val();
+        var limit = 8;
+        var start = 0;
+        var action = 'inactive';
+        var tag_berita = $('#tag-berita').val();
 
 
-    function lazzy_loader(limit) {
-        var output = '';
-        output += '<div class="post_data">';
-        output += '<p><span class="content-placeholder" style="width:100%; height: 30px;">&nbsp;</span></p>';
-        output += '<p><span class="content-placeholder" style="width:100%; height: 90px;">&nbsp;</span></p>';
-        output += '</div>';
-        $('#load_data_message').html(output);
-    }
-
-    lazzy_loader(limit);
-
-    function load_data() {
-        $.ajax({
-            url: "http://localhost/kanpa_ci/artikel/get_berita_tag",
-            method: "POST",
-            data: {
-                limit: limit,
-                start: start,
-                tag_berita: tag_berita
-            },
-            cache: false,
-            success: function(data) {
-                if (data == '') {
-                    $('#load_data_message').html('');
-                    $('#read-more').hide();
-                    action = 'active';
-                } else {
-                    $('#load_data_tag').append(data);
-                    $('#load_data_message').html('');
-                    action = 'inactive';
-                }
-            }
-        })
-    }
-
-    if (action == 'inactive') {
-        action = 'active';
-        load_data(limit, start);
-    }
-
-    // Tombol Next Page
-    $(document).on('click', '#read-more', function() {
-        if (action == 'inactive') {
-            lazzy_loader(limit);
-            action = 'active';
-            start = start + limit;
-            setTimeout(function() {
-                load_data(limit, start);
-            }, 900);
+        function lazzy_loader(limit) {
+            var output = '';
+            output += '<div class="post_data">';
+            output += '<p><span class="content-placeholder" style="width:100%; height: 30px;">&nbsp;</span></p>';
+            output += '<p><span class="content-placeholder" style="width:100%; height: 90px;">&nbsp;</span></p>';
+            output += '</div>';
+            $('#load_data_message').html(output);
         }
-    });
 
-});
+        lazzy_loader(limit);
+
+        function load_data() {
+            $.ajax({
+                url: "http://localhost/kanpa_ci/artikel/get_berita_tag",
+                method: "POST",
+                data: {
+                    limit: limit,
+                    start: start,
+                    tag_berita: tag_berita
+                },
+                cache: false,
+                success: function(data) {
+                    if (data == '') {
+                        $('#load_data_message').html('');
+                        $('#read-more').hide();
+                        action = 'active';
+                    } else {
+                        $('#load_data_tag').append(data);
+                        $('#load_data_message').html('');
+                        action = 'inactive';
+                    }
+                }
+            })
+        }
+
+        if (action == 'inactive') {
+            action = 'active';
+            load_data(limit, start);
+        }
+
+        // Tombol Next Page
+        $(document).on('click', '#read-more', function() {
+            if (action == 'inactive') {
+                lazzy_loader(limit);
+                action = 'active';
+                start = start + limit;
+                setTimeout(function() {
+                    load_data(limit, start);
+                }, 900);
+            }
+        });
+
+    });
 </script>
 <!-- Akhir pagination tag_berita -->        <script>
     // alert('ya');

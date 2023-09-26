@@ -37,7 +37,7 @@
                 <button type="button" id="btn-cencel-foto" class="col-12 btn btn-sm btn-outline-danger" hidden><i class="fa-solid fa-xmark"></i> Batal</button>
             </div>
             <div class="col-6">
-                <button type="button" id="btn-add-foto" class="col-12 btn btn-sm btn-outline-primary float-right"><i class="fa-solid fa-plus"></i> Tambah foto</button>
+                <button type="button" id="btn-add-foto-tipe" class="col-12 btn btn-sm btn-outline-primary float-right"><i class="fa-solid fa-plus"></i> Tambah foto</button>
                 <button type="button" id="btn-save-foto" class="col-12 btn btn-sm btn-outline-success float-right" value="save" hidden><i class="fa-solid fa-cloud-arrow-up"></i> Simpan foto</button>
             </div>
         </div>
@@ -83,14 +83,14 @@
 
 <script>
     $('#btn-save-foto, #btn-cencel-foto, #form-add-foto, #btn-delete-foto-tipe').removeAttr('hidden', true).hide();
-    $('#btn-add-foto').click(function(e) {
+    $('#btn-add-foto-tipe').click(function(e) {
         $('#btn-cencel-foto, #form-add-foto').show();
-        $('#btn-add-foto').hide();
+        $('#btn-add-foto-tipe').hide();
         $('#btn-save-foto').val('save');
     });
     $('#btn-cencel-foto').click(function(e) {
         $('#btn-cencel-foto,#btn-save-foto, #form-add-foto').hide();
-        $('#btn-add-foto').show();
+        $('#btn-add-foto-tipe').show();
         $('#nm-foto-tipe, #label-foto').val('');
         $('#preview-foto-tipe').attr({
             src: ''
@@ -101,7 +101,7 @@
     });
     $('.btn-edit').click(function(e) {
         $('#btn-save-foto').val('edit');
-        $('#btn-add-foto').hide();
+        $('#btn-add-foto-tipe').hide();
         $('#btn-cencel-foto, #form-add-foto').show();
         $('#preview-foto-tipe').attr({
             src: '<?php echo base_url('upload'); ?>/' + $(this).data('foto-tipe')

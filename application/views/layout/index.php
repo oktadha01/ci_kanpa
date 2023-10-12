@@ -267,6 +267,12 @@ include_once 'footer.php';
         file.trigger("click");
         // alert('ya')
     });
+    $(document).on("click", ".pilih-foto-btn", function() {
+        // $('#nm-foto-btn').val($(this).data('foto-btn'));
+        var file = $(this).parents().find(".foto-btn");
+        file.trigger("click");
+        // alert('ya')
+    });
 
     function footerToggle(footerBtn) {
         $(footerBtn).toggleClass("btnActive");

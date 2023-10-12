@@ -44,19 +44,57 @@ class Berita extends CI_Controller
     }
     function add_content()
     {
-        $data = array(
+        $config['upload_path'] = "./upload/";
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['encrypt_name'] = TRUE;
+        $this->load->library('upload', $config);
 
-            'berita_id' => $this->input->post('id-berita'),
-            'text_berita' => $this->input->post('text-berita'),
-        );
+        if ($this->upload->do_upload("file-foto-btn")) {
+            $data = array('upload_data' => $this->upload->data());
+            $file_foto_btn = $data['upload_data']['file_name'];
+            // $uploadedImage = $this->upload->data();
+            $data = array(
+
+                'berita_id' => $this->input->post('id-berita'),
+                'text_berita' => $this->input->post('text-berita'),
+                'file_foto_btn' => $file_foto_btn,
+                'link_btn' => $this->input->post('link-btn'),
+            );
+        } else {
+            $data = array(
+
+                'berita_id' => $this->input->post('id-berita'),
+                'text_berita' => $this->input->post('text-berita'),
+                // 'file_foto_btn' => $file_foto_btn,
+                // 'link_btn' => $this->input->post('link-btn'),
+            );
+        }
         $insert = $this->m_berita->m_add_content($data);
         echo json_encode($insert);
     }
     function edit_content()
     {
-        $id_data_berita = $this->input->post('id-data-berita');
-        $text_berita = $this->input->post('text-berita');
-        $updeta = $this->m_berita->m_edit_content($id_data_berita, $text_berita);
+        $config['upload_path'] = "./upload/";
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['encrypt_name'] = TRUE;
+        $this->load->library('upload', $config);
+        if ($this->upload->do_upload("file-foto-btn")) {
+            $data = array('upload_data' => $this->upload->data());
+            $file_foto_btn = $data['upload_data']['file_name'];
+            $id_data_berita = $this->input->post('id-data-berita');
+            $text_berita = $this->input->post('text-berita');
+            $link_btn = $this->input->post('link-btn');
+        } else {
+            $id_data_berita = $this->input->post('id-data-berita');
+            $text_berita = $this->input->post('text-berita');
+            $link_btn = $this->input->post('link-btn');
+        }
+        $foto_lama = $this->input->post('foto-btn-lama');
+        if ($foto_lama == '') {
+        } else {
+            unlink('./upload/' . $foto_lama);
+        }
+        $updeta = $this->m_berita->m_edit_content($id_data_berita, $text_berita, $file_foto_btn, $link_btn);
         echo json_encode($updeta);
     }
     function delete_artikel()

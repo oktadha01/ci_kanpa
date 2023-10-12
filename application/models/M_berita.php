@@ -81,9 +81,11 @@ class M_berita extends CI_Model
         return $result;
     }
 
-    function m_edit_content($id_data_berita, $text_berita)
+    function m_edit_content($id_data_berita, $text_berita, $file_foto_btn, $link_btn)
     {
         $update = $this->db->set('text_berita', $text_berita)
+            ->set('file_foto_btn', $file_foto_btn)
+            ->set('link_btn', $link_btn)
             ->where('id_data_berita', $id_data_berita)
             ->update('data_berita');
         return $update;

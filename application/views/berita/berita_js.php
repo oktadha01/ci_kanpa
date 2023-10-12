@@ -82,6 +82,7 @@
     $('.btn-simpan-berita').click(function(e) {
         var action = $('.btn-simpan-berita').val();
         const foto_berita = $('#file-foto-berita').prop('files')[0];
+        const foto_btn = $('#file-foto-btn').prop('files')[0];
         let formData = new FormData();
         formData.append('id-berita', $('#id-berita').val());
         formData.append('id-data-berita', $('#id-data-berita').val());
@@ -93,6 +94,9 @@
         formData.append('tag-berita', $('#tag-berita').val());
         formData.append('foto-berita', foto_berita);
         formData.append('foto-lama', $('#foto-lama').val());
+        formData.append('file-foto-btn', foto_btn);
+        formData.append('link-btn', $('#link-btn').val());
+        formData.append('foto-btn-lama', $('#foto-btn-lama').val());
         if (action == 'simpan') {
             $.ajax({
                 type: 'POST',
@@ -105,23 +109,6 @@
                     alert('berhasil')
                     load_data_berita();
                     select_tag();
-                    form_default();
-                },
-                error: function() {
-                    alert("Data Gagal Diupload");
-                }
-            });
-        } else if (action == 'add-content') {
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('berita/add_content'); ?>",
-                data: formData,
-                cache: false,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    alert('Data berhasil di simpan')
-                    load_data_content_berita();
                     form_default();
                 },
                 error: function() {
@@ -147,8 +134,24 @@
                     alert("Data Gagal Diupload");
                 }
             });
-            
-        } else if(action == 'edit-content'){
+        } else if (action == 'add-content') {
+            $.ajax({
+                type: 'POST',
+                url: "<?php echo site_url('berita/add_content'); ?>",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    load_data_content_berita();
+                    form_default();
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+
+        } else if (action == 'edit-content') {
             // alert('edit');
             $.ajax({
                 type: 'POST',
@@ -159,8 +162,8 @@
                 contentType: false,
                 success: function(data) {
                     // alert(data)
-                    load_data_berita();
-                    select_tag();
+                    alert('Data berhasil di edit')
+                    load_data_content_berita();
                     form_default();
                 },
                 error: function() {
@@ -173,6 +176,7 @@
 
         form_default();
     });
+
     $('.filter').click(function() {
         $('#filter').val($(this).data('filter'))
         load_data_berita();
@@ -187,16 +191,43 @@
         })
     });
 
+    $('#file-foto-btn').change(function(e) {
+        var fileName = e.target.files[0].name;
+        $("#nm-foto-btn").val(fileName);
+
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            // get loaded data and render thumbnail.
+            document.getElementById("preview-foto-btn").src = e.target.result;
+            $('#btn-delete-foto-btn').show();
+            $('#btn-pilih-foto-btn').hide();
+        };
+        // read the image file as a data URL.
+        reader.readAsDataURL(this.files[0]);
+    });
+
+    $('#btn-delete-foto-btn').click(function() {
+
+        document.getElementById("preview-foto-btn").src = '';
+        $('#btn-delete-foto-btn').hide();
+        $('#btn-pilih-foto-btn').show();
+        $('#file-foto-btn, #nm-foto-btn, #link-btn').val('');
+        $('#foto-btn-lama').val($(this).val());
+    });
+
     function form_default() {
         // alert('ya');
         $('.btn-simpan-berita').val('simpan');
         $('.btn-simpan-berita, .btn-batal-berita').attr('hidden', true);
         $('#form-berita, #content-berita').attr('hidden', true);
         $('.btn-tambah-berita').removeAttr('hidden', true);
-        $('#judul-berita,#tgl-berita,#desk-berita,#file-foto-berita,#nm-foto-berita').val('');
+        $('#judul-berita,#tgl-berita,#desk-berita,#file-foto-berita,#nm-foto-berita, #nm-foto-btn, #link-btn').val('');
         $("#code_preview0").code('');
 
         $('#preview-foto-berita').attr({
+            src: ''
+        });
+        $('#preview-foto-btn').attr({
             src: ''
         });
         $('#ceklis-ubah-foto-berita').prop('checked', false);

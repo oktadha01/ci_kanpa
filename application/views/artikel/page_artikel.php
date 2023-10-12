@@ -246,6 +246,11 @@
                                         ?>
                                     </div>
                                     <?php echo $desk->text_berita; ?>
+                                    <center>
+                                        <a href="<?= $desk->link_btn; ?>" target="_blank">
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $desk->file_foto_btn; ?>" class="img-fluid" alt="" style="width: 25rem;">
+                                        </a>
+                                    </center>
                                     <!-- <p class="text-konten-news"><?php echo $data->desk_berita; ?></p> -->
                             <?php
                                 } else {
@@ -394,5 +399,5 @@
     </div>
 </section>
 <script>
-    
+
 </script>

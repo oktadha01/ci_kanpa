@@ -1,6 +1,6 @@
 <style>
     .note-editor {
-        margin-bottom: 5rem !important;
+        margin-bottom: 1rem !important;
     }
 
     .btn-group-sm>.btn,
@@ -227,6 +227,28 @@
                         <textarea class="form-control" id="code_preview0" name="" style="height: 300px;"></textarea>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="">Gambar</label>
+                        <div class="input-group">
+                            <input type="text" id="foto-btn-lama" class="" value="" hidden>
+                            <input type="file" id="file-foto-btn" class="foto-btn" value="" hidden>
+                            <input type="text" class="form-control pilih-foto-btn" readonly="" placeholder="Upload Gambar" id="nm-foto-btn">
+                            <div class="input-group-append">
+                                <button type="button" id="btn-pilih-foto-btn" class="pilih-foto-btn browse btn btn-dark">Pilih Foto</button>
+                                <button type="button" id="btn-delete-foto-btn" class="browse btn btn-danger" style="display: none;" value="">Hapus Foto</button>
+                            </div>
+                        </div>
+                        <label for="link-btn">Link</label>
+                        <div class="input-group">
+                            <input type="text" id="link-btn" class="form-control" value="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img id="preview-foto-btn" src="" class="img-thumbnail" style="max-height: 20rem;">
+                    </div>
+                </div>
+
             </div>
             <!-- </div> -->
         </div>
@@ -250,7 +272,6 @@
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
     <hr>
     <ul class="nav row gy-4 d-flex " role="tablist">
-
         <li class="nav-item col-12 col-md-4 col-lg-3" role="presentation">
             <a class="filter card border-card nav-link show active" data-filter="All" data-bs-toggle="tab">
                 <div class="row">
@@ -295,7 +316,6 @@
                 </div>
             </a>
         </li>
-
     </ul>
     <div id="data-berita"></div>
     <div id="script-load-count-berita"></div>

@@ -208,13 +208,18 @@ foreach ($data_artikel_berita as $data) {
         </div>
         <hr>
         <span class="text-berita<?php echo $data->id_data_berita; ?>"><?php echo $data->text_berita; ?></span>
+        <center>
+            <a href="<?= $data->link_btn; ?>" target="_blank">
+                <img src="<?php echo base_url('upload'); ?>/<?php echo $data->file_foto_btn; ?>" class="img-fluid" alt="" style="width: 25rem;">
+            </a>
+        </center>
         <hr>
         <div class="row">
             <div class="col-6">
                 <button type="button" class="btn-hapus-catatan btn btn-sm btn-outline-danger" data-id-data-berita="<?php echo $data->id_data_berita; ?>"><i class="fa-regular fa-pen-to-square"></i> Hapus Catatan</button>
             </div>
             <div class="col-6">
-                <button type="button" class="btn-edit-catatan float-right btn btn-sm btn-outline-warning" data-id-data-berita="<?php echo $data->id_data_berita; ?>"><i class="fa-regular fa-pen-to-square"></i> Edit Catatan</button>
+                <button type="button" class="btn-edit-catatan float-right btn btn-sm btn-outline-warning" data-id-data-berita="<?php echo $data->id_data_berita; ?>" data-file-foto-btn="<?= $data->file_foto_btn; ?>" data-link-btn="<?= $data->link_btn; ?>"><i class="fa-regular fa-pen-to-square"></i> Edit Catatan</button>
             </div>
         </div>
     </div>
@@ -298,6 +303,25 @@ foreach ($data_artikel_berita as $data) {
         $('.btn-simpan-berita').val('edit-content');
         $('#id-data-berita').val($(this).data('id-data-berita'));
         $("#code_preview0").code($('.text-berita' + $(this).data('id-data-berita')).code());
+        if ($(this).data('file-foto-btn') == '') {
+
+            $('#link-btn').val('');
+            $('#nm-foto-btn, #foto-btn-lama').val('');
+            $('#preview-foto-btn').attr({
+                src: ''
+            });
+            $('#btn-delete-foto-btn').hide();
+            $('#btn-pilih-foto-btn').show();
+        } else {
+            $('#link-btn').val($(this).data('link-btn'));
+            $('#nm-foto-btn, #btn-delete-foto-btn').val($(this).data('file-foto-btn'));
+            $('#preview-foto-btn').attr({
+                src: '<?= base_url('upload/'); ?>' + $(this).data('file-foto-btn')
+            });
+            $('#btn-delete-foto-btn').show();
+            $('#btn-pilih-foto-btn').hide();
+
+        }
         const element = document.getElementById("page");
         element.scrollIntoView();
     });

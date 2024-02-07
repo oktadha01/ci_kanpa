@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1703737006;s:3:"ttl";i:604800;s:4:"data";s:29674:"
+a:3:{s:4:"time";i:1703737024;s:3:"ttl";i:604800;s:4:"data";s:36033:"
 text/x-generic index.php ( HTML document, ASCII text, with very long lines )
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +6,7 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
 <head>
     <meta charset="utf-8">
     <title>
-        Data Perumahan    </title>
+        Marketing    </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" /> -->
     <meta name="google-site-verification" content="7i4MFwx9o5niYM8_5w-uzOuKetBLUFMogGH7c0YpjHY" />
@@ -162,109 +162,130 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
 
         <main id="main" class="pt-5rem">
     <div class="m-3 mt-4">
-        <div class="row">
-            <div class="col-lg-9">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <div class="row">
-                            <div class="col-lg-6 col-8">
-                                <label for="nm-perum">Nama Perumahan</label>
-                                <div class="form-group">
-                                    <input type="text" id="nm-perum" class="form-control" name="nm_perum" placeholder="Nama Perumahan ..." autocomplete="off" required="true">
-                                </div>
+        <div id="add-marketing" class="row" hidden>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 mt-2">
+                    <label for="nm-marketing">Nama</label>
+                    <div class="form-group">
+                        <input type="text" id="nm-marketing" class="form-control" placeholder="Nama ..." autocomplete="off" required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="pilih-foto-marketing">Foto marketing</label>
+                        <div class="input-group">
+                            <input type="file" id="file-foto-marketing" class="file-marketing" value="" hidden>
+                            <input type="text" class="form-control" disabled placeholder="Upload Gambar" id="nm-foto-marketing">
+                            <div class="input-group-append">
+                                <button type="button" id="" class="pilih-marketing browse btn btn-dark">Pilih Gambar</button>
                             </div>
-                            <div class="col-lg-6 col-4">
-                                <label for="kode-perum">Kode</label>
-                                <div class="form-group">
-                                    <input type="text" id="kode-perum" class="form-control" placeholder="Kode Perumahan ..." autocomplete="off" required="true">
-                                </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="pilih-foto-marketing-header">Foto header</label>
+                        <div class="input-group">
+                            <input type="file" id="file-foto-marketing-header" class="file-marketing-header" value="" hidden>
+                            <input type="text" class="form-control" disabled placeholder="Upload Gambar" id="nm-foto-marketing-header">
+                            <div class="input-group-append">
+                                <button type="button" id="" class="pilih-marketing-header browse btn btn-dark">Pilih Gambar</button>
                             </div>
-                            <div class="col-lg-6"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="alamat">Alamat</label>
-                        <div class="form-group">
-                            <input type="text" id="alamat" class="form-control" name="alamat" placeholder="Alamat Perumahan ..." autocomplete="off" required value="">
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="video">Video</label>
-                        <div class="form-group">
-                            <textarea type="text" id="video" class="form-control" name="video" rows="2" placeholder="URL KEY Video  ..." autocomplete="off" required value=""></textarea>
+                <div class="col-lg-6 col-12 pt-4">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 pt-4">
+                            <div class="form-group">
+                                <img src="" id="preview-foto-marketing" class="pilih-marketing img-thumbnail img-fluid">
+                                <input type="text" id="foto-lama">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="url-map">URL Google Maps</label>
-                        <div class="form-group">
-                            <textarea type="text" id="url-map" class="form-control" name="url_map" rows="2" placeholder="URL GOOGLE Map  ..." autocomplete="off" required value=""></textarea>
+                        <div class="col-lg-6 col-12 pt-4">
+                            <div class="form-group">
+                                <img src="" id="preview-foto-marketing-header" class="pilih-marketing-heaedr img-thumbnail img-fluid">
+                                <input type="text" id="foto-lama-header">
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="map">KEY Google Maps</label>
-                        <div class="form-group">
-                            <textarea id="map" class="form-control" name="map" rows="2" placeholder="URL KEY Map  ..." autocomplete="off" required value=""></textarea>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="deskripsi">Deskripsi</label>
-                        <div class="form-group">
-                            <textarea type="text" id="deskripsi" class="form-control" name="deskripsi" rows="2" placeholder="Deskripsi ..." autocomplete="off" required value=""></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <label for="meta-deskripsi">Meta Deskripsi</label>
-                        <div class="form-group">
-                            <textarea type="text" id="meta-deskripsi" class="form-control" name="deskripsi" rows="2" placeholder="Meta Deskripsi ..." autocomplete="off" required value=""></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 mt-2">
-                        <div class="form-group">
-                            <label for="pilih-foto-logo">Gambar logo</label>
-                            <div class="input-group">
-                                <input type="file" id="file-foto-logo" name="logo" class="file-logo" value="" hidden>
-                                <input type="text" class="form-control" disabled placeholder="Upload Gambar" id="nm-foto-logo">
-                                <div class="input-group-append">
-                                    <button type="button" id="" class="pilih-logo browse btn btn-dark">Pilih Gambar</button>
-                                </div>
+                        <div id="ceklis-ubah-marketing" class="form-group" hidden>
+                            <div class="custom-control custom-checkbox">
+                                <input class="custom-control-input" type="checkbox" id="ceklis-ubah-foto-marketing" value="">
+                                <label for="ceklis-ubah-foto-marketing" class="custom-control-label">Cheklis untuk mengubah foto</label>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 pt-4">
+        </div>
+        <div id="add-marketperum" class="row">
+            <div class="col">
+                <label>Pilih Perumahan</label>
+                <select id="marketperum" class="js-states form-control">
+                                            <option value="1">Bukit Permai 1</option>
+                                            <option value="2">Bukit Permai 2</option>
+                                            <option value="3">Alton Green House</option>
+                                            <option value="4">Alton Town House</option>
+                                            <option value="5">Griya Kautsar</option>
+                                            <option value="6">Griya Kanzu Sukoharjo</option>
+                                            <option value="7">Griya kanzu Klaten</option>
+                                            <option value="8">Griya Kanzu Madiun</option>
+                                    </select>
+                <label for="bitly">Url Bitly</label>
                 <div class="form-group">
-                    <img src="" id="preview-foto-logo" class=" img-thumbnail img-fluid">
-                    <input type="text" id="logo-lama" hidden>
-                </div>
-                <div id="ceklis-ubah-logo" class="form-group" hidden>
-                    <div class="custom-control custom-checkbox">
-                        <input class="custom-control-input" type="checkbox" id="ceklis-ubah-foto-logo" value="">
-                        <label for="ceklis-ubah-foto-logo" class="custom-control-label">Cheklis untuk mengubah foto</label>
-                    </div>
+                    <input type="text" id="bitly" class="form-control" placeholder="Url Bitly ..." autocomplete="off" required="true">
                 </div>
             </div>
         </div>
         <div class="row mt-2">
             <div class="col-6">
-                <a id="herf-batal" href="#main" hidden>
-                    <button type="button" class="btn-batal-perum btn btn-sm btn-outline-danger"><i class="fa-regular fa-pen-to-square"></i> Batal</button>
+                <a href="#main">
+                    <button type="button" id="btn-batal-marketing" class="btn btn-sm btn-outline-danger" hidden><i class="fa-solid fa-xmark fa-beat"></i> Batal</button>
                 </a>
             </div>
             <div class="col-6">
                 <a id="herf-simpan" href="#main">
-                    <button type="button" class="btn-simpan-perum btn btn-sm float-right btn-outline-success" value="simpan"><i class="fa-regular fa-pen-to-square"></i> Simpan data perum</button>
+                    <button type="button" id="btn-add-marketing" class="btn btn-sm float-right btn-outline-info"><i class="fa-solid fa-plus fa-beat"></i> Add data marketing</button>
+                    <button type="button" id="btn-simpan-marketing" class="btn btn-sm float-right btn-outline-success" value="simpan" hidden><i class="fa-regular fa-pen-to-square"></i> Simpan data perum</button>
                 </a>
             </div>
         </div>
         <hr>
         <div id="data-perum"></div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <label>Pilih Marketing</label>
+                <select id="select-marketing" class="js-states form-control">
+                                                <option value="8">Maharani</option>
+                                                <option value="9">Fajar</option>
+                                                <option value="11">Ananta</option>
+                                                <option value="12">Restu</option>
+                                                <option value="13">Ira Susanti</option>
+                                                <option value="14">Nasmoco</option>
+                                        <option value="0">Others</option>
+                </select>
+                <div class="form-group">
+                    <label for="pilih-foto-st">Foto Serah Terima</label>
+                    <div class="input-group">
+                        <input type="file" id="file-foto-st" class="file-st" value="" hidden>
+                        <input type="text" class="form-control" disabled placeholder="Upload Gambar" id="nm-foto-st">
+                        <div class="input-group-append">
+                            <button type="button" id="" class="pilih-foto-st browse btn btn-dark">Pilih Gambar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <img src="" id="preview-foto-st" class="pilih-foto-st img-thumbnail img-fluid" style="max-height: 11rem;">
+                    <input type="text" id="foto-lama-st" hidden>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-6">
+                <button type="button" id="btn-batal-foto" class="btn btn-sm btn-outline-danger"><i class="fa-solid fa-xmark fa-beat"></i> Batal</button>
+            </div>
+            <div class="col-6">
+                <button type="button" id="btn-simpan-foto" class="btn btn-sm float-right btn-outline-info"><i class="fa-solid fa-cloud-arrow-up fa-beat"></i> Simapan foto</button>
+            </div>
+        </div>
+        <div id="data-foto-st" class="card"></div>
     </div>
 </main>
         <style>
@@ -401,36 +422,65 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
     });
     </script>
     <script>
-    $(document).ready(function() {
-        load_data_perum();
+    $("#marketperum").select2({
+        placeholder: "Select a programming language",
+        allowClear: true
+    });
+    load_data_perum();
+    form_default();
+    load_data_foto_st();
+    $('#btn-add-marketing').click(function(e) {
+        $('#add-marketing, #btn-simpan-marketing, #btn-batal-marketing').show();
+        $('#btn-add-marketing').hide();
+        $('#btn-simpan-marketing').val('marketing');
+    });
+    $('#btn-batal-marketing').click(function(e) {
+        form_default();
     });
 
-    $('.btn-simpan-perum').click(function(e) {
-        var action = $('.btn-simpan-perum').val();
-        const logo = $('#file-foto-logo').prop('files')[0];
-        let formData = new FormData();
-        formData.append('id-perum', $('#id-perum').val());
-        formData.append('nm-perum', $('#nm-perum').val());
-        formData.append('kode-perum', $('#kode-perum').val());
-        formData.append('alamat', $('#alamat').val());
-        formData.append('url-map', $('#url-map').val());
-        formData.append('map', $('#map').val());
-        formData.append('deskripsi', $('#deskripsi').val());
-        formData.append('meta-deskripsi', $('#meta-deskripsi').val());
-        formData.append('logo', logo);
-        formData.append('video', $('#video').val());
-        formData.append('ubah-logo', $('#ceklis-ubah-foto-logo').val());
-        formData.append('logo-lama', $('#logo-lama').val());
-        if (action == 'simpan') {
+    $('#btn-simpan-marketing').click(function(e) {
+        var action = $('#btn-simpan-marketing').val();
+        if (action == 'marketing') {
+            const marketing = $('#file-foto-marketing').prop('files')[0];
+            const foto_header = $('#file-foto-marketing-header').prop('files')[0];
+            let formData = new FormData();
+            formData.append('nm-marketing', $('#nm-marketing').val());
+            formData.append('foto-marketing', marketing);
+            formData.append('foto-header', foto_header);
             $.ajax({
                 type: 'POST',
-                url: "http://localhost/kanpa_ci/index.php/perum/simpan_perum",
+                url: "http://localhost/kanpa_ci/index.php/marketing/simpan_data_marketing",
                 data: formData,
                 cache: false,
                 processData: false,
                 contentType: false,
                 success: function(data) {
-                    alert('berhasil')
+                    // alert('berhasil')
+                    form_default();
+                    load_data_perum();
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+
+
+        } else if (action == 'marketperum') {
+            var perum = $("#marketperum").find(':selected').val();
+            // alert(perum);
+            let formData = new FormData();
+            formData.append('id-marketing', $('#id-marketing').val());
+            formData.append('bitly', $('#bitly').val());
+            formData.append('id-perum', perum);
+            $.ajax({
+                type: 'POST',
+                url: "http://localhost/kanpa_ci/index.php/marketing/simpan_data_marketperum",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    // alert('berhasil')
                     form_default();
                     load_data_perum();
                 },
@@ -439,78 +489,172 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                 }
             });
         } else if (action == 'edit') {
-            var id_perum = $('#id-perum').val();
-            // alert(id_perum);
+            // alert('edit');
+            // alert($('#nm-foto-marketing').val() + $('#foto-lama').val())
+            const marketing = $('#file-foto-marketing').prop('files')[0];
+            const foto_header = $('#file-foto-marketing-header').prop('files')[0];
+            let formData = new FormData();
+            formData.append('id-marketing', $('#id-marketing').val());
+            formData.append('nm-marketing', $('#nm-marketing').val());
+            formData.append('foto-lama-marketing', $('#foto-lama').val());
+            formData.append('nm-foto-marketing', $('#nm-foto-marketing').val());
+            formData.append('foto-lama-header', $('#foto-lama-header').val());
+            formData.append('nm-foto-marketing-header', $('#nm-foto-marketing-header').val());
+            formData.append('foto-marketing', marketing);
+            formData.append('foto-header', foto_header);
+            // formData.append('ceklis-ubah-foto-marketing', $('#ceklis-ubah-foto-marketing').val());
             $.ajax({
                 type: 'POST',
-                url: "http://localhost/kanpa_ci/index.php/perum/edit_perum",
+                url: "http://localhost/kanpa_ci/index.php/marketing/edit_data_marketing",
                 data: formData,
                 cache: false,
                 processData: false,
                 contentType: false,
-                success: function(data) {
-                    form_default();
-                    load_data_perum()
+                success: function(msg) {
+                    // alert(msg)
 
+                    form_default();
+                    load_data_perum();
                 },
                 error: function() {
                     alert("Data Gagal Diupload");
                 }
             });
         }
-    });
-    $('.btn-batal-perum').click(function(e) {
 
-        form_default()
     });
-    $('#file-foto-logo').change(function(e) {
+    $('#btn-simpan-foto').click(function(e) {
+        var id_marketing = $("#select-marketing").find(':selected').val();
+        const foto_st = $('#file-foto-st').prop('files')[0];
+        let formData = new FormData();
+        formData.append('id-marketing-st', id_marketing);
+        formData.append('foto-st', foto_st);
+        $.ajax({
+            type: 'POST',
+            url: "http://localhost/kanpa_ci/index.php/marketing/simpan_data_foto_st",
+            data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                alert('Foto berhasil di simpan')
+                form_default_st();
+                load_data_foto_st();
+            },
+            error: function() {
+                alert("Data Gagal Diupload");
+            }
+        })
+    });
+
+    $('#file-foto-marketing').change(function(e) {
         var fileName = e.target.files[0].name;
-        $("#nm-foto-logo").val(fileName);
+        $("#nm-foto-marketing").val(fileName);
 
         var reader = new FileReader();
         reader.onload = function(e) {
             // get loaded data and render thumbnail.
-            document.getElementById("preview-foto-logo").src = e.target.result;
+            document.getElementById("preview-foto-marketing").src = e.target.result;
         };
         // read the image file as a data URL.
         reader.readAsDataURL(this.files[0]);
     });
-    $('#ceklis-ubah-foto-logo').click(function(e) {
+    $(document).on("click", ".pilih-marketing", function() {
+        var file = $(this).parents().find(".file-marketing");
+        file.trigger("click");
+    });
+    $('#file-foto-marketing-header').change(function(e) {
+        var fileName = e.target.files[0].name;
+        $("#nm-foto-marketing-header").val(fileName);
+
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            // get loaded data and render thumbnail.
+            document.getElementById("preview-foto-marketing-header").src = e.target.result;
+        };
+        // read the image file as a data URL.
+        reader.readAsDataURL(this.files[0]);
+    });
+    $(document).on("click", ".pilih-marketing-header", function() {
+        var file = $(this).parents().find(".file-marketing-header");
+        file.trigger("click");
+    });
+
+    $('#file-foto-st').change(function(e) {
+
+        var fileName = e.target.files[0].name;
+        $("#nm-foto-st").val(fileName);
+
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            // get loaded data and render thumbnail.
+            document.getElementById("preview-foto-st").src = e.target.result;
+        };
+        // read the image file as a data URL.
+        reader.readAsDataURL(this.files[0]);
+    });
+
+    $(document).on("click", ".pilih-foto-st", function() {
+        var file = $(this).parents().find(".file-st");
+        file.trigger("click");
+    });
+
+    $('#ceklis-ubah-foto-marketing').click(function(e) {
         if ($(this).is(":checked")) {
-            $('#ceklis-ubah-foto-logo').val('change-logo');
+            $('#ceklis-ubah-foto-marketing').val('change-foto-marketing');
         } else {
-            $('#ceklis-ubah-foto-logo').val('');
+            $('#ceklis-ubah-foto-marketing').val('');
         }
     });
 
     function form_default() {
-        $('.btn-simpan-perum').val('simpan');
-        $('#id-perum').val('');
-        $('#nm-perum').val('');
-        $('#kode-perum').val('');
-        $('#alamat').val('');
-        $('#url-map').val('');
-        $('#map').val('');
-        $('#deskripsi').val('');
-        $('#meta-deskripsi').val('');
-        $('#video').val('');
-        $('#preview-foto-logo').attr({
+        $('.btn-simpan-marketing').val('simpan');
+        $('#add-marketing, #add-marketperum, #btn-simpan-marketing, #btn-batal-marketing').removeAttr('hidden', true).hide();
+        $('#btn-add-marketing').show();
+
+        $('#id-marketing,#nm-marketing').val('');
+        $('#preview-foto-marketing').attr({
             src: ''
         });
-        $('#ceklis-ubah-foto-logo').prop('checked', false);
-        $('#herf-batal , #ceklis-ubah-logo').attr('hidden', true);
+        $('#ceklis-ubah-foto-marketing').prop('checked', false);
+        $('.btn-batal-marketing').attr('hidden', true);
+        $('#ceklis-ubah-marketing').attr('hidden', true);
+    }
+
+    function form_default_st() {
+        $('#preview-foto-st').attr({
+            src: ''
+        });
     }
 
     function load_data_perum() {
         $.ajax({
             // type: 'POST',
-            url: "http://localhost/kanpa_ci/index.php/perum/data_perum",
+            url: "http://localhost/kanpa_ci/index.php/Marketing/data_marketing",
             // data: formData,
             cache: false,
             processData: false,
             contentType: false,
             success: function(data) {
                 $('#data-perum').html(data);
+
+            },
+            error: function() {
+                alert("Data Gagal Diupload");
+            }
+        });
+    }
+
+    function load_data_foto_st() {
+        $.ajax({
+            // type: 'POST',
+            url: "http://localhost/kanpa_ci/index.php/Marketing/data_foto_st",
+            // data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                $('#data-foto-st').html(data);
 
             },
             error: function() {

@@ -1,4 +1,6 @@
-a:3:{s:4:"time";i:1689047031;s:3:"ttl";i:604800;s:4:"data";s:66469:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1703737017;s:3:"ttl";i:604800;s:4:"data";s:66794:"
+text/x-generic index.php ( HTML document, ASCII text, with very long lines )
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -89,7 +91,7 @@ a:3:{s:4:"time";i:1689047031;s:3:"ttl";i:604800;s:4:"data";s:66469:"<!DOCTYPE ht
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
             <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contac</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contact</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -659,7 +661,7 @@ a:3:{s:4:"time";i:1689047031;s:3:"ttl";i:604800;s:4:"data";s:66469:"<!DOCTYPE ht
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Kantor Penjualan</h4>
-				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Bar., Kabupaten Semarang, Jawa Tengah 50518</h6>
+				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Barat Kabupaten Semarang, Jawa Tengah 50518</h6>
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Info Kontak</h4>
@@ -1165,6 +1167,12 @@ a:3:{s:4:"time";i:1689047031;s:3:"ttl";i:604800;s:4:"data";s:66469:"<!DOCTYPE ht
     });
     $(document).on("click", "#btn-add-foto", function() {
         var file = $(this).parents().find(".file-header-perum");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-foto-btn", function() {
+        // $('#nm-foto-btn').val($(this).data('foto-btn'));
+        var file = $(this).parents().find(".foto-btn");
         file.trigger("click");
         // alert('ya')
     });

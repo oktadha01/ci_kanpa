@@ -1,0 +1,458 @@
+a:3:{s:4:"time";i:1703737025;s:3:"ttl";i:604800;s:4:"data";s:32856:"<div class="faq">
+    <div class="" data-aos="fade-up">
+        <div class="row">
+            <div class="accordion accordion-flush" id="faqlist">
+                <table class="table">
+                    <thead class="table__thead">
+                        <tr>
+                            <th class="table__th">NAMA</th>
+                            <th class="table__th">MARKETING PERUMAHAN</th>
+                            <th class="table__th"></th>
+                        </tr>
+                    </thead>
+                    <tbody class="table__tbody">
+                                                    <tr class="table-row table-row--chris">
+                                <td class="table-row__td">
+                                    <div class="table-row__img">
+                                        <img src="http://localhost/kanpa_ci/upload/356042f2a305bcdb0e9421640a57c604.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Maharani</p>
+                                    </div>
+                                </td>
+                                <td class="table-row__td">
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-14" data-id-market="14" value="aktif">
+                                                <a href="https://bit.ly/MaharaniKanpa" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Bukit Permai 1</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="14" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-14').val() == 'aktif') {
+                                                    $('#ceklis-aktif-14').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-14').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-25" data-id-market="25" value="aktif">
+                                                <a href="https://bit.ly/MaharaniKanpa" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Bukit Permai 2</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="25" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-25').val() == 'aktif') {
+                                                    $('#ceklis-aktif-25').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-25').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                    </td>
+                                <td class="row-td-action">
+                                    <a href="#" class="btn-add-marketperum" data-id-marketing="8">
+                                        <i class="fa-regular fa-square-plus"></i>
+                                    </a>
+                                    <a href="#" class="btn-edit" data-id-marketing="8" data-nm-marketing="Maharani" data-foto-marketing="356042f2a305bcdb0e9421640a57c604.png" data-foto-header="a4144c75e671aa0b2cea88e01989842e.jpg">
+                                        <i class="fa-solid fa-pen"></i>
+                                    </a>
+                                    <a href="#" class="btn-delete" data-id-marketing="8" data-foto-marketing="356042f2a305bcdb0e9421640a57c604.png" data-foto-header="a4144c75e671aa0b2cea88e01989842e.jpg">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                                                    <tr class="table-row table-row--chris">
+                                <td class="table-row__td">
+                                    <div class="table-row__img">
+                                        <img src="http://localhost/kanpa_ci/upload/f81eefb1fe226beb54676237982839ca.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Fajar</p>
+                                    </div>
+                                </td>
+                                <td class="table-row__td">
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-15" data-id-market="15" value="aktif">
+                                                <a href="https://bit.ly/MarketingFajar" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Griya Kautsar</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="15" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-15').val() == 'aktif') {
+                                                    $('#ceklis-aktif-15').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-15').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-20" data-id-market="20" value="aktif">
+                                                <a href="https://bit.ly/MarketingFajar" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Griya Kanzu Madiun</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="20" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-20').val() == 'aktif') {
+                                                    $('#ceklis-aktif-20').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-20').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                    </td>
+                                <td class="row-td-action">
+                                    <a href="#" class="btn-add-marketperum" data-id-marketing="9">
+                                        <i class="fa-regular fa-square-plus"></i>
+                                    </a>
+                                    <a href="#" class="btn-edit" data-id-marketing="9" data-nm-marketing="Fajar" data-foto-marketing="f81eefb1fe226beb54676237982839ca.png" data-foto-header="88b3ba609b0cde24d335b6fe0f65594d.jpg">
+                                        <i class="fa-solid fa-pen"></i>
+                                    </a>
+                                    <a href="#" class="btn-delete" data-id-marketing="9" data-foto-marketing="f81eefb1fe226beb54676237982839ca.png" data-foto-header="88b3ba609b0cde24d335b6fe0f65594d.jpg">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                                                    <tr class="table-row table-row--chris">
+                                <td class="table-row__td">
+                                    <div class="table-row__img">
+                                        <img src="http://localhost/kanpa_ci/upload/c9cf15e5689f5208748c16d392bfd26a.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Customer Service</p>
+                                    </div>
+                                </td>
+                                <td class="table-row__td">
+                                                                    </td>
+                                <td class="row-td-action">
+                                    <a href="#" class="btn-add-marketperum" data-id-marketing="10">
+                                        <i class="fa-regular fa-square-plus"></i>
+                                    </a>
+                                    <a href="#" class="btn-edit" data-id-marketing="10" data-nm-marketing="Customer Service" data-foto-marketing="c9cf15e5689f5208748c16d392bfd26a.png" data-foto-header="">
+                                        <i class="fa-solid fa-pen"></i>
+                                    </a>
+                                    <a href="#" class="btn-delete" data-id-marketing="10" data-foto-marketing="c9cf15e5689f5208748c16d392bfd26a.png" data-foto-header="">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                                                    <tr class="table-row table-row--chris">
+                                <td class="table-row__td">
+                                    <div class="table-row__img">
+                                        <img src="http://localhost/kanpa_ci/upload/c36266c7127d0bccc3c6f9b13b67bba2.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Ananta</p>
+                                    </div>
+                                </td>
+                                <td class="table-row__td">
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-19" data-id-market="19" value="aktif">
+                                                <a href="https://bit.ly/SukoharjoAnanta" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Griya Kanzu Sukoharjo</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="19" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-19').val() == 'aktif') {
+                                                    $('#ceklis-aktif-19').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-19').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                    </td>
+                                <td class="row-td-action">
+                                    <a href="#" class="btn-add-marketperum" data-id-marketing="11">
+                                        <i class="fa-regular fa-square-plus"></i>
+                                    </a>
+                                    <a href="#" class="btn-edit" data-id-marketing="11" data-nm-marketing="Ananta" data-foto-marketing="c36266c7127d0bccc3c6f9b13b67bba2.png" data-foto-header="4269ec37db064295458cc71b9525b9ff.jpg">
+                                        <i class="fa-solid fa-pen"></i>
+                                    </a>
+                                    <a href="#" class="btn-delete" data-id-marketing="11" data-foto-marketing="c36266c7127d0bccc3c6f9b13b67bba2.png" data-foto-header="4269ec37db064295458cc71b9525b9ff.jpg">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                                                    <tr class="table-row table-row--chris">
+                                <td class="table-row__td">
+                                    <div class="table-row__img">
+                                        <img src="http://localhost/kanpa_ci/upload/f9eb8b6180a7d5f9cef57eeeb5dd7f75.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Restu</p>
+                                    </div>
+                                </td>
+                                <td class="table-row__td">
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-18" data-id-market="18" value="aktif">
+                                                <a href="https://bit.ly/marketingbukitpermai" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Bukit Permai 2</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="18" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-18').val() == 'aktif') {
+                                                    $('#ceklis-aktif-18').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-18').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-23" data-id-market="23" value="aktif">
+                                                <a href="https://bit.ly/MarketingAGHRestu" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Alton Green House</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="23" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-23').val() == 'aktif') {
+                                                    $('#ceklis-aktif-23').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-23').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-24" data-id-market="24" value="aktif">
+                                                <a href="https://bit.ly/MarketingATHRestu" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Alton Town House</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="24" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-24').val() == 'aktif') {
+                                                    $('#ceklis-aktif-24').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-24').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                    </td>
+                                <td class="row-td-action">
+                                    <a href="#" class="btn-add-marketperum" data-id-marketing="12">
+                                        <i class="fa-regular fa-square-plus"></i>
+                                    </a>
+                                    <a href="#" class="btn-edit" data-id-marketing="12" data-nm-marketing="Restu" data-foto-marketing="f9eb8b6180a7d5f9cef57eeeb5dd7f75.png" data-foto-header="024fa0343866b36e42689ed25ab38d65.jpg">
+                                        <i class="fa-solid fa-pen"></i>
+                                    </a>
+                                    <a href="#" class="btn-delete" data-id-marketing="12" data-foto-marketing="f9eb8b6180a7d5f9cef57eeeb5dd7f75.png" data-foto-header="024fa0343866b36e42689ed25ab38d65.jpg">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                                                    <tr class="table-row table-row--chris">
+                                <td class="table-row__td">
+                                    <div class="table-row__img">
+                                        <img src="http://localhost/kanpa_ci/upload/cfb50d5861de4cd34f41650d5852ad0a.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Ira Susanti</p>
+                                    </div>
+                                </td>
+                                <td class="table-row__td">
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-21" data-id-market="21" value="aktif">
+                                                <a href="https://bit.ly/marketingira" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Griya Kanzu Madiun</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="21" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-21').val() == 'aktif') {
+                                                    $('#ceklis-aktif-21').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-21').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                    </td>
+                                <td class="row-td-action">
+                                    <a href="#" class="btn-add-marketperum" data-id-marketing="13">
+                                        <i class="fa-regular fa-square-plus"></i>
+                                    </a>
+                                    <a href="#" class="btn-edit" data-id-marketing="13" data-nm-marketing="Ira Susanti" data-foto-marketing="cfb50d5861de4cd34f41650d5852ad0a.png" data-foto-header="31e937a362ec3f83e3651f7863930557.jpg">
+                                        <i class="fa-solid fa-pen"></i>
+                                    </a>
+                                    <a href="#" class="btn-delete" data-id-marketing="13" data-foto-marketing="cfb50d5861de4cd34f41650d5852ad0a.png" data-foto-header="31e937a362ec3f83e3651f7863930557.jpg">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                                                    <tr class="table-row table-row--chris">
+                                <td class="table-row__td">
+                                    <div class="table-row__img">
+                                        <img src="http://localhost/kanpa_ci/upload/980a49eb5030280a1529176f49ec5e06.png" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="table-row__info">
+                                        <p class="table-row__name">Nasmoco</p>
+                                    </div>
+                                </td>
+                                <td class="table-row__td">
+                                                                                <p>
+                                                <!-- <div class="custom-control custom-checkbox"> -->
+                                                <input class="custom-control-input ceklis-aktif-marketperum" type="checkbox" id="ceklis-aktif-22" data-id-market="22" value="aktif">
+                                                <a href="https://bit.ly/marketingMoco" class="">
+                                                    <span style="padding: 4px;border: 1px solid;border-radius: 5px; margin-right: 8px;">Griya kanzu Klaten</span>
+                                                </a>
+                                                <button type="button" class="btn btn-outline-danger btn-delete-markerperum" value="" data-id-market="22" style="padding: 0px 5px !important;"><i class="fa-regular fa-trash-can"></i></button>
+                                                <!-- </div> -->
+                                            </p>
+                                            <script>
+                                                if ($('#ceklis-aktif-22').val() == 'aktif') {
+                                                    $('#ceklis-aktif-22').prop('checked', true);
+                                                } else {
+                                                    $('#ceklis-aktif-22').prop('checked', false);
+                                                }
+                                            </script>
+
+                                                                    </td>
+                                <td class="row-td-action">
+                                    <a href="#" class="btn-add-marketperum" data-id-marketing="14">
+                                        <i class="fa-regular fa-square-plus"></i>
+                                    </a>
+                                    <a href="#" class="btn-edit" data-id-marketing="14" data-nm-marketing="Nasmoco" data-foto-marketing="980a49eb5030280a1529176f49ec5e06.png" data-foto-header="5c3abfc78b32805dff97eded80a01241.jpg">
+                                        <i class="fa-solid fa-pen"></i>
+                                    </a>
+                                    <a href="#" class="btn-delete" data-id-marketing="14" data-foto-marketing="980a49eb5030280a1529176f49ec5e06.png" data-foto-header="5c3abfc78b32805dff97eded80a01241.jpg">
+                                        <i class="fa-regular fa-trash-can"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                                            </tbody>
+                </table>
+                <input type="text" id="id-marketing" value="" hidden>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('.ceklis-aktif-marketperum').click(function(e) {
+        if ($(this).is(":checked")) {
+            // profesi.push($(this).val());
+            var status = 'aktif';
+        } else {
+            var status = '';
+        }
+        let formData = new FormData();
+        formData.append('id-market', $(this).data('id-market'));
+        formData.append('status-marketperum', status);
+        $.ajax({
+            type: 'POST',
+            url: "http://localhost/kanpa_ci/index.php/marketing/switch_data_marketperum",
+            data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                // alert('berhasil')
+                // form_default();
+                // load_data_perum();
+            },
+            error: function() {
+                alert("Data Gagal Diupload");
+            }
+        });
+    });
+    $('.btn-add-marketperum').click(function(e) {
+        $('#add-marketperum, #btn-simpan-marketing, #btn-batal-marketing').show();
+        $('#btn-add-marketing, #add-marketing').hide();
+        $('#btn-simpan-marketing').val('marketperum');
+        $('#id-marketing').val($(this).data('id-marketing'));
+    });
+    $('.btn-edit').click(function(e) {
+        $('#add-marketing, #btn-simpan-marketing, #btn-batal-marketing').show();
+        $('#btn-add-marketing').hide();
+        $('#btn-simpan-marketing').val('edit');
+        $('#herf-batal, #ceklis-ubah-marketing').removeAttr('hidden', true);
+        $('.btn-simpan-perum').val('edit');
+        $('#nm-marketing').val($(this).data('nm-marketing'));
+        $('#id-marketing').val($(this).data('id-marketing'));
+        $('#foto-lama, #nm-foto-marketing').val($(this).data('foto-marketing'));
+        $('#foto-lama-header, #nm-foto-marketing-header').val($(this).data('foto-header'));
+        $('#preview-foto-marketing').attr({
+            src: 'http://localhost/kanpa_ci/upload/' + $(this).data('foto-marketing')
+        });
+        $('#preview-foto-marketing-header').attr({
+            src: 'http://localhost/kanpa_ci/upload/' + $(this).data('foto-header')
+        });
+    });
+
+    $('.btn-delete-markerperum').click(function() {
+        var el = this;
+        var confirmalert = confirm("Are you sure?");
+        if (confirmalert == true) {
+            alert($(this).data('id-market'))
+            let formData = new FormData();
+            formData.append('id-market', $(this).data('id-market'));
+            $.ajax({
+                type: 'POST',
+                url: "http://localhost/kanpa_ci/index.php/marketing/delete_data_marketperum",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(msg) {
+                    // alert('berhasil');
+                    $(el).closest('p').css('background', 'tomato');
+                    $(el).closest('p').fadeOut(300, function() {
+                        $(this).remove();
+                    });
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+        }
+    })
+    $('.btn-delete').click(function() {
+        var el = this;
+        var confirmalert = confirm("Are you sure?");
+        if (confirmalert == true) {
+            let formData = new FormData();
+            formData.append('id-marketing', $(this).data('id-marketing'));
+            formData.append('foto-lama', $(this).data('foto-marketing'));
+            $.ajax({
+                type: 'POST',
+                url: "http://localhost/kanpa_ci/index.php/marketing/delete_data_marketing",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(msg) {
+                    // alert('berhasil');
+                    $(el).closest('tr').css('background', 'tomato');
+                    $(el).closest('tr').fadeOut(300, function() {
+                        $(this).remove();
+                    });
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+        }
+    })
+</script>";}

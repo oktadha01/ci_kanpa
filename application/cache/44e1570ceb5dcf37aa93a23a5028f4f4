@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1703737006;s:3:"ttl";i:604800;s:4:"data";s:29674:"
+a:3:{s:4:"time";i:1703737008;s:3:"ttl";i:604800;s:4:"data";s:27699:"
 text/x-generic index.php ( HTML document, ASCII text, with very long lines )
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +6,7 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
 <head>
     <meta charset="utf-8">
     <title>
-        Data Perumahan    </title>
+        Data Lokasi Terdekat    </title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- <meta name="google-site-verification" content="Da0TUaYScK7AIiQsOyTgtDTpMIBgIFtz3Gb7zkltBB4" /> -->
     <meta name="google-site-verification" content="7i4MFwx9o5niYM8_5w-uzOuKetBLUFMogGH7c0YpjHY" />
@@ -161,111 +161,110 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
          </header><!-- End Header -->    <main id="page" class="ml-page">
 
         <main id="main" class="pt-5rem">
-    <div class="m-3 mt-4">
-        <div class="row">
-            <div class="col-lg-9">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <div class="row">
-                            <div class="col-lg-6 col-8">
-                                <label for="nm-perum">Nama Perumahan</label>
-                                <div class="form-group">
-                                    <input type="text" id="nm-perum" class="form-control" name="nm_perum" placeholder="Nama Perumahan ..." autocomplete="off" required="true">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-4">
-                                <label for="kode-perum">Kode</label>
-                                <div class="form-group">
-                                    <input type="text" id="kode-perum" class="form-control" placeholder="Kode Perumahan ..." autocomplete="off" required="true">
-                                </div>
-                            </div>
-                            <div class="col-lg-6"></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="alamat">Alamat</label>
-                        <div class="form-group">
-                            <input type="text" id="alamat" class="form-control" name="alamat" placeholder="Alamat Perumahan ..." autocomplete="off" required value="">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="video">Video</label>
-                        <div class="form-group">
-                            <textarea type="text" id="video" class="form-control" name="video" rows="2" placeholder="URL KEY Video  ..." autocomplete="off" required value=""></textarea>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="url-map">URL Google Maps</label>
-                        <div class="form-group">
-                            <textarea type="text" id="url-map" class="form-control" name="url_map" rows="2" placeholder="URL GOOGLE Map  ..." autocomplete="off" required value=""></textarea>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="map">KEY Google Maps</label>
-                        <div class="form-group">
-                            <textarea id="map" class="form-control" name="map" rows="2" placeholder="URL KEY Map  ..." autocomplete="off" required value=""></textarea>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-12 mt-2">
-                        <label for="deskripsi">Deskripsi</label>
-                        <div class="form-group">
-                            <textarea type="text" id="deskripsi" class="form-control" name="deskripsi" rows="2" placeholder="Deskripsi ..." autocomplete="off" required value=""></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <label for="meta-deskripsi">Meta Deskripsi</label>
-                        <div class="form-group">
-                            <textarea type="text" id="meta-deskripsi" class="form-control" name="deskripsi" rows="2" placeholder="Meta Deskripsi ..." autocomplete="off" required value=""></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 mt-2">
-                        <div class="form-group">
-                            <label for="pilih-foto-logo">Gambar logo</label>
-                            <div class="input-group">
-                                <input type="file" id="file-foto-logo" name="logo" class="file-logo" value="" hidden>
-                                <input type="text" class="form-control" disabled placeholder="Upload Gambar" id="nm-foto-logo">
-                                <div class="input-group-append">
-                                    <button type="button" id="" class="pilih-logo browse btn btn-dark">Pilih Gambar</button>
-                                </div>
+    <div class="faq">
+        <div class="" data-aos="fade-up">
+            <div class="accordion accordion-flush" id="faqlist">
+                                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed data-perum" type="button" data-id-perum="8" data-bs-toggle="collapse" data-bs-target="#faq-content-8">
+                                <i class="bi bi-question-circle question-icon"></i>
+                                Griya Kanzu Madiun                            </button>
+                        </h3>
+                        <div id="faq-content-8" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div class="accordion-body">
+                                <div id="data8" class="data"></div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 pt-4">
-                <div class="form-group">
-                    <img src="" id="preview-foto-logo" class=" img-thumbnail img-fluid">
-                    <input type="text" id="logo-lama" hidden>
-                </div>
-                <div id="ceklis-ubah-logo" class="form-group" hidden>
-                    <div class="custom-control custom-checkbox">
-                        <input class="custom-control-input" type="checkbox" id="ceklis-ubah-foto-logo" value="">
-                        <label for="ceklis-ubah-foto-logo" class="custom-control-label">Cheklis untuk mengubah foto</label>
+                                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed data-perum" type="button" data-id-perum="7" data-bs-toggle="collapse" data-bs-target="#faq-content-7">
+                                <i class="bi bi-question-circle question-icon"></i>
+                                Griya kanzu Klaten                            </button>
+                        </h3>
+                        <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div class="accordion-body">
+                                <div id="data7" class="data"></div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed data-perum" type="button" data-id-perum="6" data-bs-toggle="collapse" data-bs-target="#faq-content-6">
+                                <i class="bi bi-question-circle question-icon"></i>
+                                Griya Kanzu Sukoharjo                            </button>
+                        </h3>
+                        <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div class="accordion-body">
+                                <div id="data6" class="data"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed data-perum" type="button" data-id-perum="5" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                                <i class="bi bi-question-circle question-icon"></i>
+                                Griya Kautsar                            </button>
+                        </h3>
+                        <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div class="accordion-body">
+                                <div id="data5" class="data"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed data-perum" type="button" data-id-perum="4" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                                <i class="bi bi-question-circle question-icon"></i>
+                                Alton Town House                            </button>
+                        </h3>
+                        <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div class="accordion-body">
+                                <div id="data4" class="data"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed data-perum" type="button" data-id-perum="3" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                                <i class="bi bi-question-circle question-icon"></i>
+                                Alton Green House                            </button>
+                        </h3>
+                        <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div class="accordion-body">
+                                <div id="data3" class="data"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed data-perum" type="button" data-id-perum="2" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                                <i class="bi bi-question-circle question-icon"></i>
+                                Bukit Permai 2                            </button>
+                        </h3>
+                        <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div class="accordion-body">
+                                <div id="data2" class="data"></div>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed data-perum" type="button" data-id-perum="1" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                                <i class="bi bi-question-circle question-icon"></i>
+                                Bukit Permai 1                            </button>
+                        </h3>
+                        <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                            <div class="accordion-body">
+                                <div id="data1" class="data"></div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
         </div>
-        <div class="row mt-2">
-            <div class="col-6">
-                <a id="herf-batal" href="#main" hidden>
-                    <button type="button" class="btn-batal-perum btn btn-sm btn-outline-danger"><i class="fa-regular fa-pen-to-square"></i> Batal</button>
-                </a>
-            </div>
-            <div class="col-6">
-                <a id="herf-simpan" href="#main">
-                    <button type="button" class="btn-simpan-perum btn btn-sm float-right btn-outline-success" value="simpan"><i class="fa-regular fa-pen-to-square"></i> Simpan data perum</button>
-                </a>
-            </div>
-        </div>
-        <hr>
-        <div id="data-perum"></div>
     </div>
+    <input type="text" id="id-lokasi-terdekat" value="" hidden>
+    <input type="text" id="id-lokasi-terdekat-perum" value="" hidden>
 </main>
         <style>
 	.title-h4 {
@@ -401,123 +400,29 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
     });
     </script>
     <script>
-    $(document).ready(function() {
-        load_data_perum();
-    });
-
-    $('.btn-simpan-perum').click(function(e) {
-        var action = $('.btn-simpan-perum').val();
-        const logo = $('#file-foto-logo').prop('files')[0];
+    $('.data-perum').click(function() {
+        $('.data-lokasi-terdekat').hide();
+        $('.data-lokasi-terdekat').hide().html('0');
+        $('.data').removeClass('data-lokasi-terdekat')
+        $('#data' + $(this).data('id-perum')).addClass('data-lokasi-terdekat');
+        $('#id-lokasi-terdekat-perum').val($(this).data('id-perum'));
         let formData = new FormData();
-        formData.append('id-perum', $('#id-perum').val());
-        formData.append('nm-perum', $('#nm-perum').val());
-        formData.append('kode-perum', $('#kode-perum').val());
-        formData.append('alamat', $('#alamat').val());
-        formData.append('url-map', $('#url-map').val());
-        formData.append('map', $('#map').val());
-        formData.append('deskripsi', $('#deskripsi').val());
-        formData.append('meta-deskripsi', $('#meta-deskripsi').val());
-        formData.append('logo', logo);
-        formData.append('video', $('#video').val());
-        formData.append('ubah-logo', $('#ceklis-ubah-foto-logo').val());
-        formData.append('logo-lama', $('#logo-lama').val());
-        if (action == 'simpan') {
-            $.ajax({
-                type: 'POST',
-                url: "http://localhost/kanpa_ci/index.php/perum/simpan_perum",
-                data: formData,
-                cache: false,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    alert('berhasil')
-                    form_default();
-                    load_data_perum();
-                },
-                error: function() {
-                    alert("Data Gagal Diupload");
-                }
-            });
-        } else if (action == 'edit') {
-            var id_perum = $('#id-perum').val();
-            // alert(id_perum);
-            $.ajax({
-                type: 'POST',
-                url: "http://localhost/kanpa_ci/index.php/perum/edit_perum",
-                data: formData,
-                cache: false,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    form_default();
-                    load_data_perum()
-
-                },
-                error: function() {
-                    alert("Data Gagal Diupload");
-                }
-            });
-        }
-    });
-    $('.btn-batal-perum').click(function(e) {
-
-        form_default()
-    });
-    $('#file-foto-logo').change(function(e) {
-        var fileName = e.target.files[0].name;
-        $("#nm-foto-logo").val(fileName);
-
-        var reader = new FileReader();
-        reader.onload = function(e) {
-            // get loaded data and render thumbnail.
-            document.getElementById("preview-foto-logo").src = e.target.result;
-        };
-        // read the image file as a data URL.
-        reader.readAsDataURL(this.files[0]);
-    });
-    $('#ceklis-ubah-foto-logo').click(function(e) {
-        if ($(this).is(":checked")) {
-            $('#ceklis-ubah-foto-logo').val('change-logo');
-        } else {
-            $('#ceklis-ubah-foto-logo').val('');
-        }
-    });
-
-    function form_default() {
-        $('.btn-simpan-perum').val('simpan');
-        $('#id-perum').val('');
-        $('#nm-perum').val('');
-        $('#kode-perum').val('');
-        $('#alamat').val('');
-        $('#url-map').val('');
-        $('#map').val('');
-        $('#deskripsi').val('');
-        $('#meta-deskripsi').val('');
-        $('#video').val('');
-        $('#preview-foto-logo').attr({
-            src: ''
-        });
-        $('#ceklis-ubah-foto-logo').prop('checked', false);
-        $('#herf-batal , #ceklis-ubah-logo').attr('hidden', true);
-    }
-
-    function load_data_perum() {
+        formData.append('id-lokasi-terdekat-perum', $('#id-lokasi-terdekat-perum').val());
         $.ajax({
-            // type: 'POST',
-            url: "http://localhost/kanpa_ci/index.php/perum/data_perum",
-            // data: formData,
+            type: 'POST',
+            url: "http://localhost/kanpa_ci/index.php/Lokasi_terdekat/data_lokasi_terdekat_perum",
+            data: formData,
             cache: false,
             processData: false,
             contentType: false,
             success: function(data) {
-                $('#data-perum').html(data);
-
+                $('.data-lokasi-terdekat').html(data).show();
             },
             error: function() {
                 alert("Data Gagal Diupload");
             }
         });
-    }
+    })
 </script>    
     <script>
     $(document).ready(function() {

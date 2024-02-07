@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1701074427;s:3:"ttl";i:604800;s:4:"data";s:42687:"<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -89,7 +89,7 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
             <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contac</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contact</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -160,7 +160,7 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
 
         <style>
     .note-editor {
-        margin-bottom: 5rem !important;
+        margin-bottom: 1rem !important;
     }
 
     .btn-group-sm>.btn,
@@ -345,7 +345,7 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
                         <input type="text" class="form-control" id="tgl-berita" value="">
                     </div>
                 </div>
-                <label for="select-kota">Supplier</label>
+                <label for="select-kota">Tag</label>
                 <div class="form-group">
                     <select id="select-tag" class="js-states form-control col-12">
                     </select>
@@ -367,8 +367,8 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
             <div class="col-lg-6 col-md-6 col-12 mt-2">
                 <div class="form-group">
                     <img src="" id="preview-foto-berita" class=" img-thumbnail img-fluid">
-                    <input type="text" id="foto-lama">
-                    <input type="text" id="meta-foto-lama">
+                    <input type="text" id="foto-lama" hidden>
+                    <input type="text" id="meta-foto-lama" hidden>
                 </div>
                 <div id="ceklis-ubah-berita" class="form-group" hidden>
                     <div class="custom-control custom-checkbox">
@@ -387,17 +387,32 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
                         <textarea class="form-control" id="code_preview0" name="" style="height: 300px;"></textarea>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-6">
+                        <label for="">Gambar</label>
+                        <div class="input-group">
+                            <input type="text" id="foto-btn-lama" class="" value="" hidden>
+                            <input type="file" id="file-foto-btn" class="foto-btn" value="" hidden>
+                            <input type="text" class="form-control pilih-foto-btn" readonly="" placeholder="Upload Gambar" id="nm-foto-btn">
+                            <div class="input-group-append">
+                                <button type="button" id="btn-pilih-foto-btn" class="pilih-foto-btn browse btn btn-dark">Pilih Foto</button>
+                                <button type="button" id="btn-delete-foto-btn" class="browse btn btn-danger" style="display: none;" value="">Hapus Foto</button>
+                            </div>
+                        </div>
+                        <label for="link-btn">Link</label>
+                        <div class="input-group">
+                            <input type="text" id="link-btn" class="form-control" value="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <img id="preview-foto-btn" src="" class="img-thumbnail" style="max-height: 20rem;">
+                    </div>
+                </div>
+
             </div>
             <!-- </div> -->
         </div>
-        <div id="foto-berita" class="row" hidden>
-            <div class="col-12 mt-2">
-                
-                </div>
-            <div class="col-lg-3 pt-4">
-
-            </div>
-        </div>
+        <div id="foto-berita" class="row" hidden></div>
         <div class="row mt-2">
             <div class="col-6">
                 <button type="button" class="btn-batal-berita btn btn-sm btn-outline-danger" hidden><i class="fa-regular fa-pen-to-square"></i> Batal</button>
@@ -417,7 +432,6 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
     <hr>
     <ul class="nav row gy-4 d-flex " role="tablist">
-
         <li class="nav-item col-12 col-md-4 col-lg-3" role="presentation">
             <a class="filter card border-card nav-link show active" data-filter="All" data-bs-toggle="tab">
                 <div class="row">
@@ -462,7 +476,6 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
                 </div>
             </a>
         </li>
-
     </ul>
     <div id="data-berita"></div>
     <div id="script-load-count-berita"></div>
@@ -505,7 +518,7 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Kantor Penjualan</h4>
-				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Bar., Kabupaten Semarang, Jawa Tengah 50518</h6>
+				<h6 class="text-h6">Jl. Pattimura Raya, Komplek Masjid Baitut Taqwa, Mapagan, Lerep, Kec. Ungaran Barat Kabupaten Semarang, Jawa Tengah 50518</h6>
 			</div>
 			<div class="col-lg-4 col-md-4 col-12">
 				<h4 class="title-h4">Info Kontak</h4>
@@ -549,14 +562,14 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
     <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script> -->
     <!-- Daterangepicker -->
     <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script> -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script> -->
     <!-- Select2 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
     <script src="https://cdn.bootcss.com/html2pdf.js/0.9.1/html2pdf.bundle.js"></script>
     <!-- canva -->
 
-    <script src="http://localhost/kanpa_ci/assets/vendor/daterangepicker/moment.min.js"></script>
-    <script src="http://localhost/kanpa_ci/assets/vendor/daterangepicker/daterangepicker.min.js"></script>
+    <!-- <script src="http://localhost/kanpa_ci/assets/vendor/daterangepicker/moment.min.js"></script> -->
+    <!-- <script src="http://localhost/kanpa_ci/assets/vendor/daterangepicker/daterangepicker.min.js"></script> -->
     <script src="http://localhost/kanpa_ci/assets/vendor/select2-4.0.6-rc.1/dist/js/select2.min.js"></script>
     <script src="http://localhost/kanpa_ci/assets/vendor/select2-4.0.6-rc.1/dist/js/i18n/id.js"></script>
 
@@ -685,6 +698,7 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
     $('.btn-simpan-berita').click(function(e) {
         var action = $('.btn-simpan-berita').val();
         const foto_berita = $('#file-foto-berita').prop('files')[0];
+        const foto_btn = $('#file-foto-btn').prop('files')[0];
         let formData = new FormData();
         formData.append('id-berita', $('#id-berita').val());
         formData.append('id-data-berita', $('#id-data-berita').val());
@@ -696,6 +710,9 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
         formData.append('tag-berita', $('#tag-berita').val());
         formData.append('foto-berita', foto_berita);
         formData.append('foto-lama', $('#foto-lama').val());
+        formData.append('file-foto-btn', foto_btn);
+        formData.append('link-btn', $('#link-btn').val());
+        formData.append('foto-btn-lama', $('#foto-btn-lama').val());
         if (action == 'simpan') {
             $.ajax({
                 type: 'POST',
@@ -708,23 +725,6 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
                     alert('berhasil')
                     load_data_berita();
                     select_tag();
-                    form_default();
-                },
-                error: function() {
-                    alert("Data Gagal Diupload");
-                }
-            });
-        } else if (action == 'add-content') {
-            $.ajax({
-                type: 'POST',
-                url: "http://localhost/kanpa_ci/index.php/berita/add_content",
-                data: formData,
-                cache: false,
-                processData: false,
-                contentType: false,
-                success: function(data) {
-                    alert('Data berhasil di simpan')
-                    load_data_content_berita();
                     form_default();
                 },
                 error: function() {
@@ -750,13 +750,49 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
                     alert("Data Gagal Diupload");
                 }
             });
+        } else if (action == 'add-content') {
+            $.ajax({
+                type: 'POST',
+                url: "http://localhost/kanpa_ci/index.php/berita/add_content",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    load_data_content_berita();
+                    form_default();
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
 
+        } else if (action == 'edit-content') {
+            // alert('edit');
+            $.ajax({
+                type: 'POST',
+                url: "http://localhost/kanpa_ci/index.php/berita/edit_content",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(data) {
+                    // alert(data)
+                    alert('Data berhasil di edit')
+                    load_data_content_berita();
+                    form_default();
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
         }
     });
     $('.btn-batal-berita').click(function(e) {
 
         form_default();
     });
+
     $('.filter').click(function() {
         $('#filter').val($(this).data('filter'))
         load_data_berita();
@@ -771,16 +807,43 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
         })
     });
 
+    $('#file-foto-btn').change(function(e) {
+        var fileName = e.target.files[0].name;
+        $("#nm-foto-btn").val(fileName);
+
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            // get loaded data and render thumbnail.
+            document.getElementById("preview-foto-btn").src = e.target.result;
+            $('#btn-delete-foto-btn').show();
+            $('#btn-pilih-foto-btn').hide();
+        };
+        // read the image file as a data URL.
+        reader.readAsDataURL(this.files[0]);
+    });
+
+    $('#btn-delete-foto-btn').click(function() {
+
+        document.getElementById("preview-foto-btn").src = '';
+        $('#btn-delete-foto-btn').hide();
+        $('#btn-pilih-foto-btn').show();
+        $('#file-foto-btn, #nm-foto-btn, #link-btn').val('');
+        $('#foto-btn-lama').val($(this).val());
+    });
+
     function form_default() {
         // alert('ya');
         $('.btn-simpan-berita').val('simpan');
         $('.btn-simpan-berita, .btn-batal-berita').attr('hidden', true);
         $('#form-berita, #content-berita').attr('hidden', true);
         $('.btn-tambah-berita').removeAttr('hidden', true);
-        $('#judul-berita,#tgl-berita,#desk-berita,#file-foto-berita,#nm-foto-berita').val('');
+        $('#judul-berita,#tgl-berita,#desk-berita,#file-foto-berita,#nm-foto-berita, #nm-foto-btn, #link-btn').val('');
         $("#code_preview0").code('');
 
         $('#preview-foto-berita').attr({
+            src: ''
+        });
+        $('#preview-foto-btn').attr({
             src: ''
         });
         $('#ceklis-ubah-foto-berita').prop('checked', false);
@@ -906,6 +969,12 @@ a:3:{s:4:"time";i:1692930074;s:3:"ttl";i:604800;s:4:"data";s:39270:"<!DOCTYPE ht
     });
     $(document).on("click", "#btn-add-foto", function() {
         var file = $(this).parents().find(".file-header-perum");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-foto-btn", function() {
+        // $('#nm-foto-btn').val($(this).data('foto-btn'));
+        var file = $(this).parents().find(".foto-btn");
         file.trigger("click");
         // alert('ya')
     });

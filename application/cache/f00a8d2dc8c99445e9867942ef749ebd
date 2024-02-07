@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1692950329;s:3:"ttl";i:604800;s:4:"data";s:330817:"<style>
+a:3:{s:4:"time";i:1701077007;s:3:"ttl";i:604800;s:4:"data";s:311613:"<style>
     .view {
         position: absolute;
         top: 14px;
@@ -23,162 +23,6 @@ a:3:{s:4:"time";i:1692950329;s:3:"ttl";i:604800;s:4:"data";s:330817:"<style>
 <div class="faq">
     <div class="" data-aos="fade-up">
         <div class="accordion accordion-flush" id="faqlist">
-                            <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed data-berita" type="button" data-id-berita="71" data-bs-toggle="collapse" data-bs-target="#faq-content-71">
-                            <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                            <a class="view" href="http://www.google.com/search?q=5+Tips+Jitu+Memilih+Cat+Dinding+yang+Tepat+untuk+Menciptakan+Suasana+yang+Diinginkan" target="_blank" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
-                            <span id="Terindex" class="tittel71">5 Tips Jitu Memilih Cat Dinding yang Tepat untuk Menciptakan Suasana yang Diinginkan</span>
-                        </button>
-                        <h6 style="left: 59px;position: relative; display: inline-flex;">
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis71" type="checkbox" data-id-berita="71" id="ceklis-Error71" value="Error">
-                                    <label for="ceklis-Error71" class="custom-control-label" style="font-size: xx-small;">Error</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis71" type="checkbox" data-id-berita="71" id="ceklis-Permintaan71" value="Permintaan">
-                                    <label for="ceklis-Permintaan71" class="custom-control-label" style="font-size: xx-small;">Permintaan</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis71" type="checkbox" data-id-berita="71" id="ceklis-Terindex71" value="Terindex">
-                                    <label for="ceklis-Terindex71" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <a href="http://localhost/kanpa_ci/Artikel/page/5-Tips-Jitu-Memilih-Cat-Dinding-yang-Tepat-untuk-Menciptakan-Suasana-yang-Diinginkan" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <a href="#" class="btn-delete-artikel" data-id-berita="71"><i class="fa-solid fa-trash"></i></a>
-                            </div>
-                            <input type="text" id="status-berita71" value="Terindex" hidden>
-                        </h6>
-                    </h3>
-                    <div id="faq-content-71" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                        <div class="accordion-body">
-                            <!-- <img src="http://localhost/kanpa_ci/upload/42936e9a93e06c60763da3fda66f5031.jpg" alt="" class="img-fluid"> -->
-                            <div class="row mb-2 mt-3">
-                                <div class="col-12">
-                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="71" data-judul-berita="5 Tips Jitu Memilih Cat Dinding yang Tepat untuk Menciptakan Suasana yang Diinginkan" data-tgl-berita="12 June 2023" data-meta-desk="Tips memilih cat dinding yang tepat" data-tag-berita="Tips dan Trik" data-foto-berita="42936e9a93e06c60763da3fda66f5031.jpg" data-meta-foto="a112782c90ce0fc3d6fbf302b5a305dd.jpg"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
-                                </div>
-                            </div>
-                            <div id="berita-data71" class="berita"></div>
-                        </div>
-                    </div>
-                </div>
-                <script>
-                    var status = $('#status-berita71').val();
-                    $('#ceklis-' + status + 71).prop('checked', true);
-                    // $('#ceklis-display').prop('checked', true);
-                </script>
-                            <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed data-berita" type="button" data-id-berita="70" data-bs-toggle="collapse" data-bs-target="#faq-content-70">
-                            <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                            <a class="view" href="http://www.google.com/search?q=Cara+Praktis+Memaksimalkan+Ruang+Sempit+di+Rumah+dengan+Furniture+Multifungsi" target="_blank" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
-                            <span id="Terindex" class="tittel70">Cara Praktis Memaksimalkan Ruang Sempit di Rumah dengan Furniture Multifungsi</span>
-                        </button>
-                        <h6 style="left: 59px;position: relative; display: inline-flex;">
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis70" type="checkbox" data-id-berita="70" id="ceklis-Error70" value="Error">
-                                    <label for="ceklis-Error70" class="custom-control-label" style="font-size: xx-small;">Error</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis70" type="checkbox" data-id-berita="70" id="ceklis-Permintaan70" value="Permintaan">
-                                    <label for="ceklis-Permintaan70" class="custom-control-label" style="font-size: xx-small;">Permintaan</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis70" type="checkbox" data-id-berita="70" id="ceklis-Terindex70" value="Terindex">
-                                    <label for="ceklis-Terindex70" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <a href="http://localhost/kanpa_ci/Artikel/page/Cara-Praktis-Memaksimalkan-Ruang-Sempit-di-Rumah-dengan-Furniture-Multifungsi" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <a href="#" class="btn-delete-artikel" data-id-berita="70"><i class="fa-solid fa-trash"></i></a>
-                            </div>
-                            <input type="text" id="status-berita70" value="Terindex" hidden>
-                        </h6>
-                    </h3>
-                    <div id="faq-content-70" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                        <div class="accordion-body">
-                            <!-- <img src="http://localhost/kanpa_ci/upload/fc9dc3cdcdd0040aa11a5d03b54f4696.jpg" alt="" class="img-fluid"> -->
-                            <div class="row mb-2 mt-3">
-                                <div class="col-12">
-                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="70" data-judul-berita="Cara Praktis Memaksimalkan Ruang Sempit di Rumah dengan Furniture Multifungsi" data-tgl-berita="10 June 2023" data-meta-desk="Memaksimalkan ruang sempit dengan furniture multifungsi" data-tag-berita="Tips dan Trik" data-foto-berita="fc9dc3cdcdd0040aa11a5d03b54f4696.jpg" data-meta-foto="2ecf7b3b5c09a4013215766d31b8a5a6.png"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
-                                </div>
-                            </div>
-                            <div id="berita-data70" class="berita"></div>
-                        </div>
-                    </div>
-                </div>
-                <script>
-                    var status = $('#status-berita70').val();
-                    $('#ceklis-' + status + 70).prop('checked', true);
-                    // $('#ceklis-display').prop('checked', true);
-                </script>
-                            <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed data-berita" type="button" data-id-berita="69" data-bs-toggle="collapse" data-bs-target="#faq-content-69">
-                            <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                            <a class="view" href="http://www.google.com/search?q=PT+Kanzu+Permai+Abadi+Menyelenggarakan+Halal+Bihalal+untuk+Memperkuat+Tali+Silaturahmi" target="_blank" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
-                            <span id="0" class="tittel69">PT Kanzu Permai Abadi Menyelenggarakan Halal Bihalal untuk Memperkuat Tali Silaturahmi</span>
-                        </button>
-                        <h6 style="left: 59px;position: relative; display: inline-flex;">
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis69" type="checkbox" data-id-berita="69" id="ceklis-Error69" value="Error">
-                                    <label for="ceklis-Error69" class="custom-control-label" style="font-size: xx-small;">Error</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis69" type="checkbox" data-id-berita="69" id="ceklis-Permintaan69" value="Permintaan">
-                                    <label for="ceklis-Permintaan69" class="custom-control-label" style="font-size: xx-small;">Permintaan</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis69" type="checkbox" data-id-berita="69" id="ceklis-Terindex69" value="Terindex">
-                                    <label for="ceklis-Terindex69" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <a href="http://localhost/kanpa_ci/Artikel/page/PT-Kanzu-Permai-Abadi-Menyelenggarakan-Halal-Bihalal-untuk-Memperkuat-Tali-Silaturahmi" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <a href="#" class="btn-delete-artikel" data-id-berita="69"><i class="fa-solid fa-trash"></i></a>
-                            </div>
-                            <input type="text" id="status-berita69" value="0" hidden>
-                        </h6>
-                    </h3>
-                    <div id="faq-content-69" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                        <div class="accordion-body">
-                            <!-- <img src="http://localhost/kanpa_ci/upload/ec9c6fd6c7e927354423e5f2462cf27d.jpg" alt="" class="img-fluid"> -->
-                            <div class="row mb-2 mt-3">
-                                <div class="col-12">
-                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="69" data-judul-berita="PT Kanzu Permai Abadi Menyelenggarakan Halal Bihalal untuk Memperkuat Tali Silaturahmi" data-tgl-berita="29 May 2023" data-meta-desk="Halal bihalal untuk memperkuat silaturrahmi" data-tag-berita="Agenda Perusahaan" data-foto-berita="ec9c6fd6c7e927354423e5f2462cf27d.jpg" data-meta-foto="ccfc84f57f7dd59a92e75d035fd814fc.jpg"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
-                                </div>
-                            </div>
-                            <div id="berita-data69" class="berita"></div>
-                        </div>
-                    </div>
-                </div>
-                <script>
-                    var status = $('#status-berita69').val();
-                    $('#ceklis-' + status + 69).prop('checked', true);
-                    // $('#ceklis-display').prop('checked', true);
-                </script>
                             <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed data-berita" type="button" data-id-berita="68" data-bs-toggle="collapse" data-bs-target="#faq-content-68">
@@ -216,10 +60,10 @@ a:3:{s:4:"time";i:1692950329;s:3:"ttl";i:604800;s:4:"data";s:330817:"<style>
                     </h3>
                     <div id="faq-content-68" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                         <div class="accordion-body">
-                            <!-- <img src="http://localhost/kanpa_ci/upload/5235ecf22eb0903057315d87c23f67a5.jpg" alt="" class="img-fluid"> -->
+                            <!-- <img src="http://localhost/kanpa_ci/upload/0c6269125308550e09727356100cb4b9.jpg" alt="" class="img-fluid"> -->
                             <div class="row mb-2 mt-3">
                                 <div class="col-12">
-                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="68" data-judul-berita="Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman" data-tgl-berita="09 June 2023" data-meta-desk="Memilih rumah subsidi yang nyaman" data-tag-berita="Rumah Subsidi" data-foto-berita="5235ecf22eb0903057315d87c23f67a5.jpg" data-meta-foto="29f6e71caf299605792ba3b26036bdf3.jpg"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
+                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="68" data-judul-berita="Kualitas Hidup Lebih Baik dengan Hunian Subsidi yang Nyaman" data-tgl-berita="09 June 2023" data-meta-desk="Memilih rumah subsidi yang nyaman" data-tag-berita="Rumah Subsidi" data-foto-berita="0c6269125308550e09727356100cb4b9.jpg" data-meta-foto="29f6e71caf299605792ba3b26036bdf3.jpg"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
                                 </div>
                             </div>
                             <div id="berita-data68" class="berita"></div>
@@ -437,58 +281,6 @@ a:3:{s:4:"time";i:1692950329;s:3:"ttl";i:604800;s:4:"data";s:330817:"<style>
                 <script>
                     var status = $('#status-berita64').val();
                     $('#ceklis-' + status + 64).prop('checked', true);
-                    // $('#ceklis-display').prop('checked', true);
-                </script>
-                            <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="accordion-header">
-                        <button class="accordion-button collapsed data-berita" type="button" data-id-berita="63" data-bs-toggle="collapse" data-bs-target="#faq-content-63">
-                            <!-- <i class="bi bi-question-circle question-icon"></i> -->
-                            <a class="view" href="http://www.google.com/search?q=7+Tanaman+hias+outdoor+rumah+jadi+indah+minim+perawatan" target="_blank" style="margin-left: 1rem;"> <i class="fa-regular fa-eye fa-beat"></i></a>
-                            <span id="0" class="tittel63">7 Tanaman hias outdoor rumah jadi indah minim perawatan</span>
-                        </button>
-                        <h6 style="left: 59px;position: relative; display: inline-flex;">
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis63" type="checkbox" data-id-berita="63" id="ceklis-Error63" value="Error">
-                                    <label for="ceklis-Error63" class="custom-control-label" style="font-size: xx-small;">Error</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis63" type="checkbox" data-id-berita="63" id="ceklis-Permintaan63" value="Permintaan">
-                                    <label for="ceklis-Permintaan63" class="custom-control-label" style="font-size: xx-small;">Permintaan</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <div class="custom-control custom-checkbox">
-                                    <input class="custom-control-input ceklis-status-artikel ceklis63" type="checkbox" data-id-berita="63" id="ceklis-Terindex63" value="Terindex">
-                                    <label for="ceklis-Terindex63" class="custom-control-label" style="font-size: xx-small;">Terindex</label>
-                                </div>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <a href="http://localhost/kanpa_ci/Artikel/page/7-Tanaman-hias-outdoor-rumah-jadi-indah-minim-perawatan" target="_blank"><i class="fa-regular fa-copy fa-shake"></i></a>
-                            </div>
-                            <div id="" class="form-group" style="margin-right: 15px;">
-                                <a href="#" class="btn-delete-artikel" data-id-berita="63"><i class="fa-solid fa-trash"></i></a>
-                            </div>
-                            <input type="text" id="status-berita63" value="0" hidden>
-                        </h6>
-                    </h3>
-                    <div id="faq-content-63" class="accordion-collapse collapse" data-bs-parent="#faqlist">
-                        <div class="accordion-body">
-                            <!-- <img src="http://localhost/kanpa_ci/upload/0dd6dae08d622a245743d1db8f47028d.jpg" alt="" class="img-fluid"> -->
-                            <div class="row mb-2 mt-3">
-                                <div class="col-12">
-                                    <button type="button" class="btn-edit-berita col-12 btn btn-sm btn-outline-warning" data-id-berita="63" data-judul-berita="7 Tanaman hias outdoor rumah jadi indah minim perawatan" data-tgl-berita="16 May 2023" data-meta-desk=": Di ruangan besar berukuran delapan kali delapan meter dibutuhkan 16 tanaman yang dapat memberikan 75 persen udara bersih " data-tag-berita="Tips dan Trik" data-foto-berita="0dd6dae08d622a245743d1db8f47028d.jpg" data-meta-foto="8f3f87e8cf193cb19f405d4f634b3d9d.jpg"><i class="fa-regular fa-pen-to-square fa-beat"></i> Edit Berita</button>
-                                </div>
-                            </div>
-                            <div id="berita-data63" class="berita"></div>
-                        </div>
-                    </div>
-                </div>
-                <script>
-                    var status = $('#status-berita63').val();
-                    $('#ceklis-' + status + 63).prop('checked', true);
                     // $('#ceklis-display').prop('checked', true);
                 </script>
                             <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
@@ -3613,7 +3405,7 @@ Pelebaran jalan sepanjang daerah Syeh Jago ini bertujuan untuk meningkatkan ekon
         var confirmalert = confirm("Are you sure?");
 
         if (confirmalert == true) {
-            alert($(this).data('id-berita'));
+            // alert($(this).data('id-berita'));
             let formData = new FormData();
             formData.append('id-berita', $(this).data('id-berita'));
             $.ajax({
@@ -3624,8 +3416,10 @@ Pelebaran jalan sepanjang daerah Syeh Jago ini bertujuan untuk meningkatkan ekon
                 processData: false,
                 contentType: false,
                 success: function(msg) {
-                    $('.tittel' + id_berita_ceklis).attr('id', value_ceklis)
+                    // alert(msg);
                     load_count_berita()
+                    load_data_berita();
+
                 },
                 error: function() {
                     alert("Data Gagal Diupload");

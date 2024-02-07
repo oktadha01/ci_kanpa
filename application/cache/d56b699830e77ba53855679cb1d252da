@@ -1,4 +1,6 @@
-a:3:{s:4:"time";i:1697077954;s:3:"ttl";i:604800;s:4:"data";s:14331:"<!DOCTYPE html>
+a:3:{s:4:"time";i:1703736967;s:3:"ttl";i:604800;s:4:"data";s:14655:"
+text/x-generic index.php ( HTML document, ASCII text, with very long lines )
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -254,6 +256,12 @@ a:3:{s:4:"time";i:1697077954;s:3:"ttl";i:604800;s:4:"data";s:14331:"<!DOCTYPE ht
     });
     $(document).on("click", "#btn-add-foto", function() {
         var file = $(this).parents().find(".file-header-perum");
+        file.trigger("click");
+        // alert('ya')
+    });
+    $(document).on("click", ".pilih-foto-btn", function() {
+        // $('#nm-foto-btn').val($(this).data('foto-btn'));
+        var file = $(this).parents().find(".foto-btn");
         file.trigger("click");
         // alert('ya')
     });

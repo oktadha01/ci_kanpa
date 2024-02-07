@@ -4,7 +4,7 @@
                 <span><span class="font-auto size-50px">P</span><span class="font-auto size-30px">ortfolio</span></span>
             </div> -->
         <hr>
-        <div class="row">
+        <div class="row" hidden>
             <div class="col">
                 <a href="<?php echo base_url('Estimasi_harga'); ?>#estimasi-hrg">
                     <button type="button" id="" class="btn btn-sm mb-2 btn-outline-warning text-dark"> Estimasi Harga <i class="fa-solid fa-sort"></i></button>
@@ -29,23 +29,23 @@
                             foreach ($query->result() as $foto) :
                         ?>
                                 <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">
-                                        <div class="img border-r-0px" style="position: relative;">
-                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                    <div class="img border-r-0px" style="position: relative;">
+                                        <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" srcset="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 1x, <?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?> 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
-                                            <div class="label-promo"><?php echo $data->promo; ?></div>
-                                            <div class="bottom-right promo">Perumahan <?php echo $data->kategori_tipe; ?></div>
-                                        </div>
-                                    </a>
+                                        <div class="label-promo"><?php echo $data->promo; ?></div>
+                                        <div class="bottom-right promo">Perumahan <?php echo $data->kategori_tipe; ?></div>
+                                    </div>
+                                </a>
                         <?php
                             endforeach;
                         }
                         ?>
                         <div class="m-2">
-                            <span class="mb-0 font-text-port">Mulai</span>
+                            <span class="mb-0 font-text-port" hidden>Mulai</span>
                             <span class="mb-0 font-text-port float-right"><?php echo $data->view_tipe; ?> views</span>
                             <br>
-                            <a class="btn-hrg-dash" href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">Rp <?php echo $data->hrg; ?> <sub><?php echo $data->satuan_hrg; ?></sub></a>
-
+                            <a hidden class="btn-hrg-dash" href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">Rp <?php echo $data->hrg; ?> <sub><?php echo $data->satuan_hrg; ?></sub></a>
+                            <hr class="m-0">
                             <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>" style="color:black;">
                                 <h4 class="text-nm-perum mb-0"><?php echo $data->nm_perum; ?> - Tipe mulai</h4>
                             </a>

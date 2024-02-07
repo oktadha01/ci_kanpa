@@ -227,7 +227,7 @@
                             }
                             ?>
                             <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                 <?php
                                 $total_view = 0;
                                 foreach ($data_tipe as $tipe) {
@@ -250,12 +250,13 @@
                                 if ($query->num_rows() > 0) {
                                     foreach ($query->result() as $data_hrg) {
                                 ?>
-                                        <a class="btn-hrg-dash" href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data_hrg->luas_bangunan; ?>/<?php echo $data_hrg->luas_tanah; ?>">Rp
+                                        <a hidden class="btn-hrg-dash" href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data_hrg->luas_bangunan; ?>/<?php echo $data_hrg->luas_tanah; ?>">Rp
                                             <?php echo $data_hrg->hrg; ?> <sub><?php echo $data_hrg->satuan_hrg; ?></sub></a>
                                 <?php
                                     }
                                 }
                                 ?>
+                                <hr class="m-0">
                                 <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $foto->luas_bangunan; ?>/<?php echo $foto->luas_tanah; ?>" style="color:black;">
                                     <h4 class="text-nm-perum mb-0"><?php echo $data->nm_perum; ?> - Tipe mulai</h4>
                                 </a>

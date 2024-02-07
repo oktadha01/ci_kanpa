@@ -40,16 +40,17 @@
                                         }
                                         ?>
                                         <div class="m-2">
-                                            <span class="mb-0 font-text-port" style="font-size: x-small;">Mulai</span>
+                                            <span class="mb-0 font-text-port" style="font-size: x-small;" hidden>Mulai</span>
                                             <span class="mb-0 font-text-port float-right" style="font-size: x-small;"><?php echo $total_view; ?> views</span>
                                             <br>
+                                            <hr class="m-0">
                                             <?php
                                             $sql = "SELECT hrg, satuan_hrg, id_tipe, luas_bangunan, luas_tanah  FROM tipe WHERE id_tipe_perum = $id_perum ORDER BY hrg ASC limit 1";
                                             $query = $this->db->query($sql);
                                             if ($query->num_rows() > 0) {
                                                 foreach ($query->result() as $data_hrg) {
                                             ?>
-                                                    <a class="btn-hrg-dash-bs" href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data_hrg->luas_bangunan; ?>/<?php echo $data_hrg->luas_tanah; ?>">Rp <?php echo $data_hrg->hrg; ?> <sub><?php echo $data_hrg->satuan_hrg; ?></sub></a>
+                                                    <a hidden class="btn-hrg-dash-bs" href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data_hrg->luas_bangunan; ?>/<?php echo $data_hrg->luas_tanah; ?>">Rp <?php echo $data_hrg->hrg; ?> <sub><?php echo $data_hrg->satuan_hrg; ?></sub></a>
                                             <?php
                                                 }
                                             }

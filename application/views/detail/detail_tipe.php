@@ -211,7 +211,7 @@
         <?php
         foreach ($data_detail_tipe as $data) {
         ?>
-            <div class="row">
+            <div class="row" hidden>
                 <div class="col-4">
                     <a class="btn-hrg-dash" href="" style="font-family: serif;font-weight: bold;">Rp <?php echo $data->hrg; ?> <sub><?php echo $data->satuan_hrg; ?></sub></a>
                 </div>

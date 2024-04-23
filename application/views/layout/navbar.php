@@ -1,7 +1,7 @@
 <header id="header" class="header fixed-top" data-scrollto-offset="0" style="max-height: 67px !important;">
    <div id="navbar-top" class="container-fluid d-flex align-items-center justify-content-between pr-var">
 
-      <a href="https://www.instagram.com/pt.kanpa/?hl=en" class="logo d-flex align-items-center scrollto me-auto mr-0">
+      <a href="<?php echo base_url(); ?>#home" class="logo d-flex align-items-center scrollto me-auto mr-0">
          <!-- <i class="fa-brands fa-instagram" style="color: #00000085;font-size: 35px;"></i> --> 
          <img src="<?php echo base_url('assets'); ?>/img/Logo PT Fix Bingit.png" class="" alt="" style="max-height: 30px;">
       </a>

@@ -114,6 +114,20 @@
             <div class="testimonials-slider swiper">
                 <div class="swiper-wrapper ">
                     <?php
+                    foreach ($data_outher_header as $data) :
+                    ?>
+
+                        <div class="swiper-slide">
+                            <a href="<?php echo base_url('Kategori'); ?>/perumahan/subsidi">
+                                <center>
+                                    <img src="<?php echo base_url('upload'); ?>/<?= $data->header_foto; ?>" class="img-fluid" alt="">
+                                </center>
+                            </a>
+                        </div>
+                    <?php
+                    endforeach;
+                    ?>
+                    <?php
                     foreach ($data_foto_slide_subsidi as $data) :
                     ?>
 

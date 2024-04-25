@@ -158,6 +158,29 @@ class Foto extends CI_Controller
         }
         exit;
     }
+    function add_outher_header()
+    {
+        $config['upload_path'] = "./upload/";
+        $config['allowed_types'] = 'gif|jpg|png';
+        $config['encrypt_name'] = TRUE;
+
+        $this->load->library('upload', $config);
+
+        if ($this->upload->do_upload("header-foto")) {
+            $data = array('upload_data' => $this->upload->data());
+            $header_foto = $data['upload_data']['file_name'];
+            $uploadedImage = $this->upload->data();
+            $data = array(
+                'id_foto_perum' => 'outher_header',
+                'header_foto' => $header_foto,
+                'kategori_foto' => 'outher_header',
+            );
+            $this->resizeImage($uploadedImage['file_name']);
+            $insert = $this->m_foto->m_add_outher_header($data);
+            echo json_encode($insert);
+        }
+        exit;
+    }
     function show_foto_dashboard()
     {
 
@@ -203,6 +226,24 @@ class Foto extends CI_Controller
                 }
                 echo '<div class="btn-ceklis-foto-h ' . $foto->status_foto_header . '" data-id-foto-header="' . $foto->id_foto_header . '"></div>
                     </div>
+                </div>
+            </li>';
+            }
+        }
+    }
+    function load_set_foto_outher_header()
+    {
+        $id_foto_perum = 'outher_header';
+        $sql = "SELECT * FROM foto_header WHERE id_foto_perum='$id_foto_perum'";
+        $query = $this->db->query($sql);
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $foto) {
+                echo '<li class="nav-item col" style="padding: 15px;padding-left: 0;">
+                <div class="action-foto" data-id-action="1">
+                    <div style="position: relative;">
+                        <img src="' . base_url('upload') . '/' . $foto->header_foto . '" class="img-fluid" style="border-radius: 15px; max-height: 12rem;">';
+                echo '<div class="btn-delete-foto-outher-header" data-id-foto-header="' . $foto->id_foto_header . '" data-foto-header="' . $foto->header_foto . '"><i class="fa-regular fa-trash-can"></i></div>';
+                echo '</div>
                 </div>
             </li>';
             }

@@ -25,7 +25,8 @@
         cursor: pointer;
     }
 
-    .btn-delete-foto-header {
+    .btn-delete-foto-header,
+    .btn-delete-foto-outher-header {
         position: absolute;
         top: 8px;
         left: 11px;
@@ -64,6 +65,26 @@
     <div class="faq">
         <div class="" data-aos="fade-up">
             <div class="accordion accordion-flush" id="faqlist">
+                <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="accordion-header">
+                        <button class="accordion-button collapsed" id="btn-set-foto-outher-header" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2" style="background: #566dea;color: aliceblue;">
+                            <i class="fa-solid fa-gears fa-beat  question-icon"></i>
+                            Setting Foto outher header
+                        </button>
+                    </h3>
+                    <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                        <div class="accordion-body pb-2">
+                            <!-- <img id="btn-change-foto-header" class="img-fluid border-size-foto-header load-set-foto-header"> -->
+                            <input type="file" id="" class="file-set-foto-outher-header" value="" hidden>
+                            <center id="btn-add-outher-header" class="border-add-foto mt-3">
+                                <i class="fa-regular fa-images fa-bounce"></i>
+                                <br>
+                                <span>add outher header</span>
+                            </center>
+                            <div class="data-outher-header" style="position: relative;display: flex;list-style: none;"></div>
+                        </div>
+                    </div>
+                </div>
                 <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
                     <h3 class="accordion-header">
                         <button class="accordion-button collapsed" id="btn-set-foto-header" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1" style="background: #566dea;color: aliceblue;">
@@ -179,8 +200,8 @@
     <div class="form-group">
         <div class="input-group">
             <input type="file" id="file-foto-header-perum" class="file-header-perum" value="" hidden>
-            <input type="text" class="form-control" placeholder="Upload Foto" id="nm-foto-header-perum">
-            <div class="input-group-append">
+            <input type="text" class="form-control" placeholder="Upload Foto" id="nm-foto-header-perum" hidden>
+            <div class="input-group-append" hidden>
                 <button type="button" id="" class="pilih-header-perum browse btn btn-dark">Pilih Foto</button>
             </div>
         </div>
@@ -189,5 +210,5 @@
     <input type="text" id="id-foto-tipe" hidden>
     <input type="text" id="label-foto" hidden>
     <input type="text" id="ubah-foto" hidden>
-    <input type="text" id="id-perum">
+    <input type="text" id="id-perum" hidden>
 </main>

@@ -1,7 +1,1 @@
-a:3:{s:4:"time";i:1703737020;s:3:"ttl";i:604800;s:4:"data";s:598:"<li class="nav-item col">
-                <div class="action-foto" data-id-action="1">
-                    <div style="position: relative;">
-                        <img src="http://localhost/kanpa_ci/upload/d63da619ffcea2756c6f4be5c382aa16.png" class="img-fluid" style="border-radius: 15px;"><div class="btn-delete-foto-header" data-id-foto-header="1" data-foto-header="d63da619ffcea2756c6f4be5c382aa16.png"><i class="fa-regular fa-trash-can"></i></div><div class="btn-ceklis-foto-h show-dashboard" data-id-foto-header="1"></div>
-                    </div>
-                </div>
-            </li>";}
+a:3:{s:4:"time";i:1714012135;s:3:"ttl";i:604800;s:4:"data";s:0:"";}

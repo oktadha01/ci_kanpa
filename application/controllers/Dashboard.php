@@ -20,6 +20,7 @@ class Dashboard extends CI_Controller
 		$data['_description'] = 'PT Kanpa bergerak di bidang properti sejak tahun 2002. saat ini tersedia di ungaran, semarang, sukoharjo, klaten, kabupaten madiun. Hub 0823-3350-7931';
 		$data['_script'] = 'dashboard/index_js';
 		$data['_view'] = 'dashboard/index';
+		$data['data_outher_header'] = $this->m_dashboard->m_data_outher_header();
 		$data['data_foto_slide_subsidi'] = $this->m_dashboard->m_data_fotoslide_subsidi();
 		$data['data_foto_slide_perumahan'] = $this->m_dashboard->m_data_fotoslide_perumahan();
 		$data['data_foto_slide_promo'] = $this->m_dashboard->m_data_fotoslide_promo();

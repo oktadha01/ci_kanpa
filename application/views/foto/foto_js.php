@@ -1,4 +1,7 @@
 <script>
+    $('#btn-set-foto-outher-header').click(function() {
+        load_data_set_outher_header();
+    });
     $('#btn-set-foto-header').click(function() {
         load_data_set_header();
     });
@@ -40,6 +43,24 @@
             contentType: false,
             success: function(data) {
                 $('.load-set-foto-header').attr('src', data)
+            },
+            error: function(msg) {
+                alert('Foto gagal di simpan');
+            }
+        });
+    }
+
+    function load_data_set_outher_header() {
+        $.ajax({
+            // type: 'POST',
+            url: "<?php echo site_url('foto/load_set_foto_outher_header') ?>",
+            // data: formData,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+                // $('.load-set-foto-outher-header').attr('src', data);
+                $('.data-outher-header').html(data).show();
             },
             error: function(msg) {
                 alert('Foto gagal di simpan');
@@ -311,7 +332,73 @@
                 });
             }
         });
+        $('.btn-delete-foto-outher-header').click(function() {
+            var confirmalert = confirm("Apakah anda yakin untuk menghapus foto??");
+            if (confirmalert == true) {
+                // alert($(this).data('id-foto-header') + $(this).data('foto-header'))
+                let formData = new FormData();
+                formData.append('id-foto-header', $(this).data('id-foto-header'));
+                formData.append('header-foto', $(this).data('foto-header'));
+                $.ajax({
+                    type: 'POST',
+                    url: "<?php echo site_url('foto/delete_foto_header') ?>",
+                    data: formData,
+                    cache: false,
+                    processData: false,
+                    contentType: false,
+                    success: function(msg) {
+                        alert('Foto berhasil di hapus !!');
+                        load_data_set_outher_header();
+
+                    },
+                    error: function() {
+                        alert("Data Gagal Diupload");
+                    }
+                });
+            }
+        });
     }
+
+    $(document).on("click", "#btn-add-outher-header", function() {
+        var file = $(this).parents().find(".file-set-foto-outher-header");
+        file.trigger("click");
+
+    });
+    $('.file-set-foto-outher-header').change(function(e) {
+        var fileName = e.target.files[0].name;
+        // $("#nm-foto-header-perum").val(fileName);
+
+        var reader = new FileReader();
+        reader.onload = function(e) {
+            // get loaded data and render thumbnail.
+        }
+        // document.getElementById("preview-foto-header-perum-" + id_perum).src = e.target.result;
+        var confirmalert = confirm("Apakah anda yakin ??");
+        if (confirmalert == true) {
+            const foto_header_perum = $('.file-set-foto-outher-header').prop('files')[0];
+            let formData = new FormData();
+            formData.append('header-foto', foto_header_perum);
+            $.ajax({
+                type: 'POST',
+                url: "<?php echo site_url('foto/add_outher_header') ?>",
+                data: formData,
+                cache: false,
+                processData: false,
+                contentType: false,
+                success: function(msg) {
+                    // alert(msg);
+                    alert('Foto berhasil di simpan');
+                    load_data_set_outher_header();
+
+                },
+                error: function() {
+                    alert("Data Gagal Diupload");
+                }
+            });
+        };
+        // read the image file as a data URL.
+        reader.readAsDataURL(this.files[0]);
+    });
 
     function load_foto_header() {
         let formData = new FormData();

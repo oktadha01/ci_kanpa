@@ -1,5 +1,4 @@
-a:3:{s:4:"time";i:1707281158;s:3:"ttl";i:604800;s:4:"data";s:82300:"
-text/x-generic index.php ( HTML document, ASCII text, with very long lines )
+a:3:{s:4:"time";i:1714011950;s:3:"ttl";i:604800;s:4:"data";s:85682:"
 <!DOCTYPE html>
 <html lang="en">
 
@@ -72,7 +71,7 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
             <header id="header" class="header fixed-top" data-scrollto-offset="0" style="max-height: 67px !important;">
    <div id="navbar-top" class="container-fluid d-flex align-items-center justify-content-between pr-var">
 
-      <a href="https://www.instagram.com/pt.kanpa/?hl=en" class="logo d-flex align-items-center scrollto me-auto mr-0">
+      <a href="http://localhost/kanpa_ci/#home" class="logo d-flex align-items-center scrollto me-auto mr-0">
          <!-- <i class="fa-brands fa-instagram" style="color: #00000085;font-size: 35px;"></i> --> 
          <img src="http://localhost/kanpa_ci/assets/img/Logo PT Fix Bingit.png" class="" alt="" style="max-height: 30px;">
       </a>
@@ -88,14 +87,75 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#about">About</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
             <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg" hidden>Price Estimation</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contact</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
 
    </div>
-      </header><!-- End Header -->    <main id="page" class="ml-page">
+         
+         <aside class="sidebar mt-15px">
+            <nav id="navbar">
+               <ul class="sidebar__nav">
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Perum" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-house"></i>
+                        <span class="sidebar__nav__text">Perumahan</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Fasilitas" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-house-medical"></i>
+                        <span class="sidebar__nav__text">Fasilitas</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Lokasi_terdekat" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-street-view"></i>
+                        <span class="sidebar__nav__text">Lokasi Terdekat</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Tipe" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-sitemap"></i>
+                        <span class="sidebar__nav__text">Tipe Rumah</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Foto" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-regular fa-images"></i>
+                        <span class="sidebar__nav__text">Foto Rumah</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Marketing" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-people-roof"></i>
+                        <span class="sidebar__nav__text">Marketing</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Berita" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-regular fa-newspaper"></i>
+                        <span class="sidebar__nav__text">Berita</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/Voucher" class="sidebar__nav__link">
+                     <i class="side-icon-side fa-solid fa-receipt"></i>
+                        <span class="sidebar__nav__text">Voucher</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://localhost/kanpa_ci/logout" class="sidebar__nav__link">
+                        <i class="side-icon-side fa-solid fa-right-from-bracket"></i>
+                        <span class="sidebar__nav__text">Logout || Admin</span>
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+         </aside>
+         </header><!-- End Header -->    <main id="page" class="ml-page">
 
         <style>
     /* .swiper-horizontal>.swiper-pagination-bullets,
@@ -277,21 +337,22 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/a4f89df1e03d3adde18580299b462cc2.jpg" srcset="http://localhost/kanpa_ci/upload/a4f89df1e03d3adde18580299b462cc2.jpg 1x, http://localhost/kanpa_ci/upload/a4f89df1e03d3adde18580299b462cc2.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/a587432cbe339c3d2fe0b8df11473919.jpg" srcset="http://localhost/kanpa_ci/upload/a587432cbe339c3d2fe0b8df11473919.jpg 1x, http://localhost/kanpa_ci/upload/a587432cbe339c3d2fe0b8df11473919.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
                                         </div>
                                     </a>
                                                         <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                                                                                                                                                                                                                                         
                                                                                                                                                                                 
-                                                                                                                                        <span class="mb-0 font-text-port float-right">1194 views</span>
+                                                                                                                                        <span class="mb-0 font-text-port float-right">1198 views</span>
                                 <br>
-                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/41/66">Rp
+                                                                        <a hidden class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/41/66">Rp
                                             300 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90" style="color:black;">
+                                                                <hr class="m-0">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/80/90" style="color:black;">
                                     <h4 class="text-nm-perum mb-0">Bukit Permai 2 - Tipe mulai</h4>
                                 </a>
                                                                                                                                                                                                                                                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-2/tipe/41/66">
@@ -335,20 +396,21 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/d08cdcc2a00134fb7c7a776502fe5598.jpg" srcset="http://localhost/kanpa_ci/upload/d08cdcc2a00134fb7c7a776502fe5598.jpg 1x, http://localhost/kanpa_ci/upload/d08cdcc2a00134fb7c7a776502fe5598.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/3a282f0c4f9670220342a076844bbec3.jpg" srcset="http://localhost/kanpa_ci/upload/3a282f0c4f9670220342a076844bbec3.jpg 1x, http://localhost/kanpa_ci/upload/3a282f0c4f9670220342a076844bbec3.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan subsidi</div>
                                         </div>
                                     </a>
                                                         <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                                                     
                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <span class="mb-0 font-text-port float-right">113 views</span>
                                 <br>
-                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">Rp
+                                                                        <a hidden class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">Rp
                                             150 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60" style="color:black;">
+                                                                <hr class="m-0">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60" style="color:black;">
                                     <h4 class="text-nm-perum mb-0">Griya Kautsar - Tipe mulai</h4>
                                 </a>
                                                                                                             <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
@@ -396,13 +458,14 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                                         </div>
                                     </a>
                                                         <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                                                                                         
                                                                                                                                                                                                                                                                                                                                                                                                                                         <span class="mb-0 font-text-port float-right">151 views</span>
                                 <br>
-                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">Rp
+                                                                        <a hidden class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">Rp
                                             160 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66" style="color:black;">
+                                                                <hr class="m-0">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66" style="color:black;">
                                     <h4 class="text-nm-perum mb-0">Griya Kanzu Sukoharjo - Tipe mulai</h4>
                                 </a>
                                                                                                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Sukoharjo/tipe/30/66">
@@ -450,13 +513,14 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                                         </div>
                                     </a>
                                                         <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                                                                                                                             
                                                                                                                                                                                                                                                                                                                                                                                                     <span class="mb-0 font-text-port float-right">505 views</span>
                                 <br>
-                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">Rp
+                                                                        <a hidden class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">Rp
                                             160 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60" style="color:black;">
+                                                                <hr class="m-0">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60" style="color:black;">
                                     <h4 class="text-nm-perum mb-0">Griya kanzu Klaten - Tipe mulai</h4>
                                 </a>
                                                                                                                                                                                     <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
@@ -495,23 +559,24 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                     </div>
                                     <div class="col-lg-4 col-md-6 col-12" data-aos="zoom-in" data-aos-delay="50">
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
+                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg" srcset="http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg 1x, http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/e43498fff1f3e594f46559e21545d57d.jpg" srcset="http://localhost/kanpa_ci/upload/e43498fff1f3e594f46559e21545d57d.jpg 1x, http://localhost/kanpa_ci/upload/e43498fff1f3e594f46559e21545d57d.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
-                                            <div class="bottom-right promo">Perumahan komersil</div>
+                                            <div class="bottom-right promo">Perumahan subsidi</div>
                                         </div>
                                     </a>
                                                         <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                                                                                                                                                                 
                                                                                                                                                                                 
                                                                                                                                                                                                                 <span class="mb-0 font-text-port float-right">1377 views</span>
                                 <br>
-                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp
+                                                                        <a hidden class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">Rp
                                             160 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72" style="color:black;">
+                                                                <hr class="m-0">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66" style="color:black;">
                                     <h4 class="text-nm-perum mb-0">Griya Kanzu Madiun - Tipe mulai</h4>
                                 </a>
                                                                                                                                                                                                                         <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
@@ -524,7 +589,7 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                                 <span class="mb-0 font-text-port"> Caruban Kota Baru, Madiun</span>
                                 <!-- <br> -->
                                 <div style="text-align-last: justify;">
-                                                                                                                                                                                                                                                                                                                                                                                                                <div class="figure">
+                                                                                                                                                                                                                                                <div class="figure">
                                                 <img src="http://localhost/kanpa_ci/assets/img/ikon-display/ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
                                                 <h6>1</h6>
                                             </div>
@@ -540,9 +605,9 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                                                 <img src="http://localhost/kanpa_ci/assets/img/ikon-display/dapur.png" class="size-ikon-dash img-fluid" alt="">
                                                 <h6>1</h6>
                                             </div>
-                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                    </div>
                                 <center class="mt-2">
-                                    <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
+                                    <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/30/66">
                                         <button type="button" id="" class="btn btn-sm mb-2 btn-outline-dark"> More info
                                             >></button>
                                     </a>
@@ -555,22 +620,23 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/0feae9a6e0bb7d35ed996146122c028b.jpg" srcset="http://localhost/kanpa_ci/upload/0feae9a6e0bb7d35ed996146122c028b.jpg 1x, http://localhost/kanpa_ci/upload/0feae9a6e0bb7d35ed996146122c028b.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/92eefd9a018c85f0fc3f056e0b8b0b14.jpg" srcset="http://localhost/kanpa_ci/upload/92eefd9a018c85f0fc3f056e0b8b0b14.jpg 1x, http://localhost/kanpa_ci/upload/92eefd9a018c85f0fc3f056e0b8b0b14.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
                                         </div>
                                     </a>
                                                         <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                                                                                                                                                                                                                                                                             
                                                                                                         
                                                                                                         
                                                                                                     <span class="mb-0 font-text-port float-right">578 views</span>
                                 <br>
-                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/42/80">Rp
+                                                                        <a hidden class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/42/80">Rp
                                             333 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95" style="color:black;">
+                                                                <hr class="m-0">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95" style="color:black;">
                                     <h4 class="text-nm-perum mb-0">Alton Green House - Tipe mulai</h4>
                                 </a>
                                                                                                                                                                                                                                                                                                                                     <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/42/80">
@@ -624,13 +690,14 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                                         </div>
                                     </a>
                                                         <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
                                                                 <span class="mb-0 font-text-port float-right">195 views</span>
                                 <br>
-                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">Rp
+                                                                        <a hidden class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">Rp
                                             1 <sub>M</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120" style="color:black;">
+                                                                <hr class="m-0">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120" style="color:black;">
                                     <h4 class="text-nm-perum mb-0">Alton Town House - Tipe mulai</h4>
                                 </a>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         <a href="http://localhost/kanpa_ci/detail/perum/Alton-Town-House/tipe/140/120">
@@ -671,20 +738,21 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg" srcset="http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg 1x, http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/74de4f6fd657e0fbd23007f4abbb863f.jpg" srcset="http://localhost/kanpa_ci/upload/74de4f6fd657e0fbd23007f4abbb863f.jpg 1x, http://localhost/kanpa_ci/upload/74de4f6fd657e0fbd23007f4abbb863f.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
                                         </div>
                                     </a>
                                                         <div class="m-2">
-                                <span class="mb-0 font-text-port">Mulai</span>
+                                <span class="mb-0 font-text-port" hidden>Mulai</span>
                                                                                                                                                                                                                     
                                                                                                                                                                                                                                                                                                                             <span class="mb-0 font-text-port float-right">240 views</span>
                                 <br>
-                                                                        <a class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">Rp
+                                                                        <a hidden class="btn-hrg-dash" href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">Rp
                                             300 <sub>jt</sub></a>
-                                                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66" style="color:black;">
+                                                                <hr class="m-0">
+                                <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66" style="color:black;">
                                     <h4 class="text-nm-perum mb-0">Bukit Permai 1 - Tipe mulai</h4>
                                 </a>
                                                                                                                                                                                                                                                             <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">
@@ -1017,11 +1085,7 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
         //     }
         // });
     });
-</script>        <script>
-    // alert('ya');
-    $('#page').removeClass('ml-page');
-    </script>
-    
+</script>    
     <script>
     $(document).ready(function() {
         var newURL = location.href.split("#")[0];

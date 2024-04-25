@@ -2,6 +2,14 @@
 class M_dashboard extends CI_Model
 {
 
+    function m_data_outher_header()
+    {
+        $this->db->select('*');
+        $this->db->from('foto_header');
+        $this->db->where('id_foto_perum', 'outher_header');
+        $query = $this->db->get();
+        return $query->result();
+    }
     function m_data_fotoslide_subsidi()
     {
         $this->db->select('*');

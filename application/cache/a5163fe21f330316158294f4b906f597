@@ -1,5 +1,4 @@
-a:3:{s:4:"time";i:1703737017;s:3:"ttl";i:604800;s:4:"data";s:66794:"
-text/x-generic index.php ( HTML document, ASCII text, with very long lines )
+a:3:{s:4:"time";i:1714011957;s:3:"ttl";i:604800;s:4:"data";s:66713:"
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,7 +73,7 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
             <header id="header" class="header fixed-top" data-scrollto-offset="0" style="max-height: 67px !important;">
    <div id="navbar-top" class="container-fluid d-flex align-items-center justify-content-between pr-var">
 
-      <a href="https://www.instagram.com/pt.kanpa/?hl=en" class="logo d-flex align-items-center scrollto me-auto mr-0">
+      <a href="http://localhost/kanpa_ci/#home" class="logo d-flex align-items-center scrollto me-auto mr-0">
          <!-- <i class="fa-brands fa-instagram" style="color: #00000085;font-size: 35px;"></i> --> 
          <img src="http://localhost/kanpa_ci/assets/img/Logo PT Fix Bingit.png" class="" alt="" style="max-height: 30px;">
       </a>
@@ -90,7 +89,7 @@ text/x-generic index.php ( HTML document, ASCII text, with very long lines )
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#about">About</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
             <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg">Price Estimation</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg" hidden>Price Estimation</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contact</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>

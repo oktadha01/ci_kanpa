@@ -70,6 +70,11 @@ class M_foto extends CI_Model
         $result = $this->db->insert('foto_header', $data);
         return $result;
     }
+    function m_add_outher_header($data)
+    {
+        $result = $this->db->insert('foto_header', $data);
+        return $result;
+    }
     function m_show_foto_dashboard($id_foto_header, $status_foto_header)
     {
         $update = $this->db->set('status_foto_header', $status_foto_header)

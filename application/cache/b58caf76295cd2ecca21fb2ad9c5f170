@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1684832783;s:3:"ttl";i:604800;s:4:"data";s:12401:"<style>
+a:3:{s:4:"time";i:1714029775;s:3:"ttl";i:604800;s:4:"data";s:9952:"<style>
     /* img view */
     #foto-main,
     #thumbnails img {
@@ -162,29 +162,24 @@ a:3:{s:4:"time";i:1684832783;s:3:"ttl";i:604800;s:4:"data";s:12401:"<style>
 <section class="p-0 pt-2">
     <div class="" data-aos="fade-up">
                                         <center>
-                        <img src="http://localhost:8080/kanpa.co.id/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg" class="img-fluid" id="foto-main">
+                        <img src="http://localhost/kanpa_ci/upload/e9572a2c9a19494b0d85d74717546014.jpg" class="img-fluid" id="foto-main">
                     </center>
                         <div id="thumbnails">
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/b7fa14e80a62d06cba418ab0c4b17a42.jpg" data-aos="zoom-in" data-aos-delay="100">
-                                                                            <img src="http://localhost:8080/kanpa.co.id/upload/1efad62945450d0b3b278257a8a1809a.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                    <img src="http://localhost/kanpa_ci/upload/e9572a2c9a19494b0d85d74717546014.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                            <img src="http://localhost/kanpa_ci/upload/3813770d8c2305da5b0db883f44ea88d.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                            <img src="http://localhost/kanpa_ci/upload/d08cdcc2a00134fb7c7a776502fe5598.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                            <img src="http://localhost/kanpa_ci/upload/e34ab78fd4af6971d21d676abed0a9b6.jpg" data-aos="zoom-in" data-aos-delay="100">
 
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/56e6c6ed05295d8964738766181e623d.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                    <img src="http://localhost/kanpa_ci/upload/8d2c3dcb6a33f3ae15595b8a323741b4.jpg" data-aos="zoom-in" data-aos-delay="100">
 
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/c3f4cb1b36aaca8cc9a07bdcea3bc1cd.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                    <img src="http://localhost/kanpa_ci/upload/b5c369ca028a31b3aac48d4ac52dea0f.jpg" data-aos="zoom-in" data-aos-delay="100">
 
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/5472e559e0758ac7a980f015a821e407.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                    <img src="http://localhost/kanpa_ci/upload/0100b7a610bfead9cda03e57ca341c91.jpg" data-aos="zoom-in" data-aos-delay="100">
 
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/8df42d03bf4b694e49c267e036c0717a.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                    <img src="http://localhost/kanpa_ci/upload/3a282f0c4f9670220342a076844bbec3.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                            <img src="http://localhost/kanpa_ci/upload/c8a5b09e06ebc42d2df7537ffea72483.jpg" data-aos="zoom-in" data-aos-delay="100">
 
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/f62bf226087b6c44c3edbbcdc392f690.jpg" data-aos="zoom-in" data-aos-delay="100">
-
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/526605a1bcab67cf954ab493666867a9.jpg" data-aos="zoom-in" data-aos-delay="100">
-
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/53b90fea9fcb28167bab322807cda5bf.jpg" data-aos="zoom-in" data-aos-delay="100">
-
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/ab27f69475e8bd1c8eee0709bdfc3064.jpg" data-aos="zoom-in" data-aos-delay="100">
-
-                                                                    <img src="http://localhost:8080/kanpa.co.id/upload/0df79171f04486f05721e8d117556fc4.jpg" data-aos="zoom-in" data-aos-delay="100">
+                                                                    <img src="http://localhost/kanpa_ci/upload/c468bd2c731033f88b9374d111c2c4ea.jpg" data-aos="zoom-in" data-aos-delay="100">
 
                             </div>
             </div>
@@ -192,21 +187,21 @@ a:3:{s:4:"time";i:1684832783;s:3:"ttl";i:604800;s:4:"data";s:12401:"<style>
 <section class="p-0 pt-2">
     <div class="bg-detail-hrg container" data-aos="fade-left">
         <!-- <hr> -->
-                    <div class="row">
+                    <div class="row" hidden>
                 <div class="col-4">
-                    <a class="btn-hrg-dash" href="" style="font-family: serif;font-weight: bold;">Rp 1 <sub>M</sub></a>
+                    <a class="btn-hrg-dash" href="" style="font-family: serif;font-weight: bold;">Rp 150 <sub>jt</sub></a>
                 </div>
             </div>
             <div class="row mt-2">
                 <div class="col-lg-4 col-md-4 col-12" style="font-family: serif;font-weight: bold;">
-                    <p> *Luas Bangunan : 140m <sup>2</sup> </p>
+                    <p> *Luas Bangunan : 30m <sup>2</sup> </p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-12" style="font-family: serif;font-weight: bold;">
-                    <p> *Luas Tanah : 120m <sup>2</sup> </p>
+                    <p> *Luas Tanah : 60m <sup>2</sup> </p>
 
                 </div>
                 <div class="col-lg-4 col-md-4 col-12" style="font-family: serif;font-weight: bold;">
-                    <p> *2 Lantai</p>
+                    <p> *1 Lantai</p>
                 </div>
             </div>
             </div>
@@ -215,14 +210,10 @@ a:3:{s:4:"time";i:1684832783;s:3:"ttl";i:604800;s:4:"data";s:12401:"<style>
     <div class="" data-aos="fade-up">
         <!-- <hr> -->
         <div class="row denah-dekstop">
-                                <div class="col-6">
+                                <div class="col">
+
                         <center>
-                            <img src="http://localhost:8080/kanpa.co.id/upload/2c44570c137ee413a6f81e1a16a01c35.jpg" data-aos="zoom-in" data-aos-delay="200" class="img-fluid preview-denah" id="">
-                        </center>
-                    </div>
-                    <div class="col-6">
-                        <center>
-                            <img src="http://localhost:8080/kanpa.co.id/upload/68978daf0f32ce06e633ef7337571f80.jpg" data-aos="zoom-in" data-aos-delay="300" class="img-fluid preview-denah" id="">
+                            <img src="http://localhost/kanpa_ci/upload/18b4ac3806f26e9633e9cc81f7204338.jpg" class="img-fluid preview-denah" data-aos="zoom-in" data-aos-delay="200" style="width: 30%;">
                         </center>
                     </div>
                             
@@ -231,21 +222,10 @@ a:3:{s:4:"time";i:1684832783;s:3:"ttl";i:604800;s:4:"data";s:12401:"<style>
 
             <center class="">
 
-                                    <img src="http://localhost:8080/kanpa.co.id/upload/2c44570c137ee413a6f81e1a16a01c35.jpg" class="img-fluid preview-denah" id="foto-main" data-aos="zoom-in" data-aos-delay="200">
+                                    <img src="http://localhost/kanpa_ci/upload/18b4ac3806f26e9633e9cc81f7204338.jpg" class="img-fluid preview-denah" id="foto-main" data-aos="zoom-in" data-aos-delay="200">
                             </center>
             <div id="thumbnails">
-                                                            <div class="row">
-                            <div class="col-6">
-                                <img class="denah" src="http://localhost:8080/kanpa.co.id/upload/2c44570c137ee413a6f81e1a16a01c35.jpg" data-aos="zoom-in" data-aos-delay="200" style="height: auto;width: 35%;">
-                                <h6>Denah LT 1</h6>
-                            </div>
-                            <div class="col-6">
-                                <img class="denah" src="http://localhost:8080/kanpa.co.id/upload/68978daf0f32ce06e633ef7337571f80.jpg" data-aos="zoom-in" data-aos-delay="300" style="height: auto;width: 35%;">
-                                <h6>Denah LT 2</h6>
-                            </div>
-                        </div>
-
-                    
+                                    
                             </div>
         </div>
     </div>
@@ -255,44 +235,32 @@ a:3:{s:4:"time";i:1684832783;s:3:"ttl";i:604800;s:4:"data";s:12401:"<style>
         <div class="outer-wrapper">
             <div class="inner-wrapper">
                                     <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-taman.png" class="size-ikon-dash img-fluid" alt="">
+                        <img src="http://localhost/kanpa_ci/assets/img/ikon-detail/ikon-taman.png" class="size-ikon-dash img-fluid" alt="">
                         <h6>2</h6>
                     </div>
                     <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="300">
-                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-carport.png" class="size-ikon-dash img-fluid" alt="">
+                        <img src="http://localhost/kanpa_ci/assets/img/ikon-detail/ikon-carport.png" class="size-ikon-dash img-fluid" alt="">
                         <h6>1</h6>
                     </div>
                     <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="400">
-                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
+                        <img src="http://localhost/kanpa_ci/assets/img/ikon-detail/ikon-ru-tamu.png" class="size-ikon-dash img-fluid" alt="">
                         <h6>1</h6>
                     </div>
                     <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="500">
-                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
-                        <h6>4</h6>
+                        <img src="http://localhost/kanpa_ci/assets/img/ikon-detail/ikon-ka-tidur.png" class="size-ikon-dash img-fluid" alt="">
+                        <h6>2</h6>
                     </div>
                     <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="600">
-                        <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
-                        <h6>3</h6>
+                        <img src="http://localhost/kanpa_ci/assets/img/ikon-detail/ikon-ka-mandi.png" class="size-ikon-dash img-fluid" alt="">
+                        <h6>1</h6>
                     </div>
                                             <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="700">
-                            <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-dapur.png" class="size-ikon-dash img-fluid" alt="">
+                            <img src="http://localhost/kanpa_ci/assets/img/ikon-detail/ikon-dapur.png" class="size-ikon-dash img-fluid" alt="">
                             <h6>1</h6>
                         </div>
                     
-                                            <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="800">
-                            <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-ru-keluarga.png" class="size-ikon-dash img-fluid" alt="">
-                            <h6>1</h6>
-                        </div>
                     
-                                            <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="900">
-                            <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-ru-makan.png" class="size-ikon-dash img-fluid" alt="">
-                            <h6>1</h6>
-                        </div>
                     
-                                            <div class="figure pseudo-item" data-aos="zoom-in" data-aos-delay="1000">
-                            <img src="http://localhost:8080/kanpa.co.id/assets/img/ikon-detail/ikon-balkon.png" class="size-ikon-dash img-fluid" alt="">
-                            <h6>1</h6>
-                        </div>
                     
                             </div>
         </div>

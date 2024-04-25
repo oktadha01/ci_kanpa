@@ -180,22 +180,30 @@
             ?>
             <div id="thumbnails">
                 <?php
-                $sql = "SELECT foto_tipe, label_foto FROM foto WHERE foto.id_foto_tipe=$id_tipe AND foto.label_foto in ('display','interior')";
+                $no = 1;
+                $sql = "SELECT foto_tipe, label_foto FROM foto WHERE foto.id_foto_tipe=$id_tipe AND foto.label_foto = 'display'";
                 $query = $this->db->query($sql);
                 if ($query->num_rows() > 1) {
                     foreach ($query->result() as $foto) {
-                        $no = 1;
                 ?>
-                        <?php
-                        if ($foto->label_foto == 'display') { ?>
-                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>00">
-                        <?php
-                        } else if ($foto->label_foto == 'interior') {
-                        ?>
-                            <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>00">
+                        <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>00">
+
 
                 <?php
-                        }
+                    }
+                }
+                ?>
+                <?php
+                $no = 1;
+                $sql = "SELECT foto_tipe, label_foto FROM foto WHERE foto.id_foto_tipe=$id_tipe AND foto.label_foto = 'interior'";
+                $query = $this->db->query($sql);
+                if ($query->num_rows() > 1) {
+                    foreach ($query->result() as $foto) {
+                ?>
+                        <img src="<?php echo base_url('upload'); ?>/<?php echo $foto->foto_tipe; ?>" data-aos="zoom-in" data-aos-delay="<?php echo $no++; ?>00">
+
+
+                <?php
                     }
                 }
                 ?>

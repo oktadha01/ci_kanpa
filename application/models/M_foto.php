@@ -26,7 +26,7 @@ class M_foto extends CI_Model
         $this->db->select('*');
         $this->db->from('foto');
         $this->db->where('id_foto_tipe', $id_foto_tipe);
-        $this->db->order_by('id_foto', 'desc');
+        // $this->db->order_by('id_foto', 'desc');
         $query = $this->db->get();
         return $query->result();
     }

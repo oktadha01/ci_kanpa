@@ -53,24 +53,48 @@
                         <?php
                         foreach ($data_foto as $data) :
                         ?>
-                            <tr class="table-row table-row--chris">
-                                <td class="table-row__td">
-                                    <div class="table-row__img">
-                                        <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_tipe; ?>" class="img-fluid" alt="">
-                                    </div>
-                                    <div class="table-row__info">
-                                        <p class="table-row__name"><?php echo $data->label_foto; ?></p>
-                                    </div>
-                                </td>
-                                <td class="row-td-action">
-                                    <a href="#form-add-foto" class="btn-edit" data-id-foto="<?php echo $data->id_foto; ?>" data-foto-tipe="<?php echo $data->foto_tipe; ?>" data-label-foto="<?php echo $data->label_foto; ?>">
-                                        <i class="fa-solid fa-pen"></i>
-                                    </a>
-                                    <a href="#" class="btn-delete" data-id-foto="<?php echo $data->id_foto; ?>" data-foto-tipe="<?php echo $data->foto_tipe; ?>">
-                                        <i class="fa-regular fa-trash-can"></i>
-                                    </a>
-                                </td>
-                            </tr>
+                            <?php if ($data->label_foto == 'display') { ?>
+                                <tr class="table-row table-row--chris">
+                                    <td class="table-row__td">
+                                        <div class="table-row__img">
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_tipe; ?>" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="table-row__info">
+                                            <p class="table-row__name"><?php echo $data->label_foto; ?></p>
+                                        </div>
+                                    </td>
+                                    <td class="row-td-action">
+                                        <a href="#form-add-foto" class="btn-edit" data-id-foto="<?php echo $data->id_foto; ?>" data-foto-tipe="<?php echo $data->foto_tipe; ?>" data-label-foto="<?php echo $data->label_foto; ?>">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </a>
+                                        <a href="#" class="btn-delete" data-id-foto="<?php echo $data->id_foto; ?>" data-foto-tipe="<?php echo $data->foto_tipe; ?>">
+                                            <i class="fa-regular fa-trash-can"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            <?php
+                            } else { ?>
+                                <tr class="table-row table-row--chris">
+                                    <td class="table-row__td">
+                                        <div class="table-row__img">
+                                            <img src="<?php echo base_url('upload'); ?>/<?php echo $data->foto_tipe; ?>" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="table-row__info">
+                                            <p class="table-row__name"><?php echo $data->label_foto; ?></p>
+                                        </div>
+                                    </td>
+                                    <td class="row-td-action">
+                                        <a href="#form-add-foto" class="btn-edit" data-id-foto="<?php echo $data->id_foto; ?>" data-foto-tipe="<?php echo $data->foto_tipe; ?>" data-label-foto="<?php echo $data->label_foto; ?>">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </a>
+                                        <a href="#" class="btn-delete" data-id-foto="<?php echo $data->id_foto; ?>" data-foto-tipe="<?php echo $data->foto_tipe; ?>">
+                                            <i class="fa-regular fa-trash-can"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            <?php
+                            }
+                            ?>
                         <?php
                         endforeach;
                         ?>

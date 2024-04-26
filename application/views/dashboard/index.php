@@ -120,7 +120,7 @@
                         <div class="swiper-slide">
                             <a href="<?php echo base_url('Kategori'); ?>/perumahan/subsidi">
                                 <center>
-                                    <img src="<?php echo base_url('upload'); ?>/<?= $data->header_foto; ?>" class="img-fluid" alt="">
+                                    <img src="<?php echo base_url('upload'); ?>/<?= $data->header_foto; ?>" class="img-fluid" alt="" style="border-radius: 25px;">
                                 </center>
                             </a>
                         </div>

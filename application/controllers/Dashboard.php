@@ -14,7 +14,7 @@ class Dashboard extends CI_Controller
 
 	function index()
 	{
-		$data['_title'] = 'Cari Rumah Murah, Bagus, Terpercaya, Terbukti ? Klik, Disini. | Kanpa.co.id';
+		$data['_title'] = 'Cari Rumah Murah, Bagus, Terpercaya, Terbukti ? Klik, Disini. | Kanpa.co.id';
 		$data['_metafoto'] = 'logo-pt-kanpa-2.png';
 		$data['_url'] = base_url();
 		// $data['_description'] = 'PT Kanpa bergerak di bidang properti sejak tahun 2002. saat ini tersedia di ungaran, semarang, sukoharjo, klaten, kabupaten madiun. Hub 0823-3350-7931';

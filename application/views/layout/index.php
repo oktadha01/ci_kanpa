@@ -18,7 +18,6 @@
         <meta content="<?php echo $_description; ?>" name="description">
         <meta content="<?php echo $_description; ?>" name="twitter:description">
     <?php } else { ?>
-        <meta content="<?= $_title; ?>" name="twitter:title" class="">
         <meta name="description" content="Cari Rumah di Semarang di Bawah Rp 200 Jt. Rumah minimalis terjangkau, termurah di semarang Bisa KPR Harga paling murah Lokasi strategis Proses mudah & cepat, perumahan subsidi griya kanzu kleco kaliabu, perumahan subsidi klecorejo kaliabu, rumah subsidi madiun, perumahan subsidi madiun, rumah subsidi klecorejo kaliabu">
         <meta content="Rumah Dijual di Semarang | Harga Terbaru 2024" name="twitter:title" class="">
         <meta content="Rumah Dijual di Semarang. Banyak pilihan ✔ Rentang harga beragam ✔ Desain menarik ✔ Pencarian mudah ✔" name="twitter:description">
@@ -42,110 +41,14 @@
     <?php if (isset($_keyword)) { ?>
         <meta name="keywords" content="<?= $_keyword; ?>">
     <?php } else { ?>
-        <meta name="keywords" content="PT Kanpa,
-        PT Kanzu, 
-        PT Kanzu Permai Abadi, 
-        Kanzu Permai Abadi, 
-        Kanpa,
-        di jual rumah,
-        rumah murah,
-        perumahan murah,
-        di jual rumah murah,
-        perumahan di semarang, 
-        perumahan di kota semarang, 
-        perumahan di kab. semarang, 
-        perumahan di kabupaten semarang, 
-        perumahan di ungaran,
-        perumahan di kab.kendal,
-        perumahan di kabupaten kendal,
-        perumahan di kendal,
-        perumahan di bawen,
-        perumahan di sukoharjo,
-        perumahan di klaten,
-        perumahan di madiun,
-        perumahan di kota madiun,
-        perumahan di caruban,
-        perumahan murah di semarang, 
-        perumahan murah di kota semarang, 
-        perumahan murah di kab. semarang, 
-        perumahan murah di kabupaten semarang, 
-        perumahan murah di ungaran, 
-        perumahan murah di kab.kendal,
-        perumahan murah di kabupaten kendal,
-        perumahan murah di kendal,
-        perumahan murah di bawen,
-        perumahan murah di sukoharjo,
-        perumahan murah di klaten,
-        perumahan murah di madiun,
-        perumahan murah di kota madiun,
-        perumahan murah di caruban,
-        perumahan murah subsidi, 
-        rumah murah di semarang, 
-        rumah murah di kota semarang, 
-        rumah murah di kab. semarang, 
-        rumah murah di kabupaten semarang, 
-        rumah murah di ungaran, 
-        rumah murah di kab.kendal,
-        rumah murah di kabupaten kendal,
-        rumah murah di kendal,
-        rumah murah di bawen,
-        rumah murah di sukoharjo,
-        rumah murah di klaten,
-        rumah murah di madiun,
-        rumah murah di kota madiun,
-        rumah murah di caruban,
-        rumah murah subsidi, 
-        rumah murah komersil, 
-        jual rumah murah di semarang, 
-        jual rumah murah di kota semarang, 
-        jual rumah murah di kab. semarang, 
-        jual rumah murah di kabupaten semarang, 
-        jual rumah murah di ungaran, 
-        jual rumah murah di kab.kendal,
-        jual rumah murah di kabupaten kendal,
-        jual rumah murah di kendal,
-        jual rumah murah di bawen,
-        jual rumah murah di sukoharjo,
-        jual rumah murah di klaten,
-        jual rumah murah di madiun,
-        jual rumah murah di kota madiun,
-        jual rumah murah di caruban,
-        jual rumah murah subsidi, 
-        jual rumah murah komersil, 
-        di jual rumah murah di semarang, 
-        di jual rumah murah di kota semarang, 
-        di jual rumah murah di kab. semarang, 
-        di jual rumah murah di kabupaten semarang, 
-        di jual rumah murah di ungaran, 
-        di jual rumah murah di kab.kendal,
-        di jual rumah murah di kabupaten kendal,
-        di jual rumah murah di kendal,
-        di jual rumah murah di bawen,
-        di jual rumah murah di sukoharjo,
-        di jual rumah murah di klaten,
-        di jual rumah murah di madiun,
-        di jual rumah murah di kota madiun,
-        di jual rumah murah di caruban,
-        di jual rumah murah subsidi, 
-        di jual rumah murah komersil, 
-        perumahan subsidi di sukoharjo,
-        rumah subsidi di sukoharjo,
-        jual rumah subsidi di sukoharjo,
-        di jual rumah subsidi di sukoharjo,
-        perumahan subsidi di klaten,
-        rumah subsidi di klaten,
-        jual rumah subsidi di klaten,
-        di jual rumah subsidi di klaten,
-        perumahan subsidi di caruban,
-        rumah subsidi di caruban,
-        jual rumah subsidi di caruban,
-        di jual rumah subsidi di caruban">
+        <meta name="keywords" content="PT Kanpa,PT Kanzu, PT Kanzu Permai Abadi, Kanzu Permai Abadi, Kanpa,di jual rumah,rumah murah,perumahan murah,di jual rumah murah,perumahan di semarang, perumahan di kota semarang, perumahan di kab. semarang, perumahan di kabupaten semarang, perumahan di ungaran,perumahan di kab.kendal,perumahan di kabupaten kendal,perumahan di kendal,perumahan di bawen,perumahan di sukoharjo,perumahan di klaten,perumahan di madiun,perumahan di kota madiun,perumahan di caruban,perumahan murah di semarang, perumahan murah di kota semarang, perumahan murah di kab. semarang, perumahan murah di kabupaten semarang, perumahan murah di ungaran, perumahan murah di kab.kendal,perumahan murah di kabupaten kendal,perumahan murah di kendal,perumahan murah di bawen,perumahan murah di sukoharjo,perumahan murah di klaten,perumahan murah di madiun,perumahan murah di kota madiun,perumahan murah di caruban,perumahan murah subsidi, rumah murah di semarang, rumah murah di kota semarang, rumah murah di kab. semarang, rumah murah di kabupaten semarang, rumah murah di ungaran, rumah murah di kab.kendal,rumah murah di kabupaten kendal,rumah murah di kendal,rumah murah di bawen,rumah murah di sukoharjo,rumah murah di klaten,rumah murah di madiun,rumah murah di kota madiun,rumah murah di caruban,rumah murah subsidi, rumah murah komersil, jual rumah murah di semarang, jual rumah murah di kota semarang, jual rumah murah di kab. semarang, jual rumah murah di kabupaten semarang, jual rumah murah di ungaran, jual rumah murah di kab.kendal,jual rumah murah di kabupaten kendal,jual rumah murah di kendal,jual rumah murah di bawen,jual rumah murah di sukoharjo,jual rumah murah di klaten,jual rumah murah di madiun,jual rumah murah di kota madiun,jual rumah murah di caruban,jual rumah murah subsidi, jual rumah murah komersil, di jual rumah murah di semarang, di jual rumah murah di kota semarang, di jual rumah murah di kab. semarang, di jual rumah murah di kabupaten semarang, di jual rumah murah di ungaran, di jual rumah murah di kab.kendal,di jual rumah murah di kabupaten kendal,di jual rumah murah di kendal,di jual rumah murah di bawen,di jual rumah murah di sukoharjo,di jual rumah murah di klaten,di jual rumah murah di madiun,di jual rumah murah di kota madiun,di jual rumah murah di caruban,di jual rumah murah subsidi, di jual rumah murah komersil, perumahan subsidi di sukoharjo,rumah subsidi di sukoharjo,jual rumah subsidi di sukoharjo,di jual rumah subsidi di sukoharjo,perumahan subsidi di klaten,rumah subsidi di klaten,jual rumah subsidi di klaten,di jual rumah subsidi di klaten,perumahan subsidi di caruban,rumah subsidi di caruban,jual rumah subsidi di caruban,di jual rumah subsidi di caruban">
     <?php
     }
     ?>
 
 
     <?php if (isset($_title)) { ?>
+        <meta content="<?= $_title; ?>" name="twitter:title" class="">
         <title><?= $_title; ?></title>
     <?php } else { ?>
         <title>Rumah Murah di Semarang di Bawah Rp 200 Jt Terlengkap | Kanpa.co.id</title>

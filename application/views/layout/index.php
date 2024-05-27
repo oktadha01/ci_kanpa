@@ -40,7 +40,7 @@
     }
     ?>
     <?php if (isset($_keyword)) { ?>
-        <meta name="keywords" content="<?= $keyword; ?>">
+        <meta name="keywords" content="<?= $_keyword; ?>">
     <?php } else { ?>
         <meta name="keywords" content="PT Kanpa,
         PT Kanzu, 

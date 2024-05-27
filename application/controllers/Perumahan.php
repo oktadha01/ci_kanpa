@@ -26,7 +26,8 @@ class Perumahan extends CI_Controller
     }
     function murah()
     {
-        $lokasi = $this->uri->segment(3);
+        $lokasi = preg_replace("![^a-z0-9]+!i", " ", $this->uri->segment(3));
+
         $key_lokasi = ", perumahan di " . $lokasi . ", perumahan murah di " . $lokasi . ", rumah murah di " . $lokasi . ", jual rumah murah di " . $lokasi . ", di jual rumah murah di " . $lokasi;
         $data['_keyword'] = 'di jual rumah, rumah murah, perumahan murah, di jual rumah murah' . $key_lokasi;
 

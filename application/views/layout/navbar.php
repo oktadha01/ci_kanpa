@@ -14,11 +14,11 @@
       <nav id="navbar" class="navbar">
          <ul>
             <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>#home">Home</a></li>
-            <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>#about">About</a></li>
-            <li><a class="nav-link scrollto" href="<?php echo base_url('Produk'); ?>#produk">Product</a></li>
-            <li><a id="btn-menu-news" class="nav-link scrollto" href="<?php echo base_url('Artikel'); ?>#berita">Article</a></li>
+            <li><a class="nav-link scrollto" href="<?php echo base_url(); ?>#about">Tentang kami</a></li>
+            <li><a class="nav-link scrollto" href="<?php echo base_url('Perumahan'); ?>#produk">Perumahan</a></li>
+            <li><a id="btn-menu-news" class="nav-link scrollto" href="<?php echo base_url('Artikel'); ?>#berita">Artikel</a></li>
             <li><a class="nav-link scrollto" href="<?php echo base_url('Estimasi_harga'); ?>#estimasi-hrg" hidden>Price Estimation</a></li>
-            <li><a class="nav-link scrollto" href="<?php echo base_url('More_info'); ?>#more-info">Contact</a></li>
+            <li><a class="nav-link scrollto" href="<?php echo base_url('More_info'); ?>#more-info">Kontak</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->

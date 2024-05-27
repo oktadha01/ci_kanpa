@@ -82,7 +82,7 @@
 <section class="pt-5 mt-3" id="berita">
     <div class="section-header">
 
-        <span><span class="font-auto size-50px">A</span><span class="font-auto size-30px">rticle</span></span>
+        <span><span class="font-auto size-50px">A</span><span class="font-auto size-30px">rtikel</span></span>
     </div>
     <div class="container">
 

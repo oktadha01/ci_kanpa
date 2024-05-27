@@ -1,9 +1,9 @@
 <section id="produk" class="pt-5 mt-3">
     <div class="p-2" data-aos="fade-up">
-        <!-- <div class="section-header pb-0">
-                <span><span class="font-auto size-50px">P</span><span class="font-auto size-30px">ortfolio</span></span>
-            </div> -->
-        <hr>
+        <div class="section-header tittle-section pb-0">
+            <h3 class="fw-bold"><?= $_title; ?></h3>
+        </div>
+        <!-- <hr> -->
         <div class="row" hidden>
             <div class="col">
                 <a href="<?php echo base_url('Estimasi_harga'); ?>#estimasi-hrg">
@@ -47,10 +47,10 @@
                             <a hidden class="btn-hrg-dash" href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">Rp <?php echo $data->hrg; ?> <sub><?php echo $data->satuan_hrg; ?></sub></a>
                             <hr class="m-0">
                             <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>" style="color:black;">
-                                <h4 class="text-nm-perum mb-0"><?php echo $data->nm_perum; ?> - Tipe mulai</h4>
+                                <h4 class="text-nm-perum mb-0"><?php echo $data->nm_perum; ?></h4>
                             </a>
                             <a href="<?php echo base_url('detail'); ?>/perum/<?php echo $tittle; ?>/tipe/<?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?>">
-                                <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info"><?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?></button>
+                                <button type="button" id="" class="btn btn-sm mb-2 btn-outline-info">Tipe <?php echo $data->luas_bangunan; ?>/<?php echo $data->luas_tanah; ?></button>
                             </a>
                             <br>
                             <span class="mb-0 font-text-port"> <?php echo $data->alamat; ?></span>

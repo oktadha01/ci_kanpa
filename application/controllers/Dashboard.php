@@ -14,10 +14,10 @@ class Dashboard extends CI_Controller
 
 	function index()
 	{
-
 		$data['_title'] = 'Cari Rumah Murah, Bagus, Terpercaya, Terbukti ? Klik, Disini. | Kanpa.co.id';
 		$data['_metafoto'] = 'logo-pt-kanpa-2.png';
-		$data['_description'] = 'PT Kanpa bergerak di bidang properti sejak tahun 2002. saat ini tersedia di ungaran, semarang, sukoharjo, klaten, kabupaten madiun. Hub 0823-3350-7931';
+		$data['_url'] = base_url();
+		// $data['_description'] = 'PT Kanpa bergerak di bidang properti sejak tahun 2002. saat ini tersedia di ungaran, semarang, sukoharjo, klaten, kabupaten madiun. Hub 0823-3350-7931';
 		$data['_script'] = 'dashboard/index_js';
 		$data['_view'] = 'dashboard/index';
 		$data['data_outher_header'] = $this->m_dashboard->m_data_outher_header();
@@ -31,6 +31,4 @@ class Dashboard extends CI_Controller
 		$data['detail_marketing'] = $this->m_dashboard->m_detail_marketing();
 		$this->load->view('layout/index', $data);
 	}
-
-	
 }

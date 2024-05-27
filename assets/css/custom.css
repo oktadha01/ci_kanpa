@@ -782,6 +782,7 @@ body {
     /* color: black !important; */
     margin-bottom: 5px;
 }
+
 .tag:hover,
 .tag-active {
     background: #0000ff96;
@@ -1728,6 +1729,14 @@ footer .footer-cat,
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
+}
+
+.tittle-section {
+    background: gray;
+    border-radius: 8px;
+    text-align: left;
+    padding-left: 19px;
+    color: white;
 }
 
 /* .overlay {

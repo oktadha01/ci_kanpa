@@ -18,6 +18,10 @@ class Artikel extends CI_Controller
 	{
 
 		$data['_title'] = 'ARTIKEL PT KANPA';
+		$data['_description'] = "Kumpulan Artikel Menarik di PT. KANPA";
+		$data['_keyword'] = "Kumpulan Artikel Menarik di PT. KANPA";
+		$data['_metafoto'] = 'logo-pt-kanpa-2.png';
+		$data['_url'] = base_url('Artikel');
 		$data['_script'] = 'artikel/artikel_js';
 		$data['_view'] = 'artikel/artikel';
 		$data['data_tag'] = $this->m_artikel->m_data_tag();
@@ -79,14 +83,16 @@ class Artikel extends CI_Controller
 				$id_berita = $meta->id_berita;
 				$meta_desk = $meta->meta_desk;
 				$meta_foto = $meta->meta_foto;
-
+				$tag_berita = $meta->tag_berita;
 			}
 		} else {
 		}
-		
+
 		$data['_title'] = $judul_berita;
 		$data['_metafoto'] = $meta_foto;
+		$data['_url'] = base_url('Artikel/page/') . $tittle;
 		$data['_description'] = 'PT Kanpa ' . $judul_berita . ' - ' . $meta_desk;
+		$data['_keyword'] = 'artikel ' . $tag_berita . ', ' . $judul_berita;
 		$data['_script'] = 'artikel/artikel_js';
 		$data['_view'] = 'artikel/page_artikel';
 		$data['data_tag'] = $this->m_artikel->m_data_tag();
@@ -107,7 +113,12 @@ class Artikel extends CI_Controller
 	{
 		$tag = $this->uri->segment(3);
 		$tag_berita = preg_replace("![^a-z0-9]+!i", " ", $tag);
-		$data['_title'] = 'tag';
+
+		$data['_title'] = 'kumpulan artikel menarik tentang ' . $tag . ' | PT. Kanpa';
+		$data['_description'] = 'kumpulan artikel menarik tentang ' . $tag . ' | PT. Kanpa';
+		$data['_metafoto'] = 'logo-pt-kanpa-2.png';
+		$data['_keyword'] = 'kumpulan menarik artikel ' . $tag;
+		$data['_url'] = base_url('Artikel/tag/') . $tag;
 		$data['_script'] = 'artikel/artikel_js';
 		$data['_view'] = 'artikel/tag_artikel';
 		$data['data_tag'] = $this->m_artikel->m_data_tag();

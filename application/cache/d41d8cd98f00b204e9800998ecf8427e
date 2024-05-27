@@ -1,4 +1,4 @@
-a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
+a:3:{s:4:"time";i:1715931073;s:3:"ttl";i:604800;s:4:"data";s:83841:"
 <!DOCTYPE html>
 <html lang="en">
 
@@ -84,11 +84,11 @@ a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
       <nav id="navbar" class="navbar">
          <ul>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#home">Home</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#about">About</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Product</a></li>
-            <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Article</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/#about">Tentang kami</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Produk#produk">Perumahan</a></li>
+            <li><a id="btn-menu-news" class="nav-link scrollto" href="http://localhost/kanpa_ci/Artikel#berita">Artikel</a></li>
             <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/Estimasi_harga#estimasi-hrg" hidden>Price Estimation</a></li>
-            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Contact</a></li>
+            <li><a class="nav-link scrollto" href="http://localhost/kanpa_ci/More_info#more-info">Kontak</a></li>
          </ul>
          <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -351,7 +351,7 @@ a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kautsar/tipe/30/60">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/3a282f0c4f9670220342a076844bbec3.jpg" srcset="http://localhost/kanpa_ci/upload/3a282f0c4f9670220342a076844bbec3.jpg 1x, http://localhost/kanpa_ci/upload/3a282f0c4f9670220342a076844bbec3.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/3813770d8c2305da5b0db883f44ea88d.jpg" srcset="http://localhost/kanpa_ci/upload/3813770d8c2305da5b0db883f44ea88d.jpg 1x, http://localhost/kanpa_ci/upload/3813770d8c2305da5b0db883f44ea88d.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan subsidi</div>
@@ -461,7 +461,7 @@ a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Griya-kanzu-Klaten/tipe/30/60">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/5e129eb744e20b521f784ce180344200.jpg" srcset="http://localhost/kanpa_ci/upload/5e129eb744e20b521f784ce180344200.jpg 1x, http://localhost/kanpa_ci/upload/5e129eb744e20b521f784ce180344200.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg" srcset="http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 1x, http://localhost/kanpa_ci/upload/8e5b62e6a71ba055aa7f5be6779bb313.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan subsidi</div>
@@ -516,7 +516,7 @@ a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Griya-Kanzu-Madiun/tipe/42/72">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/10c8567d34e408057b9c5f9bc001e90c.jpg" srcset="http://localhost/kanpa_ci/upload/10c8567d34e408057b9c5f9bc001e90c.jpg 1x, http://localhost/kanpa_ci/upload/10c8567d34e408057b9c5f9bc001e90c.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg" srcset="http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg 1x, http://localhost/kanpa_ci/upload/7b66102ee67af3496c46d2e312754a02.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
@@ -575,7 +575,7 @@ a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Alton-Green-House/tipe/90/95">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/8aea15bbb950364dc763831146081a1e.jpg" srcset="http://localhost/kanpa_ci/upload/8aea15bbb950364dc763831146081a1e.jpg 1x, http://localhost/kanpa_ci/upload/8aea15bbb950364dc763831146081a1e.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/92eefd9a018c85f0fc3f056e0b8b0b14.jpg" srcset="http://localhost/kanpa_ci/upload/92eefd9a018c85f0fc3f056e0b8b0b14.jpg 1x, http://localhost/kanpa_ci/upload/92eefd9a018c85f0fc3f056e0b8b0b14.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
@@ -693,7 +693,7 @@ a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
                         <div class="service-item" style="background: #d3d3d317;border-radius: 6px;">
                                                                 <a href="http://localhost/kanpa_ci/detail/perum/Bukit-Permai-1/tipe/36/66">
                                         <div class="img border-r-0px" style="position: relative;">
-                                            <img src="http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg" srcset="http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg 1x, http://localhost/kanpa_ci/upload/dcc85304b6e713b851e5ca0ba47e09c0.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
+                                            <img src="http://localhost/kanpa_ci/upload/fb7c8d6b0cc64a2d2ab434e2a9ab6c59.jpg" srcset="http://localhost/kanpa_ci/upload/fb7c8d6b0cc64a2d2ab434e2a9ab6c59.jpg 1x, http://localhost/kanpa_ci/upload/fb7c8d6b0cc64a2d2ab434e2a9ab6c59.jpg 3x" class=" size-img-dash img-fluid" style="border-top-left-radius: 12px;border-top-right-radius: 12px;">
 
                                             <div class="label-promo"></div>
                                             <div class="bottom-right promo">Perumahan komersil</div>
@@ -748,7 +748,7 @@ a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
             <div class="row mt-3">
                 <div class="col">
                     <center>
-                        <a href="http://localhost/kanpa_ci/Produk#produk">
+                        <a href="http://localhost/kanpa_ci/Perumahan#produk">
                             <button type="button" id="" class="btn btn-sm btn-outline-info" style="font-size: 18px;">
                                 <i class="fa-brands fa-product-hunt"></i> Lihat Produk Lainnya >>
                             </button>
@@ -947,7 +947,7 @@ a:3:{s:4:"time";i:1714985297;s:3:"ttl";i:604800;s:4:"data";s:83821:"
     </main>
         <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
-    <div id="preloader"></div>
+    <!-- <div id="preloader"></div> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.6.6/summernote.min.js"></script>
 

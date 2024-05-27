@@ -209,7 +209,7 @@
     <section id="produk" class="pt-0">
         <div class="container" data-aos="fade-up">
             <div class="section-header pb-0" style="margin-top: 30px;">
-                <span><span class="font-auto size-50px">P</span><span class="font-auto size-30px">roduct</span></span>
+                <span><span class="font-auto size-50px">P</span><span class="font-auto size-30px">erumahan</span></span>
             </div>
             <div class="row gy-1">
                 <?php
@@ -335,9 +335,9 @@
             <div class="row mt-3">
                 <div class="col">
                     <center>
-                        <a href="<?php echo base_url('Produk'); ?>#produk">
+                        <a href="<?php echo base_url('Perumahan'); ?>">
                             <button type="button" id="" class="btn btn-sm btn-outline-info" style="font-size: 18px;">
-                                <i class="fa-brands fa-product-hunt"></i> Lihat Produk Lainnya >>
+                                <i class="fa-brands fa-product-hunt"></i> Lihat Perumahan Lainnya >>
                             </button>
                         </a>
                     </center>
